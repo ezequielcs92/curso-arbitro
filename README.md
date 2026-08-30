@@ -10,17 +10,28 @@ de decisiones de cancha.
 
 ## Estado
 
-En construcción. Fase 0 y 1 completas: cimientos, arquitectura de los tres
-cursos y árbol de contenido. Todavía no hay aplicación.
+**Contenido completo.** Las 174 lecciones de los tres cursos están escritas
+contra los reglamentos oficiales. Todavía no hay aplicación.
 
-| Curso | Módulos | Lecciones | Contenido escrito |
+| Curso | Módulos | Lecciones | Escritas |
 | --- | ---: | ---: | ---: |
-| Fútbol | 9 | 54 | 0 |
-| Futsal | 11 | 60 | 0 |
-| Fútbol playa | 11 | 60 | 0 |
+| Fútbol — IFAB 2026/27 | 9 | 54 | **54** |
+| Futsal — FIFA 2025-26 | 11 | 60 | **60** |
+| Fútbol playa — FIFA 2025-26 | 11 | 60 | **60** |
 
-Las 174 lecciones existen como andamio con su estructura y su referencia de
-Ley. El texto se redacta leyendo el PDF oficial de cada disciplina.
+Cada lección sigue la misma estructura: la regla con su referencia, una
+explicación en lenguaje llano, un ejemplo de cancha amateur, los errores
+comunes y un mini test con respuestas desplegables.
+
+```bash
+python scripts/progress.py
+```
+
+## Lo que falta
+
+1. Los tres bancos de preguntas (480 en total).
+2. La aplicación Next.js.
+3. Despliegue.
 
 ## Mapa del repositorio
 
