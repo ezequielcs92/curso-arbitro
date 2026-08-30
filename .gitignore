@@ -20,3 +20,7 @@ coverage/
 # Reglamento IFAB: material con copyright, pesado. Se descarga aparte.
 # Ver AGENTS.md > Fuente reglamentaria.
 docs/*.pdf
+
+# Texto extraído de los reglamentos: derivado con copyright, se regenera
+# con scripts/extract_rulebooks.py
+docs/text/
