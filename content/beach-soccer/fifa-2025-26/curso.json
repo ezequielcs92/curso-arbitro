@@ -1,0 +1,500 @@
+{
+  "discipline": "beach_soccer",
+  "title": "Fútbol playa",
+  "rulesVersion": "FIFA Beach Soccer 2025-26",
+  "sourcePdf": "docs/fifa-beach-soccer-2025-26.pdf",
+  "modules": [
+    {
+      "id": "p1",
+      "discipline": "beach_soccer",
+      "order": 1,
+      "title": "El fútbol playa y el equipo arbitral",
+      "laws": [
+        5,
+        6
+      ],
+      "critical": false,
+      "requiredScore": 80,
+      "lessons": [
+        {
+          "id": "p1-l1",
+          "moduleId": "p1",
+          "order": 1,
+          "title": "Qué es el fútbol playa y qué lo diferencia",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p1/01-que-es-el-futbol-playa-y-que-lo-diferencia.md"
+        },
+        {
+          "id": "p1-l2",
+          "moduleId": "p1",
+          "order": 2,
+          "title": "La arena como condición de juego",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p1/02-la-arena-como-condicion-de-juego.md"
+        },
+        {
+          "id": "p1-l3",
+          "moduleId": "p1",
+          "order": 3,
+          "title": "El equipo arbitral y el cronometrador",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p1/03-el-equipo-arbitral-y-el-cronometrador.md"
+        },
+        {
+          "id": "p1-l4",
+          "moduleId": "p1",
+          "order": 4,
+          "title": "Preparación del partido y seguridad en cancha abierta",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p1/04-preparacion-del-partido-y-seguridad-en-cancha-abierta.md"
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "discipline": "beach_soccer",
+      "order": 2,
+      "title": "Leyes 1 a 4: arena, balón, jugadores, equipamiento",
+      "laws": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "critical": false,
+      "requiredScore": 80,
+      "lessons": [
+        {
+          "id": "p2-l1",
+          "moduleId": "p2",
+          "order": 1,
+          "title": "Ley 1 — La superficie de arena y las marcas",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p2/01-ley-1-la-superficie-de-arena-y-las-marcas.md"
+        },
+        {
+          "id": "p2-l2",
+          "moduleId": "p2",
+          "order": 2,
+          "title": "Ley 1 — Área penal, zona de sustitución y banderines",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p2/02-ley-1-area-penal-zona-de-sustitucion-y-banderines.md"
+        },
+        {
+          "id": "p2-l3",
+          "moduleId": "p2",
+          "order": 3,
+          "title": "Ley 2 — El balón",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p2/03-ley-2-el-balon.md"
+        },
+        {
+          "id": "p2-l4",
+          "moduleId": "p2",
+          "order": 4,
+          "title": "Ley 3 — Cinco jugadores, mínimo tres, sustituciones ilimitadas",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p2/04-ley-3-cinco-jugadores-minimo-tres-sustituciones-ilimitadas.md"
+        },
+        {
+          "id": "p2-l5",
+          "moduleId": "p2",
+          "order": 5,
+          "title": "Ley 3 — Salida autorizada y no autorizada de la cancha, refrigerios",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p2/05-ley-3-salida-autorizada-y-no-autorizada-de-la-cancha-refrige.md"
+        },
+        {
+          "id": "p2-l6",
+          "moduleId": "p2",
+          "order": 6,
+          "title": "Ley 4 — Equipamiento: se juega descalzo",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p2/06-ley-4-equipamiento-se-juega-descalzo.md"
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "discipline": "beach_soccer",
+      "order": 3,
+      "title": "Leyes 5 y 6: los árbitros",
+      "laws": [
+        5,
+        6
+      ],
+      "critical": true,
+      "requiredScore": 85,
+      "lessons": [
+        {
+          "id": "p3-l1",
+          "moduleId": "p3",
+          "order": 1,
+          "title": "Ley 5 — Autoridad y decisiones",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p3/01-ley-5-autoridad-y-decisiones.md"
+        },
+        {
+          "id": "p3-l2",
+          "moduleId": "p3",
+          "order": 2,
+          "title": "Ley 5 — Poderes y deberes",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p3/02-ley-5-poderes-y-deberes.md"
+        },
+        {
+          "id": "p3-l3",
+          "moduleId": "p3",
+          "order": 3,
+          "title": "Ley 5 — Sistema de revisión de tiempo y apoyo por video",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p3/03-ley-5-sistema-de-revision-de-tiempo-y-apoyo-por-video.md"
+        },
+        {
+          "id": "p3-l4",
+          "moduleId": "p3",
+          "order": 4,
+          "title": "Ley 6 — Asistentes, tercer árbitro y cuarto árbitro",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p3/04-ley-6-asistentes-tercer-arbitro-y-cuarto-arbitro.md"
+        },
+        {
+          "id": "p3-l5",
+          "moduleId": "p3",
+          "order": 5,
+          "title": "Arbitrar de a dos sobre arena",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p3/05-arbitrar-de-a-dos-sobre-arena.md"
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "discipline": "beach_soccer",
+      "order": 4,
+      "title": "Ley 7: tres períodos y cronómetro",
+      "laws": [
+        7
+      ],
+      "critical": true,
+      "requiredScore": 85,
+      "lessons": [
+        {
+          "id": "p4-l1",
+          "moduleId": "p4",
+          "order": 1,
+          "title": "Tres períodos de 12 minutos de tiempo efectivo",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p4/01-tres-periodos-de-12-minutos-de-tiempo-efectivo.md"
+        },
+        {
+          "id": "p4-l2",
+          "moduleId": "p4",
+          "order": 2,
+          "title": "El cronómetro y qué hacer si falla",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p4/02-el-cronometro-y-que-hacer-si-falla.md"
+        },
+        {
+          "id": "p4-l3",
+          "moduleId": "p4",
+          "order": 3,
+          "title": "Los descansos de tres minutos",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p4/03-los-descansos-de-tres-minutos.md"
+        },
+        {
+          "id": "p4-l4",
+          "moduleId": "p4",
+          "order": 4,
+          "title": "Paradas médicas y pausas de hidratación",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p4/04-paradas-medicas-y-pausas-de-hidratacion.md"
+        },
+        {
+          "id": "p4-l5",
+          "moduleId": "p4",
+          "order": 5,
+          "title": "Prolongar el período para completar un tiro libre o un penal",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p4/05-prolongar-el-periodo-para-completar-un-tiro-libre-o-un-penal.md"
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "discipline": "beach_soccer",
+      "order": 5,
+      "title": "Leyes 8 a 11: reanudación, balón y resultado",
+      "laws": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "critical": true,
+      "requiredScore": 85,
+      "lessons": [
+        {
+          "id": "p5-l1",
+          "moduleId": "p5",
+          "order": 1,
+          "title": "Ley 8 — Saque inicial y balón a tierra",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p5/01-ley-8-saque-inicial-y-balon-a-tierra.md"
+        },
+        {
+          "id": "p5-l2",
+          "moduleId": "p5",
+          "order": 2,
+          "title": "Ley 9 — Balón dentro y fuera",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p5/02-ley-9-balon-dentro-y-fuera.md"
+        },
+        {
+          "id": "p5-l3",
+          "moduleId": "p5",
+          "order": 3,
+          "title": "Ley 10 — Gol y la línea de meta imaginaria",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p5/03-ley-10-gol-y-la-linea-de-meta-imaginaria.md"
+        },
+        {
+          "id": "p5-l4",
+          "moduleId": "p5",
+          "order": 4,
+          "title": "Ley 10 — Empate, prórroga y penales",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p5/04-ley-10-empate-prorroga-y-penales.md"
+        },
+        {
+          "id": "p5-l5",
+          "moduleId": "p5",
+          "order": 5,
+          "title": "Ley 11 — No hay fuera de juego en fútbol playa",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p5/05-ley-11-no-hay-fuera-de-juego-en-futbol-playa.md"
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "discipline": "beach_soccer",
+      "order": 6,
+      "title": "Ley 12: faltas y conducta incorrecta",
+      "laws": [
+        12
+      ],
+      "critical": true,
+      "requiredScore": 85,
+      "lessons": [
+        {
+          "id": "p6-l1",
+          "moduleId": "p6",
+          "order": 1,
+          "title": "Faltas por contacto y la escala de intensidad",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p6/01-faltas-por-contacto-y-la-escala-de-intensidad.md"
+        },
+        {
+          "id": "p6-l2",
+          "moduleId": "p6",
+          "order": 2,
+          "title": "Mano, sujetar e impedir con contacto",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p6/02-mano-sujetar-e-impedir-con-contacto.md"
+        },
+        {
+          "id": "p6-l3",
+          "moduleId": "p6",
+          "order": 3,
+          "title": "Impedir ilegalmente una chilena o tijera",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p6/03-impedir-ilegalmente-una-chilena-o-tijera.md"
+        },
+        {
+          "id": "p6-l4",
+          "moduleId": "p6",
+          "order": 4,
+          "title": "Arrojar arena, morder o escupir",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p6/04-arrojar-arena-morder-o-escupir.md"
+        },
+        {
+          "id": "p6-l5",
+          "moduleId": "p6",
+          "order": 5,
+          "title": "Medidas disciplinarias",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p6/05-medidas-disciplinarias.md"
+        },
+        {
+          "id": "p6-l6",
+          "moduleId": "p6",
+          "order": 6,
+          "title": "Dónde se ejecuta el tiro libre resultante",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p6/06-donde-se-ejecuta-el-tiro-libre-resultante.md"
+        }
+      ]
+    },
+    {
+      "id": "p7",
+      "discipline": "beach_soccer",
+      "order": 7,
+      "title": "Ley 13: tiros libres sin barrera",
+      "laws": [
+        13
+      ],
+      "critical": true,
+      "requiredScore": 85,
+      "lessons": [
+        {
+          "id": "p7-l1",
+          "moduleId": "p7",
+          "order": 1,
+          "title": "Los dos tipos de tiro libre según la mitad de la cancha",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p7/01-los-dos-tipos-de-tiro-libre-segun-la-mitad-de-la-cancha.md"
+        },
+        {
+          "id": "p7-l2",
+          "moduleId": "p7",
+          "order": 2,
+          "title": "Está prohibido formar barrera",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p7/02-esta-prohibido-formar-barrera.md"
+        },
+        {
+          "id": "p7-l3",
+          "moduleId": "p7",
+          "order": 3,
+          "title": "Los cuatro segundos",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p7/03-los-cuatro-segundos.md"
+        },
+        {
+          "id": "p7-l4",
+          "moduleId": "p7",
+          "order": 4,
+          "title": "Quién puede ejecutar",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p7/04-quien-puede-ejecutar.md"
+        },
+        {
+          "id": "p7-l5",
+          "moduleId": "p7",
+          "order": 5,
+          "title": "El montículo de arena y el levantamiento del balón",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p7/05-el-monticulo-de-arena-y-el-levantamiento-del-balon.md"
+        },
+        {
+          "id": "p7-l6",
+          "moduleId": "p7",
+          "order": 6,
+          "title": "Posicionamiento de los árbitros en cada tipo",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p7/06-posicionamiento-de-los-arbitros-en-cada-tipo.md"
+        }
+      ]
+    },
+    {
+      "id": "p8",
+      "discipline": "beach_soccer",
+      "order": 8,
+      "title": "Ley 14: el penal",
+      "laws": [
+        14
+      ],
+      "critical": false,
+      "requiredScore": 80,
+      "lessons": [
+        {
+          "id": "p8-l1",
+          "moduleId": "p8",
+          "order": 1,
+          "title": "Procedimiento",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p8/01-procedimiento.md"
+        },
+        {
+          "id": "p8-l2",
+          "moduleId": "p8",
+          "order": 2,
+          "title": "Infracciones y sanciones",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p8/02-infracciones-y-sanciones.md"
+        },
+        {
+          "id": "p8-l3",
+          "moduleId": "p8",
+          "order": 3,
+          "title": "El punto penal imaginario",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p8/03-el-punto-penal-imaginario.md"
+        }
+      ]
+    },
+    {
+      "id": "p9",
+      "discipline": "beach_soccer",
+      "order": 9,
+      "title": "Leyes 15 a 17: reanudaciones propias del fútbol playa",
+      "laws": [
+        15,
+        16,
+        17
+      ],
+      "critical": false,
+      "requiredScore": 80,
+      "lessons": [
+        {
+          "id": "p9-l1",
+          "moduleId": "p9",
+          "order": 1,
+          "title": "Ley 15 — Saque de banda con el pie o con la mano",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p9/01-ley-15-saque-de-banda-con-el-pie-o-con-la-mano.md"
+        },
+        {
+          "id": "p9-l2",
+          "moduleId": "p9",
+          "order": 2,
+          "title": "Ley 16 — El saque de meta",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p9/02-ley-16-el-saque-de-meta.md"
+        },
+        {
+          "id": "p9-l3",
+          "moduleId": "p9",
+          "order": 3,
+          "title": "Ley 17 — El saque de esquina",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p9/03-ley-17-el-saque-de-esquina.md"
+        },
+        {
+          "id": "p9-l4",
+          "moduleId": "p9",
+          "order": 4,
+          "title": "Los cuatro segundos en cada reanudación",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p9/04-los-cuatro-segundos-en-cada-reanudacion.md"
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "discipline": "beach_soccer",
+      "order": 10,
+      "title": "Señalización, posicionamiento y manejo del partido",
+      "laws": [
+        5,
+        6,
+        12
+      ],
+      "critical": true,
+      "requiredScore": 85,
+      "lessons": [
+        {
+          "id": "p10-l1",
+          "moduleId": "p10",
+          "order": 1,
+          "title": "Señales del fútbol playa",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p10/01-senales-del-futbol-playa.md"
+        },
+        {
+          "id": "p10-l2",
+          "moduleId": "p10",
+          "order": 2,
+          "title": "El conteo visible de los cuatro segundos",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p10/02-el-conteo-visible-de-los-cuatro-segundos.md"
+        },
+        {
+          "id": "p10-l3",
+          "moduleId": "p10",
+          "order": 3,
+          "title": "Posicionamiento sobre arena y desplazamiento",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p10/03-posicionamiento-sobre-arena-y-desplazamiento.md"
+        },
+        {
+          "id": "p10-l4",
+          "moduleId": "p10",
+          "order": 4,
+          "title": "Manejo del partido y área técnica",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p10/04-manejo-del-partido-y-area-tecnica.md"
+        },
+        {
+          "id": "p10-l5",
+          "moduleId": "p10",
+          "order": 5,
+          "title": "Seguridad del árbitro en cancha abierta",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p10/05-seguridad-del-arbitro-en-cancha-abierta.md"
+        },
+        {
+          "id": "p10-l6",
+          "moduleId": "p10",
+          "order": 6,
+          "title": "Leer un reglamento de torneo privado de fútbol playa",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p10/06-leer-un-reglamento-de-torneo-privado-de-futbol-playa.md"
+        }
+      ]
+    }
+  ]
+}

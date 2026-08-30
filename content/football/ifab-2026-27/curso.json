@@ -1,0 +1,439 @@
+{
+  "discipline": "football",
+  "title": "Fútbol",
+  "rulesVersion": "IFAB 2026/27",
+  "sourcePdf": "docs/ifab-2026-27-es.pdf",
+  "modules": [
+    {
+      "id": "f1",
+      "discipline": "football",
+      "order": 1,
+      "title": "El trabajo del árbitro",
+      "laws": [
+        5
+      ],
+      "critical": false,
+      "requiredScore": 80,
+      "lessons": [
+        {
+          "id": "f1-l1",
+          "moduleId": "f1",
+          "order": 1,
+          "title": "Qué hace y qué no hace un árbitro",
+          "contentPath": "content/football/ifab-2026-27/f1/01-que-hace-y-que-no-hace-un-arbitro.md"
+        },
+        {
+          "id": "f1-l2",
+          "moduleId": "f1",
+          "order": 2,
+          "title": "Autoridad e imparcialidad",
+          "contentPath": "content/football/ifab-2026-27/f1/02-autoridad-e-imparcialidad.md"
+        },
+        {
+          "id": "f1-l3",
+          "moduleId": "f1",
+          "order": 3,
+          "title": "Criterio y espíritu del juego",
+          "contentPath": "content/football/ifab-2026-27/f1/03-criterio-y-espiritu-del-juego.md"
+        },
+        {
+          "id": "f1-l4",
+          "moduleId": "f1",
+          "order": 4,
+          "title": "Seguridad como prioridad",
+          "contentPath": "content/football/ifab-2026-27/f1/04-seguridad-como-prioridad.md"
+        },
+        {
+          "id": "f1-l5",
+          "moduleId": "f1",
+          "order": 5,
+          "title": "Preparación del partido y checklist previo",
+          "contentPath": "content/football/ifab-2026-27/f1/05-preparacion-del-partido-y-checklist-previo.md"
+        }
+      ]
+    },
+    {
+      "id": "f2",
+      "discipline": "football",
+      "order": 2,
+      "title": "Reglas 1 a 4: el escenario",
+      "laws": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "critical": false,
+      "requiredScore": 80,
+      "lessons": [
+        {
+          "id": "f2-l1",
+          "moduleId": "f2",
+          "order": 1,
+          "title": "Regla 1 — Terreno de juego",
+          "contentPath": "content/football/ifab-2026-27/f2/01-regla-1-terreno-de-juego.md"
+        },
+        {
+          "id": "f2-l2",
+          "moduleId": "f2",
+          "order": 2,
+          "title": "Regla 2 — Balón",
+          "contentPath": "content/football/ifab-2026-27/f2/02-regla-2-balon.md"
+        },
+        {
+          "id": "f2-l3",
+          "moduleId": "f2",
+          "order": 3,
+          "title": "Regla 3 — Jugadores y sustituciones",
+          "contentPath": "content/football/ifab-2026-27/f2/03-regla-3-jugadores-y-sustituciones.md"
+        },
+        {
+          "id": "f2-l4",
+          "moduleId": "f2",
+          "order": 4,
+          "title": "Regla 4 — Equipamiento y seguridad",
+          "contentPath": "content/football/ifab-2026-27/f2/04-regla-4-equipamiento-y-seguridad.md"
+        },
+        {
+          "id": "f2-l5",
+          "moduleId": "f2",
+          "order": 5,
+          "title": "Adaptación a canchas de F5, F7, F8 y F9",
+          "contentPath": "content/football/ifab-2026-27/f2/05-adaptacion-a-canchas-de-f5-f7-f8-y-f9.md"
+        }
+      ]
+    },
+    {
+      "id": "f3",
+      "discipline": "football",
+      "order": 3,
+      "title": "Reglas 5 y 6: el equipo arbitral",
+      "laws": [
+        5,
+        6
+      ],
+      "critical": true,
+      "requiredScore": 85,
+      "lessons": [
+        {
+          "id": "f3-l1",
+          "moduleId": "f3",
+          "order": 1,
+          "title": "Regla 5 — Autoridad y decisiones del árbitro",
+          "contentPath": "content/football/ifab-2026-27/f3/01-regla-5-autoridad-y-decisiones-del-arbitro.md"
+        },
+        {
+          "id": "f3-l2",
+          "moduleId": "f3",
+          "order": 2,
+          "title": "Regla 5 — Ventaja",
+          "contentPath": "content/football/ifab-2026-27/f3/02-regla-5-ventaja.md"
+        },
+        {
+          "id": "f3-l3",
+          "moduleId": "f3",
+          "order": 3,
+          "title": "Regla 5 — Lesiones, interferencias y cambio de decisión",
+          "contentPath": "content/football/ifab-2026-27/f3/03-regla-5-lesiones-interferencias-y-cambio-de-decision.md"
+        },
+        {
+          "id": "f3-l4",
+          "moduleId": "f3",
+          "order": 4,
+          "title": "Regla 6 — Otros miembros del equipo arbitral",
+          "contentPath": "content/football/ifab-2026-27/f3/04-regla-6-otros-miembros-del-equipo-arbitral.md"
+        },
+        {
+          "id": "f3-l5",
+          "moduleId": "f3",
+          "order": 5,
+          "title": "Trabajar con un asistente sin intercomunicadores",
+          "contentPath": "content/football/ifab-2026-27/f3/05-trabajar-con-un-asistente-sin-intercomunicadores.md"
+        }
+      ]
+    },
+    {
+      "id": "f4",
+      "discipline": "football",
+      "order": 4,
+      "title": "Reglas 7 a 10: tiempo, balón y resultado",
+      "laws": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "critical": false,
+      "requiredScore": 80,
+      "lessons": [
+        {
+          "id": "f4-l1",
+          "moduleId": "f4",
+          "order": 1,
+          "title": "Regla 7 — Duración y tiempo añadido",
+          "contentPath": "content/football/ifab-2026-27/f4/01-regla-7-duracion-y-tiempo-anadido.md"
+        },
+        {
+          "id": "f4-l2",
+          "moduleId": "f4",
+          "order": 2,
+          "title": "Regla 8 — Inicio y reanudación, balón a tierra",
+          "contentPath": "content/football/ifab-2026-27/f4/02-regla-8-inicio-y-reanudacion-balon-a-tierra.md"
+        },
+        {
+          "id": "f4-l3",
+          "moduleId": "f4",
+          "order": 3,
+          "title": "Regla 9 — Balón dentro y fuera: ¿salió completamente?",
+          "contentPath": "content/football/ifab-2026-27/f4/03-regla-9-balon-dentro-y-fuera-salio-completamente.md"
+        },
+        {
+          "id": "f4-l4",
+          "moduleId": "f4",
+          "order": 4,
+          "title": "Regla 10 — Gol, resultado y desempates",
+          "contentPath": "content/football/ifab-2026-27/f4/04-regla-10-gol-resultado-y-desempates.md"
+        }
+      ]
+    },
+    {
+      "id": "f5",
+      "discipline": "football",
+      "order": 5,
+      "title": "Regla 11: fuera de juego",
+      "laws": [
+        11
+      ],
+      "critical": true,
+      "requiredScore": 85,
+      "lessons": [
+        {
+          "id": "f5-l1",
+          "moduleId": "f5",
+          "order": 1,
+          "title": "Posición de fuera de juego",
+          "contentPath": "content/football/ifab-2026-27/f5/01-posicion-de-fuera-de-juego.md"
+        },
+        {
+          "id": "f5-l2",
+          "moduleId": "f5",
+          "order": 2,
+          "title": "Infracción de fuera de juego",
+          "contentPath": "content/football/ifab-2026-27/f5/02-infraccion-de-fuera-de-juego.md"
+        },
+        {
+          "id": "f5-l3",
+          "moduleId": "f5",
+          "order": 3,
+          "title": "Interferir en el juego, interferir a un adversario, obtener ventaja",
+          "contentPath": "content/football/ifab-2026-27/f5/03-interferir-en-el-juego-interferir-a-un-adversario-obtener-ve.md"
+        },
+        {
+          "id": "f5-l4",
+          "moduleId": "f5",
+          "order": 4,
+          "title": "Rebote, desvío, salvada y juego deliberado",
+          "contentPath": "content/football/ifab-2026-27/f5/04-rebote-desvio-salvada-y-juego-deliberado.md"
+        },
+        {
+          "id": "f5-l5",
+          "moduleId": "f5",
+          "order": 5,
+          "title": "Reanudaciones que no generan fuera de juego",
+          "contentPath": "content/football/ifab-2026-27/f5/05-reanudaciones-que-no-generan-fuera-de-juego.md"
+        },
+        {
+          "id": "f5-l6",
+          "moduleId": "f5",
+          "order": 6,
+          "title": "El fuera de juego en formatos reducidos",
+          "contentPath": "content/football/ifab-2026-27/f5/06-el-fuera-de-juego-en-formatos-reducidos.md"
+        }
+      ]
+    },
+    {
+      "id": "f6",
+      "discipline": "football",
+      "order": 6,
+      "title": "Regla 12: faltas y conducta incorrecta",
+      "laws": [
+        12
+      ],
+      "critical": true,
+      "requiredScore": 85,
+      "lessons": [
+        {
+          "id": "f6-l1",
+          "moduleId": "f6",
+          "order": 1,
+          "title": "¿Existe infracción?",
+          "contentPath": "content/football/ifab-2026-27/f6/01-existe-infraccion.md"
+        },
+        {
+          "id": "f6-l2",
+          "moduleId": "f6",
+          "order": 2,
+          "title": "Tiro libre directo o indirecto",
+          "contentPath": "content/football/ifab-2026-27/f6/02-tiro-libre-directo-o-indirecto.md"
+        },
+        {
+          "id": "f6-l3",
+          "moduleId": "f6",
+          "order": 3,
+          "title": "Imprudencia, temeridad y fuerza excesiva",
+          "contentPath": "content/football/ifab-2026-27/f6/03-imprudencia-temeridad-y-fuerza-excesiva.md"
+        },
+        {
+          "id": "f6-l4",
+          "moduleId": "f6",
+          "order": 4,
+          "title": "Mano",
+          "contentPath": "content/football/ifab-2026-27/f6/04-mano.md"
+        },
+        {
+          "id": "f6-l5",
+          "moduleId": "f6",
+          "order": 5,
+          "title": "Juego brusco grave y conducta violenta",
+          "contentPath": "content/football/ifab-2026-27/f6/05-juego-brusco-grave-y-conducta-violenta.md"
+        },
+        {
+          "id": "f6-l6",
+          "moduleId": "f6",
+          "order": 6,
+          "title": "DOGSO y SPA",
+          "contentPath": "content/football/ifab-2026-27/f6/06-dogso-y-spa.md"
+        },
+        {
+          "id": "f6-l7",
+          "moduleId": "f6",
+          "order": 7,
+          "title": "Protestas, retrasar la reanudación y conducta antideportiva",
+          "contentPath": "content/football/ifab-2026-27/f6/07-protestas-retrasar-la-reanudacion-y-conducta-antideportiva.md"
+        },
+        {
+          "id": "f6-l8",
+          "moduleId": "f6",
+          "order": 8,
+          "title": "El árbol de decisión completo",
+          "contentPath": "content/football/ifab-2026-27/f6/08-el-arbol-de-decision-completo.md"
+        }
+      ]
+    },
+    {
+      "id": "f7",
+      "discipline": "football",
+      "order": 7,
+      "title": "Reglas 13 a 17: pelota parada",
+      "laws": [
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "critical": false,
+      "requiredScore": 80,
+      "lessons": [
+        {
+          "id": "f7-l1",
+          "moduleId": "f7",
+          "order": 1,
+          "title": "Regla 13 — Tiros libres, barrera y ejecución rápida",
+          "contentPath": "content/football/ifab-2026-27/f7/01-regla-13-tiros-libres-barrera-y-ejecucion-rapida.md"
+        },
+        {
+          "id": "f7-l2",
+          "moduleId": "f7",
+          "order": 2,
+          "title": "Regla 14 — Penal",
+          "contentPath": "content/football/ifab-2026-27/f7/02-regla-14-penal.md"
+        },
+        {
+          "id": "f7-l3",
+          "moduleId": "f7",
+          "order": 3,
+          "title": "Regla 15 — Saque de banda",
+          "contentPath": "content/football/ifab-2026-27/f7/03-regla-15-saque-de-banda.md"
+        },
+        {
+          "id": "f7-l4",
+          "moduleId": "f7",
+          "order": 4,
+          "title": "Regla 16 — Saque de meta",
+          "contentPath": "content/football/ifab-2026-27/f7/04-regla-16-saque-de-meta.md"
+        },
+        {
+          "id": "f7-l5",
+          "moduleId": "f7",
+          "order": 5,
+          "title": "Regla 17 — Saque de esquina",
+          "contentPath": "content/football/ifab-2026-27/f7/05-regla-17-saque-de-esquina.md"
+        }
+      ]
+    },
+    {
+      "id": "f8",
+      "discipline": "football",
+      "order": 8,
+      "title": "Manejo del partido y arbitraje amateur",
+      "laws": [
+        5,
+        12
+      ],
+      "critical": false,
+      "requiredScore": 80,
+      "lessons": [
+        {
+          "id": "f8-l1",
+          "moduleId": "f8",
+          "order": 1,
+          "title": "Escala de intervención: presencia, palabra, advertencia, sanción",
+          "contentPath": "content/football/ifab-2026-27/f8/01-escala-de-intervencion-presencia-palabra-advertencia-sancion.md"
+        },
+        {
+          "id": "f8-l2",
+          "moduleId": "f8",
+          "order": 2,
+          "title": "Protestas, capitán y cuerpo técnico",
+          "contentPath": "content/football/ifab-2026-27/f8/02-protestas-capitan-y-cuerpo-tecnico.md"
+        },
+        {
+          "id": "f8-l3",
+          "moduleId": "f8",
+          "order": 3,
+          "title": "Situaciones de riesgo y seguridad del árbitro",
+          "contentPath": "content/football/ifab-2026-27/f8/03-situaciones-de-riesgo-y-seguridad-del-arbitro.md"
+        },
+        {
+          "id": "f8-l4",
+          "moduleId": "f8",
+          "order": 4,
+          "title": "Señalización y uso del silbato",
+          "contentPath": "content/football/ifab-2026-27/f8/04-senalizacion-y-uso-del-silbato.md"
+        },
+        {
+          "id": "f8-l5",
+          "moduleId": "f8",
+          "order": 5,
+          "title": "Posicionamiento y desplazamiento",
+          "contentPath": "content/football/ifab-2026-27/f8/05-posicionamiento-y-desplazamiento.md"
+        },
+        {
+          "id": "f8-l6",
+          "moduleId": "f8",
+          "order": 6,
+          "title": "Leer un reglamento de liga privada",
+          "contentPath": "content/football/ifab-2026-27/f8/06-leer-un-reglamento-de-liga-privada.md"
+        },
+        {
+          "id": "f8-l7",
+          "moduleId": "f8",
+          "order": 7,
+          "title": "El informe arbitral",
+          "contentPath": "content/football/ifab-2026-27/f8/07-el-informe-arbitral.md"
+        }
+      ]
+    }
+  ]
+}

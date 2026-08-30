@@ -155,18 +155,18 @@ Modificaciones permitidas por la organización.
 
 Reglas particulares de un torneo amateur.
 
-Nunca presentar una regla privada como si fuera una regla IFAB.
+Nunca presentar una regla privada como si fuera reglamento oficial.
 
 ---
-# 6.1 Disciplinas cubiertas y fuentes reglamentarias
+# 6.1 Las tres disciplinas y sus fuentes
 
-El curso forma para dirigir seis contextos:
+El producto contiene **tres cursos independientes**:
 
-| Disciplina | Formatos | Reglamento |
-| --- | --- | --- |
-| Fútbol | F5, F6, F7, F8, F9, F11 | IFAB — Reglas de Juego |
-| Futsal | F5 bajo techo | FIFA — Futsal Laws of the Game |
-| Fútbol playa | F5 en arena | FIFA — Beach Soccer Laws of the Game |
+| Curso | Formatos | Reglamento | Vigente desde |
+| --- | --- | --- | --- |
+| Fútbol | F5, F6, F7, F8, F9, F11 | IFAB — Reglas de Juego 2026/27 | 2026 |
+| Futsal | Futsal | FIFA — Futsal Laws of the Game 2025-26 | 5/9/2025 |
+| Fútbol playa | Fútbol playa | FIFA — Beach Soccer Laws of the Game 2025-26 | 17/12/2025 |
 
 ## Advertencia estructural
 
@@ -180,10 +180,13 @@ del de IFAB. No son "fútbol 5 con algunos cambios": difieren en cantidad de
 períodos, cronometraje, sistema disciplinario, reanudaciones, rol del arquero y
 tratamiento de las faltas.
 
-Consecuencia práctica: agregarlas no es sumar dos módulos. Es sumar **dos
-fuentes reglamentarias**, cada una con su propio banco de preguntas, sus propias
-señales y su propio criterio arbitral. Es el cambio de alcance más grande que
-tuvo el proyecto.
+Consecuencia práctica: no son dos módulos más. Son **dos cursos más**, cada uno
+con su banco de preguntas, sus señales y su criterio arbitral. Es el cambio de
+alcance más grande que tuvo el proyecto.
+
+Las tres comparten la numeración de 17 Leyes, lo que induce a error: la Ley 15
+es saque de banda con las manos en fútbol, saque con el pie en futsal, y con el
+pie o la mano en fútbol playa. Mismo número, tres reanudaciones distintas.
 
 ## Tres fuentes, tres versiones
 
@@ -232,44 +235,62 @@ es:
 donde `ruleSource` es `official | competition | private`. `official` significa el
 reglamento base de la disciplina: IFAB para fútbol, FIFA para futsal y playa.
 
-## Arquitectura del curso
+## Tres cursos independientes
 
-Se estructura como **tronco común más ramas de conversión**, no como tres cursos
-paralelos.
+No es un curso con ramas. Son **tres cursos separados**, uno por disciplina,
+cada uno con su reglamento, su progresión, su banco de preguntas y su
+certificado.
 
-### Tronco común
+| Curso | Módulos | Reglamento |
+| --- | ---: | --- |
+| Fútbol (F5 a F11) | 8 | IFAB 2026/27 |
+| Futsal | 10 | FIFA Futsal 2025-26 |
+| Fútbol playa | 10 | FIFA Beach Soccer 2025-26 |
 
-Lo que no depende de la disciplina y se estudia una sola vez:
+Se cursan y se aprueban por separado. Completar fútbol no acredita nada en
+futsal.
 
-- rol y autoridad del árbitro;
-- criterio sobre intensidad: imprudencia, temeridad y fuerza excesiva;
-- manejo del partido, comunicación y control de protestas;
-- seguridad del árbitro;
-- posicionamiento como principio: ángulo, distancia, anticipación;
-- uso del silbato;
-- informe arbitral;
-- lectura de reglamentos privados;
-- preparación previa y autoevaluación posterior.
+Se descartó la alternativa de un tronco común con ramas de conversión por dos
+motivos. El primero es pedagógico: un módulo que enseña "en futsal esto es
+distinto" obliga a saber fútbol para entender futsal, y quien solo quiere
+dirigir futsal no tiene por qué estudiar el fuera de juego. El segundo es que lo
+compartido es menos de lo que parece: la escala de imprudencia, temeridad y
+fuerza excesiva sí es común, pero la consecuencia de una falta no lo es. En
+futsal una falta más es una falta acumulada que puede terminar en un tiro libre
+sin barrera desde diez metros; en fútbol es un tiro libre y nada más.
 
-### Ramas por disciplina
+Lo que se comparte es **infraestructura, no contenido**: el motor de
+cuestionarios, la puntuación por componentes, los entrenadores, el diario de
+partidos y las herramientas de cancha son los mismos para los tres. La
+disciplina es un filtro sobre el contenido, no una copia del código.
 
-Módulos de conversión que enseñan **las diferencias contra el tronco**, no el
-reglamento entero de nuevo:
+El diseño curricular completo —los 28 módulos y sus 145 lecciones— está en
+`docs/cursos.md`.
 
-- **Fútbol** — las 17 Reglas completas. Es la rama más extensa y el punto de
-  entrada por defecto.
-- **Futsal** — módulo de conversión. Ejes donde difiere y que hay que completar
-  leyendo el documento de FIFA: cantidad y duración de períodos, cronometraje y
-  detención del reloj, tiempos muertos, sistema de faltas acumuladas,
-  sustituciones, reanudaciones, límites de tiempo de ejecución, restricciones del
-  arquero, y régimen de expulsión y reemplazo.
-- **Fútbol playa** — módulo de conversión. Ejes donde difiere: superficie y sus
-  implicancias, cantidad de períodos, resolución del empate, ejecución de tiros
-  libres, reanudaciones, participación del arquero en ataque y equipamiento.
+## Módulos que solo existen en una disciplina
 
-Las tablas concretas de cada rama se completan contra el PDF oficial de cada
-disciplina. Quedan deliberadamente vacías en esta especificación para no fijar
-valores de memoria.
+Tres módulos no tienen equivalente en el curso de fútbol y son la razón por la
+que futsal y playa no entran como capítulos de un curso general:
+
+- **Futsal, faltas acumuladas y DFKSAF.** Acumulan las faltas sancionadas con
+  tiro libre directo, se cuentan por equipo y por período, y a partir de la
+  sexta se concede un tiro libre directo desde el punto de 10 m. Cambia qué se
+  cobra, cuándo conviene dar ventaja y qué se comunica a la mesa (Ley 13.4 y
+  13.5).
+- **Futsal, tiempo efectivo y tiempo muerto.** Dos períodos de 20 minutos de
+  reloj detenido, con cronometrador y señal acústica, más un tiempo muerto de un
+  minuto por equipo y período (Ley 7).
+- **Fútbol playa, tiros libres sin barrera.** Está prohibido formar barrera; el
+  tiro lo ejecuta cualquier jugador que estuviera en cancha, dentro de cuatro
+  segundos contados visiblemente por el árbitro, y se permite hacer un montículo
+  de arena para elevar el balón (Ley 13.1 y 13.2).
+
+## Lo que no existe en futsal ni en fútbol playa
+
+**No hay fuera de juego en ninguna de las dos.** La Ley 11 existe en ambos
+reglamentos y consiste en una sola frase que lo declara. Merece lección propia
+igual: quien viene del fútbol arrastra el reflejo de mirar la línea y hay que
+desmontarlo de forma explícita.
 
 ## Efecto sobre el resto del producto
 
