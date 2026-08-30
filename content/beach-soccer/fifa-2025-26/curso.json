@@ -495,6 +495,89 @@
           "contentPath": "content/beach-soccer/fifa-2025-26/p10/06-leer-un-reglamento-de-torneo-privado-de-futbol-playa.md"
         }
       ]
+    },
+    {
+      "id": "p11",
+      "discipline": "beach_soccer",
+      "order": 11,
+      "title": "Documentación del partido",
+      "laws": [
+        5
+      ],
+      "critical": false,
+      "requiredScore": 80,
+      "lessons": [
+        {
+          "id": "p11-l1",
+          "moduleId": "p11",
+          "order": 1,
+          "title": "Qué documentos existen y quién los pide",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p11/01-que-documentos-existen-y-quien-los-pide.md"
+        },
+        {
+          "id": "p11-l2",
+          "moduleId": "p11",
+          "order": 2,
+          "title": "Antes del partido: listas, identidad y dorsales",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p11/02-antes-del-partido-listas-identidad-y-dorsales.md"
+        },
+        {
+          "id": "p11-l3",
+          "moduleId": "p11",
+          "order": 3,
+          "title": "La planilla de fútbol playa: qué la diferencia",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p11/03-la-planilla-de-futbol-playa-que-la-diferencia.md"
+        },
+        {
+          "id": "p11-l4",
+          "moduleId": "p11",
+          "order": 4,
+          "title": "Registrar los tres períodos y el resultado",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p11/04-registrar-los-tres-periodos-y-el-resultado.md"
+        },
+        {
+          "id": "p11-l5",
+          "moduleId": "p11",
+          "order": 5,
+          "title": "Registrar goles, cambios y paradas médicas",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p11/05-registrar-goles-cambios-y-paradas-medicas.md"
+        },
+        {
+          "id": "p11-l6",
+          "moduleId": "p11",
+          "order": 6,
+          "title": "Amonestaciones y expulsiones en la planilla",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p11/06-amonestaciones-y-expulsiones-en-la-planilla.md"
+        },
+        {
+          "id": "p11-l7",
+          "moduleId": "p11",
+          "order": 7,
+          "title": "Anotar prórroga, penales y el reparto de puntos",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p11/07-anotar-prorroga-penales-y-el-reparto-de-puntos.md"
+        },
+        {
+          "id": "p11-l8",
+          "moduleId": "p11",
+          "order": 8,
+          "title": "Firmas: quién firma, cuándo y qué hacer si se niegan",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p11/08-firmas-quien-firma-cuando-y-que-hacer-si-se-niegan.md"
+        },
+        {
+          "id": "p11-l9",
+          "moduleId": "p11",
+          "order": 9,
+          "title": "El informe arbitral: hechos, no opiniones",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p11/09-el-informe-arbitral-hechos-no-opiniones.md"
+        },
+        {
+          "id": "p11-l10",
+          "moduleId": "p11",
+          "order": 10,
+          "title": "Plazos, entrega y errores administrativos frecuentes",
+          "contentPath": "content/beach-soccer/fifa-2025-26/p11/10-plazos-entrega-y-errores-administrativos-frecuentes.md"
+        }
+      ]
     }
   ]
 }

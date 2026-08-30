@@ -1,0 +1,32 @@
+---
+id: p11-l10
+moduleId: p11
+discipline: beach_soccer
+order: 10
+title: "Plazos, entrega y errores administrativos frecuentes"
+rulesVersion: "FIFA Beach Soccer 2025-26"
+ruleReference: ""
+status: draft
+---
+
+# Plazos, entrega y errores administrativos frecuentes
+
+## Regla
+
+<!-- TODO: redactar desde docs/fifa-beach-soccer-2025-26.pdf. No escribir de memoria. -->
+
+## En palabras simples
+
+<!-- TODO -->
+
+## Ejemplo
+
+<!-- TODO -->
+
+## Error común
+
+<!-- TODO -->
+
+## Mini test
+
+<!-- TODO: 3 a 5 preguntas, con explicación en cada una. -->

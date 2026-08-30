@@ -6,9 +6,9 @@ propio banco de preguntas y su propio certificado.
 
 | Curso | Disciplina | Reglamento | Módulos |
 | --- | --- | --- | ---: |
-| `football` | Fútbol (F5 a F11) | IFAB 2026/27 | 8 |
-| `futsal` | Futsal | FIFA Futsal 2025-26 | 10 |
-| `beach_soccer` | Fútbol playa | FIFA Beach Soccer 2025-26 | 10 |
+| `football` | Fútbol (F5 a F11) | IFAB 2026/27 | 9 |
+| `futsal` | Futsal | FIFA Futsal 2025-26 | 11 |
+| `beach_soccer` | Fútbol playa | FIFA Beach Soccer 2025-26 | 11 |
 
 Se cursan por separado y se aprueban por separado. Completar fútbol no acredita
 nada en futsal.
@@ -36,6 +36,33 @@ cuestionarios, el sistema de puntuación por componentes, los entrenadores, el
 diario de partidos y las herramientas de cancha son los mismos para los tres. La
 disciplina es un filtro sobre el contenido, no una copia del código.
 
+## La parte administrativa
+
+Hay un bloque de trabajo que no está en ningún reglamento y que sin embargo
+ocupa la primera y la última media hora de cada partido: completar la planilla,
+verificar identidades, firmar y entregar el informe.
+
+En arbitraje amateur es la causa más frecuente de partidos impugnados. Un gol
+anotado en el período equivocado, un dorsal que no coincide con la lista o una
+expulsión sin informe generan más problemas que una decisión discutible dentro
+de la cancha.
+
+**Lo oficial y lo de competición se separan.** El *deber* de informar sí es
+reglamentario: la Ley 5 lo incluye entre los poderes y deberes del árbitro, con
+una precisión que suele pasarse por alto —el informe cubre las sanciones y
+cualquier otro incidente ocurrido **antes, durante o después** del partido, no
+solo lo que pasó en juego.
+
+La **planilla**, en cambio, no sale de IFAB ni de FIFA: es un documento de cada
+organización. No existe *la* planilla. Por eso estos módulos enseñan el método
+para completar cualquiera —qué mirar, qué no omitir, en qué orden— y no un
+formulario concreto, y su contenido se clasifica como `competition` o `private`,
+nunca como `official`.
+
+Cada curso tiene su módulo de documentación, con las diferencias propias de la
+disciplina: las faltas acumuladas por período en futsal, y los tres períodos con
+su reparto de puntos en fútbol playa.
+
 ## Estructura común de un módulo
 
 Todos los módulos de los tres cursos tienen la misma forma:
@@ -59,7 +86,7 @@ completó de memoria.
 
 **Reglamento:** IFAB, Reglas de Juego 2026/27
 **Formatos:** F5, F6, F7, F8, F9, F11
-**Módulos:** 8
+**Módulos:** 9
 
 Cubre las 17 Reglas de IFAB. Los formatos reducidos no son deportes distintos:
 son fútbol con menos jugadores, bajo las mismas Reglas con las modificaciones
@@ -147,7 +174,25 @@ No crítico · 80 %
 4. Señalización y uso del silbato
 5. Posicionamiento y desplazamiento
 6. Leer un reglamento de liga privada
-7. El informe arbitral
+
+### Módulo F9 — Documentación del partido
+No crítico · 80 %
+
+1. Qué documentos existen y quién los pide
+2. Antes del partido: listas, identidad y dorsales
+3. La planilla: qué campos tiene y cómo se completa
+4. Registrar goles, cambios y tiempos durante el partido
+5. Amonestaciones y expulsiones en la planilla
+6. Firmas: quién firma, cuándo y qué hacer si se niegan
+7. El informe arbitral: hechos, no opiniones
+8. El informe ampliatorio por expulsión o incidente grave
+9. Plazos y entrega a la organización
+10. Errores administrativos frecuentes y cómo evitarlos
+
+Dato verificado (Ley 5.3): entre los deberes del árbitro está entregar a las
+autoridades correspondientes un informe del partido con las sanciones impuestas
+a jugadores u oficiales y cualquier otro incidente ocurrido antes, durante o
+después del encuentro.
 
 ---
 
@@ -155,7 +200,7 @@ No crítico · 80 %
 
 **Reglamento:** FIFA, Futsal Laws of the Game 2025-26
 **Vigencia:** desde el 5 de septiembre de 2025
-**Módulos:** 10
+**Módulos:** 11
 
 Estructura de 17 Leyes con la misma numeración que IFAB, pero contenido propio.
 El curso es más largo que el de fútbol porque tres mecánicas —el tiempo
@@ -295,13 +340,32 @@ El documento oficial trae una sección de *Practical Guidelines* con
 señalización, posicionamiento e interpretaciones que es la fuente de este
 módulo.
 
+### Módulo S11 — Documentación del partido
+No crítico · 80 %
+
+1. Qué documentos existen y quién los pide
+2. Antes del partido: listas, identidad y dorsales
+3. La planilla de futsal: qué la diferencia
+4. Registrar las faltas acumuladas por período
+5. Registrar tiempos muertos, goles y cambios
+6. Amonestaciones, expulsiones y el reemplazo tras la expulsión
+7. Firmas: quién firma, cuándo y qué hacer si se niegan
+8. El informe arbitral: hechos, no opiniones
+9. El informe ampliatorio por expulsión o incidente grave
+10. Plazos, entrega y errores administrativos frecuentes
+
+La planilla de futsal tiene dos casilleros que la de fútbol no: las faltas
+acumuladas de cada equipo en cada período y los tiempos muertos usados. Llevar
+mal esa cuenta cambia el resultado del partido, porque de ella depende cuándo se
+concede un DFKSAF.
+
 ---
 
 # Curso 3 — Fútbol playa
 
 **Reglamento:** FIFA, Beach Soccer Laws of the Game 2025-26
 **Vigencia:** desde el 17 de diciembre de 2025
-**Módulos:** 10
+**Módulos:** 11
 
 También 17 Leyes con numeración paralela. La superficie cambia el juego lo
 suficiente como para que varias mecánicas no tengan análogo: tres períodos, la
@@ -446,6 +510,25 @@ Crítico · 85 %
 5. Seguridad del árbitro en cancha abierta
 6. Leer un reglamento de torneo privado de fútbol playa
 
+### Módulo P11 — Documentación del partido
+No crítico · 80 %
+
+1. Qué documentos existen y quién los pide
+2. Antes del partido: listas, identidad y dorsales
+3. La planilla de fútbol playa: qué la diferencia
+4. Registrar los tres períodos y el resultado
+5. Registrar goles, cambios y paradas médicas
+6. Amonestaciones y expulsiones en la planilla
+7. Anotar prórroga, penales y el reparto de puntos
+8. Firmas: quién firma, cuándo y qué hacer si se niegan
+9. El informe arbitral: hechos, no opiniones
+10. Plazos, entrega y errores administrativos frecuentes
+
+La planilla de fútbol playa registra tres períodos en vez de dos y, cuando la
+competición exige ganador, debe reflejar si se llegó por prórroga o por penales:
+de eso depende el reparto de puntos verificado en la Ley 10.2, que da tres al
+ganador en el tercer período, dos en prórroga y uno por penales.
+
 ---
 
 # Banco de preguntas por curso
@@ -455,9 +538,9 @@ pregunta de futsal.
 
 | Curso | MVP | Objetivo |
 | --- | ---: | ---: |
-| Fútbol | 200 | 400 |
-| Futsal | 120 | 250 |
-| Fútbol playa | 100 | 200 |
+| Fútbol | 220 | 430 |
+| Futsal | 140 | 280 |
+| Fútbol playa | 120 | 230 |
 
 Reparto del MVP de fútbol, según la sección 65 de la especificación: 50
 generales, 30 de faltas, 30 de tarjetas, 30 de fuera de juego, 20 de
@@ -469,6 +552,9 @@ segundos, 10 de manejo del partido.
 
 Reparto del MVP de fútbol playa: 20 generales, 25 de faltas y disciplina, 25 de
 tiros libres sin barrera, 15 de tiempo y períodos, 15 de reanudaciones.
+
+A cada curso se le suman 20 preguntas de documentación del partido: completar
+planilla, redactar informe y detectar el error administrativo.
 
 El desbalance es deliberado: el peso de cada bloque sigue a lo que más se cobra
 y más se equivoca en cada disciplina.

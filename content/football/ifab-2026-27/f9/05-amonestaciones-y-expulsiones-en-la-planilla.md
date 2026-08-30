@@ -1,15 +1,15 @@
 ---
-id: f8-l7
-moduleId: f8
+id: f9-l5
+moduleId: f9
 discipline: football
-order: 7
-title: "El informe arbitral"
+order: 5
+title: "Amonestaciones y expulsiones en la planilla"
 rulesVersion: "IFAB 2026/27"
 ruleReference: ""
 status: draft
 ---
 
-# El informe arbitral
+# Amonestaciones y expulsiones en la planilla
 
 ## Regla
 

@@ -88,7 +88,7 @@ Al completar el curso, el usuario debería poder:
 - posicionarse correctamente;
 - administrar tiempo;
 - registrar goles, tarjetas e incidencias;
-- redactar informes arbitrales;
+- completar planillas y redactar informes arbitrales;
 - interpretar reglamentos propios de ligas privadas;
 - dirigir fútbol 5, 7, 8 y 11;
 - dirigir futsal y fútbol playa según su reglamento propio;
@@ -1226,6 +1226,67 @@ Ejemplo correcto:
 Evitar:
 
 > El jugador se volvió loco y pegó brutalmente.
+
+---
+
+# 50.1 Documentación del partido
+
+El informe es la mitad del trabajo administrativo. La otra mitad es la
+**planilla**, y hasta esta versión la especificación no la mencionaba.
+
+## Por qué importa
+
+En arbitraje amateur el papeleo mal hecho genera más conflictos que las
+decisiones discutibles. Un gol anotado en el período equivocado, un dorsal que
+no coincide con la lista de buena fe o una expulsión sin informe terminan en
+partidos impugnados y en fallos de mesa.
+
+## Qué es oficial y qué no
+
+Distinción que hay que respetar en el contenido y en la interfaz:
+
+- **El deber de informar es oficial.** La Ley 5, entre los poderes y deberes del
+  árbitro, obliga a entregar a las autoridades correspondientes un informe con
+  las sanciones impuestas a jugadores u oficiales y cualquier otro incidente
+  ocurrido **antes, durante o después** del partido. Esa última precisión es la
+  que más se olvida: lo que pasa en el vestuario o en la salida también va.
+- **La planilla no es oficial.** No la define IFAB ni FIFA: la define cada
+  organización. No existe *la* planilla, y por eso la app no puede enseñar un
+  formulario concreto como si fuera norma. Su contenido se clasifica como
+  `competition` o `private`.
+
+Consecuencia pedagógica: se enseña el **método** para completar cualquier
+planilla —qué verificar, qué no omitir, en qué orden— no un formulario.
+
+## Módulo por curso
+
+Cada uno de los tres cursos tiene su módulo de documentación: F9, S11 y P11.
+Comparten el esqueleto y difieren en lo que la disciplina agrega a la planilla.
+
+- **Futsal:** faltas acumuladas de cada equipo en cada período y tiempos muertos
+  usados. Llevar mal esa cuenta cambia el partido, porque determina cuándo se
+  concede un DFKSAF.
+- **Fútbol playa:** tres períodos en vez de dos y, si la competición exige
+  ganador, si se llegó por prórroga o por penales, de lo que depende el reparto
+  de puntos.
+
+## Herramienta
+
+La sección PREPARAR PARTIDO ya genera la ficha del reglamento del torneo. Se le
+suma un bloque de documentación:
+
+- **Antes:** verificación de lista, identidades y dorsales.
+- **Durante:** el registro rápido de la sección 113 alimenta la planilla.
+- **Después:** la app arma un borrador del informe a partir de los incidentes
+  registrados, y el árbitro lo revisa y corrige.
+
+El borrador nunca se envía solo. La redacción final es responsabilidad del
+árbitro, y la app debe decirlo.
+
+## Criterio de redacción
+
+El de la sección 50: hechos observables, sin opiniones ni adjetivos. La app
+señala cuando el texto contiene valoraciones en vez de descripciones.
 
 ---
 

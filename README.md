@@ -15,11 +15,11 @@ cursos y árbol de contenido. Todavía no hay aplicación.
 
 | Curso | Módulos | Lecciones | Contenido escrito |
 | --- | ---: | ---: | ---: |
-| Fútbol | 8 | 45 | 0 |
-| Futsal | 10 | 50 | 0 |
-| Fútbol playa | 10 | 50 | 0 |
+| Fútbol | 9 | 54 | 0 |
+| Futsal | 11 | 60 | 0 |
+| Fútbol playa | 11 | 60 | 0 |
 
-Las 145 lecciones existen como andamio con su estructura y su referencia de
+Las 174 lecciones existen como andamio con su estructura y su referencia de
 Ley. El texto se redacta leyendo el PDF oficial de cada disciplina.
 
 ## Mapa del repositorio

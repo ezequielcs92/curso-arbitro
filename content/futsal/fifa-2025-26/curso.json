@@ -496,6 +496,89 @@
           "contentPath": "content/futsal/fifa-2025-26/s10/07-leer-un-reglamento-de-liga-privada-de-futsal.md"
         }
       ]
+    },
+    {
+      "id": "s11",
+      "discipline": "futsal",
+      "order": 11,
+      "title": "Documentación del partido",
+      "laws": [
+        5
+      ],
+      "critical": false,
+      "requiredScore": 80,
+      "lessons": [
+        {
+          "id": "s11-l1",
+          "moduleId": "s11",
+          "order": 1,
+          "title": "Qué documentos existen y quién los pide",
+          "contentPath": "content/futsal/fifa-2025-26/s11/01-que-documentos-existen-y-quien-los-pide.md"
+        },
+        {
+          "id": "s11-l2",
+          "moduleId": "s11",
+          "order": 2,
+          "title": "Antes del partido: listas, identidad y dorsales",
+          "contentPath": "content/futsal/fifa-2025-26/s11/02-antes-del-partido-listas-identidad-y-dorsales.md"
+        },
+        {
+          "id": "s11-l3",
+          "moduleId": "s11",
+          "order": 3,
+          "title": "La planilla de futsal: qué la diferencia",
+          "contentPath": "content/futsal/fifa-2025-26/s11/03-la-planilla-de-futsal-que-la-diferencia.md"
+        },
+        {
+          "id": "s11-l4",
+          "moduleId": "s11",
+          "order": 4,
+          "title": "Registrar las faltas acumuladas por período",
+          "contentPath": "content/futsal/fifa-2025-26/s11/04-registrar-las-faltas-acumuladas-por-periodo.md"
+        },
+        {
+          "id": "s11-l5",
+          "moduleId": "s11",
+          "order": 5,
+          "title": "Registrar tiempos muertos, goles y cambios",
+          "contentPath": "content/futsal/fifa-2025-26/s11/05-registrar-tiempos-muertos-goles-y-cambios.md"
+        },
+        {
+          "id": "s11-l6",
+          "moduleId": "s11",
+          "order": 6,
+          "title": "Amonestaciones, expulsiones y el reemplazo tras la expulsión",
+          "contentPath": "content/futsal/fifa-2025-26/s11/06-amonestaciones-expulsiones-y-el-reemplazo-tras-la-expulsion.md"
+        },
+        {
+          "id": "s11-l7",
+          "moduleId": "s11",
+          "order": 7,
+          "title": "Firmas: quién firma, cuándo y qué hacer si se niegan",
+          "contentPath": "content/futsal/fifa-2025-26/s11/07-firmas-quien-firma-cuando-y-que-hacer-si-se-niegan.md"
+        },
+        {
+          "id": "s11-l8",
+          "moduleId": "s11",
+          "order": 8,
+          "title": "El informe arbitral: hechos, no opiniones",
+          "contentPath": "content/futsal/fifa-2025-26/s11/08-el-informe-arbitral-hechos-no-opiniones.md"
+        },
+        {
+          "id": "s11-l9",
+          "moduleId": "s11",
+          "order": 9,
+          "title": "El informe ampliatorio por expulsión o incidente grave",
+          "contentPath": "content/futsal/fifa-2025-26/s11/09-el-informe-ampliatorio-por-expulsion-o-incidente-grave.md"
+        },
+        {
+          "id": "s11-l10",
+          "moduleId": "s11",
+          "order": 10,
+          "title": "Plazos, entrega y errores administrativos frecuentes",
+          "contentPath": "content/futsal/fifa-2025-26/s11/10-plazos-entrega-y-errores-administrativos-frecuentes.md"
+        }
+      ]
     }
   ]
 }
