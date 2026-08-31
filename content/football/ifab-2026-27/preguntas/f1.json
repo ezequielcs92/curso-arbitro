@@ -1,0 +1,311 @@
+{
+  "moduleId": "f1",
+  "discipline": "football",
+  "rulesVersion": "IFAB 2026/27",
+  "questions": [
+    {
+      "id": "f1-q1",
+      "moduleId": "f1",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Desde qué momento tenés autoridad para tomar medidas disciplinarias?",
+      "options": [
+        "Desde el pitazo inicial",
+        "Desde que entrás al terreno de juego para la inspección previa",
+        "Desde que los equipos salen a la cancha",
+        "Desde que se firma la planilla"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 5.3 sitúa el inicio de tu autoridad disciplinaria en la entrada al terreno para la inspección previa. Todo lo que pase desde ese momento ya es arbitraje, aunque falte media hora para empezar.",
+      "ruleReference": "Regla 5.3",
+      "tags": ["autoridad", "previa"]
+    },
+    {
+      "id": "f1-q2",
+      "moduleId": "f1",
+      "type": "true_false",
+      "difficulty": 2,
+      "question": "Una vez reanudado el juego, podés cambiar una decisión si te das cuenta de que fue incorrecta.",
+      "correctAnswer": false,
+      "explanation": "La Regla 5.2 permite rectificar solo mientras el juego no se haya reanudado. Reanudado el juego, la decisión sobre hechos y acciones es irrevocable, aunque sepas que estuvo mal.",
+      "ruleReference": "Regla 5.2",
+      "tags": ["decisiones", "irrevocable"]
+    },
+    {
+      "id": "f1-q3",
+      "moduleId": "f1",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Cobraste un saque de meta. Antes de que se ejecute, tu asistente te avisa de que el balón salió tocado por un defensor. ¿Qué podés hacer?",
+      "options": [
+        "Nada: la decisión ya fue tomada y es irrevocable",
+        "Cambiar la decisión y dar saque de esquina, porque el juego no se reanudó",
+        "Cambiar la decisión solo si el equipo perjudicado reclama",
+        "Dejar seguir y compensar más adelante"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 5.2 habilita expresamente a cambiar una decisión tras el aviso de otro miembro del equipo arbitral, siempre que el juego no se haya reanudado. Que el equipo reclame o no es irrelevante.",
+      "ruleReference": "Regla 5.2",
+      "tags": ["decisiones", "asistentes", "rectificar"]
+    },
+    {
+      "id": "f1-q4",
+      "moduleId": "f1",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según la Regla 5.3, ¿cuál de estas NO es una obligación del árbitro?",
+      "options": [
+        "Hacer cumplir las Reglas de Juego",
+        "Cronometrar el tiempo y tomar nota de las incidencias",
+        "Verificar la afiliación de los jugadores al club",
+        "Supervisar o dar la señal para la reanudación del juego"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La Regla 5.3 enumera cuatro obligaciones: hacer cumplir las Reglas, dirigir en colaboración con el equipo arbitral, cronometrar y registrar incidencias con su informe, y supervisar las reanudaciones. La afiliación es asunto de la organización, no del árbitro.",
+      "ruleReference": "Regla 5.3",
+      "tags": ["obligaciones"]
+    },
+    {
+      "id": "f1-q5",
+      "moduleId": "f1",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "El acta o informe del partido debe cubrir las incidencias ocurridas…",
+      "options": [
+        "Solo mientras el balón estuvo en juego",
+        "Solo entre el pitazo inicial y el final",
+        "Antes, durante y después del partido",
+        "Solo las que ocurrieron dentro del terreno de juego"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La Regla 5.3 es explícita: el informe cubre las medidas disciplinarias y cualquier otra incidencia ocurrida antes, durante y después del partido. Lo que pasa en la salida también se informa.",
+      "ruleReference": "Regla 5.3",
+      "tags": ["informe", "documentacion"]
+    },
+    {
+      "id": "f1-q6",
+      "moduleId": "f1",
+      "type": "true_false",
+      "difficulty": 1,
+      "question": "La autoridad del árbitro se extiende a la tanda de penales.",
+      "correctAnswer": true,
+      "explanation": "La autoridad va desde la entrada al terreno para la inspección previa hasta que se lo abandona terminado el encuentro, incluida la tanda de penales.",
+      "ruleReference": "Regla 5.1, Regla 5.3",
+      "tags": ["autoridad", "penales"]
+    },
+    {
+      "id": "f1-q7",
+      "moduleId": "f1",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Ocurre una situación que las Reglas no contemplan. ¿Qué criterio manda?",
+      "options": [
+        "Se detiene el partido hasta consultar a la organización",
+        "Se decide conforme al espíritu del juego y de las Reglas",
+        "Se aplica lo que decidan los dos capitanes",
+        "Se repite la última jugada"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El reglamento reconoce que no puede abarcar todas las situaciones posibles y pide decidir conforme al espíritu del juego, que suele resumirse en la pregunta «¿Qué quiere o qué espera el fútbol?».",
+      "ruleReference": "Filosofía y espíritu de las Reglas, Regla 5.2",
+      "tags": ["criterio", "espiritu"]
+    },
+    {
+      "id": "f1-q8",
+      "moduleId": "f1",
+      "type": "true_false",
+      "difficulty": 2,
+      "question": "El propio reglamento admite que siempre habrá decisiones arbitrales erróneas.",
+      "correctAnswer": true,
+      "explanation": "Las Reglas reconocen que muchas situaciones son subjetivas y que los árbitros son humanos, por lo que siempre habrá decisiones erróneas. No es una excusa: es el marco realista con el que se arbitra.",
+      "ruleReference": "Filosofía y espíritu de las Reglas",
+      "tags": ["criterio", "error"]
+    },
+    {
+      "id": "f1-q9",
+      "moduleId": "f1",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Un jugador se lesiona levemente y el juego sigue. ¿Qué corresponde?",
+      "options": [
+        "Detener siempre el juego ante cualquier lesión",
+        "Continuar: el juego se detiene solo si la lesión es grave",
+        "Detener solo si el jugador lo pide",
+        "Detener solo si es el guardameta"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 5 distingue entre lesión leve y grave: el juego continúa si es leve y se detiene solo si es grave. Detener ante cada golpe rompe el ritmo y regala interrupciones.",
+      "ruleReference": "Regla 5",
+      "tags": ["lesiones", "seguridad"]
+    },
+    {
+      "id": "f1-q10",
+      "moduleId": "f1",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Un jugador se niega a quitarse un objeto que considerás peligroso. ¿Qué hacés?",
+      "options": [
+        "Lo amonestás y lo dejás jugar",
+        "Le ordenás abandonar el terreno en la próxima detención",
+        "Lo expulsás directamente",
+        "Anotás la observación en el acta y seguís"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 4.1 obliga a ordenar quitarse el objeto peligroso; si el jugador no puede o no quiere, abandona el terreno en la próxima detención. La sanción es la salida, no la tarjeta.",
+      "ruleReference": "Regla 4.1",
+      "tags": ["equipamiento", "seguridad"]
+    },
+    {
+      "id": "f1-q11",
+      "moduleId": "f1",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué define el juego peligroso según la Regla 12?",
+      "options": [
+        "Cualquier acción que termine en lesión",
+        "Toda acción que, al intentar jugar el balón, suponga riesgo de lesión, incluso para quien la realiza",
+        "Solo las entradas con los dos pies por delante",
+        "Cualquier jugada por encima de la cintura"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El juego peligroso es toda acción que, al intentar jugar el balón, suponga riesgo de lesión —incluso para el propio jugador que la realiza— o que impida a un adversario cercano jugar el balón por temor a lesionarse. No hace falta que haya contacto ni lesión.",
+      "ruleReference": "Regla 12",
+      "tags": ["juego-peligroso", "seguridad"]
+    },
+    {
+      "id": "f1-q12",
+      "moduleId": "f1",
+      "type": "true_false",
+      "difficulty": 2,
+      "question": "Para que haya juego peligroso tiene que haber contacto entre los jugadores.",
+      "correctAnswer": false,
+      "explanation": "El juego peligroso no requiere contacto: alcanza con que la acción suponga riesgo de lesión o impida a un adversario jugar el balón por temor a lesionarse. Si hay contacto, la infracción suele ser otra.",
+      "ruleReference": "Regla 12",
+      "tags": ["juego-peligroso"]
+    },
+    {
+      "id": "f1-q13",
+      "moduleId": "f1",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuándo se inspecciona el equipamiento de un suplente?",
+      "options": [
+        "Junto con los titulares, antes del inicio",
+        "Antes de que entre al terreno de juego",
+        "No se inspecciona a los suplentes",
+        "En el entretiempo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 4.1 pide inspeccionar a los jugadores antes del inicio del partido y a los suplentes antes de que entren. Un suplente puede calentar cuarenta minutos con un anillo puesto.",
+      "ruleReference": "Regla 4.1",
+      "tags": ["equipamiento", "sustituciones"]
+    },
+    {
+      "id": "f1-q14",
+      "moduleId": "f1",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "En arbitraje amateur, ¿qué verificación previa no figura en las Reglas pero es imprescindible?",
+      "options": [
+        "El estado físico de los jugadores",
+        "Cuál es el reglamento de esta competición y qué adaptaciones aplica",
+        "La categoría de los árbitros asistentes",
+        "El historial disciplinario de los equipos"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las Reglas permiten adaptaciones organizativas a las federaciones, y en torneos privados esas adaptaciones son la norma. Saber cuál es el reglamento vigente antes de empezar evita la mitad de los conflictos del partido.",
+      "ruleReference": "Adaptación de las Reglas, Regla 5.3",
+      "tags": ["previa", "reglamento-privado"]
+    },
+    {
+      "id": "f1-q15",
+      "moduleId": "f1",
+      "type": "true_false",
+      "difficulty": 1,
+      "question": "La autoridad del árbitro se gana durante el partido según cómo lo dirija.",
+      "correctAnswer": false,
+      "explanation": "La Regla 5.1 otorga plena autoridad desde el momento en que entrás al terreno. Lo que se construye durante el partido es la credibilidad, no la autoridad: esa ya la tenés.",
+      "ruleReference": "Regla 5.1",
+      "tags": ["autoridad"]
+    },
+    {
+      "id": "f1-q16",
+      "moduleId": "f1",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Diste un gol por válido y el juego se reanudó con el saque de salida. Después advertís que el balón no había cruzado la línea. ¿Qué corresponde?",
+      "options": [
+        "Anular el gol y reanudar con balón a tierra",
+        "El gol queda: reanudado el juego, la decisión es irrevocable",
+        "Anular el gol si los dos capitanes están de acuerdo",
+        "Consultar a los asistentes y decidir"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 5.2 declara irrevocables las decisiones sobre hechos y acciones, incluido dar por válido un gol y el resultado del partido, una vez reanudado el juego. Se informa en el acta, pero el gol no se toca.",
+      "ruleReference": "Regla 5.2",
+      "tags": ["decisiones", "gol", "irrevocable"]
+    },
+    {
+      "id": "f1-q17",
+      "moduleId": "f1",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué verifica la Regla 3 en la previa del partido?",
+      "options": [
+        "La superficie y la marcación del terreno",
+        "Las características del balón",
+        "La cantidad de jugadores, el mínimo para empezar y los sustitutos",
+        "El equipamiento peligroso"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La Regla 3 cubre a los jugadores: cuántos son, el mínimo para comenzar y los sustitutos. El terreno es la Regla 1, el balón la 2 y el equipamiento la 4.",
+      "ruleReference": "Regla 3",
+      "tags": ["previa", "jugadores"]
+    },
+    {
+      "id": "f1-q18",
+      "moduleId": "f1",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "El árbitro tiene poder discrecional, pero solo dentro del marco de las Reglas.",
+      "correctAnswer": true,
+      "explanation": "La Regla 5.2 establece que las decisiones se toman según el criterio del árbitro, de acuerdo a las Reglas y al espíritu del fútbol. El criterio es amplio, pero no habilita a decidir contra una Regla expresa.",
+      "ruleReference": "Regla 5.2",
+      "tags": ["criterio", "autoridad"]
+    },
+    {
+      "id": "f1-q19",
+      "moduleId": "f1",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué busca equilibrar el reglamento cuando pide tratar con firmeza a los jugadores demasiado agresivos?",
+      "options": [
+        "La velocidad del juego y el espectáculo",
+        "La salud de los jugadores y la equidad deportiva",
+        "La autoridad del árbitro y la del capitán",
+        "El interés del público y el de los clubes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La introducción de las Reglas plantea ese equilibrio de forma explícita, y de ahí deriva el mandato de usar las Reglas con firmeza frente a las acciones agresivas o peligrosas.",
+      "ruleReference": "Filosofía y espíritu de las Reglas",
+      "tags": ["seguridad", "espiritu"]
+    },
+    {
+      "id": "f1-q20",
+      "moduleId": "f1",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Con quién debe dirigir el partido el árbitro, según la Regla 5.3?",
+      "options": [
+        "Solo, con plena independencia",
+        "En colaboración con los otros miembros del equipo arbitral",
+        "En consulta con los capitanes",
+        "Bajo supervisión del delegado del torneo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La segunda obligación de la Regla 5.3 es dirigir el partido en colaboración con los otros miembros del equipo arbitral. La autoridad final es del árbitro, pero el trabajo es de equipo.",
+      "ruleReference": "Regla 5.3",
+      "tags": ["obligaciones", "equipo-arbitral"]
+    }
+  ]
+}

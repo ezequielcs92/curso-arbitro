@@ -1,0 +1,484 @@
+{
+  "moduleId": "f5",
+  "discipline": "football",
+  "rulesVersion": "IFAB 2026/27",
+  "questions": [
+    {
+      "id": "f5-q1",
+      "moduleId": "f5",
+      "type": "true_false",
+      "difficulty": 1,
+      "question": "Estar en posición de fuera de juego es, por sí solo, una infracción.",
+      "correctAnswer": false,
+      "explanation": "La Regla 11 lo dice en su primera línea: estar en posición de fuera de juego no constituye infracción. Hace falta además participar en el juego.",
+      "ruleReference": "Regla 11.1",
+      "tags": ["fuera-de-juego", "posicion"]
+    },
+    {
+      "id": "f5-q2",
+      "moduleId": "f5",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué partes del cuerpo se tienen en cuenta para la posición de fuera de juego?",
+      "options": [
+        "Todo el cuerpo, sin excepción",
+        "Cabeza, tronco o pierna, pie incluido",
+        "Solo los pies",
+        "Solo el torso"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Se consideran cabeza, tronco o pierna, incluido el pie. Las manos y los brazos no se tienen en cuenta, tampoco en los guardametas: el límite superior del brazo coincide con el punto inferior de la axila.",
+      "ruleReference": "Regla 11.1",
+      "tags": ["fuera-de-juego", "posicion"]
+    },
+    {
+      "id": "f5-q3",
+      "moduleId": "f5",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Un atacante está exactamente a la misma altura que el penúltimo adversario. ¿Está en posición de fuera de juego?",
+      "options": [
+        "Sí",
+        "No",
+        "Solo si el balón va hacia él",
+        "Depende de si el penúltimo es el arquero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 11 excluye expresamente al jugador que se encuentra a la misma altura que el penúltimo adversario o que los dos últimos adversarios. La duda favorece al atacante por la propia redacción.",
+      "ruleReference": "Regla 11.1",
+      "tags": ["fuera-de-juego", "posicion"]
+    },
+    {
+      "id": "f5-q4",
+      "moduleId": "f5",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuál es la sanción por una infracción de fuera de juego?",
+      "options": [
+        "Tiro libre directo en el lugar de la infracción",
+        "Tiro libre indirecto en el lugar donde se produjo, incluso si el infractor estaba en su propio campo",
+        "Tiro libre indirecto desde la línea del área",
+        "Saque de meta"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 11.4 concede un libre indirecto en el lugar donde se produjo la infracción, incluso si el jugador infractor se encontraba en su propio campo.",
+      "ruleReference": "Regla 11.4",
+      "tags": ["fuera-de-juego", "sancion"]
+    },
+    {
+      "id": "f5-q5",
+      "moduleId": "f5",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿De cuáles de estas reanudaciones NO puede surgir fuera de juego si el balón llega directamente?",
+      "options": [
+        "Saque de meta, saque de banda y saque de esquina",
+        "Saque de banda y tiro libre",
+        "Saque de esquina y penal",
+        "Balón a tierra y saque de meta"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La Regla 11.3 enumera exactamente tres: saque de meta, saque de banda y saque de esquina. Un tiro libre o un balón a tierra sí pueden generar fuera de juego.",
+      "ruleReference": "Regla 11.3",
+      "tags": ["fuera-de-juego", "reanudaciones"]
+    },
+    {
+      "id": "f5-q6",
+      "moduleId": "f5",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿En qué momento se juzga la posición de fuera de juego?",
+      "options": [
+        "Cuando el atacante recibe el balón",
+        "En el momento en que un compañero juega o toca el balón",
+        "Cuando el atacante entra al área",
+        "Cuando el árbitro lo advierte"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La posición se juzga en el instante en que el compañero juega o toca el balón, no cuando el atacante lo recibe. Es el error de observación más frecuente: mirar dónde llega el balón en vez de dónde se jugó.",
+      "ruleReference": "Regla 11.2",
+      "tags": ["fuera-de-juego", "momento"]
+    },
+    {
+      "id": "f5-q7",
+      "moduleId": "f5",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuál de estas NO es una forma de interferir a un adversario?",
+      "options": [
+        "Obstaculizarle claramente la línea de visión",
+        "Disputarle el balón",
+        "Estar adelantado sin moverse ni afectar a ningún rival",
+        "Realizar una acción que afecte claramente a su posibilidad de jugar el balón"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Estar adelantado sin participar no es infracción. La Regla 11.2 exige obstaculizar la línea de visión, disputar el balón, intentar jugar claramente un balón cercano con impacto en un adversario, o afectar claramente su posibilidad de jugarlo.",
+      "ruleReference": "Regla 11.2",
+      "tags": ["fuera-de-juego", "interferir"]
+    },
+    {
+      "id": "f5-q8",
+      "moduleId": "f5",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué implica jugar «voluntariamente» el balón, según la Regla 11?",
+      "options": [
+        "Cualquier toque intencional",
+        "Que el jugador tenga la posibilidad de controlarlo y pueda pasar, recuperar la posesión o despejar con el pie o la cabeza",
+        "Que el balón le llegue de frente",
+        "Que el jugador mire el balón antes de tocarlo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La definición exige la posibilidad de controlar el balón y una de tres acciones: pasar a un compañero, recuperar la posesión o despejar con el pie o de cabeza. Que el pase o el despeje salga impreciso no invalida la voluntariedad.",
+      "ruleReference": "Regla 11.2",
+      "tags": ["fuera-de-juego", "juego-deliberado"]
+    },
+    {
+      "id": "f5-q9",
+      "moduleId": "f5",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿Cuál de estos indicadores apunta a que la acción NO fue voluntaria?",
+      "options": [
+        "El balón llega desde lejos y el defensor lo ve con claridad",
+        "El balón se puede prever en su trayectoria",
+        "El defensor llega con un salto y una extensión de la pierna, con un ligero contacto instintivo",
+        "El balón viene rodando por el suelo a poca velocidad"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La Regla 11 señala como indicadores de voluntariedad que el balón llegue de lejos y sea visible, que no vaya rápido, que la trayectoria sea previsible y que el jugador tenga tiempo de coordinar. Un salto o un movimiento instintivo con ligero contacto apunta justo a lo contrario.",
+      "ruleReference": "Regla 11.2",
+      "tags": ["fuera-de-juego", "juego-deliberado"]
+    },
+    {
+      "id": "f5-q10",
+      "moduleId": "f5",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué es una «salvada» a efectos de la Regla 11?",
+      "options": [
+        "Cualquier despeje del defensor dentro del área",
+        "La acción de detener o desviar el balón, o intentarlo, cuando va hacia la portería o muy cerca de ella, con cualquier parte del cuerpo salvo manos o brazos, excepto el guardameta en su área",
+        "Solo la atajada del guardameta",
+        "Cualquier intervención que evite un gol"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Esa es la definición literal. Importa porque la salvada rompe la excepción: recibir el balón tras una salvada de un adversario sí es sacar ventaja de la posición.",
+      "ruleReference": "Regla 11.2",
+      "tags": ["fuera-de-juego", "salvada"]
+    },
+    {
+      "id": "f5-q11",
+      "moduleId": "f5",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "Un atacante en posición de fuera de juego recibe el balón de un defensor que lo jugó voluntariamente, sin que fuera una salvada. ¿Qué corresponde?",
+      "options": [
+        "Fuera de juego: estaba adelantado",
+        "El juego continúa: no se considera que sacó ventaja de la posición",
+        "Libre indirecto para la defensa",
+        "Depende de si el defensor quiso pasárselo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 11.2 establece que no se considera que sacó ventaja quien recibe el balón de un adversario que lo juega voluntariamente —incluida la mano voluntaria—, salvo que se trate de una salvada.",
+      "ruleReference": "Regla 11.2",
+      "tags": ["fuera-de-juego", "juego-deliberado"]
+    },
+    {
+      "id": "f5-q12",
+      "moduleId": "f5",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "El balón rebota en el poste y le queda a un atacante que estaba en posición de fuera de juego cuando su compañero remató. ¿Qué corresponde?",
+      "options": [
+        "El juego continúa: el rebote lo limpia",
+        "Fuera de juego: sacó ventaja de su posición",
+        "Balón a tierra",
+        "Saque de esquina"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sacar ventaja incluye jugar el balón desviado o rebotado en un poste, el travesaño, un miembro del equipo arbitral o un adversario. El rebote no limpia la posición previa.",
+      "ruleReference": "Regla 11.2",
+      "tags": ["fuera-de-juego", "rebote"]
+    },
+    {
+      "id": "f5-q13",
+      "moduleId": "f5",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "El guardameta ataja un remate y el rechace le queda a un atacante que estaba adelantado en el momento del disparo. ¿Qué corresponde?",
+      "options": [
+        "Gol si convierte: la atajada limpia la posición",
+        "Fuera de juego: recibir tras una salvada es sacar ventaja",
+        "El juego continúa siempre",
+        "Depende de si el guardameta usó las manos"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La salvada es la excepción a la excepción: recibir el balón salvado por un adversario constituye sacar ventaja de la posición de fuera de juego.",
+      "ruleReference": "Regla 11.2",
+      "tags": ["fuera-de-juego", "salvada"]
+    },
+    {
+      "id": "f5-q14",
+      "moduleId": "f5",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "Un jugador en posición de fuera de juego se coloca en la trayectoria de un adversario y le obstaculiza el paso, sin disputar el balón. ¿Cómo se sanciona?",
+      "options": [
+        "Fuera de juego, libre indirecto",
+        "Según la Regla 12, por impedir el avance de un adversario",
+        "No hay infracción",
+        "Tiro libre directo por obstrucción"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 11 distingue: si interfiere en el movimiento del adversario hacia el balón afectando su capacidad de jugarlo o disputarlo, es fuera de juego; si simplemente le impide el avance obstaculizándole el paso, se penaliza en virtud de la Regla 12.",
+      "ruleReference": "Regla 11.2, Regla 12",
+      "tags": ["fuera-de-juego", "obstruccion"]
+    },
+    {
+      "id": "f5-q15",
+      "moduleId": "f5",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "Un jugador en posición de fuera de juego se desplaza hacia el balón y es objeto de una falta ANTES de jugarlo o disputarlo. ¿Qué se sanciona?",
+      "options": [
+        "El fuera de juego",
+        "La falta, por haberse cometido antes de la infracción de fuera de juego",
+        "Nada: se compensan",
+        "Balón a tierra"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Manda el orden temporal. Si la falta ocurre antes de que el jugador juegue, intente jugar o dispute el balón, se sanciona la falta. Si la falta se comete contra quien ya está jugando o disputando, se sanciona el fuera de juego por ser previo.",
+      "ruleReference": "Regla 11.2",
+      "tags": ["fuera-de-juego", "orden-temporal"]
+    },
+    {
+      "id": "f5-q16",
+      "moduleId": "f5",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "Se comete una falta contra un atacante en posición de fuera de juego que YA estaba disputando el balón. ¿Qué se sanciona?",
+      "options": [
+        "La falta",
+        "El fuera de juego, por ser previo a la falta",
+        "Se aplica ventaja",
+        "Balón a tierra"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El mismo criterio de orden temporal, al revés: como el jugador ya estaba jugando o disputando el balón, la infracción de fuera de juego se produjo primero y es la que se penaliza.",
+      "ruleReference": "Regla 11.2",
+      "tags": ["fuera-de-juego", "orden-temporal"]
+    },
+    {
+      "id": "f5-q17",
+      "moduleId": "f5",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "Un jugador con el brazo estirado por delante del último defensor está en posición de fuera de juego por esa razón.",
+      "correctAnswer": false,
+      "explanation": "Las manos y los brazos no se tienen en cuenta. El límite superior del brazo coincide con el punto inferior de la axila: lo que sobresale por encima de esa línea no cuenta.",
+      "ruleReference": "Regla 11.1",
+      "tags": ["fuera-de-juego", "posicion"]
+    },
+    {
+      "id": "f5-q18",
+      "moduleId": "f5",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "Un jugador con el pie sobre la línea central está en campo rival a efectos del fuera de juego.",
+      "correctAnswer": false,
+      "explanation": "La posición exige estar en la mitad del adversario excluyendo la línea central. Pisar la línea equivale a estar en campo propio.",
+      "ruleReference": "Regla 11.1",
+      "tags": ["fuera-de-juego", "posicion"]
+    },
+    {
+      "id": "f5-q19",
+      "moduleId": "f5",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "El penúltimo adversario es un defensor de campo porque el guardameta salió del área. ¿Cambia el criterio?",
+      "options": [
+        "Sí: siempre se cuenta al guardameta como último",
+        "No: se cuentan jugadores, no roles",
+        "Sí: si el arquero salió, no hay fuera de juego",
+        "Depende de si el arquero está en su mitad"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla habla del penúltimo adversario, sin distinguir roles. Casi siempre el guardameta es el último, pero no siempre: hay que contar jugadores.",
+      "ruleReference": "Regla 11.1",
+      "tags": ["fuera-de-juego", "posicion"]
+    },
+    {
+      "id": "f5-q20",
+      "moduleId": "f5",
+      "type": "decision",
+      "difficulty": 3,
+      "question": "Un atacante en posición de fuera de juego recibe un pase de su compañero en el mediocampo rival y avanza con el balón. Nadie más interviene. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "indirect_free_kick",
+        "disciplinary": "none",
+        "restart": "place_of_offence"
+      },
+      "explanation": "Hay infracción porque interfirió en el juego al jugar el balón estando adelantado. La sanción es libre indirecto en el lugar donde se produjo la infracción, sin medida disciplinaria: el fuera de juego no se amonesta.",
+      "ruleReference": "Regla 11.2, Regla 11.4",
+      "tags": ["fuera-de-juego", "decision"]
+    },
+    {
+      "id": "f5-q21",
+      "moduleId": "f5",
+      "type": "decision",
+      "difficulty": 5,
+      "question": "Un atacante queda adelantado en su propio campo tras un contraataque, y desde ahí recibe el balón de un compañero e interviene. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "indirect_free_kick",
+        "disciplinary": "none",
+        "restart": "place_of_offence"
+      },
+      "explanation": "La Regla 11.4 es explícita: el libre indirecto se concede en el lugar donde se produjo la infracción, incluso si el jugador infractor se encontraba en su propio campo. La ubicación de la infracción manda sobre cualquier otra referencia.",
+      "ruleReference": "Regla 11.4",
+      "tags": ["fuera-de-juego", "decision", "sancion"]
+    },
+    {
+      "id": "f5-q22",
+      "moduleId": "f5",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Un atacante adelantado no toca el balón, pero se para delante del guardameta tapándole la visión del remate. ¿Qué corresponde?",
+      "options": [
+        "El juego continúa: no tocó el balón",
+        "Fuera de juego por interferir a un adversario obstaculizándole la línea de visión",
+        "Tiro libre directo",
+        "Gol válido si entra"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Interferir a un adversario incluye impedirle jugar el balón obstaculizándole claramente la línea de visión. No hace falta tocar el balón para infringir la Regla 11.",
+      "ruleReference": "Regla 11.2",
+      "tags": ["fuera-de-juego", "interferir"]
+    },
+    {
+      "id": "f5-q23",
+      "moduleId": "f5",
+      "type": "true_false",
+      "difficulty": 4,
+      "question": "Un pase impreciso de un defensor que termina en los pies de un atacante adelantado deja de ser «juego voluntario» por ser impreciso.",
+      "correctAnswer": false,
+      "explanation": "La Regla 11 lo aclara expresamente: que el pase, el intento de recuperar la posesión o el despeje sea impreciso o no logre su objetivo no invalida la voluntariedad de la acción.",
+      "ruleReference": "Regla 11.2",
+      "tags": ["fuera-de-juego", "juego-deliberado"]
+    },
+    {
+      "id": "f5-q24",
+      "moduleId": "f5",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Un defensor desvía con la mano voluntariamente y el balón le queda a un atacante que estaba adelantado. Sin ser salvada, ¿qué corresponde?",
+      "options": [
+        "Fuera de juego",
+        "El juego continúa en cuanto al fuera de juego: la mano voluntaria cuenta como jugar voluntariamente",
+        "Balón a tierra",
+        "Libre indirecto para el atacante"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La excepción de la Regla 11.2 incluye expresamente la mano voluntaria, salvo que se trate de una salvada. La mano en sí se sanciona por la Regla 12, pero no hay fuera de juego.",
+      "ruleReference": "Regla 11.2",
+      "tags": ["fuera-de-juego", "mano"]
+    },
+    {
+      "id": "f5-q25",
+      "moduleId": "f5",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Un atacante recibe directamente un saque de banda estando claramente adelantado. ¿Qué corresponde?",
+      "options": [
+        "Fuera de juego",
+        "El juego continúa: no hay fuera de juego desde un saque de banda",
+        "Repetir el saque",
+        "Libre indirecto"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 11.3 excluye el saque de meta, el saque de banda y el saque de esquina. Directamente desde cualquiera de los tres no existe infracción de fuera de juego.",
+      "ruleReference": "Regla 11.3",
+      "tags": ["fuera-de-juego", "reanudaciones"]
+    },
+    {
+      "id": "f5-q26",
+      "moduleId": "f5",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Un torneo amateur de F7 juega sin fuera de juego. ¿Cómo se clasifica esa norma?",
+      "options": [
+        "Regla oficial de IFAB para formatos reducidos",
+        "Regla privada del torneo: la Regla 11 no figura entre los aspectos adaptables",
+        "Adaptación permitida por IFAB",
+        "Regla de competición avalada por la FIFA"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El fuera de juego no está en la lista de aspectos que una federación puede adaptar. Jugar sin él es perfectamente aplicable, pero es regla privada: lo incorrecto es presentarla como IFAB.",
+      "ruleReference": "Regla 11, Adaptación de las Reglas",
+      "tags": ["fuera-de-juego", "formatos-reducidos", "reglamento-privado"]
+    },
+    {
+      "id": "f5-q27",
+      "moduleId": "f5",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Las tres condiciones de la posición de fuera de juego deben darse…",
+      "options": [
+        "De a una, cualquiera basta",
+        "Todas a la vez",
+        "Dos de tres",
+        "Solo las dos primeras"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Estar en campo rival excluyendo la línea central, estar más cerca de la línea de meta que el balón y estarlo más que el penúltimo adversario son condiciones acumulativas. Si falla una, no hay posición de fuera de juego.",
+      "ruleReference": "Regla 11.1",
+      "tags": ["fuera-de-juego", "posicion"]
+    },
+    {
+      "id": "f5-q28",
+      "moduleId": "f5",
+      "type": "decision",
+      "difficulty": 4,
+      "question": "Un atacante adelantado disputa el balón a un defensor y le impide despejar. El balón queda para otro compañero, que remata fuera. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "indirect_free_kick",
+        "disciplinary": "none",
+        "restart": "place_of_offence"
+      },
+      "explanation": "Disputar el balón a un adversario es una de las formas de interferir listadas en la Regla 11.2, así que la infracción existe desde ese momento y no depende de lo que ocurra después. Libre indirecto donde se produjo, sin tarjeta.",
+      "ruleReference": "Regla 11.2, Regla 11.4",
+      "tags": ["fuera-de-juego", "decision", "interferir"]
+    },
+    {
+      "id": "f5-q29",
+      "moduleId": "f5",
+      "type": "true_false",
+      "difficulty": 2,
+      "question": "El fuera de juego se sanciona con tiro libre directo.",
+      "correctAnswer": false,
+      "explanation": "Siempre es indirecto, y se ejecuta en el lugar donde se produjo la infracción. Es una de las confusiones más comunes entre árbitros que arrancan.",
+      "ruleReference": "Regla 11.4",
+      "tags": ["fuera-de-juego", "sancion"]
+    },
+    {
+      "id": "f5-q30",
+      "moduleId": "f5",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "Dirigís F9 sin asistentes y se juega con fuera de juego completo. ¿Qué prioridad de ubicación conviene?",
+      "options": [
+        "Seguir siempre al balón lo más cerca posible",
+        "Quedar cerca de la línea del penúltimo defensor cuando el juego va a ir en profundidad",
+        "Ubicarse en el centro del campo",
+        "Seguir al delantero más peligroso"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sin asistentes, la referencia del penúltimo defensor tiene que estar en tu campo visual en las jugadas de profundidad, aunque eso te aleje del balón. Y si no viste la posición, no se cobra: no se inventa lo que no se observó.",
+      "ruleReference": "Regla 11, Regla 6",
+      "tags": ["fuera-de-juego", "posicionamiento", "amateur"]
+    }
+  ]
+}

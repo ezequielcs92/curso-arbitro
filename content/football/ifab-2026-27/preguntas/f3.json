@@ -1,0 +1,318 @@
+{
+  "moduleId": "f3",
+  "discipline": "football",
+  "rulesVersion": "IFAB 2026/27",
+  "questions": [
+    {
+      "id": "f3-q1",
+      "moduleId": "f3",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿A qué se aplica la ventaja según la Regla 5.3?",
+      "options": [
+        "Solo a las faltas",
+        "A las infracciones y también a las reanudaciones incorrectas",
+        "Solo a las infracciones sancionadas con tiro libre directo",
+        "Solo cuando hay una ocasión manifiesta de gol"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 5.3 habla de una infracción «o un equipo efectúa una reanudación incorrecta» con el balón en juego. Es la parte que casi nadie aplica: si un saque de banda se ejecuta mal y el rival se beneficia, se deja seguir.",
+      "ruleReference": "Regla 5.3",
+      "tags": ["ventaja"]
+    },
+    {
+      "id": "f3-q2",
+      "moduleId": "f3",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Diste ventaja y la situación ventajosa no se produce. ¿Qué corresponde?",
+      "options": [
+        "Se deja seguir igual, la ventaja ya fue dada",
+        "Se sanciona la infracción si no se produjo de manera inmediata o transcurridos unos pocos segundos",
+        "Se reanuda con balón a tierra",
+        "Se sanciona solo si el equipo perjudicado reclama"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 5.3 fija la ventana: se vuelve a la infracción si la ventaja no se produce de manera inmediata o transcurridos unos pocos segundos. No es una decisión irreversible en el instante de darla.",
+      "ruleReference": "Regla 5.3",
+      "tags": ["ventaja"]
+    },
+    {
+      "id": "f3-q3",
+      "moduleId": "f3",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Aplicaste ventaja sobre una falta que merecía amonestación. ¿Qué pasa con la tarjeta?",
+      "options": [
+        "Se pierde: al dar ventaja no se sanciona",
+        "Se muestra de inmediato, deteniendo el juego",
+        "Se muestra cuando el balón salga de juego",
+        "Se anota en el informe pero no se muestra"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La Regla 5.3 establece que las medidas disciplinarias no tienen que tomarse de inmediato, pero deben tomarse cuando el balón salga de juego. La ventaja afecta a la reanudación, no a la disciplina.",
+      "ruleReference": "Regla 5.3",
+      "tags": ["ventaja", "disciplina"]
+    },
+    {
+      "id": "f3-q4",
+      "moduleId": "f3",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Un jugador sufre una lesión leve. ¿Cuándo se detiene el juego?",
+      "options": [
+        "De inmediato",
+        "No se detiene: se continúa hasta que el balón salga de juego",
+        "Cuando lo pida el cuerpo técnico",
+        "A los treinta segundos"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ante lesión leve el juego continúa hasta que el balón salga de juego. Solo la lesión grave obliga a detener y permite trasladar al jugador fuera del terreno.",
+      "ruleReference": "Regla 5.3",
+      "tags": ["lesiones"]
+    },
+    {
+      "id": "f3-q5",
+      "moduleId": "f3",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "El juego se detuvo por la lesión de un jugador de campo, que fue atendido fuera. ¿Cuándo puede volver?",
+      "options": [
+        "En cuanto termine la atención",
+        "En la reanudación siguiente",
+        "Una vez transcurrido un minuto desde la reanudación",
+        "Al comenzar el período siguiente"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Los jugadores lesionados no pueden ser tratados dentro del terreno; si el juego se detuvo o retrasó por la lesión, deben salir y no pueden volver hasta que haya transcurrido un minuto desde la reanudación.",
+      "ruleReference": "Regla 5.3",
+      "tags": ["lesiones"]
+    },
+    {
+      "id": "f3-q6",
+      "moduleId": "f3",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿Cuál de estas NO es una excepción a la obligación de salir del terreno tras ser atendido?",
+      "options": [
+        "El lesionado es el guardameta",
+        "La lesión se produjo por una infracción por la que se amonestó o expulsó al adversario",
+        "El jugador lesionado va a lanzar el penal concedido",
+        "El jugador es el capitán del equipo"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Las excepciones son: lesión del guardameta; choque entre guardameta y jugador de campo que requieran atención; choque entre varios jugadores del mismo equipo; lesión grave; lesión por infracción sancionada con tarjeta al adversario; y penal concedido que va a lanzar el lesionado. Ser capitán no exime.",
+      "ruleReference": "Regla 5.3",
+      "tags": ["lesiones"]
+    },
+    {
+      "id": "f3-q7",
+      "moduleId": "f3",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Un jugador sangra. ¿Qué corresponde?",
+      "options": [
+        "Puede seguir si se limpia rápido",
+        "Sale del terreno y solo vuelve tras la señal del árbitro, comprobado que dejó de sangrar",
+        "Debe ser sustituido obligatoriamente",
+        "Puede seguir si el sangrado no mancha la camiseta"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El jugador que sangra sale del terreno y solo regresa tras la señal del árbitro, que debe comprobar que el sangrado se detuvo y que no queda sangre en el equipamiento.",
+      "ruleReference": "Regla 5.3",
+      "tags": ["lesiones", "seguridad"]
+    },
+    {
+      "id": "f3-q8",
+      "moduleId": "f3",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según la Regla 6, ¿quién toma la decisión definitiva?",
+      "options": [
+        "El asistente que estuvo mejor ubicado",
+        "El árbitro principal, siempre",
+        "El cuarto árbitro en caso de duda",
+        "Se decide por mayoría del equipo arbitral"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Todos los miembros ayudan a dirigir el partido, pero la Regla 6 reserva la decisión definitiva al árbitro principal. El asistente aporta información; no decide.",
+      "ruleReference": "Regla 6",
+      "tags": ["equipo-arbitral"]
+    },
+    {
+      "id": "f3-q9",
+      "moduleId": "f3",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Un asistente interfiere de manera indebida o tiene una conducta incorrecta. ¿Qué corresponde?",
+      "options": [
+        "Amonestarlo",
+        "Prescindir de sus servicios e informar a las autoridades competentes",
+        "Continuar y anotarlo en el acta",
+        "Cambiarlo de banda"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 6 lo dice expresamente: ante interferencia indebida o conducta incorrecta de un miembro del equipo arbitral, el árbitro prescinde de sus servicios e informa a las autoridades competentes.",
+      "ruleReference": "Regla 6",
+      "tags": ["equipo-arbitral", "disciplina"]
+    },
+    {
+      "id": "f3-q10",
+      "moduleId": "f3",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuáles de estos miembros del equipo arbitral actúan en el terreno de juego?",
+      "options": [
+        "Solo el árbitro y los dos asistentes",
+        "Árbitro, asistentes, cuarto árbitro, asistentes adicionales y asistente de reserva",
+        "Todos, incluidos el VAR y el AVAR",
+        "Árbitro y cuarto árbitro únicamente"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 6 separa a los miembros en el terreno —árbitro, asistentes, cuarto árbitro, asistentes adicionales y asistente de reserva— del equipo arbitral de vídeo, formado por el VAR y al menos un AVAR.",
+      "ruleReference": "Regla 6",
+      "tags": ["equipo-arbitral"]
+    },
+    {
+      "id": "f3-q11",
+      "moduleId": "f3",
+      "type": "true_false",
+      "difficulty": 2,
+      "question": "La Regla 6 exige que el equipo arbitral cuente con intercomunicadores.",
+      "correctAnswer": false,
+      "explanation": "La Regla 6 no exige intercomunicadores. Lo que exige es que el equipo funcione: los otros miembros ayudan a determinar faltas cuando tienen mejor ángulo, actúan bajo la dirección del árbitro y la decisión final es siempre suya.",
+      "ruleReference": "Regla 6",
+      "tags": ["equipo-arbitral", "amateur"]
+    },
+    {
+      "id": "f3-q12",
+      "moduleId": "f3",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "Las decisiones del árbitro se basan en su opinión, y tiene poder discrecional dentro del marco de las Reglas.",
+      "correctAnswer": true,
+      "explanation": "Es el texto de la Regla 5.2. El poder discrecional es real, pero está acotado por las Reglas y por el espíritu del fútbol; no habilita a decidir contra una disposición expresa.",
+      "ruleReference": "Regla 5.2",
+      "tags": ["criterio", "autoridad"]
+    },
+    {
+      "id": "f3-q13",
+      "moduleId": "f3",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Un asistente levanta la bandera por fuera de juego, pero desde tu posición viste con claridad que el pase lo tocó un defensor. ¿Qué corresponde?",
+      "options": [
+        "Aceptar la señal del asistente, que estaba mejor ubicado",
+        "Decidir vos: la decisión definitiva es del árbitro principal",
+        "Detener y consultar a los dos asistentes",
+        "Reanudar con balón a tierra"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 6 establece que los otros miembros ayudan y actúan bajo la dirección del árbitro, pero la decisión definitiva es siempre del árbitro principal. La señal del asistente es información, no una orden.",
+      "ruleReference": "Regla 6",
+      "tags": ["equipo-arbitral", "fuera-de-juego"]
+    },
+    {
+      "id": "f3-q14",
+      "moduleId": "f3",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Un equipo ejecuta mal un saque de banda y el rival roba el balón y sale de contra. ¿Qué corresponde?",
+      "options": [
+        "Repetir el saque de banda siempre",
+        "Se puede aplicar ventaja y dejar seguir",
+        "Conceder saque de banda al rival",
+        "Detener y reanudar con balón a tierra"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 5.3 extiende la ventaja a las reanudaciones incorrectas: si el adversario se beneficia tras la acción, se deja seguir. Solo se manda a repetir si la ventaja no se concreta.",
+      "ruleReference": "Regla 5.3",
+      "tags": ["ventaja", "reanudaciones"]
+    },
+    {
+      "id": "f3-q15",
+      "moduleId": "f3",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "Un jugador lesionado puede ser tratado dentro del terreno de juego si la atención es breve.",
+      "correctAnswer": false,
+      "explanation": "Las Reglas no admiten el tratamiento dentro del terreno. El jugador debe salir para ser atendido, con las excepciones tasadas —guardameta, choques, lesión grave, lesión por falta sancionada con tarjeta y penal que va a lanzar—.",
+      "ruleReference": "Regla 5.3",
+      "tags": ["lesiones"]
+    },
+    {
+      "id": "f3-q16",
+      "moduleId": "f3",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuántos árbitros asistentes adicionales contempla la Regla 6?",
+      "options": ["Uno", "Dos", "Tres", "Ninguno"],
+      "correctAnswer": 1,
+      "explanation": "La Regla 6 contempla dos árbitros asistentes, el cuarto árbitro, dos árbitros asistentes adicionales, el árbitro asistente de reserva, el VAR y al menos un AVAR.",
+      "ruleReference": "Regla 6",
+      "tags": ["equipo-arbitral"]
+    },
+    {
+      "id": "f3-q17",
+      "moduleId": "f3",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Se produce un choque entre el guardameta y un jugador de campo del mismo equipo, y ambos requieren atención. ¿Deben salir del terreno?",
+      "options": [
+        "Sí, los dos",
+        "No: el choque entre guardameta y jugador de campo que requieran atención es una excepción",
+        "Solo el jugador de campo",
+        "Solo si la atención dura más de un minuto"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Es una de las excepciones expresas a la obligación de salir, junto con la lesión del guardameta, el choque entre varios jugadores del mismo equipo, la lesión grave, la producida por una falta sancionada con tarjeta y el penal que va a lanzar el lesionado.",
+      "ruleReference": "Regla 5.3",
+      "tags": ["lesiones", "guardameta"]
+    },
+    {
+      "id": "f3-q18",
+      "moduleId": "f3",
+      "type": "true_false",
+      "difficulty": 2,
+      "question": "Los otros miembros del equipo arbitral actúan bajo la dirección del árbitro principal.",
+      "correctAnswer": true,
+      "explanation": "Así lo establece la Regla 6. Ayudan a determinar faltas e infracciones cuando tienen mejor ángulo de visión, pero siempre bajo la dirección del árbitro, que conserva la decisión final.",
+      "ruleReference": "Regla 6",
+      "tags": ["equipo-arbitral"]
+    },
+    {
+      "id": "f3-q19",
+      "moduleId": "f3",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "Dirigís solo, sin asistentes, en un torneo amateur. ¿Qué dice la Regla 6 al respecto?",
+      "options": [
+        "Prohíbe dirigir sin al menos un asistente",
+        "No exige un número mínimo: contempla designaciones posibles, y la autoridad y la decisión siguen siendo del árbitro",
+        "Obliga a reducir la duración del partido",
+        "Obliga a pedir dos colaboradores a los equipos"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 6 enumera los miembros que se pueden designar, no un mínimo obligatorio. Dirigir solo es habitual en amateur; lo que no cambia es que la autoridad y la decisión definitiva son del árbitro.",
+      "ruleReference": "Regla 6",
+      "tags": ["equipo-arbitral", "amateur"]
+    },
+    {
+      "id": "f3-q20",
+      "moduleId": "f3",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué decisiones declara irrevocables la Regla 5.2?",
+      "options": [
+        "Todas, sin excepción",
+        "Las relativas a hechos y acciones del encuentro, incluido dar por válido un gol y el resultado",
+        "Solo las disciplinarias",
+        "Solo las tomadas después del descanso"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La irrevocabilidad alcanza a los hechos y acciones sucedidos durante el encuentro, incluido dar por válido un gol y el resultado del partido. La excepción es rectificar mientras el juego no se haya reanudado.",
+      "ruleReference": "Regla 5.2",
+      "tags": ["decisiones", "irrevocable"]
+    }
+  ]
+}

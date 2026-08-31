@@ -1,0 +1,388 @@
+{
+  "moduleId": "f2",
+  "discipline": "football",
+  "rulesVersion": "IFAB 2026/27",
+  "questions": [
+    {
+      "id": "f2-q1",
+      "moduleId": "f2",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuáles son las medidas permitidas del terreno de juego en la Regla 1?",
+      "options": [
+        "Longitud 100 a 110 m, anchura 64 a 75 m",
+        "Longitud 90 a 120 m, anchura 45 a 90 m",
+        "Longitud 80 a 100 m, anchura 40 a 60 m",
+        "Las que fije cada federación"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 1 fija la línea de banda entre 90 y 120 m y la línea de meta entre 45 y 90 m. Las medidas de 100–110 por 64–75 son las de los partidos internacionales, un subconjunto más estrecho.",
+      "ruleReference": "Regla 1",
+      "tags": ["terreno", "medidas"]
+    },
+    {
+      "id": "f2-q2",
+      "moduleId": "f2",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Cuál es la distancia entre la parte interior de los postes y la altura del travesaño?",
+      "options": [
+        "7.32 m y 2.44 m",
+        "7.32 m y 2.50 m",
+        "8.00 m y 2.44 m",
+        "6.40 m y 2.14 m"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La Regla 1 fija 7.32 m entre el interior de los postes y 2.44 m desde el borde inferior del travesaño al suelo. Es la única medida de arco que las Reglas especifican.",
+      "ruleReference": "Regla 1",
+      "tags": ["terreno", "meta"]
+    },
+    {
+      "id": "f2-q3",
+      "moduleId": "f2",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿A qué distancia se marca el punto penal?",
+      "options": [
+        "9.15 m de la línea de meta",
+        "11 m, equidistante de los dos postes",
+        "12 m del centro de la línea de meta",
+        "16.5 m de la línea de meta"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 1 sitúa el punto penal a 11 m de la línea de meta, equidistante de los dos postes. Los 16.5 m son la línea del área penal y los 9.15 m el radio del círculo central y la distancia de barrera.",
+      "ruleReference": "Regla 1",
+      "tags": ["terreno", "penal"]
+    },
+    {
+      "id": "f2-q4",
+      "moduleId": "f2",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "El área de meta se traza con líneas perpendiculares a la línea de meta, a…",
+      "options": ["5.5 m de cada poste", "9.15 m de cada poste", "11 m de cada poste", "16.5 m de cada poste"],
+      "correctAnswer": 0,
+      "explanation": "El área de meta usa 5.5 m; el área penal, 16.5 m. Confundirlas cambia dónde se ejecuta un libre indirecto concedido dentro del área.",
+      "ruleReference": "Regla 1",
+      "tags": ["terreno", "areas"]
+    },
+    {
+      "id": "f2-q5",
+      "moduleId": "f2",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "Los postes de banderín de esquina son obligatorios.",
+      "correctAnswer": true,
+      "explanation": "La Regla 1 marca los postes de esquina como obligatorios; los del centro de la línea de banda son opcionales. En amateur suele faltar alguno, y conviene notarlo antes de empezar.",
+      "ruleReference": "Regla 1",
+      "tags": ["terreno", "previa"]
+    },
+    {
+      "id": "f2-q6",
+      "moduleId": "f2",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuál es la circunferencia reglamentaria del balón?",
+      "options": ["De 62 a 64 cm", "De 65 a 67 cm", "De 68 a 70 cm", "De 71 a 73 cm"],
+      "correctAnswer": 2,
+      "explanation": "La Regla 2 fija una circunferencia de 68 a 70 cm. Junto con el peso de 410 a 450 g y la presión de 0.6 a 1.1 atmósferas, son las tres características que definen un balón reglamentario.",
+      "ruleReference": "Regla 2",
+      "tags": ["balon"]
+    },
+    {
+      "id": "f2-q7",
+      "moduleId": "f2",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuánto debe pesar el balón al comienzo del partido?",
+      "options": ["De 350 a 390 g", "De 410 a 450 g", "De 450 a 500 g", "De 400 a 440 g"],
+      "correctAnswer": 1,
+      "explanation": "La Regla 2 exige entre 410 y 450 g al comienzo del partido. El matiz importa: el peso se verifica al empezar, no durante el juego.",
+      "ruleReference": "Regla 2",
+      "tags": ["balon"]
+    },
+    {
+      "id": "f2-q8",
+      "moduleId": "f2",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuál es la presión reglamentaria del balón?",
+      "options": [
+        "0.4 a 0.8 atmósferas",
+        "0.6 a 1.1 atmósferas",
+        "1.0 a 1.5 atmósferas",
+        "La que decidan los capitanes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 2 fija de 0.6 a 1.1 atmósferas, equivalente a 600–1100 g/cm². Es la característica que más se descuida en amateur y la más fácil de corregir antes de empezar.",
+      "ruleReference": "Regla 2",
+      "tags": ["balon", "previa"]
+    },
+    {
+      "id": "f2-q9",
+      "moduleId": "f2",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Cuántos jugadores como máximo tiene un equipo y cuál es el mínimo para jugar?",
+      "options": [
+        "Máximo 11, mínimo 8",
+        "Máximo 11, mínimo 7",
+        "Máximo 11, mínimo 6",
+        "Máximo 10 de campo más el guardameta, mínimo 7"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 3 fija un máximo de once jugadores, uno de los cuales es el guardameta, y establece que el partido no comenzará ni proseguirá si un equipo tiene menos de siete.",
+      "ruleReference": "Regla 3",
+      "tags": ["jugadores"]
+    },
+    {
+      "id": "f2-q10",
+      "moduleId": "f2",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Un equipo queda con seis jugadores porque dos abandonaron voluntariamente el terreno mientras el balón está en juego, y su rival ataca. ¿Qué corresponde?",
+      "options": [
+        "Detener el juego de inmediato y dar por terminado el partido",
+        "No estás obligado a detener el juego y podés dar ventaja, pero no se reanuda con menos de siete",
+        "Detener y reanudar con balón a tierra",
+        "Continuar el partido normalmente hasta el final"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 3 contempla justamente ese caso: si el equipo queda con menos de siete porque uno o varios abandonaron voluntariamente, el árbitro no está obligado a detener el juego y puede otorgar ventaja. Pero una vez que el balón no está en juego, no se reanuda sin siete.",
+      "ruleReference": "Regla 3",
+      "tags": ["jugadores", "ventaja"]
+    },
+    {
+      "id": "f2-q11",
+      "moduleId": "f2",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "En competiciones oficiales de FIFA, confederaciones o federaciones nacionales, ¿cuántos suplentes como máximo se pueden utilizar?",
+      "options": ["Tres", "Cinco", "Siete", "Ilimitados"],
+      "correctAnswer": 1,
+      "explanation": "La Regla 3 permite un máximo de cinco suplentes en competiciones oficiales. En fútbol juvenil el número lo determina la federación, y en juvenil, veteranos, discapacidad y base pueden autorizarse sustituciones ilimitadas.",
+      "ruleReference": "Regla 3",
+      "tags": ["sustituciones"]
+    },
+    {
+      "id": "f2-q12",
+      "moduleId": "f2",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "En las competiciones de máxima categoría que permiten cinco sustituciones, ¿cuántas oportunidades de sustitución tiene cada equipo?",
+      "options": [
+        "Cinco, una por cambio",
+        "Tres, además de las del descanso",
+        "Tres, incluido el descanso",
+        "Las que necesite"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 3 concede tres oportunidades de sustitución, y además permite sustituir durante el descanso sin gastar ninguna. Varios cambios en la misma detención cuentan como una sola oportunidad.",
+      "ruleReference": "Regla 3",
+      "tags": ["sustituciones"]
+    },
+    {
+      "id": "f2-q13",
+      "moduleId": "f2",
+      "type": "true_false",
+      "difficulty": 4,
+      "question": "Si los dos equipos hacen una sustitución en el mismo momento, se le resta una oportunidad a cada uno.",
+      "correctAnswer": true,
+      "explanation": "Así lo aclara la Regla 3. En cambio, si un mismo equipo hace varios cambios aprovechando una única detención, todos cuentan como una sola oportunidad.",
+      "ruleReference": "Regla 3",
+      "tags": ["sustituciones"]
+    },
+    {
+      "id": "f2-q14",
+      "moduleId": "f2",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuál es el equipamiento obligatorio de un jugador?",
+      "options": [
+        "Camiseta, pantalones cortos y calzado",
+        "Camiseta con mangas, pantalones cortos, medias, espinilleras y calzado de fútbol",
+        "Camiseta con mangas, pantalones, medias y calzado",
+        "Camiseta numerada, pantalones, medias, espinilleras, calzado y brazalete"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 4 enumera cinco prendas: camiseta con mangas, pantalones cortos, medias, espinilleras y calzado de fútbol. El brazalete es obligatorio solo para el capitán.",
+      "ruleReference": "Regla 4.2",
+      "tags": ["equipamiento"]
+    },
+    {
+      "id": "f2-q15",
+      "moduleId": "f2",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Sobre las espinilleras, la Regla 4 establece que…",
+      "options": [
+        "Las provee el organizador y deben ser homologadas",
+        "Deben quedar cubiertas por las medias, y el jugador es responsable de su tamaño y adecuación",
+        "Son opcionales en categorías amateur",
+        "Debe verificarlas el árbitro una por una y aprobarlas"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 4.2 pide un material adecuado y un tamaño apropiado que proteja de manera razonable, exige que queden cubiertas por las medias y responsabiliza al jugador del tamaño y la adecuación.",
+      "ruleReference": "Regla 4.2",
+      "tags": ["equipamiento", "espinilleras"]
+    },
+    {
+      "id": "f2-q16",
+      "moduleId": "f2",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Un jugador lleva una pulsera que considerás peligrosa y pretende cubrirla con cinta adhesiva. ¿Qué corresponde?",
+      "options": [
+        "Se acepta: cubrirla con cinta es suficiente",
+        "Debe quitársela: para los objetos peligrosos no basta con cubrirlos",
+        "Se acepta si la cinta es del mismo color que la camiseta",
+        "Se acepta solo si el rival no reclama"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 4.1 lo dice expresamente: los jugadores tienen la obligación de quitarse las prendas u objetos peligrosos, y no basta con cubrirlos con cinta adhesiva ni otros métodos. La cinta solo sirve para accesorios que no son peligrosos.",
+      "ruleReference": "Regla 4.1",
+      "tags": ["equipamiento", "seguridad", "accesorios"]
+    },
+    {
+      "id": "f2-q17",
+      "moduleId": "f2",
+      "type": "true_false",
+      "difficulty": 4,
+      "question": "En la edición 2026/27, las Reglas prohíben todo tipo de accesorio, sea peligroso o no.",
+      "correctAnswer": false,
+      "explanation": "La Regla 4.1 permite llevar accesorios siempre que no sean peligrosos y estén cubiertos de forma segura. Cuidado: futsal y fútbol playa mantienen la prohibición total, así que el criterio cambia según la disciplina que dirijas.",
+      "ruleReference": "Regla 4.1",
+      "tags": ["equipamiento", "accesorios"]
+    },
+    {
+      "id": "f2-q18",
+      "moduleId": "f2",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Un atacante pierde una bota y, antes de volver a calzarse, marca un gol. ¿Qué corresponde?",
+      "options": [
+        "El gol se anula por equipamiento incompleto",
+        "El gol es válido",
+        "El gol se anula y se reanuda con libre indirecto",
+        "El gol vale solo si perdió la bota en la misma jugada"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 4.2 es explícita: si antes de volver a calzarse el jugador juega el balón o marca un gol, el gol será válido. Debe recolocarse la bota lo antes posible, y no más tarde de que el balón vuelva a dejar de estar en juego.",
+      "ruleReference": "Regla 4.2",
+      "tags": ["equipamiento", "gol"]
+    },
+    {
+      "id": "f2-q19",
+      "moduleId": "f2",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Los dos guardametas se presentan con camisetas del mismo color y ninguno tiene repuesto. ¿Qué corresponde?",
+      "options": [
+        "No se puede jugar hasta conseguir otra camiseta",
+        "El árbitro autoriza que se juegue el partido",
+        "Juega con peto el guardameta local",
+        "Se suspende y se informa a la organización"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 4.3 resuelve el caso sin ambigüedad: si las camisetas de los dos guardametas son del mismo color y ninguno dispone de repuesto, el árbitro autorizará que se juegue el partido.",
+      "ruleReference": "Regla 4.3",
+      "tags": ["equipamiento", "colores"]
+    },
+    {
+      "id": "f2-q20",
+      "moduleId": "f2",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿De quién deben diferenciarse los colores de los dos equipos?",
+      "options": [
+        "Solo entre sí",
+        "Entre sí y del equipo arbitral",
+        "Entre sí y del público local",
+        "Solo del guardameta rival"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 4.3 exige que los dos equipos vistan colores que los diferencien entre sí y del equipo arbitral, y que los guardametas se diferencien de los demás jugadores y del equipo arbitral.",
+      "ruleReference": "Regla 4.3",
+      "tags": ["equipamiento", "colores"]
+    },
+    {
+      "id": "f2-q21",
+      "moduleId": "f2",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué exige la Regla 4 a las camisetas interiores?",
+      "options": [
+        "Deben ser siempre del color de los pantalones",
+        "Un único color igual al color principal de las mangas, o replicar de manera exacta las mangas",
+        "Deben ser siempre blancas",
+        "No están permitidas"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 4.3 admite dos posibilidades: un único color igual al color principal de las mangas de la camiseta, o estampadas o de varios colores siempre que repliquen de manera exacta las mangas.",
+      "ruleReference": "Regla 4.3",
+      "tags": ["equipamiento", "colores"]
+    },
+    {
+      "id": "f2-q22",
+      "moduleId": "f2",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Si se coloca cinta adhesiva en la parte exterior de las medias, ¿de qué color debe ser?",
+      "options": [
+        "Del color de la camiseta",
+        "Del mismo color que la parte de las medias sobre la que se usa o que cubre",
+        "Siempre negra",
+        "Puede ser de cualquier color"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 4.2 exige que la cinta o cualquier otro material colocado sobre la parte exterior de las medias sea del mismo color que la parte de la media que cubre.",
+      "ruleReference": "Regla 4.2",
+      "tags": ["equipamiento", "medias"]
+    },
+    {
+      "id": "f2-q23",
+      "moduleId": "f2",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué debe llevar el capitán del equipo?",
+      "options": [
+        "Nada en particular",
+        "El brazalete que decrete o autorice el organizador, o uno de un solo color",
+        "Un brazalete siempre negro con la letra C",
+        "Un distintivo en la manga izquierda"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 4.2 acepta el brazalete que decrete o autorice el organizador de la competición, o bien uno de un solo color que puede incorporar la palabra «capitán», la letra «C» o su traducción, también de un único color.",
+      "ruleReference": "Regla 4.2",
+      "tags": ["equipamiento", "capitan"]
+    },
+    {
+      "id": "f2-q24",
+      "moduleId": "f2",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "El reglamento de tu torneo de F7 fija una cancha de 55 × 35 m y arcos de 5 × 2 m. ¿Cómo se clasifica esa norma?",
+      "options": [
+        "Regla oficial de IFAB para F7",
+        "Adaptación permitida por IFAB, cuyo valor concreto lo fija la organización",
+        "Regla privada que contradice a IFAB",
+        "No está permitida por las Reglas"
+      ],
+      "correctAnswer": 1,
+      "explanation": "IFAB no fija ninguna medida para los formatos reducidos. Su sección «Adaptación de las Reglas» permite modificar dimensiones del terreno y distancia entre postes en fútbol juvenil, de veteranos, de personas con discapacidad y fútbol base, pero los valores concretos los pone cada organización.",
+      "ruleReference": "Adaptación de las Reglas, Regla 1",
+      "tags": ["formatos-reducidos", "reglamento-privado"]
+    },
+    {
+      "id": "f2-q25",
+      "moduleId": "f2",
+      "type": "true_false",
+      "difficulty": 4,
+      "question": "La sección «Adaptación de las Reglas» permite a una federación modificar la Regla 11, el fuera de juego.",
+      "correctAnswer": false,
+      "explanation": "El fuera de juego no figura en la lista de aspectos adaptables. Esa lista cubre dimensiones, balón, distancia entre postes, duración de las mitades, número de jugadores, sustituciones ilimitadas, exclusiones temporales y el brazalete de capitán. Jugar sin fuera de juego es regla privada, aunque sea habitual.",
+      "ruleReference": "Adaptación de las Reglas",
+      "tags": ["formatos-reducidos", "fuera-de-juego", "reglamento-privado"]
+    }
+  ]
+}

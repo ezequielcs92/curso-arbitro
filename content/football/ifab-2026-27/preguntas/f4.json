@@ -1,0 +1,313 @@
+{
+  "moduleId": "f4",
+  "discipline": "football",
+  "rulesVersion": "IFAB 2026/27",
+  "questions": [
+    {
+      "id": "f4-q1",
+      "moduleId": "f4",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿En qué condiciones se pueden reducir los períodos de 45 minutos?",
+      "options": [
+        "Cuando el árbitro lo considere necesario",
+        "Por acuerdo entre el árbitro y los dos equipos antes del comienzo, si el reglamento de la competición lo permite",
+        "Si hay poca luz natural",
+        "Nunca"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 7 admite la reducción solo por acuerdo del árbitro con los dos equipos, tomado antes del comienzo del partido y siempre que el reglamento de la competición lo permita. No se puede acordar a mitad de juego.",
+      "ruleReference": "Regla 7.1",
+      "tags": ["tiempo", "duracion"]
+    },
+    {
+      "id": "f4-q2",
+      "moduleId": "f4",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuál es la duración máxima del descanso del medio tiempo?",
+      "options": ["10 minutos", "12 minutos", "15 minutos", "20 minutos"],
+      "correctAnswer": 2,
+      "explanation": "La Regla 7.2 fija un máximo de 15 minutos. El reglamento de la competición debe estipular su duración, que solo puede modificarse con permiso del árbitro.",
+      "ruleReference": "Regla 7.2",
+      "tags": ["tiempo", "descanso"]
+    },
+    {
+      "id": "f4-q3",
+      "moduleId": "f4",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Tras el primer período del tiempo suplementario, ¿qué pausa se permite?",
+      "options": [
+        "Un descanso de 5 minutos",
+        "Una pausa breve para beber, no superior a un minuto",
+        "El mismo descanso de 15 minutos",
+        "Ninguna"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 7.2 permite una pausa breve para beber de no más de un minuto tras el primer período de la prórroga. No es un descanso: los equipos no abandonan el terreno.",
+      "ruleReference": "Regla 7.2",
+      "tags": ["tiempo", "prorroga"]
+    },
+    {
+      "id": "f4-q4",
+      "moduleId": "f4",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuál de estos motivos NO justifica prolongar un período para recuperar tiempo perdido?",
+      "options": [
+        "Sustituciones",
+        "Atención o retirada de jugadores lesionados",
+        "Que el equipo local vaya perdiendo",
+        "Pérdida deliberada de tiempo"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La Regla 7 enumera causas objetivas: sustituciones, atención o retirada de lesionados, pérdida deliberada de tiempo, sanciones disciplinarias y otras demoras. El marcador nunca es una de ellas.",
+      "ruleReference": "Regla 7.3",
+      "tags": ["tiempo", "anadido"]
+    },
+    {
+      "id": "f4-q5",
+      "moduleId": "f4",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Detenés el juego por un motivo no contemplado en las Reglas. ¿Cómo se reanuda?",
+      "options": [
+        "Tiro libre indirecto",
+        "Balón a tierra",
+        "Saque de banda para el último equipo en posesión",
+        "Saque de meta"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 8 reserva el balón a tierra para las detenciones por motivos que las Reglas no contemplan. Es la reanudación por defecto cuando nada más encaja.",
+      "ruleReference": "Regla 8.2",
+      "tags": ["reanudaciones", "balon-a-tierra"]
+    },
+    {
+      "id": "f4-q6",
+      "moduleId": "f4",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué elige el ganador del sorteo previo al saque inicial?",
+      "options": [
+        "Siempre ejecutar el saque inicial",
+        "Mitad de campo o ejecutar el saque inicial",
+        "El color de camiseta",
+        "El balón del partido"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 8.1 permite al ganador del sorteo elegir mitad de campo o ejecutar el saque inicial; el otro equipo toma la opción restante. El que eligió campo en el primer tiempo ejecuta el saque del segundo.",
+      "ruleReference": "Regla 8.1",
+      "tags": ["saque-inicial", "sorteo"]
+    },
+    {
+      "id": "f4-q7",
+      "moduleId": "f4",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "En el saque inicial, ¿a qué distancia deben estar los adversarios?",
+      "options": ["A 6 m", "A 9.15 m como mínimo", "A 11 m", "Fuera del círculo central, sin distancia fija"],
+      "correctAnswer": 1,
+      "explanation": "La Regla 8.1 exige que los adversarios estén al menos a 9.15 m del balón hasta que este entre en juego. Coincide con el radio del círculo central, que es la referencia visual.",
+      "ruleReference": "Regla 8.1",
+      "tags": ["saque-inicial"]
+    },
+    {
+      "id": "f4-q8",
+      "moduleId": "f4",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "Las infracciones cometidas con el balón fuera de juego afectan a la manera en que se reanuda.",
+      "correctAnswer": false,
+      "explanation": "La Regla 8 lo aclara: las infracciones cometidas con el balón fuera de juego no cambian la reanudación. Puede haber tarjeta, pero el juego se reanuda como correspondía.",
+      "ruleReference": "Regla 8.2",
+      "tags": ["reanudaciones", "disciplina"]
+    },
+    {
+      "id": "f4-q9",
+      "moduleId": "f4",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuándo está el balón fuera de juego por haber salido del terreno?",
+      "options": [
+        "Cuando la mitad del balón cruza la línea",
+        "Cuando ha atravesado completamente la línea, por el suelo o por el aire",
+        "Cuando toca el suelo fuera del terreno",
+        "Cuando el árbitro lo señala"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 9 exige que el balón atraviese completamente la línea de meta o de banda, por el suelo o por el aire. Si queda una porción sobre la línea, sigue en juego.",
+      "ruleReference": "Regla 9.1",
+      "tags": ["balon", "dentro-fuera"]
+    },
+    {
+      "id": "f4-q10",
+      "moduleId": "f4",
+      "type": "true_false",
+      "difficulty": 2,
+      "question": "Si el balón rebota en un poste y permanece en el terreno, sigue en juego.",
+      "correctAnswer": true,
+      "explanation": "La Regla 9 mantiene el balón en juego cuando rebota en un poste, el travesaño o el banderín de esquina y permanece dentro del terreno.",
+      "ruleReference": "Regla 9.2",
+      "tags": ["balon", "dentro-fuera"]
+    },
+    {
+      "id": "f4-q11",
+      "moduleId": "f4",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "El balón golpea al árbitro, permanece en el terreno y, tras el rebote, cambia el equipo en posesión. ¿Qué corresponde?",
+      "options": [
+        "El juego continúa",
+        "Se detiene y se reanuda con balón a tierra",
+        "Tiro libre indirecto para el equipo que perdió la posesión",
+        "Saque de banda"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 9 detiene el juego cuando el balón toca a un miembro del equipo arbitral, permanece en el terreno y además ocurre una de tres cosas: se inicia un ataque prometedor, el balón entra directamente en la portería, o cambia el equipo en posesión. Se reanuda con balón a tierra.",
+      "ruleReference": "Regla 9.1",
+      "tags": ["balon", "arbitro", "balon-a-tierra"]
+    },
+    {
+      "id": "f4-q12",
+      "moduleId": "f4",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "El balón golpea al árbitro en el mediocampo, sigue en poder del mismo equipo y no se genera nada. ¿Qué corresponde?",
+      "options": [
+        "Balón a tierra siempre que toque al árbitro",
+        "El juego continúa",
+        "Tiro libre indirecto",
+        "Saque de banda para el rival"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Solo se detiene si además ocurre una de las tres circunstancias tasadas: ataque prometedor, gol directo o cambio de posesión. En el resto de los casos el balón sigue en juego.",
+      "ruleReference": "Regla 9",
+      "tags": ["balon", "arbitro"]
+    },
+    {
+      "id": "f4-q13",
+      "moduleId": "f4",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué se necesita para que un gol sea válido?",
+      "options": [
+        "Que el balón cruce la línea entre los postes, aunque sea parcialmente",
+        "Que el balón atraviese completamente la línea entre los postes y bajo el travesaño, sin infracción previa del equipo que marcó",
+        "Que el árbitro lo señale",
+        "Que ningún jugador reclame"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 10 exige que el balón atraviese completamente la línea de meta, entre los postes y por debajo del travesaño, siempre que el equipo que marcó no haya cometido antes una falta o infracción.",
+      "ruleReference": "Regla 10.1",
+      "tags": ["gol"]
+    },
+    {
+      "id": "f4-q14",
+      "moduleId": "f4",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "El guardameta lanza el balón con la mano y entra directamente en la portería contraria. ¿Qué corresponde?",
+      "options": [
+        "Gol válido",
+        "Saque de meta",
+        "Saque de esquina",
+        "Tiro libre indirecto"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 10 lo resuelve expresamente: si el guardameta lanza el balón con la mano y entra directamente en la portería contraria, se concede saque de meta. No es gol.",
+      "ruleReference": "Regla 10.1",
+      "tags": ["gol", "guardameta"]
+    },
+    {
+      "id": "f4-q15",
+      "moduleId": "f4",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Señalaste gol, pero el balón no había traspasado completamente la línea. ¿Cómo se reanuda?",
+      "options": [
+        "Saque de meta",
+        "Balón a tierra",
+        "Saque de esquina",
+        "Tiro libre indirecto para la defensa"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 10 prevé el caso: si el árbitro señaló gol antes de que el balón traspasara completamente la línea, el juego se reanuda con balón a tierra.",
+      "ruleReference": "Regla 10.1",
+      "tags": ["gol", "balon-a-tierra"]
+    },
+    {
+      "id": "f4-q16",
+      "moduleId": "f4",
+      "type": "true_false",
+      "difficulty": 2,
+      "question": "Si los dos equipos marcan la misma cantidad de goles o ninguno, el partido termina en empate.",
+      "correctAnswer": true,
+      "explanation": "Es la regla general de la Regla 10.2. Solo si el reglamento de la competición exige declarar un ganador se recurre a los procedimientos de desempate permitidos.",
+      "ruleReference": "Regla 10.2",
+      "tags": ["resultado"]
+    },
+    {
+      "id": "f4-q17",
+      "moduleId": "f4",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Tras un gol, ¿qué equipo ejecuta el saque de salida?",
+      "options": [
+        "El que marcó",
+        "El que recibió el gol",
+        "El que ganó el sorteo inicial",
+        "El local"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 8.1 devuelve el saque al equipo que recibió el gol. Es la misma lógica del saque inicial de cada período: quien no eligió, saca.",
+      "ruleReference": "Regla 8.1",
+      "tags": ["saque-inicial", "gol"]
+    },
+    {
+      "id": "f4-q18",
+      "moduleId": "f4",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "En el saque inicial, ¿dónde deben estar los jugadores?",
+      "options": [
+        "Todos en su propia mitad, salvo el ejecutor",
+        "Todos fuera del círculo central",
+        "Solo los adversarios en su mitad",
+        "Donde quieran, mientras respeten los 9.15 m"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La Regla 8.1 exige que todos los jugadores, salvo el ejecutor, estén en su propia mitad de campo, con los adversarios además a 9.15 m como mínimo hasta que el balón entre en juego.",
+      "ruleReference": "Regla 8.1",
+      "tags": ["saque-inicial"]
+    },
+    {
+      "id": "f4-q19",
+      "moduleId": "f4",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "El balón del saque inicial se puede golpear apenas está colocado en el punto central.",
+      "correctAnswer": false,
+      "explanation": "El balón se coloca en el punto central y no se golpea hasta la señal del árbitro. Ejecutar antes obliga a repetir el saque.",
+      "ruleReference": "Regla 8.1",
+      "tags": ["saque-inicial"]
+    },
+    {
+      "id": "f4-q20",
+      "moduleId": "f4",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "El reglamento de tu torneo exige un ganador. ¿Qué procedimientos de desempate permite la Regla 10?",
+      "options": [
+        "Cualquiera que fije la organización",
+        "Goles fuera de casa, prórroga y tiros desde el punto penal",
+        "Solo los tiros desde el punto penal",
+        "Sorteo con moneda si persiste el empate"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 10.3 limita el desempate a la regla de goles fuera de casa, la prórroga y los tiros desde el punto penal. Cualquier otro mecanismo queda fuera de lo que las Reglas autorizan.",
+      "ruleReference": "Regla 10.3",
+      "tags": ["resultado", "desempate"]
+    }
+  ]
+}
