@@ -84,10 +84,35 @@ npm run typecheck
 Los iconos de la PWA se regeneran con `python scripts/make_icons.py`, que
 escribe los PNG sin dependencias externas.
 
+## Bancos de preguntas
+
+**480 preguntas**, escritas contra los mismos reglamentos que las lecciones y
+guardadas junto a ellas, en `content/<disciplina>/<version>/preguntas/`.
+
+| Curso | Preguntas |
+| --- | ---: |
+| Fútbol | 220 |
+| Futsal | 140 |
+| Fútbol playa | 120 |
+
+Cada pregunta lleva su referencia reglamentaria y una explicación: una pregunta
+sin explicación no enseña nada. Hay tres tipos: opción múltiple, verdadero o
+falso, y **decisión completa de partido**, que se puntúa por componentes
+—si hay infracción, decisión técnica, disciplinaria y reanudación— para que
+acertar la falta y errar la reanudación no valga lo mismo que errar todo.
+
+```bash
+python scripts/check_questions.py
+```
+
+Valida identificadores únicos, que la respuesta apunte a una opción existente,
+que toda pregunta tenga explicación y referencia, y que las decisiones traigan
+sus cuatro componentes.
+
 ## Lo que falta
 
-1. Los tres bancos de preguntas (480 en total).
-2. Despliegue en Vercel.
+1. Conectar los bancos a la aplicación: hoy son datos, y todavía no hay una
+   interfaz para responderlos.
 
 ## Mapa del repositorio
 
