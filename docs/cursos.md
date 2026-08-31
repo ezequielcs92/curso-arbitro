@@ -95,6 +95,38 @@ variaciones de formato se tratan como reglas de competición o privadas.
 
 Es el curso de entrada por defecto y el más extenso.
 
+#### Fichas de formato
+
+Los formatos reducidos no tienen módulos propios, porque no son deportes
+distintos. Pero sí tienen una **ficha de consulta previa al partido**, en
+`content/football/ifab-2026-27/formatos/`:
+
+| Ficha | Su problema propio |
+|---|---|
+| `f5.md` | El nombre más ambiguo: puede ser fútbol, futsal o un complejo con paredes que ningún reglamento cubre. |
+| `f7.md` | El formato formativo más extendido. La trampa es la línea de fuera de juego reducida. |
+| `f8.md` | El menos codificado. El problema no es qué cambia, sino qué hacer cuando el reglamento no dice nada. |
+| `f9.md` | El más parecido a F11. Se juega con fuera de juego y casi siempre sin asistentes. |
+
+Las cuatro comparten estructura: lo que no cambia nunca, una tabla de lo
+adaptable contrastada contra F11, lo que el torneo cambia sin permiso de IFAB
+—que es regla privada—, cinco preguntas para la reunión previa, las trampas del
+formato y un bloque en blanco para completar.
+
+**El dato que las justifica:** IFAB no fija **ningún** valor para F5, F7, F8 ni
+F9. Su sección *Adaptación de las Reglas* solo enumera qué aspectos
+organizativos puede modificar una federación —dimensiones, balón, arco,
+duración, número de jugadores, sustituciones, exclusiones temporales— en fútbol
+juvenil, de veteranos, de personas con discapacidad y fútbol base. Los valores
+concretos los pone cada organización. Por eso las fichas dejan casilleros
+vacíos: llenarlos con una cifra inventada sería exactamente el error que el
+`AGENTS.md` prohíbe.
+
+Y el corolario que aparece en las cuatro: **el fuera de juego no está en esa
+lista.** Jugar sin él, o con una línea reducida, es regla privada aunque lo
+aplique una federación. Tampoco son adaptables los 9.15 m de la barrera ni los
+8 segundos del guardameta.
+
 ### Módulo F1 — El trabajo del árbitro
 No crítico · 80 %
 

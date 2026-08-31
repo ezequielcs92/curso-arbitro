@@ -1,0 +1,35 @@
+{
+  "discipline": "football",
+  "rulesVersion": "IFAB 2026/27",
+  "note": "Fichas de consulta previa al partido. No son lecciones: no cuentan para el avance del curso ni tienen mini test. IFAB no fija ningún valor para los formatos reducidos, así que las fichas contrastan contra F11 y dejan en blanco lo que define cada torneo.",
+  "sheets": [
+    {
+      "id": "formato-f5",
+      "format": "F5",
+      "title": "Fútbol 5",
+      "contentPath": "content/football/ifab-2026-27/formatos/f5.md",
+      "summary": "El nombre más ambiguo: puede ser fútbol, futsal o un complejo con paredes que no cubre ningún reglamento."
+    },
+    {
+      "id": "formato-f7",
+      "format": "F7",
+      "title": "Fútbol 7",
+      "contentPath": "content/football/ifab-2026-27/formatos/f7.md",
+      "summary": "El formato formativo más extendido. La trampa es la línea de fuera de juego reducida."
+    },
+    {
+      "id": "formato-f8",
+      "format": "F8",
+      "title": "Fútbol 8",
+      "contentPath": "content/football/ifab-2026-27/formatos/f8.md",
+      "summary": "El menos codificado. El problema no es qué cambia, sino qué hacer cuando el reglamento no dice nada."
+    },
+    {
+      "id": "formato-f9",
+      "format": "F9",
+      "title": "Fútbol 9",
+      "contentPath": "content/football/ifab-2026-27/formatos/f9.md",
+      "summary": "El más parecido a F11. Se juega con fuera de juego y casi siempre sin asistentes."
+    }
+  ]
+}

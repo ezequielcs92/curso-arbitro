@@ -85,6 +85,25 @@ export const FORMATS_BY_DISCIPLINE: Record<Discipline, MatchFormat[]> = {
   beach_soccer: ['BEACH'],
 }
 
+/**
+ * A pre-match reference sheet for one reduced football format.
+ *
+ * These are not lessons: they carry no mini test and do not count towards
+ * course progress. They exist because IFAB fixes no value whatsoever for F5,
+ * F7, F8 or F9 — the Laws only list which organisational aspects a national
+ * association may adapt. So a sheet contrasts the format against F11, the one
+ * format the Laws do specify, and leaves the rest blank for the referee to
+ * fill in from the tournament's own rulebook.
+ */
+export type FormatSheet = {
+  id: string
+  format: MatchFormat
+  title: string
+  /** Path to the Markdown file holding the sheet. */
+  contentPath: string
+  summary: string
+}
+
 // ---------------------------------------------------------------------------
 // Course structure
 // ---------------------------------------------------------------------------

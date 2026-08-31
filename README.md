@@ -27,6 +27,18 @@ comunes y un mini test con respuestas desplegables.
 python scripts/progress.py
 ```
 
+## Fichas de formato
+
+F5 a F11 son el mismo deporte bajo las mismas Reglas, así que comparten el
+curso de fútbol. Lo que cambia por formato vive en cuatro fichas de consulta
+previa al partido, en `content/football/ifab-2026-27/formatos/`: **F5, F7, F8 y
+F9**.
+
+IFAB no fija ninguna medida para los formatos reducidos —solo enumera qué puede
+adaptar cada federación—, así que las fichas contrastan contra F11, que es el
+único formato que las Reglas sí especifican, y dejan en blanco lo que define cada
+torneo.
+
 ## Lo que falta
 
 1. Los tres bancos de preguntas (480 en total).
