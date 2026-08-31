@@ -1,0 +1,42 @@
+{
+  "name": "Árbitro Amateur",
+  "short_name": "Árbitro",
+  "description": "Curso de arbitraje amateur para fútbol, futsal y fútbol playa, escrito contra los reglamentos oficiales de IFAB y FIFA.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#fbfbfc",
+  "theme_color": "#0b5941",
+  "lang": "es",
+  "dir": "ltr",
+  "categories": ["education", "sports"],
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Fichas de formato",
+      "short_name": "Fichas",
+      "description": "Consulta previa al partido para F5, F7, F8 y F9",
+      "url": "/formatos"
+    }
+  ]
+}

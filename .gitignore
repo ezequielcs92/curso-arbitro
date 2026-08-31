@@ -24,3 +24,6 @@ docs/*.pdf
 # Texto extraído de los reglamentos: derivado con copyright, se regenera
 # con scripts/extract_rulebooks.py
 docs/text/
+
+# Cache incremental de TypeScript
+*.tsbuildinfo

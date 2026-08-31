@@ -10,8 +10,9 @@ de decisiones de cancha.
 
 ## Estado
 
-**Contenido completo.** Las 174 lecciones de los tres cursos están escritas
-contra los reglamentos oficiales. Todavía no hay aplicación.
+**Contenido completo y aplicación en pie.** Las 174 lecciones de los tres
+cursos están escritas contra los reglamentos oficiales, y la aplicación las
+sirve como PWA.
 
 | Curso | Módulos | Lecciones | Escritas |
 | --- | ---: | ---: | ---: |
@@ -39,11 +40,54 @@ adaptar cada federación—, así que las fichas contrastan contra F11, que es e
 único formato que las Reglas sí especifican, y dejan en blanco lo que define cada
 torneo.
 
+## La aplicación
+
+Next.js 16 (App Router) + TypeScript + Tailwind 4. El contenido son los mismos
+archivos Markdown del repositorio, leídos en tiempo de compilación: **las 186
+páginas quedan prerenderizadas**, sin base de datos ni servidor de aplicación.
+
+```bash
+npm install
+npm run dev
+```
+
+| Ruta | Qué hay |
+| --- | --- |
+| `/` | Los tres cursos y las fichas |
+| `/curso/[slug]` | Portada del curso, con sus módulos |
+| `/curso/[slug]/[lessonId]` | La lección, con índice y navegación |
+| `/formatos`, `/formatos/[format]` | Las fichas de F5, F7, F8 y F9 |
+
+Detalles que importan:
+
+- **Es PWA y funciona sin conexión.** Lo que se abrió una vez queda disponible
+  al costado de una cancha sin señal, que es donde se usa.
+- **El avance se guarda en el navegador**, en `localStorage`. Todavía no hay
+  cuentas ni servidor: el único estado propio es qué lecciones se leyeron.
+- **Tema claro y oscuro**, aplicado antes del primer pintado para que no
+  parpadee.
+- **Las opciones del mini test se reescriben al renderizar.** En el Markdown son
+  cuatro líneas seguidas, que sin ese paso quedarían corridas en un solo párrafo.
+
+### Compilación en Windows
+
+Los scripts usan `--webpack`. El binario nativo de SWC está bloqueado por el
+Control de aplicaciones de Windows en la máquina de desarrollo, y Turbopack lo
+exige; con webpack, además, lo que se verifica local es idéntico a lo que
+despliega Vercel.
+
+```bash
+npm run build
+npm run typecheck
+```
+
+Los iconos de la PWA se regeneran con `python scripts/make_icons.py`, que
+escribe los PNG sin dependencias externas.
+
 ## Lo que falta
 
 1. Los tres bancos de preguntas (480 en total).
-2. La aplicación Next.js.
-3. Despliegue.
+2. Despliegue en Vercel.
 
 ## Mapa del repositorio
 

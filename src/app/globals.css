@@ -1,0 +1,528 @@
+@import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ---------------------------------------------------------------------------
+   Tokens
+
+   Un solo acento de marca, verde profundo y desaturado. Cada disciplina tiene
+   su color, pero se usa en dosis chicas —un punto, una línea, una etiqueta—,
+   nunca como fondo grande: el contenido es texto largo y el color compite.
+   --------------------------------------------------------------------------- */
+
+@theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-serif), Georgia, 'Times New Roman', serif;
+  --font-mono: var(--font-mono), ui-monospace, 'SFMono-Regular', monospace;
+
+  --color-ink: #16191d;
+  --color-ink-muted: #5b6270;
+  --color-ink-subtle: #858d9b;
+
+  --color-canvas: #fbfbfc;
+  --color-surface: #ffffff;
+  --color-surface-2: #f6f7f9;
+  --color-surface-3: #eef0f3;
+
+  --color-line: #e5e7eb;
+  --color-line-strong: #d2d6dd;
+
+  --color-brand: #0f7355;
+  --color-brand-strong: #0b5941;
+  --color-brand-soft: #e7f4ef;
+
+  --color-football: #0f7355;
+  --color-futsal: #4f46e5;
+  --color-beach: #b45309;
+
+  --color-danger: #b42318;
+  --color-warn: #b45309;
+
+  --radius-card: 14px;
+
+  --shadow-subtle: 0 1px 2px rgb(16 24 40 / 0.04), 0 1px 3px rgb(16 24 40 / 0.06);
+  --shadow-card: 0 1px 2px rgb(16 24 40 / 0.04), 0 8px 24px -12px rgb(16 24 40 / 0.14);
+  --shadow-lift: 0 2px 4px rgb(16 24 40 / 0.04), 0 16px 40px -16px rgb(16 24 40 / 0.22);
+}
+
+.dark {
+  --color-ink: #e9ebee;
+  --color-ink-muted: #98a1ae;
+  --color-ink-subtle: #6b7482;
+
+  --color-canvas: #0a0c0f;
+  --color-surface: #101317;
+  --color-surface-2: #161a1f;
+  --color-surface-3: #1d2228;
+
+  --color-line: #232830;
+  --color-line-strong: #333a44;
+
+  --color-brand: #3fbf8f;
+  --color-brand-strong: #63d3a8;
+  --color-brand-soft: #0f2a22;
+
+  --color-football: #3fbf8f;
+  --color-futsal: #8b85f5;
+  --color-beach: #e0a04a;
+
+  --color-danger: #f97066;
+  --color-warn: #e0a04a;
+
+  --shadow-subtle: 0 1px 2px rgb(0 0 0 / 0.3);
+  --shadow-card: 0 1px 2px rgb(0 0 0 / 0.3), 0 8px 24px -12px rgb(0 0 0 / 0.5);
+  --shadow-lift: 0 2px 4px rgb(0 0 0 / 0.3), 0 16px 40px -16px rgb(0 0 0 / 0.6);
+}
+
+/* ---------------------------------------------------------------------------
+   Base
+   --------------------------------------------------------------------------- */
+
+@layer base {
+  * {
+    border-color: var(--color-line);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    /* El header pegajoso no debe tapar el destino de un ancla. */
+    scroll-padding-top: 5.5rem;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+
+  body {
+    background-color: var(--color-canvas);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background-color: color-mix(in oklab, var(--color-brand) 22%, transparent);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-brand);
+    outline-offset: 2px;
+    border-radius: 3px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    letter-spacing: -0.018em;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   Utilidades chicas
+   --------------------------------------------------------------------------- */
+
+@utility hairline {
+  border-bottom: 1px solid var(--color-line);
+}
+
+.accent-football {
+  --accent: var(--color-football);
+}
+.accent-futsal {
+  --accent: var(--color-futsal);
+}
+.accent-beach {
+  --accent: var(--color-beach);
+}
+
+/* Barra de avance de lectura, en el borde superior de la ventana. */
+.reading-bar {
+  transform-origin: 0 50%;
+  transition: transform 90ms linear;
+}
+
+/* ---------------------------------------------------------------------------
+   Prosa de las lecciones
+
+   Escrita a mano en vez de usar el plugin de tipografía: el contenido tiene
+   una forma muy definida —cita de la Ley, tablas, bloques <details> del mini
+   test— y conviene controlarla al detalle.
+   --------------------------------------------------------------------------- */
+
+.prose {
+  font-family: var(--font-serif);
+  font-size: 1.0625rem;
+  line-height: 1.75;
+  color: var(--color-ink);
+}
+
+@media (min-width: 768px) {
+  .prose {
+    font-size: 1.125rem;
+    line-height: 1.78;
+  }
+}
+
+.prose > * + * {
+  margin-top: 1.15em;
+}
+
+/* Encabezados: van en la tipografía de interfaz, para contrastar con la
+   serif del cuerpo y marcar la estructura de un vistazo. */
+.prose h2 {
+  font-family: var(--font-sans);
+  font-size: 1.0625rem;
+  font-weight: 650;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--color-ink-muted);
+  margin-top: 2.75em;
+  padding-top: 1.35em;
+  border-top: 1px solid var(--color-line);
+  scroll-margin-top: 6rem;
+}
+
+.prose h2:first-child {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: 0;
+}
+
+.prose h3 {
+  font-family: var(--font-sans);
+  font-size: 1.125rem;
+  font-weight: 640;
+  letter-spacing: -0.011em;
+  margin-top: 2em;
+  scroll-margin-top: 6rem;
+}
+
+.prose h4 {
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  font-weight: 640;
+  margin-top: 1.6em;
+}
+
+.prose strong {
+  font-weight: 660;
+  color: var(--color-ink);
+}
+
+.prose a {
+  color: var(--color-brand);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  text-decoration-color: color-mix(in oklab, var(--color-brand) 40%, transparent);
+  transition: text-decoration-color 120ms ease;
+}
+
+.prose a:hover {
+  text-decoration-color: var(--color-brand);
+}
+
+/* La cita del reglamento. Es la voz de la fuente oficial y tiene que leerse
+   distinta del texto del curso. */
+.prose blockquote {
+  font-family: var(--font-sans);
+  font-size: 0.975rem;
+  line-height: 1.65;
+  border-left: 2px solid var(--accent, var(--color-brand));
+  background: var(--color-surface-2);
+  border-radius: 0 10px 10px 0;
+  padding: 1rem 1.15rem;
+  color: var(--color-ink);
+}
+
+.prose blockquote > * + * {
+  margin-top: 0.6em;
+}
+
+.prose blockquote p:last-child em,
+.prose blockquote p:last-child strong em {
+  color: var(--color-ink-subtle);
+}
+
+.prose ul,
+.prose ol {
+  padding-left: 1.35em;
+}
+
+.prose ul {
+  list-style: none;
+  padding-left: 1.15em;
+}
+
+.prose ul > li {
+  position: relative;
+  padding-left: 0.35em;
+}
+
+.prose ul > li::before {
+  content: '';
+  position: absolute;
+  left: -0.85em;
+  top: 0.72em;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--color-line-strong);
+}
+
+.prose ol {
+  list-style: decimal;
+}
+
+.prose ol > li::marker {
+  color: var(--color-ink-subtle);
+  font-family: var(--font-sans);
+  font-size: 0.9em;
+  font-weight: 600;
+}
+
+.prose li + li {
+  margin-top: 0.4em;
+}
+
+.prose li > ul,
+.prose li > ol {
+  margin-top: 0.4em;
+}
+
+/* Tablas: las fichas de formato son casi todas tabla, así que tienen que
+   verse impecables y poder desplazarse solas en pantalla chica. */
+.prose .table-scroll {
+  overflow-x: auto;
+  margin-top: 1.5em;
+  border: 1px solid var(--color-line);
+  border-radius: 12px;
+  background: var(--color-surface);
+}
+
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.prose thead {
+  background: var(--color-surface-2);
+}
+
+.prose th {
+  text-align: left;
+  font-weight: 620;
+  font-size: 0.78rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-ink-muted);
+  padding: 0.7rem 0.9rem;
+  white-space: nowrap;
+  border-bottom: 1px solid var(--color-line);
+}
+
+.prose td {
+  padding: 0.72rem 0.9rem;
+  vertical-align: top;
+  border-top: 1px solid var(--color-line);
+}
+
+.prose tbody tr:first-child td {
+  border-top: 0;
+}
+
+.prose code {
+  font-family: var(--font-mono);
+  font-size: 0.855em;
+  background: var(--color-surface-3);
+  padding: 0.15em 0.4em;
+  border-radius: 5px;
+  white-space: nowrap;
+}
+
+/* Los bloques para completar antes del partido, en las fichas de formato. */
+.prose pre {
+  font-family: var(--font-mono);
+  font-size: 0.83rem;
+  line-height: 1.7;
+  background: var(--color-surface-2);
+  border: 1px solid var(--color-line);
+  border-radius: 12px;
+  padding: 1.1rem 1.2rem;
+  overflow-x: auto;
+  margin-top: 1.5em;
+}
+
+.prose pre code {
+  background: none;
+  padding: 0;
+  font-size: inherit;
+  white-space: pre;
+}
+
+.prose hr {
+  border: 0;
+  border-top: 1px solid var(--color-line);
+  margin: 2.5em 0;
+}
+
+/* --- Mini test -------------------------------------------------------------
+   Cada respuesta es un <details> escrito a mano en el Markdown. Se presenta
+   como una tarjeta para revelar, no como un desplegable del navegador. */
+
+.prose details {
+  font-family: var(--font-sans);
+  font-size: 0.94rem;
+  border: 1px solid var(--color-line);
+  border-radius: 10px;
+  background: var(--color-surface);
+  overflow: hidden;
+  margin-top: 0.85em;
+  transition: border-color 140ms ease, box-shadow 140ms ease;
+}
+
+.prose details[open] {
+  border-color: color-mix(in oklab, var(--color-brand) 35%, var(--color-line));
+  box-shadow: var(--shadow-subtle);
+}
+
+.prose summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 0.7rem 0.95rem;
+  font-weight: 600;
+  font-size: 0.86rem;
+  letter-spacing: 0.01em;
+  color: var(--color-brand);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  user-select: none;
+  transition: background-color 120ms ease;
+}
+
+.prose summary::-webkit-details-marker {
+  display: none;
+}
+
+.prose summary:hover {
+  background: var(--color-surface-2);
+}
+
+.prose summary::before {
+  content: '';
+  width: 0.52rem;
+  height: 0.52rem;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  transform: rotate(-45deg) translate(1px, -1px);
+  transition: transform 160ms ease;
+  flex: none;
+}
+
+.prose details[open] summary::before {
+  transform: rotate(45deg) translate(-1px, -1px);
+}
+
+.prose details > *:not(summary) {
+  padding-inline: 0.95rem;
+  margin-top: 0;
+}
+
+.prose details > *:not(summary):first-of-type {
+  padding-top: 0.15rem;
+}
+
+.prose details > *:last-child {
+  padding-bottom: 0.9rem;
+}
+
+.prose details p + p {
+  margin-top: 0.6em;
+}
+
+/* Las preguntas del mini test son párrafos en negrita seguidos de las
+   opciones; se les da un poco de aire para separarlas entre sí. */
+.prose h2#mini-test ~ p > strong:first-child {
+  display: inline-block;
+  margin-top: 0.35em;
+}
+
+/* --- Opciones del mini test ------------------------------------------------
+   Se generan en `wrapQuizOptions`: en el Markdown son cuatro líneas seguidas,
+   que sin este paso Markdown uniría en un solo párrafo corrido. */
+
+.prose ol.options {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0.9em;
+  display: grid;
+  gap: 0.35rem;
+  font-family: var(--font-sans);
+  font-size: 0.92rem;
+}
+
+.prose ol.options li {
+  display: flex;
+  align-items: baseline;
+  gap: 0.7rem;
+  margin: 0;
+  padding: 0.55rem 0.8rem;
+  border: 1px solid var(--color-line);
+  border-radius: 9px;
+  background: var(--color-surface);
+  line-height: 1.5;
+  transition: border-color 140ms ease, background-color 140ms ease;
+}
+
+.prose ol.options li:hover {
+  border-color: var(--color-line-strong);
+  background: var(--color-surface-2);
+}
+
+.prose ol.options li::before {
+  content: none;
+}
+
+.prose .opt-letter {
+  flex: none;
+  width: 1.35rem;
+  height: 1.35rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background: var(--color-surface-3);
+  color: var(--color-ink-muted);
+  font-size: 0.72rem;
+  font-weight: 660;
+  letter-spacing: 0.01em;
+  align-self: flex-start;
+  margin-top: 0.05rem;
+}
+
+.prose .opt-text {
+  min-width: 0;
+}
