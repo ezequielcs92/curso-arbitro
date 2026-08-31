@@ -1,0 +1,217 @@
+{
+  "moduleId": "p4",
+  "discipline": "beach_soccer",
+  "rulesVersion": "FIFA Beach Soccer 2025-26",
+  "questions": [
+    {
+      "id": "p4-q1",
+      "moduleId": "p4",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuánto dura el descanso entre períodos?",
+      "options": ["Un minuto", "No más de tres minutos", "Cinco minutos", "Quince minutos"],
+      "correctAnswer": 1,
+      "explanation": "Los jugadores tienen derecho a un descanso que no exceda los tres minutos entre períodos. El reglamento de la competición debe indicar su duración, que solo puede alterarse con permiso de los árbitros.",
+      "ruleReference": "Ley 7",
+      "tags": ["tiempo", "descanso"]
+    },
+    {
+      "id": "p4-q2",
+      "moduleId": "p4",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué ocurre entre el final del tercer período y el comienzo de la prórroga?",
+      "options": [
+        "Un descanso de tres minutos",
+        "No hay intervalo, aunque se permite una pausa breve para beber de hasta un minuto",
+        "Un descanso de cinco minutos",
+        "Se sortea el arco de nuevo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las Leyes lo dicen expresamente: no hay intervalo entre el tercer período y la prórroga, solo esa pausa breve para beber.",
+      "ruleReference": "Ley 7",
+      "tags": ["tiempo", "prorroga"]
+    },
+    {
+      "id": "p4-q3",
+      "moduleId": "p4",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Puede reducirse la duración de los períodos?",
+      "options": [
+        "Nunca",
+        "Solo si el reglamento de la competición lo permite",
+        "Si lo acuerdan los capitanes",
+        "Si hay poca luz"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Los tres períodos de 12 minutos de tiempo de juego solo pueden reducirse si el reglamento de la competición lo permite.",
+      "ruleReference": "Ley 7",
+      "tags": ["tiempo", "reglamento-privado"]
+    },
+    {
+      "id": "p4-q4",
+      "moduleId": "p4",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "El período termina cuando suena la señal acústica, aunque los árbitros no silben.",
+      "correctAnswer": true,
+      "explanation": "Así lo establece la Ley 7. La excepción es que no haya cronometrador o que la señal no pueda sonar por un fallo del equipo: entonces señalan los árbitros.",
+      "ruleReference": "Ley 7",
+      "tags": ["tiempo", "cronometrador"]
+    },
+    {
+      "id": "p4-q5",
+      "moduleId": "p4",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Un gol se marca después de la señal acústica de fin de período. ¿Es válido?",
+      "options": [
+        "Siempre",
+        "Solo en las situaciones previstas, como un tiro libre o un penal concedidos antes del final y aún no completados",
+        "Nunca",
+        "Solo si lo convalida el cronometrador"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las Leyes lo acotan a esos supuestos. Fuera de ellos, la señal acústica cierra el período y el gol no cuenta.",
+      "ruleReference": "Ley 7, Ley 10",
+      "tags": ["tiempo", "gol"]
+    },
+    {
+      "id": "p4-q6",
+      "moduleId": "p4",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Un jugador defensor comete una infracción antes de que se complete un tiro libre concedido al filo del período. ¿Qué corresponde?",
+      "options": [
+        "El período termina igual",
+        "Los árbitros continúan el juego ordenando repetir el tiro o concediendo otro tiro libre o penal, según corresponda",
+        "Se anula el tiro",
+        "Se amonesta y termina el período"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las Leyes lo prevén expresamente para que la infracción defensiva no sirva para agotar el período.",
+      "ruleReference": "Ley 7",
+      "tags": ["tiempo", "tiro-libre"]
+    },
+    {
+      "id": "p4-q7",
+      "moduleId": "p4",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué reanuda cada período, incluida la prórroga?",
+      "options": ["Un balón a tierra", "Un saque inicial", "Un saque de meta", "Un sorteo"],
+      "correctAnswer": 1,
+      "explanation": "El saque inicial comienza cada período, incluida la prórroga, y reanuda el juego después de un gol.",
+      "ruleReference": "Ley 8",
+      "tags": ["saque-inicial", "periodos"]
+    },
+    {
+      "id": "p4-q8",
+      "moduleId": "p4",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué decide el equipo que gana el sorteo previo al tercer período?",
+      "options": [
+        "Quién ejecuta el saque inicial del tercer período",
+        "En qué arco atacará",
+        "El color de camiseta",
+        "Si se juega prórroga"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El segundo sorteo decide el arco para el tercer período. De él se deriva también quién saca en la prórroga, así que conviene anotarlo.",
+      "ruleReference": "Ley 8",
+      "tags": ["sorteo", "periodos"]
+    },
+    {
+      "id": "p4-q9",
+      "moduleId": "p4",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "El tiempo de juego en fútbol playa se cuenta con el cronómetro detenido en cada interrupción.",
+      "correctAnswer": true,
+      "explanation": "Como en futsal, se juega con tiempo de juego y no con reloj corrido. Por eso los 12 minutos de cada período duran bastante más en tiempo real.",
+      "ruleReference": "Ley 7",
+      "tags": ["tiempo"]
+    },
+    {
+      "id": "p4-q10",
+      "moduleId": "p4",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Quién debe estipular la duración del intervalo entre períodos?",
+      "options": [
+        "Los árbitros",
+        "El reglamento de la competición, dentro del máximo de tres minutos",
+        "Los capitanes",
+        "El organizador del día"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El reglamento de la competición lo estipula dentro del máximo, y solo puede alterarse con permiso de los árbitros.",
+      "ruleReference": "Ley 7",
+      "tags": ["tiempo", "reglamento-privado"]
+    },
+    {
+      "id": "p4-q11",
+      "moduleId": "p4",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "Un jugador es expulsado en el minuto final del segundo período. ¿Cuándo se calcula el reingreso?",
+      "options": [
+        "Al comenzar el tercer período",
+        "Antes del descanso, apenas ocurre la expulsión",
+        "Al terminar el partido",
+        "Lo calcula el delegado"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Con tres períodos, la reducción numérica cruza el descanso con frecuencia. Calcularlo y anotarlo en el momento evita el error más común del acta de fútbol playa.",
+      "ruleReference": "Ley 3, Ley 12",
+      "tags": ["reduccion-numerica", "periodos", "planilla"]
+    },
+    {
+      "id": "p4-q12",
+      "moduleId": "p4",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué pausas puede permitir el reglamento de la competición?",
+      "options": [
+        "Ninguna",
+        "Pausas médicas, como pausas para beber o refrescarse, que no deberían exceder un minuto",
+        "Un tiempo muerto por equipo y período",
+        "Dos pausas de tres minutos"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las Leyes remiten al reglamento de la competición y fijan el minuto como referencia. Son pausas de seguridad, propias de una disciplina al aire libre.",
+      "ruleReference": "Ley 7",
+      "tags": ["pausas", "seguridad"]
+    },
+    {
+      "id": "p4-q13",
+      "moduleId": "p4",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Al pasar a la prórroga, ¿qué hacen los equipos?",
+      "options": [
+        "Se quedan en el mismo arco",
+        "Cambian de mitad de cancha",
+        "Sortean el arco de nuevo",
+        "Lo decide el equipo local"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Los equipos cambian de mitad antes de la prórroga, y ejecuta el saque el equipo que eligió arco en el tercer período. Ambos datos se derivan del segundo sorteo.",
+      "ruleReference": "Ley 7, Ley 8",
+      "tags": ["prorroga", "sorteo"]
+    },
+    {
+      "id": "p4-q14",
+      "moduleId": "p4",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "El cronometrador usa una señal acústica distinta del silbato de los árbitros.",
+      "correctAnswer": true,
+      "explanation": "Las Leyes lo exigen para que la señal de fin de período no se confunda con una decisión arbitral, y protegen esa señal prohibiendo ruidos que puedan imitarla.",
+      "ruleReference": "Ley 7, Ley 6",
+      "tags": ["cronometrador"]
+    }
+  ]
+}

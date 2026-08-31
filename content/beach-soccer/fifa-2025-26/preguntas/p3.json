@@ -1,0 +1,171 @@
+{
+  "moduleId": "p3",
+  "discipline": "beach_soccer",
+  "rulesVersion": "FIFA Beach Soccer 2025-26",
+  "questions": [
+    {
+      "id": "p3-q1",
+      "moduleId": "p3",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Quién señala el final de cada período?",
+      "options": [
+        "Solo el árbitro con su silbato",
+        "El cronometrador, con una señal acústica distinta del silbato de los árbitros",
+        "El tercer árbitro levantando una bandera",
+        "El delegado del torneo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El período termina cuando suena la señal acústica del cronometrador, incluso si los árbitros no silban. Solo si no hay cronometrador o falla el equipo, los árbitros señalan el final con su propio silbato.",
+      "ruleReference": "Ley 7",
+      "tags": ["cronometrador", "tiempo"]
+    },
+    {
+      "id": "p3-q2",
+      "moduleId": "p3",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "El cronómetro no funciona bien. ¿Qué corresponde?",
+      "options": [
+        "Se suspende el partido",
+        "El cronometrador avisa a los árbitros y toma el tiempo con un cronómetro manual, y se informa a un oficial de cada equipo cuánto tiempo queda",
+        "Se juega a reloj corrido",
+        "Cada equipo lleva su propio tiempo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las Leyes prevén el fallo y la solución: cronómetro manual y comunicación a un oficial de cada equipo del tiempo restante, para que nadie discuta el final del período.",
+      "ruleReference": "Ley 7",
+      "tags": ["cronometrador", "tiempo"]
+    },
+    {
+      "id": "p3-q3",
+      "moduleId": "p3",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "El cronometrador olvida poner en marcha el cronómetro tras una interrupción. ¿Qué corresponde?",
+      "options": [
+        "Se pierde ese tiempo",
+        "Los árbitros ordenan al cronometrador añadir el tiempo transcurrido",
+        "Se reinicia el período",
+        "Se descuenta del período siguiente"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las Leyes lo resuelven expresamente: los árbitros ordenan añadir el tiempo transcurrido al cronómetro. El tiempo de juego debe cumplirse íntegro.",
+      "ruleReference": "Ley 7",
+      "tags": ["cronometrador", "tiempo"]
+    },
+    {
+      "id": "p3-q4",
+      "moduleId": "p3",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Dónde se sitúa la zona de sustituciones respecto de la mesa?",
+      "options": [
+        "Del lado opuesto a la mesa",
+        "En la línea de banda frente a la mesa del cronometrador, 3.5 m a cada lado de la línea central imaginaria",
+        "Detrás de la línea de meta",
+        "En el centro de la cancha"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La zona está justo frente a la mesa, lo que permite al cronometrador y al tercer árbitro controlar las entradas y salidas.",
+      "ruleReference": "Ley 1, Ley 3",
+      "tags": ["sustituciones", "cronometrador"]
+    },
+    {
+      "id": "p3-q5",
+      "moduleId": "p3",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Un jugador expulsado sale por una zona distinta de la propia por un motivo previsto. ¿A quién entrega el peto el suplente?",
+      "options": [
+        "Al capitán",
+        "Al tercer árbitro",
+        "Al árbitro principal",
+        "A nadie"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las Leyes prevén ese supuesto: cuando el reemplazado tuvo que salir por otra zona, el suplente entrega el peto al tercer árbitro.",
+      "ruleReference": "Ley 3",
+      "tags": ["sustituciones", "tercer-arbitro"]
+    },
+    {
+      "id": "p3-q6",
+      "moduleId": "p3",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "Está prohibido cualquier ruido que pueda confundirse con la señal acústica del cronometrador.",
+      "correctAnswer": true,
+      "explanation": "Las Leyes protegen esa señal expresamente, porque de ella depende el final de cada período, y también protegen la comunicación entre los miembros del equipo arbitral.",
+      "ruleReference": "Ley 6",
+      "tags": ["cronometrador", "manejo"]
+    },
+    {
+      "id": "p3-q7",
+      "moduleId": "p3",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Se concede un tiro libre justo cuando el período está por terminar. ¿Qué corresponde?",
+      "options": [
+        "El período termina y el tiro se pierde",
+        "El período se considera terminado una vez completado el tiro",
+        "El tiro se ejecuta en el período siguiente",
+        "Se repite el período"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Vale tanto para el tiro libre como para el penal. Un gol marcado después de la señal acústica solo se concede en estas situaciones.",
+      "ruleReference": "Ley 7",
+      "tags": ["tiempo", "tiro-libre"]
+    },
+    {
+      "id": "p3-q8",
+      "moduleId": "p3",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿Cuándo se considera completado un tiro libre a efectos del final del período?",
+      "options": [
+        "Cuando el ejecutor toca el balón",
+        "Cuando el balón se detiene o sale, cuando lo juega cualquier jugador que no sea el guardameta defensor, o cuando los árbitros detienen el juego por una infracción del ejecutor o de un compañero",
+        "Cuando el guardameta toca el balón",
+        "Cuando pasan cinco segundos"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Esa definición cierra las discusiones sobre rebotes y segundas jugadas. Si el que infringe antes de completarse el tiro es un jugador defensor, los árbitros ordenan repetirlo o conceden otro tiro según corresponda.",
+      "ruleReference": "Ley 7",
+      "tags": ["tiempo", "tiro-libre"]
+    },
+    {
+      "id": "p3-q9",
+      "moduleId": "p3",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué corresponde con un partido abandonado?",
+      "options": [
+        "Se da por perdido al equipo responsable",
+        "Se vuelve a jugar, salvo que el reglamento de la competición u organizadores determinen otra cosa",
+        "Se completa el tiempo restante otro día",
+        "Se resuelve por penales"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La regla por defecto es que se repite el partido, y la excepción la fija el reglamento de la competición o el organizador.",
+      "ruleReference": "Ley 7",
+      "tags": ["partido-abandonado", "reglamento-privado"]
+    },
+    {
+      "id": "p3-q10",
+      "moduleId": "p3",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué pausas médicas contemplan las Leyes?",
+      "options": [
+        "Ninguna",
+        "Las que permita el reglamento de la competición, como pausas para beber o refrescarse, que no deberían exceder un minuto",
+        "Una por período, de tres minutos",
+        "Solo en caso de lesión grave"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las Leyes remiten al reglamento de la competición y fijan la referencia de un minuto. En una disciplina que se juega al sol y sobre arena caliente, es información operativa que conviene confirmar antes de empezar.",
+      "ruleReference": "Ley 7",
+      "tags": ["pausas", "seguridad"]
+    }
+  ]
+}

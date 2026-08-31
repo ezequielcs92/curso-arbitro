@@ -1,0 +1,238 @@
+{
+  "moduleId": "p6",
+  "discipline": "beach_soccer",
+  "rulesVersion": "FIFA Beach Soccer 2025-26",
+  "questions": [
+    {
+      "id": "p6-q1",
+      "moduleId": "p6",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Un jugador juega de forma peligrosa en su PROPIA mitad de la cancha. ¿Desde dónde se ejecuta el tiro libre?",
+      "options": [
+        "Desde el lugar de la infracción",
+        "Desde el centro de la cancha",
+        "Desde la marca de penal imaginaria",
+        "Desde la línea del área"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Es la mecánica más propia del fútbol playa: la misma infracción se sanciona desde el centro de la cancha si se cometió en la propia mitad, y desde el lugar si se cometió en la mitad rival.",
+      "ruleReference": "Ley 12",
+      "tags": ["tiro-libre", "ubicacion"]
+    },
+    {
+      "id": "p6-q2",
+      "moduleId": "p6",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "El mismo jugador juega de forma peligrosa, pero en la mitad RIVAL. ¿Desde dónde se ejecuta?",
+      "options": [
+        "Desde el centro de la cancha",
+        "Desde el lugar donde se cometió la infracción",
+        "Desde la línea de banda",
+        "Desde la marca de penal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "En la mitad del adversario, ese grupo de infracciones se sanciona en el lugar. La mitad de cancha en que ocurre la falta decide la ubicación del tiro.",
+      "ruleReference": "Ley 12",
+      "tags": ["tiro-libre", "ubicacion"]
+    },
+    {
+      "id": "p6-q3",
+      "moduleId": "p6",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "Un equipo mantiene la posesión del balón en juego dentro de su propia área penal durante más de cuatro segundos. ¿Qué corresponde?",
+      "options": [
+        "Nada: los cuatro segundos solo aplican al guardameta",
+        "Tiro libre desde el centro de la cancha, sin sanción disciplinaria",
+        "Tiro libre desde el lugar",
+        "Penal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Es una regla propia del fútbol playa: los cuatro segundos alcanzan a todo el equipo dentro de su área, no solo al guardameta. Y se sanciona sin medida disciplinaria, aunque la infracción impida un gol.",
+      "ruleReference": "Ley 12",
+      "tags": ["cuatro-segundos", "tiro-libre"]
+    },
+    {
+      "id": "p6-q4",
+      "moduleId": "p6",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "El guardameta controla el balón con los pies en su propia mitad durante más de cuatro segundos. ¿Qué corresponde?",
+      "options": [
+        "Nada",
+        "Tiro libre desde el centro de la cancha, sin sanción disciplinaria",
+        "Tiro libre desde el lugar",
+        "Saque de esquina"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Como en futsal, los cuatro segundos cuentan también con los pies y en toda la propia mitad. Lo distintivo del fútbol playa es la ubicación de la sanción: el centro de la cancha.",
+      "ruleReference": "Ley 12",
+      "tags": ["guardameta", "cuatro-segundos"]
+    },
+    {
+      "id": "p6-q5",
+      "moduleId": "p6",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "El guardameta, con el balón en juego, lo suelta de las manos y lo patea al aire antes de que toque el suelo. ¿Qué corresponde?",
+      "options": [
+        "Es legal",
+        "Tiro libre desde el centro de la cancha",
+        "Tiro libre desde el lugar",
+        "Amonestación"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Está listado entre las infracciones del guardameta sancionadas con tiro libre desde el centro. En una disciplina donde el saque largo del arquero es un arma, la restricción cambia el juego.",
+      "ruleReference": "Ley 12",
+      "tags": ["guardameta", "tiro-libre"]
+    },
+    {
+      "id": "p6-q6",
+      "moduleId": "p6",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "El guardameta juega el balón fuera de su área, vuelve deliberadamente al área con él y lo toca antes de que lo haga otro jugador. ¿Qué corresponde?",
+      "options": [
+        "Es legal",
+        "Tiro libre desde el centro de la cancha",
+        "Penal",
+        "Amonestación y tiro libre"
+      ],
+      "correctAnswer": 1,
+      "explanation": "También está en la lista de infracciones del guardameta sancionadas desde el centro de la cancha, y no lleva medida disciplinaria.",
+      "ruleReference": "Ley 12",
+      "tags": ["guardameta", "tiro-libre"]
+    },
+    {
+      "id": "p6-q7",
+      "moduleId": "p6",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuál de estas es una infracción tipificada propia del fútbol playa?",
+      "options": [
+        "Impedir ilegalmente que un adversario ejecute una chilena o tijera",
+        "Cargar al adversario",
+        "Sujetar a un adversario",
+        "Zancadillear"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La Ley 12 la lista expresamente. Las chilenas y tijeras son parte inherente del fútbol playa y su ejecución debe protegerse, igual que los jugadores que las realizan.",
+      "ruleReference": "Ley 12",
+      "tags": ["chilena", "faltas"]
+    },
+    {
+      "id": "p6-q8",
+      "moduleId": "p6",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Cuál de estas conductas está expresamente tipificada junto con morder y escupir?",
+      "options": [
+        "Insultar al árbitro",
+        "Arrojar arena deliberadamente a alguien de las listas o a un miembro del equipo arbitral",
+        "Protestar una decisión",
+        "Simular una falta"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Arrojar arena deliberadamente está en la misma línea que morder y escupir. Es una conducta que solo puede existir en esta disciplina, y las Leyes la contemplan.",
+      "ruleReference": "Ley 12",
+      "tags": ["faltas", "conducta"]
+    },
+    {
+      "id": "p6-q9",
+      "moduleId": "p6",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Bajo qué condiciones el bloqueo a un adversario es táctica legítima?",
+      "options": [
+        "Siempre que no haya contacto",
+        "Si quien bloquea está quieto en el momento del contacto, no lo provoca moviéndose o extendiendo el cuerpo, y el adversario puede evitarlo",
+        "Solo si el bloqueado tiene el balón",
+        "Solo en la propia mitad"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las tres condiciones son acumulativas. El bloqueo puede hacerse contra un adversario que tenga el balón o que no lo tenga.",
+      "ruleReference": "Ley 12",
+      "tags": ["bloqueo", "faltas"]
+    },
+    {
+      "id": "p6-q10",
+      "moduleId": "p6",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "Un atacante comete una infracción dentro del área penal RIVAL. ¿Qué corresponde?",
+      "options": [
+        "Tiro libre para la defensa desde el lugar",
+        "Tiro libre para el equipo defensor, ejecutado desde la marca de penal imaginaria de esa área",
+        "Saque de meta",
+        "Balón a tierra"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Es una regla propia: cuando la infracción la comete un jugador dentro del área del adversario, el tiro libre es para el equipo defensor y se ejecuta desde la marca de penal imaginaria de esa área.",
+      "ruleReference": "Ley 12",
+      "tags": ["tiro-libre", "area", "ubicacion"]
+    },
+    {
+      "id": "p6-q11",
+      "moduleId": "p6",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué corresponde ante una infracción cometida con fuerza excesiva?",
+      "options": ["Solo tiro libre", "Amonestación", "Expulsión", "Depende de la mitad de cancha"],
+      "correctAnswer": 2,
+      "explanation": "La graduación es la misma de las otras dos disciplinas: imprudente no lleva sanción, temerario obliga a amonestar y la fuerza excesiva obliga a expulsar.",
+      "ruleReference": "Ley 12",
+      "tags": ["expulsion", "fuerza-excesiva"]
+    },
+    {
+      "id": "p6-q12",
+      "moduleId": "p6",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué significa obstaculizar el avance de un adversario sin contacto?",
+      "options": [
+        "Estar en el camino del adversario",
+        "Moverse hacia el camino del adversario para obstruir, bloquear, frenar o forzar un cambio de dirección cuando el balón no está a distancia de juego",
+        "Cualquier cercanía al rival",
+        "Correr más rápido que el rival"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las Leyes lo precisan con una frase que conviene recordar: estar en el camino de un adversario no es lo mismo que meterse en su camino. Todos los jugadores tienen derecho a su posición en la cancha.",
+      "ruleReference": "Ley 12",
+      "tags": ["obstruccion", "faltas"]
+    },
+    {
+      "id": "p6-q13",
+      "moduleId": "p6",
+      "type": "decision",
+      "difficulty": 4,
+      "question": "Un defensor sujeta a un atacante en la mitad rival, cerca del área. No es fuerza excesiva ni corta una ocasión manifiesta. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "direct_free_kick",
+        "disciplinary": "none",
+        "restart": "place_of_offence"
+      },
+      "explanation": "Sujetar es infracción de tiro libre. Cometida en la mitad del adversario, se ejecuta en el lugar. Sin agravantes no corresponde tarjeta, y recordá que el rival no podrá formar barrera.",
+      "ruleReference": "Ley 12, Ley 13",
+      "tags": ["decision", "tiro-libre", "sujetar"]
+    },
+    {
+      "id": "p6-q14",
+      "moduleId": "p6",
+      "type": "decision",
+      "difficulty": 5,
+      "question": "Un jugador simula haber sido derribado dentro de su propia mitad de la cancha. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "direct_free_kick",
+        "disciplinary": "caution",
+        "restart": "centre_of_pitch"
+      },
+      "explanation": "La simulación está listada entre las infracciones que, cometidas en la propia mitad, se sancionan con tiro libre desde el centro de la cancha. Intentar engañar a los árbitros es además conducta antideportiva y se amonesta.",
+      "ruleReference": "Ley 12",
+      "tags": ["decision", "simulacion", "ubicacion"]
+    }
+  ]
+}

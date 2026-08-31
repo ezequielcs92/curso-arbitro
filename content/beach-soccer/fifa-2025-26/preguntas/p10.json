@@ -1,0 +1,137 @@
+{
+  "moduleId": "p10",
+  "discipline": "beach_soccer",
+  "rulesVersion": "FIFA Beach Soccer 2025-26",
+  "questions": [
+    {
+      "id": "p10-q1",
+      "moduleId": "p10",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Sin línea entre los postes, ¿cuál es la referencia para decidir un gol?",
+      "options": [
+        "La marca de la arena",
+        "La proyección imaginaria entre los postes, bajo el travesaño",
+        "El criterio del guardameta",
+        "La posición de las banderas amarillas"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sin línea pintada, la decisión depende por completo de la ubicación del árbitro: hay que buscar el ángulo que permita ver esa proyección, porque no hay marca física que ayude.",
+      "ruleReference": "Ley 1, Ley 10",
+      "tags": ["gol", "posicionamiento"]
+    },
+    {
+      "id": "p10-q2",
+      "moduleId": "p10",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Cuál es el desafío propio del desplazamiento en fútbol playa?",
+      "options": [
+        "La cancha es más grande que la de fútbol",
+        "Correr sobre arena es lento y agotador, así que la ubicación se anticipa en vez de corregirse corriendo",
+        "Hay que seguir la línea de banda pintada",
+        "Los árbitros no pueden entrar a la cancha"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sobre arena no se corrige una mala ubicación con un sprint. La anticipación vale más que la velocidad, y por eso el trabajo entre los dos árbitros tiene que estar acordado antes.",
+      "ruleReference": "Ley 5, Ley 6",
+      "tags": ["posicionamiento", "arena"]
+    },
+    {
+      "id": "p10-q3",
+      "moduleId": "p10",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué señal debe hacerse con claridad en cada tiro libre?",
+      "options": [
+        "La dirección del ataque",
+        "La cuenta de cuatro segundos, mostrada por uno de los árbitros",
+        "El número del ejecutor",
+        "La distancia mínima"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Ley 13 lo exige. La cuenta visible avisa al ejecutor, hace verificable la decisión y evita la discusión sobre si se agotó el plazo.",
+      "ruleReference": "Ley 13",
+      "tags": ["senalizacion", "cuatro-segundos"]
+    },
+    {
+      "id": "p10-q4",
+      "moduleId": "p10",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Antes del pitazo, ¿qué revisión propia del fútbol playa corresponde hacer?",
+      "options": [
+        "Medir las líneas pintadas",
+        "Caminar la arena buscando objetos peligrosos y verificar las diez banderas y las marcas",
+        "Comprobar la presión del balón",
+        "Revisar los tapones del calzado"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Se juega descalzo, así que cualquier objeto enterrado es un riesgo real. Y como la cancha se define con banderas y marcas, faltando una se pierde una referencia que después no se puede reconstruir.",
+      "ruleReference": "Ley 1, Ley 4",
+      "tags": ["previa", "seguridad", "banderas"]
+    },
+    {
+      "id": "p10-q5",
+      "moduleId": "p10",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Por qué el criterio de sanción cambia respecto del fútbol en las cercanías del área?",
+      "options": [
+        "Porque el arco es más chico",
+        "Porque no se puede formar barrera, así que cada falta cercana equivale a una ocasión clarísima",
+        "Porque hay dos árbitros",
+        "Porque se juega descalzo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La prohibición de barrera convierte cada tiro libre cercano en un mano a mano. Cobrar o no cobrar ahí tiene mucho más peso que en fútbol.",
+      "ruleReference": "Ley 13",
+      "tags": ["criterio", "barrera"]
+    },
+    {
+      "id": "p10-q6",
+      "moduleId": "p10",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "Las chilenas y tijeras deben protegerse expresamente, y los árbitros tienen que sancionar a quien impida ejecutarlas.",
+      "correctAnswer": true,
+      "explanation": "Las Leyes lo dicen: son parte inherente del fútbol playa, su ejecución debe protegerse, y también los jugadores que las realizan. Impedirlas ilegalmente es infracción tipificada.",
+      "ruleReference": "Ley 12",
+      "tags": ["chilena", "criterio"]
+    },
+    {
+      "id": "p10-q7",
+      "moduleId": "p10",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Al conceder un tiro libre, ¿qué dato hay que resolver antes de indicar dónde se ejecuta?",
+      "options": [
+        "Quién cometió la falta",
+        "En qué mitad de la cancha se cometió la infracción",
+        "El tiempo restante",
+        "El marcador"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Buena parte de las infracciones se sancionan desde el centro de la cancha si ocurrieron en la propia mitad, y desde el lugar si ocurrieron en la mitad rival. La mitad decide la ubicación.",
+      "ruleReference": "Ley 12",
+      "tags": ["tiro-libre", "ubicacion", "criterio"]
+    },
+    {
+      "id": "p10-q8",
+      "moduleId": "p10",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "Dirigís fútbol playa amateur sin mesa ni cronometrador. ¿Qué conviene acordar antes de empezar?",
+      "options": [
+        "Nada: se juega igual",
+        "Quién lleva el tiempo de juego de los tres períodos y cómo se señala el final de cada uno",
+        "El color de las banderas",
+        "Quién ejecuta los saques de esquina"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las Leyes prevén que, sin cronometrador, los árbitros señalen el final con su propio silbato. Acordarlo antes evita la discusión sobre cuándo terminó un período, que con tres períodos aparece el triple de veces.",
+      "ruleReference": "Ley 7",
+      "tags": ["amateur", "previa", "tiempo"]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "moduleId": "p8",
+  "discipline": "beach_soccer",
+  "rulesVersion": "FIFA Beach Soccer 2025-26",
+  "questions": [
+    {
+      "id": "p8-q1",
+      "moduleId": "p8",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuándo se concede un tiro penal en fútbol playa?",
+      "options": [
+        "Ante cualquier infracción dentro del área",
+        "Cuando un jugador comete dentro de su área una infracción de las listadas en la Ley 12.1, o fuera de la cancha como parte del juego según lo previsto",
+        "Solo por mano",
+        "Solo en el tercer período"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El supuesto está acotado a las infracciones de la Ley 12.1 cometidas dentro de la propia área, y a los casos de infracción fuera de la cancha que las Leyes convierten en penal.",
+      "ruleReference": "Ley 14",
+      "tags": ["penal"]
+    },
+    {
+      "id": "p8-q2",
+      "moduleId": "p8",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Desde dónde se ejecuta el tiro penal?",
+      "options": [
+        "Desde una marca pintada a 9 m",
+        "Desde la marca de penal imaginaria",
+        "Desde el centro de la cancha",
+        "Desde el borde del área"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La marca de penal es imaginaria, como casi todas las referencias de la cancha. El balón debe estar quieto sobre ella.",
+      "ruleReference": "Ley 14",
+      "tags": ["penal", "cancha"]
+    },
+    {
+      "id": "p8-q3",
+      "moduleId": "p8",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Quién puede ejecutar un tiro penal?",
+      "options": [
+        "Cualquier jugador del equipo",
+        "Un jugador que estuviera en la cancha cuando se cometió la infracción, y claramente identificado",
+        "Solo el capitán",
+        "El jugador que sufrió la infracción"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las dos condiciones se exigen a la vez, igual que en el tiro libre: haber estado en la cancha en el momento de la infracción y estar claramente identificado.",
+      "ruleReference": "Ley 14",
+      "tags": ["penal", "ejecutor"]
+    },
+    {
+      "id": "p8-q4",
+      "moduleId": "p8",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Dónde debe estar el guardameta durante un tiro penal?",
+      "options": [
+        "En cualquier punto del área",
+        "Sobre la línea de meta, de cara al ejecutor y entre los postes, hasta que el balón haya sido golpeado",
+        "A 5 m del balón",
+        "Fuera del área"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Y no puede comportarse de forma que distraiga injustamente al ejecutor, por ejemplo demorando el tiro o tocando los postes, el travesaño o la red.",
+      "ruleReference": "Ley 14",
+      "tags": ["penal", "guardameta"]
+    },
+    {
+      "id": "p8-q5",
+      "moduleId": "p8",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "El guardameta pide ser reemplazado después de que el ejecutor colocó el balón para el penal. ¿Qué corresponde?",
+      "options": [
+        "No se permite el cambio",
+        "Se lo amonesta por retrasar la reanudación, pero el cambio puede hacerse",
+        "Se permite sin sanción",
+        "Se concede gol"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las Leyes prevén el caso con precisión: la sustitución es posible, pero la demora se sanciona con amonestación al guardameta.",
+      "ruleReference": "Ley 14",
+      "tags": ["penal", "guardameta", "amonestacion"]
+    },
+    {
+      "id": "p8-q6",
+      "moduleId": "p8",
+      "type": "true_false",
+      "difficulty": 2,
+      "question": "Se puede marcar gol directamente de un tiro penal.",
+      "correctAnswer": true,
+      "explanation": "Las Leyes lo dicen expresamente. Es la reanudación pensada justamente para eso.",
+      "ruleReference": "Ley 14",
+      "tags": ["penal", "gol"]
+    },
+    {
+      "id": "p8-q7",
+      "moduleId": "p8",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Dónde deben estar los jugadores distintos del ejecutor y del guardameta durante un penal?",
+      "options": [
+        "Fuera de la cancha",
+        "Dentro de la cancha, respetando las posiciones que fija la Ley",
+        "Detrás de la línea de meta",
+        "En su propia mitad"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las Leyes exigen que estén dentro de la cancha y respetando la ubicación prevista, para que ninguno interfiera antes de que el balón esté en juego.",
+      "ruleReference": "Ley 14",
+      "tags": ["penal", "ubicacion"]
+    },
+    {
+      "id": "p8-q8",
+      "moduleId": "p8",
+      "type": "decision",
+      "difficulty": 4,
+      "question": "Un defensor sujeta a un atacante dentro de su propia área penal, impidiéndole rematar. No es fuerza excesiva. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "penalty_kick",
+        "disciplinary": "none",
+        "restart": "penalty_mark"
+      },
+      "explanation": "Sujetar está entre las infracciones de la Ley 12.1, y cometida dentro de la propia área se sanciona con penal, ejecutado desde la marca de penal imaginaria. Sin fuerza excesiva no corresponde expulsión.",
+      "ruleReference": "Ley 12, Ley 14",
+      "tags": ["decision", "penal", "sujetar"]
+    }
+  ]
+}

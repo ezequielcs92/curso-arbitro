@@ -1,0 +1,208 @@
+{
+  "moduleId": "p2",
+  "discipline": "beach_soccer",
+  "rulesVersion": "FIFA Beach Soccer 2025-26",
+  "questions": [
+    {
+      "id": "p2-q1",
+      "moduleId": "p2",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuáles son las dimensiones de la cancha de fútbol playa?",
+      "options": [
+        "De 25 a 42 m de largo por 16 a 25 m de ancho",
+        "De 35 a 37 m de largo por 26 a 28 m de ancho",
+        "De 38 a 42 m de largo por 20 a 25 m de ancho",
+        "De 40 a 45 m de largo por 30 a 35 m de ancho"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Ley 1 fija un rango estrecho: de 35 a 37 m de línea de banda y de 26 a 28 m de línea de meta. El reglamento de la competición puede elegir dentro de esos márgenes.",
+      "ruleReference": "Ley 1",
+      "tags": ["cancha", "medidas"]
+    },
+    {
+      "id": "p2-q2",
+      "moduleId": "p2",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "En fútbol playa hay una línea pintada entre los postes.",
+      "correctAnswer": false,
+      "explanation": "Las Leyes lo dicen expresamente: no hay línea entre los postes. Es la particularidad que más condiciona la decisión de gol, porque la referencia es la proyección imaginaria entre los postes.",
+      "ruleReference": "Ley 1",
+      "tags": ["cancha", "gol"]
+    },
+    {
+      "id": "p2-q3",
+      "moduleId": "p2",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántas banderas se usan en total y de qué color?",
+      "options": [
+        "Ocho, todas rojas",
+        "Diez: seis rojas y cuatro amarillas",
+        "Diez, todas amarillas",
+        "Cuatro, una por esquina"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Son diez: una roja en cada esquina (cuatro), una roja en cada extremo de la línea central imaginaria (dos) y una amarilla en cada extremo de las líneas imaginarias del área penal (cuatro).",
+      "ruleReference": "Ley 1",
+      "tags": ["cancha", "banderas"]
+    },
+    {
+      "id": "p2-q4",
+      "moduleId": "p2",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué marcan las banderas amarillas?",
+      "options": [
+        "Las esquinas",
+        "La línea central imaginaria",
+        "Los extremos de las líneas imaginarias del área penal",
+        "La zona de sustituciones"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Las amarillas marcan el área penal, cuya línea corre paralela a la línea de meta a 9 m. Las rojas marcan esquinas y línea central.",
+      "ruleReference": "Ley 1",
+      "tags": ["cancha", "banderas", "area"]
+    },
+    {
+      "id": "p2-q5",
+      "moduleId": "p2",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿A qué distancia de la línea de meta está la línea del área penal?",
+      "options": ["5 m", "6 m", "9 m", "11 m"],
+      "correctAnswer": 2,
+      "explanation": "El área penal se delimita con una línea paralela a 9 m de la línea de meta, marcada por dos banderas amarillas. No está pintada: es imaginaria.",
+      "ruleReference": "Ley 1",
+      "tags": ["cancha", "area"]
+    },
+    {
+      "id": "p2-q6",
+      "moduleId": "p2",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuánto miden los arcos de fútbol playa?",
+      "options": ["3 m por 2 m", "5.5 m por 2.2 m", "7.32 m por 2.44 m", "6 m por 2 m"],
+      "correctAnswer": 1,
+      "explanation": "La Ley 1 fija 5.5 m entre los postes, en medida interior, y 2.2 m desde el borde inferior del travesaño al suelo. Es un arco intermedio entre el de futsal y el de fútbol.",
+      "ruleReference": "Ley 1",
+      "tags": ["cancha", "meta"]
+    },
+    {
+      "id": "p2-q7",
+      "moduleId": "p2",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué indican las marcas trazadas a 1 m de cada esquina?",
+      "options": [
+        "La zona de sustituciones",
+        "Los arcos de esquina imaginarios",
+        "La distancia mínima en el saque inicial",
+        "El área penal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ayudan a los árbitros a identificar los arcos de esquina imaginarios. Cinco metros más allá hay otras marcas, que fijan la distancia mínima de repliegue en el saque de esquina.",
+      "ruleReference": "Ley 1",
+      "tags": ["cancha", "saque-de-esquina"]
+    },
+    {
+      "id": "p2-q8",
+      "moduleId": "p2",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿A qué distancia deben replegarse los defensores en un saque de esquina?",
+      "options": ["3 m", "5 m", "9 m", "2 m"],
+      "correctAnswer": 1,
+      "explanation": "Cinco metros, y para eso están las marcas trazadas a 5 m de las marcas de esquina. En una cancha sin líneas pintadas, esas referencias físicas son lo único que hace verificable la distancia.",
+      "ruleReference": "Ley 1, Ley 17",
+      "tags": ["saque-de-esquina", "distancia"]
+    },
+    {
+      "id": "p2-q9",
+      "moduleId": "p2",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Dónde está la zona de sustituciones?",
+      "options": [
+        "En la línea de banda más cercana a los bancos, a 3.5 m de la línea central imaginaria en cada mitad",
+        "En la línea de meta",
+        "En el centro de la cancha",
+        "Detrás de los bancos"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Las marcas están en la línea de banda cercana a los bancos, a 3.5 m de la línea central imaginaria en cada mitad. En la banda opuesta, las marcas a 5 m indican la distancia mínima en los saques iniciales.",
+      "ruleReference": "Ley 1",
+      "tags": ["cancha", "sustituciones"]
+    },
+    {
+      "id": "p2-q10",
+      "moduleId": "p2",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuál es la circunferencia del balón de fútbol playa?",
+      "options": ["De 62 a 64 cm", "De 65 a 67 cm", "De 68 a 70 cm", "De 71 a 73 cm"],
+      "correctAnswer": 2,
+      "explanation": "Igual que el de fútbol, de 68 a 70 cm. Lo que cambia es el peso: de 400 a 440 g, más liviano que los 410 a 450 g del balón de fútbol.",
+      "ruleReference": "Ley 2",
+      "tags": ["balon"]
+    },
+    {
+      "id": "p2-q11",
+      "moduleId": "p2",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuántos jugadores tiene un equipo de fútbol playa?",
+      "options": ["Cuatro", "Cinco, uno de ellos el guardameta", "Seis", "Siete"],
+      "correctAnswer": 1,
+      "explanation": "Máximo cinco jugadores, uno de los cuales es el guardameta, igual que en futsal. Lo que cambia es todo lo demás.",
+      "ruleReference": "Ley 3",
+      "tags": ["jugadores"]
+    },
+    {
+      "id": "p2-q12",
+      "moduleId": "p2",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué equipamiento adicional está permitido?",
+      "options": [
+        "Ninguno",
+        "Equipamiento protector no peligroso, como guantes, gorros, máscaras y protectores acolchados blandos, gorras de guardameta y gafas deportivas",
+        "Solo vendajes",
+        "Cualquier cosa que el jugador considere necesaria"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Ley 4 permite ese equipamiento protector no peligroso. Los guardametas pueden usar pantalones largos, que tampoco pueden llevarse arremangados.",
+      "ruleReference": "Ley 4",
+      "tags": ["equipamiento"]
+    },
+    {
+      "id": "p2-q13",
+      "moduleId": "p2",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué se permite respecto de los vendajes en los pies?",
+      "options": [
+        "Están prohibidos",
+        "Se permiten vendajes elásticos siempre que no cubran por completo los talones ni los dedos",
+        "Se permiten sin restricciones",
+        "Solo con autorización médica"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La condición está en la propia Ley: los vendajes elásticos son admisibles mientras no cubran del todo talones ni dedos, para que no funcionen como calzado.",
+      "ruleReference": "Ley 4",
+      "tags": ["equipamiento", "descalzo"]
+    },
+    {
+      "id": "p2-q14",
+      "moduleId": "p2",
+      "type": "true_false",
+      "difficulty": 4,
+      "question": "En fútbol playa se permite la joyería que no sea peligrosa y esté cubierta, como en IFAB 2026/27.",
+      "correctAnswer": false,
+      "explanation": "El fútbol playa mantiene la prohibición, igual que el futsal. Es la contradicción más útil de tener presente: el mismo árbitro aplica criterios opuestos según la disciplina que dirija ese fin de semana.",
+      "ruleReference": "Ley 4",
+      "tags": ["equipamiento", "accesorios"]
+    }
+  ]
+}

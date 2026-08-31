@@ -1,0 +1,98 @@
+{
+  "moduleId": "p11",
+  "discipline": "beach_soccer",
+  "rulesVersion": "FIFA Beach Soccer 2025-26",
+  "questions": [
+    {
+      "id": "p11-q1",
+      "moduleId": "p11",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuál es el error administrativo más caro del fútbol playa?",
+      "options": [
+        "No sacar copia del acta",
+        "No registrar cómo se definió el resultado, del que depende el reparto de puntos",
+        "No anotar los cambios",
+        "Entregar el acta tarde"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El reparto 3-2-1 está en la propia Ley, no en el reglamento del torneo. Sin ese dato, la organización no puede cargar la fecha y tiene que llamarte.",
+      "ruleReference": "Ley 10",
+      "tags": ["planilla", "puntos"]
+    },
+    {
+      "id": "p11-q2",
+      "moduleId": "p11",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "El partido termina 2-2 y se define por penales 4-3. ¿Cómo se registra el resultado del partido?",
+      "options": ["6-5", "4-3", "2-2, con la definición por penales marcada aparte", "3-2"],
+      "correctAnswer": 2,
+      "explanation": "La tanda es el mecanismo de desempate: el marcador del partido no cambia. Sumar los penales carga goles que nunca existieron y arruina las estadísticas.",
+      "ruleReference": "Ley 10",
+      "tags": ["planilla", "resultado"]
+    },
+    {
+      "id": "p11-q3",
+      "moduleId": "p11",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Por qué el informe debe indicar el período además del minuto?",
+      "options": [
+        "Por prolijidad",
+        "Porque con tres períodos el mismo minuto aparece tres veces",
+        "Porque lo exige la Ley 6",
+        "Para calcular los puntos"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sin el período, «minuto 7» no ubica nada. Es el dato más barato de anotar y el que más se olvida.",
+      "ruleReference": "Ley 5",
+      "tags": ["informe", "periodos"]
+    },
+    {
+      "id": "p11-q4",
+      "moduleId": "p11",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué contenido propio suele necesitar un informe de fútbol playa?",
+      "options": [
+        "La cantidad de saques de esquina",
+        "Las condiciones del entorno: clima, pausas concedidas, interferencias externas y estado de la superficie",
+        "La formación táctica de los equipos",
+        "El nombre del cronometrador"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Se juega al aire libre, y esa información operativa solo puede aportarla el equipo arbitral. Le sirve a la organización para el resto del torneo.",
+      "ruleReference": "Ley 5",
+      "tags": ["informe", "entorno"]
+    },
+    {
+      "id": "p11-q5",
+      "moduleId": "p11",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué tres datos conviene repasar en voz alta antes de pedir firmas?",
+      "options": [
+        "El resultado, los goleadores y las tarjetas",
+        "El desglose por período, la forma de definición con sus puntos, y el minuto de reingreso de los expulsados",
+        "Los sorteos, el clima y la duración",
+        "La lista de jugadores y los dorsales"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Son los tres que más se objetan, y los tres se resuelven en el momento si están anotados. Treinta segundos de repaso evitan la mitad de las negativas a firmar.",
+      "ruleReference": "Ley 5",
+      "tags": ["planilla", "firmas"]
+    },
+    {
+      "id": "p11-q6",
+      "moduleId": "p11",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "Los dos sorteos del partido deben quedar registrados en el acta.",
+      "correctAnswer": true,
+      "explanation": "De ellos dependen quién eligió arco en cada período y quién saca en la prórroga. Están separados por media hora, así que si no se anotan en el momento, después nadie los recuerda.",
+      "ruleReference": "Ley 8",
+      "tags": ["planilla", "sorteo"]
+    }
+  ]
+}

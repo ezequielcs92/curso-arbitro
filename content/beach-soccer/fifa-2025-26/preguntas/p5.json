@@ -1,0 +1,183 @@
+{
+  "moduleId": "p5",
+  "discipline": "beach_soccer",
+  "rulesVersion": "FIFA Beach Soccer 2025-26",
+  "questions": [
+    {
+      "id": "p5-q1",
+      "moduleId": "p5",
+      "type": "true_false",
+      "difficulty": 1,
+      "question": "En fútbol playa existe el fuera de juego.",
+      "correctAnswer": false,
+      "explanation": "La Ley 11 lo dice con una sola frase: no hay fuera de juego en fútbol playa. Igual que en futsal, la Ley existe solo para declararlo.",
+      "ruleReference": "Ley 11",
+      "tags": ["fuera-de-juego"]
+    },
+    {
+      "id": "p5-q2",
+      "moduleId": "p5",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cómo puede ejecutarse la reanudación cuando el balón sale por la línea de banda?",
+      "options": [
+        "Solo con el pie",
+        "Solo con las manos",
+        "Con el pie o con las manos, a elección del equipo",
+        "Con el pie en el primer período y con la mano en los otros"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La Ley 15 de fútbol playa cubre las dos formas: saque con el pie o saque con las manos, a elección. Es la única de las tres disciplinas que lo permite.",
+      "ruleReference": "Ley 15",
+      "tags": ["saque-de-banda"]
+    },
+    {
+      "id": "p5-q3",
+      "moduleId": "p5",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "En un saque con el pie desde la línea de banda, ¿cuándo está el balón en juego?",
+      "options": [
+        "Cuando entra en la cancha, siempre",
+        "Si se ejecuta desde la línea de banda, cuando se mueve claramente; si se ejecuta desde fuera, cuando entra en la cancha",
+        "Cuando lo toca otro jugador",
+        "Cuando el árbitro lo señala"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Ley distingue los dos casos porque el saque puede hacerse desde la línea o desde el suelo fuera de la cancha, cerca de la línea.",
+      "ruleReference": "Ley 15",
+      "tags": ["saque-de-banda"]
+    },
+    {
+      "id": "p5-q4",
+      "moduleId": "p5",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿En cuánto tiempo debe ejecutarse el saque de banda?",
+      "options": ["Dos segundos", "Cuatro segundos", "Cinco segundos", "No hay límite"],
+      "correctAnswer": 1,
+      "explanation": "Cuatro segundos. Si no se ejecuta a tiempo, el saque pasa al equipo adversario, que a su vez puede elegir hacerlo con el pie o con las manos.",
+      "ruleReference": "Ley 15",
+      "tags": ["saque-de-banda", "cuatro-segundos"]
+    },
+    {
+      "id": "p5-q5",
+      "moduleId": "p5",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Un adversario se acerca a menos de 5 m del punto del saque de banda y estorba al ejecutor. ¿Qué corresponde?",
+      "options": [
+        "Solo se le pide que retroceda",
+        "Amonestación por conducta antideportiva, y tiro libre si el saque ya se había ejecutado",
+        "Tiro libre indirecto sin tarjeta",
+        "Se repite el saque"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las Leyes lo tratan expresamente: distraer o estorbar injustamente al ejecutor, incluido acercarse a menos de 5 m, es amonestación por conducta antideportiva.",
+      "ruleReference": "Ley 15",
+      "tags": ["saque-de-banda", "amonestacion", "distancia"]
+    },
+    {
+      "id": "p5-q6",
+      "moduleId": "p5",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cómo se ejecuta el saque de meta en fútbol playa?",
+      "options": [
+        "El guardameta lo patea desde el suelo",
+        "El guardameta lo lanza o suelta desde cualquier punto del área penal",
+        "Cualquier jugador lo patea",
+        "Desde la línea de meta, con el pie"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Como en futsal, se ejecuta con la mano: el guardameta lanza o suelta el balón desde cualquier punto de su área penal.",
+      "ruleReference": "Ley 16",
+      "tags": ["saque-de-meta"]
+    },
+    {
+      "id": "p5-q7",
+      "moduleId": "p5",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "Se puede marcar gol directamente de un saque de meta en fútbol playa.",
+      "correctAnswer": false,
+      "explanation": "Las Leyes lo prohíben. Si el balón entra directamente en el arco del equipo que ejecutó, se concede saque de esquina al rival; si entra en el arco contrario, ese equipo obtiene saque de meta.",
+      "ruleReference": "Ley 16",
+      "tags": ["saque-de-meta", "gol"]
+    },
+    {
+      "id": "p5-q8",
+      "moduleId": "p5",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué inicia cada período y qué reanuda el juego tras un gol?",
+      "options": ["Un balón a tierra", "El saque inicial", "Un saque de meta", "Un tiro libre"],
+      "correctAnswer": 1,
+      "explanation": "El saque inicial comienza cada período, incluida la prórroga, y reanuda tras un gol. Las demás reanudaciones son tiros libres, penales, saques de banda, de meta y de esquina.",
+      "ruleReference": "Ley 8",
+      "tags": ["saque-inicial"]
+    },
+    {
+      "id": "p5-q9",
+      "moduleId": "p5",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "Una infracción cometida con el balón fuera de juego cambia la forma de reanudar.",
+      "correctAnswer": false,
+      "explanation": "Las Leyes lo aclaran igual que en las otras dos disciplinas: la infracción con el balón fuera de juego no altera la reanudación, aunque sí puede llevar sanción disciplinaria.",
+      "ruleReference": "Ley 8",
+      "tags": ["reanudaciones", "disciplina"]
+    },
+    {
+      "id": "p5-q10",
+      "moduleId": "p5",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Cuándo se reanuda con balón a tierra?",
+      "options": [
+        "Siempre que el árbitro detiene el juego",
+        "Cuando los árbitros detienen el juego y la Ley no exige otra de las reanudaciones previstas",
+        "Solo tras una lesión",
+        "Nunca: no existe en fútbol playa"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Es la reanudación por defecto, igual que en fútbol y futsal: cubre los casos que ninguna otra reanudación contempla.",
+      "ruleReference": "Ley 8",
+      "tags": ["balon-a-tierra"]
+    },
+    {
+      "id": "p5-q11",
+      "moduleId": "p5",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "El ejecutor de un saque de banda vuelve a tocar el balón antes de que lo toque otro jugador, en campo rival. ¿Qué corresponde?",
+      "options": [
+        "Se repite el saque",
+        "Tiro libre desde el lugar de la infracción",
+        "Tiro libre desde el centro de la cancha",
+        "Saque de banda para el rival"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Ley 15 distingue por mitad de cancha: si la infracción fue en la mitad del equipo que defiende el saque, el tiro libre se ejecuta en el lugar; si fue en la propia mitad del infractor, desde el centro de la cancha.",
+      "ruleReference": "Ley 15",
+      "tags": ["saque-de-banda", "segundo-toque"]
+    },
+    {
+      "id": "p5-q12",
+      "moduleId": "p5",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "El ejecutor de un saque de banda comete infracción por mano dentro de su propia área, y es el guardameta. ¿Qué corresponde?",
+      "options": [
+        "Tiro penal",
+        "Tiro libre desde el centro de la cancha",
+        "Tiro libre desde el lugar de la infracción",
+        "No hay infracción"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Ley 15 prevé exactamente ese supuesto: sería penal si el infractor fuese un jugador de campo, pero tratándose del guardameta se concede un tiro libre desde el centro de la cancha.",
+      "ruleReference": "Ley 15",
+      "tags": ["saque-de-banda", "mano", "guardameta"]
+    }
+  ]
+}

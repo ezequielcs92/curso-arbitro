@@ -1,0 +1,121 @@
+{
+  "moduleId": "p1",
+  "discipline": "beach_soccer",
+  "rulesVersion": "FIFA Beach Soccer 2025-26",
+  "questions": [
+    {
+      "id": "p1-q1",
+      "moduleId": "p1",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Cuántos períodos tiene un partido de fútbol playa y cuánto duran?",
+      "options": [
+        "Dos de 20 minutos",
+        "Tres de 12 minutos de tiempo de juego",
+        "Cuatro de 10 minutos",
+        "Dos de 15 minutos"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Ley 7 fija tres períodos iguales de 12 minutos de tiempo de juego. Los tres períodos son la estructura que organiza todo lo demás: el acta, los sorteos y el reparto de puntos.",
+      "ruleReference": "Ley 7",
+      "tags": ["tiempo", "periodos"]
+    },
+    {
+      "id": "p1-q2",
+      "moduleId": "p1",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuántos sorteos hay en un partido de fútbol playa?",
+      "options": ["Uno, al inicio", "Dos: antes del primer período y antes del tercero", "Tres, uno por período", "Ninguno"],
+      "correctAnswer": 1,
+      "explanation": "Hay un sorteo antes del primer período y otro antes del tercero. Del segundo depende quién elige arco en el tercer período y, si hay prórroga, quién saca en ella.",
+      "ruleReference": "Ley 8",
+      "tags": ["sorteo", "periodos"]
+    },
+    {
+      "id": "p1-q3",
+      "moduleId": "p1",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué calzado corresponde en fútbol playa?",
+      "options": [
+        "Zapatillas de playa",
+        "Ninguno: no se permite calzado",
+        "Botines de goma",
+        "El que elija cada jugador"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Ley 4 es tajante: no se permite calzado. Sí se admiten vendajes elásticos en los pies siempre que no cubran por completo los talones ni los dedos.",
+      "ruleReference": "Ley 4",
+      "tags": ["equipamiento", "descalzo"]
+    },
+    {
+      "id": "p1-q4",
+      "moduleId": "p1",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuál es el equipamiento obligatorio de un jugador de fútbol playa?",
+      "options": [
+        "Camiseta, pantalones cortos, medias y espinilleras",
+        "Camiseta con mangas y pantalones cortos",
+        "Camiseta, pantalones y calzado de playa",
+        "Camiseta con mangas, pantalones cortos y vendajes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Son solo dos prendas: camiseta con mangas y pantalones cortos, que además no pueden llevarse arremangados. Es el equipamiento obligatorio más corto de las tres disciplinas.",
+      "ruleReference": "Ley 4",
+      "tags": ["equipamiento"]
+    },
+    {
+      "id": "p1-q5",
+      "moduleId": "p1",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "En fútbol playa está prohibido formar barrera.",
+      "correctAnswer": true,
+      "explanation": "La Ley lo dice sin matices: los jugadores no pueden formar barrera. Eso convierte cada tiro libre en un duelo directo contra el guardameta y cambia por completo el criterio de sanción cerca del área.",
+      "ruleReference": "Ley 13",
+      "tags": ["tiro-libre", "barrera"]
+    },
+    {
+      "id": "p1-q6",
+      "moduleId": "p1",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cómo se delimita la cancha de fútbol playa?",
+      "options": [
+        "Con líneas pintadas sobre la arena",
+        "Con cintas y un total de diez banderas",
+        "Con vallas laterales",
+        "Con conos en las esquinas"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La cancha se define con cintas en las bandas y diez banderas: rojas en las esquinas y en los extremos de la línea central imaginaria, y amarillas en los extremos de las líneas imaginarias del área penal.",
+      "ruleReference": "Ley 1",
+      "tags": ["cancha", "banderas"]
+    },
+    {
+      "id": "p1-q7",
+      "moduleId": "p1",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Cuántos puntos suma un equipo que gana en la prórroga en un partido de liga?",
+      "options": ["Tres", "Dos", "Uno", "Los que fije el reglamento del torneo"],
+      "correctAnswer": 1,
+      "explanation": "El reparto está en la propia Ley: tres puntos por ganar al final del tercer período, dos por ganar en la prórroga y uno por ganar en los penales. No es una norma de cada torneo.",
+      "ruleReference": "Ley 10",
+      "tags": ["resultado", "puntos"]
+    },
+    {
+      "id": "p1-q8",
+      "moduleId": "p1",
+      "type": "true_false",
+      "difficulty": 4,
+      "question": "El bloqueo a un adversario es siempre una infracción en fútbol playa.",
+      "correctAnswer": false,
+      "explanation": "La Ley 12 lo considera una táctica legítima bajo tres condiciones: que quien bloquea esté quieto en el momento del contacto, que no provoque el contacto deliberadamente moviéndose o extendiendo el cuerpo, y que el adversario tenga la posibilidad de evitarlo.",
+      "ruleReference": "Ley 12",
+      "tags": ["bloqueo", "faltas"]
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "moduleId": "p7",
+  "discipline": "beach_soccer",
+  "rulesVersion": "FIFA Beach Soccer 2025-26",
+  "questions": [
+    {
+      "id": "p7-q1",
+      "moduleId": "p7",
+      "type": "true_false",
+      "difficulty": 2,
+      "question": "Los jugadores pueden formar barrera en un tiro libre de fútbol playa.",
+      "correctAnswer": false,
+      "explanation": "La Ley 13 lo prohíbe con una frase: los jugadores no pueden formar barrera. Cada tiro libre queda como un duelo entre el ejecutor y el guardameta.",
+      "ruleReference": "Ley 13",
+      "tags": ["tiro-libre", "barrera"]
+    },
+    {
+      "id": "p7-q2",
+      "moduleId": "p7",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Quién puede ejecutar un tiro libre?",
+      "options": [
+        "Solo el capitán",
+        "Cualquier jugador que estuviera en la cancha cuando se cometió la infracción",
+        "Cualquiera de los cinco, incluidos los que entraron después",
+        "El jugador que sufrió la falta"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Ley 13 lo acota a quienes estaban en la cancha en el momento de la infracción, y además exige que el ejecutor esté claramente identificado.",
+      "ruleReference": "Ley 13",
+      "tags": ["tiro-libre", "ejecutor"]
+    },
+    {
+      "id": "p7-q3",
+      "moduleId": "p7",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "El ejecutor puede hacer un montículo de arena con los pies o con el balón para elevar la posición del balón.",
+      "correctAnswer": true,
+      "explanation": "La Ley 13 lo permite expresamente. Es una acción propia del fútbol playa que conviene conocer para no interpretarla como demora.",
+      "ruleReference": "Ley 13",
+      "tags": ["tiro-libre", "arena"]
+    },
+    {
+      "id": "p7-q4",
+      "moduleId": "p7",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿En cuánto tiempo debe ejecutarse un tiro libre?",
+      "options": [
+        "En cuatro segundos desde la señal de los árbitros",
+        "En cuatro segundos desde que el balón está quieto",
+        "En cinco segundos",
+        "No hay límite"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cuatro segundos desde la señal arbitral, y uno de los árbitros debe mostrar la cuenta con claridad. La señal es parte de la regla.",
+      "ruleReference": "Ley 13",
+      "tags": ["tiro-libre", "cuatro-segundos"]
+    },
+    {
+      "id": "p7-q5",
+      "moduleId": "p7",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Un jugador ejecuta el tiro libre antes de la señal de los árbitros. ¿Qué corresponde?",
+      "options": [
+        "El juego continúa",
+        "Se detiene el juego, se ordena repetir el tiro y se amonesta al ejecutor",
+        "Se concede el tiro al rival",
+        "Se repite sin sanción"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Ley 13 es explícita en las tres consecuencias: detener, repetir y amonestar.",
+      "ruleReference": "Ley 13",
+      "tags": ["tiro-libre", "amonestacion"]
+    },
+    {
+      "id": "p7-q6",
+      "moduleId": "p7",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "Se concede un tiro libre al final de un período. ¿Qué permiten las Leyes al equipo defensor?",
+      "options": [
+        "Formar barrera excepcionalmente",
+        "Sustituir al guardameta defensor por un jugador de campo o un suplente habilitado",
+        "Retrasar el tiro un minuto",
+        "Nada en particular"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Debe concederse tiempo adicional para ejecutar el tiro, y en esa situación los árbitros permiten reemplazar al guardameta por un jugador de campo o un suplente habilitado, siguiendo en ese caso el procedimiento de sustitución.",
+      "ruleReference": "Ley 13",
+      "tags": ["tiro-libre", "guardameta", "tiempo"]
+    },
+    {
+      "id": "p7-q7",
+      "moduleId": "p7",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "Se prolongó el período para ejecutar un tiro libre y el balón toca el poste y luego entra. ¿Qué corresponde?",
+      "options": [
+        "No es gol: el período había terminado",
+        "Es gol",
+        "Se repite el tiro",
+        "Balón a tierra"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las Leyes lo resuelven expresamente: si el período se prolongó para un tiro libre y el balón toca un poste, el travesaño o el guardameta antes de cruzar la línea entre los postes y bajo el travesaño, se concede gol.",
+      "ruleReference": "Ley 13",
+      "tags": ["tiro-libre", "gol", "tiempo"]
+    },
+    {
+      "id": "p7-q8",
+      "moduleId": "p7",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Un tiro libre entra directamente en la portería del propio ejecutor. ¿Qué corresponde?",
+      "options": [
+        "Gol en contra",
+        "Saque de esquina para el equipo adversario",
+        "Saque de meta",
+        "Se repite el tiro"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Ley 13 concede saque de esquina al rival. En cambio, si el tiro libre entra directamente en la portería contraria, el gol es válido.",
+      "ruleReference": "Ley 13",
+      "tags": ["tiro-libre", "gol"]
+    },
+    {
+      "id": "p7-q9",
+      "moduleId": "p7",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "El balón se daña tras golpear el poste en un tiro libre y no entra. ¿Qué corresponde?",
+      "options": [
+        "Se repite el tiro libre",
+        "Los árbitros detienen el juego y reanudan con balón a tierra",
+        "Se concede gol",
+        "Saque de meta"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las Leyes lo aclaran para evitar la repetición automática: no se ordena repetir el tiro; se detiene y se reanuda con balón a tierra.",
+      "ruleReference": "Ley 13",
+      "tags": ["tiro-libre", "balon"]
+    },
+    {
+      "id": "p7-q10",
+      "moduleId": "p7",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Cuáles son los dos tipos de tiro libre en fútbol playa?",
+      "options": [
+        "Directo e indirecto",
+        "En la mitad del adversario, y desde la propia mitad o el centro de la cancha",
+        "Con barrera y sin barrera",
+        "De juego y de castigo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El fútbol playa no distingue entre directo e indirecto. Distingue por ubicación: en la mitad rival, o desde la propia mitad o el centro de la cancha.",
+      "ruleReference": "Ley 13",
+      "tags": ["tiro-libre", "tipos"]
+    },
+    {
+      "id": "p7-q11",
+      "moduleId": "p7",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "Un jugador comete una infracción de la Ley 12.1 fuera de la cancha. ¿Cómo se reanuda?",
+      "options": [
+        "Balón a tierra",
+        "Tiro libre sobre la línea de demarcación más cercana al lugar de la infracción; penal si ese punto está sobre la línea de meta o en la parte de la línea de banda del área del infractor",
+        "Tiro libre desde el centro de la cancha",
+        "Saque de banda"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las Leyes lo prevén con precisión, incluida la conversión en penal según dónde caiga ese punto de la línea.",
+      "ruleReference": "Ley 13",
+      "tags": ["tiro-libre", "fuera-de-cancha", "penal"]
+    },
+    {
+      "id": "p7-q12",
+      "moduleId": "p7",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "El ejecutor de un tiro libre debe estar claramente identificado.",
+      "correctAnswer": true,
+      "explanation": "La Ley 13 lo exige, igual que las otras dos disciplinas lo exigen en sus tiros especiales. Evita las ejecuciones en las que un jugador amaga y otro remata.",
+      "ruleReference": "Ley 13",
+      "tags": ["tiro-libre", "ejecutor"]
+    },
+    {
+      "id": "p7-q13",
+      "moduleId": "p7",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Quién debe mostrar la cuenta de cuatro segundos en un tiro libre?",
+      "options": [
+        "El cronometrador",
+        "Uno de los árbitros, con claridad",
+        "El tercer árbitro",
+        "No se muestra"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Ley 13 lo exige expresamente: la cuenta debe mostrarla con claridad uno de los árbitros. Hace verificable la decisión y avisa al ejecutor.",
+      "ruleReference": "Ley 13",
+      "tags": ["tiro-libre", "senalizacion"]
+    },
+    {
+      "id": "p7-q14",
+      "moduleId": "p7",
+      "type": "decision",
+      "difficulty": 4,
+      "question": "Un defensor derriba con imprudencia a un atacante a diez metros del arco, en la mitad rival. Es la primera infracción del partido. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "direct_free_kick",
+        "disciplinary": "none",
+        "restart": "place_of_offence"
+      },
+      "explanation": "En la mitad del adversario, el tiro libre se ejecuta en el lugar. La imprudencia sola no lleva tarjeta. Y como no se puede formar barrera, esa falta cerca del área equivale a una ocasión clarísima: es la razón por la que el criterio de sanción cerca del arco pesa tanto en esta disciplina.",
+      "ruleReference": "Ley 12, Ley 13",
+      "tags": ["decision", "tiro-libre", "barrera"]
+    },
+    {
+      "id": "p7-q15",
+      "moduleId": "p7",
+      "type": "decision",
+      "difficulty": 5,
+      "question": "Un jugador protesta con lenguaje ofensivo desde su propia mitad de la cancha, con el juego detenido por una falta suya previa. ¿Cuál es tu decisión completa por la protesta?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "direct_free_kick",
+        "disciplinary": "send_off",
+        "restart": "centre_of_pitch"
+      },
+      "explanation": "El lenguaje ofensivo, insultante o humillante figura entre las infracciones sancionadas con tiro libre y, por su gravedad, con expulsión. Cometida en la propia mitad, la ejecución es desde el centro de la cancha.",
+      "ruleReference": "Ley 12",
+      "tags": ["decision", "expulsion", "lenguaje", "ubicacion"]
+    },
+    {
+      "id": "p7-q16",
+      "moduleId": "p7",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿Por qué el criterio de sanción cerca del área pesa más en fútbol playa que en fútbol?",
+      "options": [
+        "Porque los árbitros son dos",
+        "Porque no se puede formar barrera, así que cualquier tiro libre cercano queda mano a mano con el guardameta",
+        "Porque el arco es más grande",
+        "Porque hay tres períodos"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sin barrera, la diferencia entre cobrar y no cobrar cerca del arco equivale a conceder o negar una ocasión clarísima. Es el ajuste de criterio más importante al pasar del fútbol al fútbol playa.",
+      "ruleReference": "Ley 13",
+      "tags": ["tiro-libre", "barrera", "criterio"]
+    }
+  ]
+}
