@@ -1,0 +1,195 @@
+{
+  "moduleId": "s5",
+  "discipline": "futsal",
+  "rulesVersion": "FIFA Futsal 2025-26",
+  "questions": [
+    {
+      "id": "s5-q1",
+      "moduleId": "s5",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "El balón golpea el cielorraso durante el juego. ¿Cómo se reanuda?",
+      "options": [
+        "Balón a tierra",
+        "Saque de banda con el pie para el adversario del equipo que lo tocó por última vez",
+        "Saque de meta",
+        "El juego continúa"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Es una situación propia del futsal bajo techo: el balón queda fuera de juego y se reanuda con saque de banda para el rival del último que lo tocó, desde el punto de la línea de banda más cercano al lugar del suelo sobre el que el balón tocó el techo.",
+      "ruleReference": "Ley 9",
+      "tags": ["balon", "cielorraso"]
+    },
+    {
+      "id": "s5-q2",
+      "moduleId": "s5",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Quién debe estipular la altura mínima del cielorraso?",
+      "options": [
+        "Las Leyes de futsal, que fijan 6 m",
+        "El reglamento de la competición",
+        "La federación nacional, siempre",
+        "No está regulado"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las Leyes remiten al reglamento de la competición. Es uno de los datos que conviene conocer en pistas cubiertas bajas, donde el balón toca el techo con frecuencia.",
+      "ruleReference": "Ley 9",
+      "tags": ["cielorraso", "reglamento-privado"]
+    },
+    {
+      "id": "s5-q3",
+      "moduleId": "s5",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuándo está el balón fuera de juego en futsal?",
+      "options": [
+        "Cuando cruza parcialmente la línea",
+        "Cuando ha atravesado completamente la línea de meta o de banda, por el suelo o por el aire, o toca el cielorraso",
+        "Solo cuando el árbitro lo señala",
+        "Cuando toca la pared"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Se exige que atraviese completamente la línea, igual que en fútbol, pero se agrega el cielorraso como causa propia del futsal.",
+      "ruleReference": "Ley 9",
+      "tags": ["balon"]
+    },
+    {
+      "id": "s5-q4",
+      "moduleId": "s5",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "El balón toca a un árbitro, permanece en la pista y cambia el equipo en posesión. ¿Qué corresponde?",
+      "options": [
+        "El juego continúa",
+        "Balón a tierra",
+        "Saque de banda",
+        "Tiro libre indirecto"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las tres circunstancias son las mismas que en fútbol: ataque prometedor, gol directo o cambio de posesión. En cualquiera de ellas se reanuda con balón a tierra.",
+      "ruleReference": "Ley 9",
+      "tags": ["balon", "arbitro"]
+    },
+    {
+      "id": "s5-q5",
+      "moduleId": "s5",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "El juego se detiene con el balón dentro del área penal y la posesión habría sido del equipo atacante. ¿Dónde se deja caer el balón?",
+      "options": [
+        "En el punto donde estaba",
+        "Sobre la línea del área penal, en el punto más cercano a la posición del balón",
+        "En el punto de penal",
+        "En el círculo central"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El futsal lo resuelve distinto del fútbol: el balón se deja caer para un jugador del equipo atacante sobre la línea del área penal, en el punto más cercano a donde estaba el balón, siguiendo una línea imaginaria paralela a la línea de banda.",
+      "ruleReference": "Ley 8",
+      "tags": ["balon-a-tierra"]
+    },
+    {
+      "id": "s5-q6",
+      "moduleId": "s5",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "En un balón a tierra, ¿a qué distancia deben estar los demás jugadores?",
+      "options": ["A 1 m", "A 2 m del balón hasta que esté en juego", "A 3 m", "A 5 m"],
+      "correctAnswer": 1,
+      "explanation": "La Ley 8 exige 2 m. El balón está en juego cuando toca el suelo, y desde ese momento cualquier jugador de cualquiera de los dos equipos puede jugarlo.",
+      "ruleReference": "Ley 8",
+      "tags": ["balon-a-tierra", "distancia"]
+    },
+    {
+      "id": "s5-q7",
+      "moduleId": "s5",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuándo está en juego el balón en un balón a tierra de futsal?",
+      "options": [
+        "Cuando lo toca un jugador",
+        "Cuando toca la pista",
+        "Cuando el árbitro da la señal",
+        "Cuando sale del área"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El balón está en juego al tocar la pista, y a partir de ahí cualquier jugador puede jugarlo. No hay restricción sobre quién puede tocarlo primero.",
+      "ruleReference": "Ley 8",
+      "tags": ["balon-a-tierra"]
+    },
+    {
+      "id": "s5-q8",
+      "moduleId": "s5",
+      "type": "true_false",
+      "difficulty": 2,
+      "question": "En futsal no existe el fuera de juego, así que ninguna posición adelantada es sancionable.",
+      "correctAnswer": true,
+      "explanation": "La Ley 11 de futsal no contempla el fuera de juego. Lo que sí subsiste es la vigilancia sobre otras infracciones, como obstaculizar o jugar de forma peligrosa.",
+      "ruleReference": "Ley 11",
+      "tags": ["fuera-de-juego"]
+    },
+    {
+      "id": "s5-q9",
+      "moduleId": "s5",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué distancia deben respetar los adversarios en el saque inicial de futsal?",
+      "options": ["2 m", "3 m", "5 m", "9.15 m"],
+      "correctAnswer": 1,
+      "explanation": "El círculo central de futsal tiene 3 m de radio, y esa es la distancia que deben respetar los adversarios hasta que el balón esté en juego.",
+      "ruleReference": "Ley 8, Ley 1",
+      "tags": ["saque-inicial", "distancia"]
+    },
+    {
+      "id": "s5-q10",
+      "moduleId": "s5",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Se puede marcar gol directamente de un saque inicial en futsal?",
+      "options": [
+        "Sí, contra el equipo adversario",
+        "No, debe tocarlo otro jugador",
+        "Solo si lo toca el guardameta",
+        "Solo en la prórroga"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Como en fútbol, se admite el gol directo de saque inicial contra el equipo adversario. Si entrara en la propia portería, correspondería saque de esquina para el rival.",
+      "ruleReference": "Ley 8",
+      "tags": ["saque-inicial", "gol"]
+    },
+    {
+      "id": "s5-q11",
+      "moduleId": "s5",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué se necesita para que un gol sea válido en futsal?",
+      "options": [
+        "Que el balón cruce parcialmente la línea",
+        "Que atraviese completamente la línea de meta, entre los postes y bajo el travesaño, sin infracción previa del equipo que marcó",
+        "Que lo valide el cronometrador",
+        "Que no haya faltas acumuladas pendientes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El criterio es el mismo que en fútbol. Lo que cambia es el entorno: arcos de 3 × 2 m y una pista donde el balón cruza la línea mucho más rápido.",
+      "ruleReference": "Ley 10",
+      "tags": ["gol"]
+    },
+    {
+      "id": "s5-q12",
+      "moduleId": "s5",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "El balón toca el cielorraso. ¿Desde dónde se ejecuta la reanudación?",
+      "options": [
+        "Desde el centro de la pista",
+        "Desde el punto de la línea de banda más cercano al lugar del suelo sobre el que el balón tocó el techo",
+        "Desde donde estaba el jugador que lo tocó",
+        "Desde la línea de meta más cercana"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La referencia es la proyección vertical: el punto del suelo sobre el que se produjo el contacto, y desde ahí el punto más cercano de la línea de banda.",
+      "ruleReference": "Ley 9",
+      "tags": ["cielorraso", "saque-de-banda"]
+    }
+  ]
+}

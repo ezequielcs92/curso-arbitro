@@ -1,0 +1,188 @@
+{
+  "moduleId": "s3",
+  "discipline": "futsal",
+  "rulesVersion": "FIFA Futsal 2025-26",
+  "questions": [
+    {
+      "id": "s3-q1",
+      "moduleId": "s3",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuántos árbitros dirigen un partido de futsal sobre la pista?",
+      "options": ["Uno", "Dos", "Tres", "Cuatro"],
+      "correctAnswer": 1,
+      "explanation": "El futsal se dirige con dos árbitros sobre la pista, uno por banda, además del tercer árbitro y el cronometrador en la mesa. Es una mecánica muy distinta de la del fútbol.",
+      "ruleReference": "Ley 5, Ley 6",
+      "tags": ["equipo-arbitral"]
+    },
+    {
+      "id": "s3-q2",
+      "moduleId": "s3",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuál de estas NO es función del cronometrador?",
+      "options": [
+        "Llevar el registro de las faltas acumuladas señaladas por los árbitros",
+        "Dar la señal obligatoria cuando un equipo comete cinco faltas acumuladas en un período",
+        "Llevar el registro de los tiempos muertos solicitados",
+        "Decidir si una falta es acumulable"
+      ],
+      "correctAnswer": 3,
+      "explanation": "El cronometrador registra lo que los árbitros señalan; no decide. Sus funciones incluyen el tiempo, las faltas acumuladas, los tiempos muertos y las señales acústicas obligatorias.",
+      "ruleReference": "Ley 6",
+      "tags": ["cronometrador"]
+    },
+    {
+      "id": "s3-q3",
+      "moduleId": "s3",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Con qué se indica la quinta falta acumulada de un equipo?",
+      "options": [
+        "Con el silbato del árbitro principal",
+        "Con un silbato o señal acústica distinta de la de los árbitros",
+        "Levantando una bandera",
+        "No se indica"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La señal es acústica y debe ser distinguible de la de los árbitros, para que ambos equipos y el equipo arbitral sepan que la siguiente falta ya es la sexta.",
+      "ruleReference": "Ley 6",
+      "tags": ["cronometrador", "faltas-acumuladas"]
+    },
+    {
+      "id": "s3-q4",
+      "moduleId": "s3",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Un jugador es expulsado. ¿Qué documento entrega el cronometrador?",
+      "options": [
+        "El acta del partido",
+        "Un documento a los oficiales de cada equipo indicando cuándo puede entrar el suplente",
+        "Una copia de la tarjeta",
+        "El registro de faltas acumuladas"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El documento indica el minuto y segundo del cronómetro en que el suplente podrá entrar, y en qué período. Deja por escrito el cálculo de la reducción numérica y evita discusiones.",
+      "ruleReference": "Ley 6",
+      "tags": ["cronometrador", "reduccion-numerica"]
+    },
+    {
+      "id": "s3-q5",
+      "moduleId": "s3",
+      "type": "true_false",
+      "difficulty": 2,
+      "question": "Los árbitros de futsal también tienen prohibido llevar joyería.",
+      "correctAnswer": true,
+      "explanation": "Las Leyes lo extienden expresamente a los árbitros y demás miembros del equipo arbitral, no solo a los jugadores.",
+      "ruleReference": "Ley 6",
+      "tags": ["equipo-arbitral", "equipamiento"]
+    },
+    {
+      "id": "s3-q6",
+      "moduleId": "s3",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿A quién se solicita un tiempo muerto?",
+      "options": [
+        "Directamente a los árbitros de pista",
+        "Al tercer árbitro, o al cronometrador si no hay tercer árbitro",
+        "Al capitán del equipo rival",
+        "Al delegado del torneo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La solicitud va al tercer árbitro, o al cronometrador si no hay tercer árbitro, usando el documento previsto. Si no hay ninguno de los dos, un oficial puede pedirlo a los árbitros.",
+      "ruleReference": "Ley 7",
+      "tags": ["tiempo-muerto", "cronometrador"]
+    },
+    {
+      "id": "s3-q7",
+      "moduleId": "s3",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿En qué momento concede el cronometrador un tiempo muerto?",
+      "options": [
+        "En cuanto se solicita",
+        "Con el balón fuera de juego y cuando el equipo solicitante vaya a ejecutar la reanudación o reciba un balón a tierra",
+        "Solo en el descanso",
+        "Cuando lo autorice el árbitro principal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las dos condiciones son acumulativas: balón fuera de juego y posesión de la reanudación por parte del equipo que lo pidió. Así el tiempo muerto no puede usarse para cortar un ataque rival.",
+      "ruleReference": "Ley 7",
+      "tags": ["tiempo-muerto"]
+    },
+    {
+      "id": "s3-q8",
+      "moduleId": "s3",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Durante un tiempo muerto, ¿qué está permitido?",
+      "options": [
+        "Que los suplentes entren a la pista",
+        "Que los jugadores permanezcan dentro o fuera de la pista, saliendo si quieren beber",
+        "Que los oficiales den instrucciones dentro de la pista",
+        "Hacer sustituciones de inmediato"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Los jugadores pueden quedarse dentro o salir, y deben salir para beber. Los suplentes permanecen fuera, los oficiales no pueden instruir dentro de la pista, y las sustituciones solo se hacen una vez sonada la señal de fin del tiempo muerto.",
+      "ruleReference": "Ley 7",
+      "tags": ["tiempo-muerto"]
+    },
+    {
+      "id": "s3-q9",
+      "moduleId": "s3",
+      "type": "true_false",
+      "difficulty": 4,
+      "question": "Un equipo que no pidió tiempo muerto en el primer período puede pedir dos en el segundo.",
+      "correctAnswer": false,
+      "explanation": "Las Leyes lo aclaran expresamente: el tiempo muerto no usado no se acumula. Sigue teniendo derecho a uno solo durante el segundo período.",
+      "ruleReference": "Ley 7",
+      "tags": ["tiempo-muerto"]
+    },
+    {
+      "id": "s3-q10",
+      "moduleId": "s3",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "En la prórroga también hay tiempos muertos.",
+      "correctAnswer": false,
+      "explanation": "Las Leyes lo prohíben: no se permiten tiempos muertos durante la prórroga, si se juega.",
+      "ruleReference": "Ley 7",
+      "tags": ["tiempo-muerto", "prorroga"]
+    },
+    {
+      "id": "s3-q11",
+      "moduleId": "s3",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Si no hay cronometrador ni tercer árbitro, ¿qué corresponde con el tiempo de juego?",
+      "options": [
+        "Se juega con reloj corrido",
+        "Los árbitros confirman que se cumplan los 20 minutos de tiempo de juego",
+        "Se reduce el partido a 15 minutos por período",
+        "No se puede jugar"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las Leyes prevén el caso: sin cronometrador disponible, son los árbitros quienes confirman que se cumplan los 20 minutos de tiempo de juego de cada período.",
+      "ruleReference": "Ley 7",
+      "tags": ["tiempo", "amateur"]
+    },
+    {
+      "id": "s3-q12",
+      "moduleId": "s3",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "En arbitraje amateur no hay mesa ni cronometrador. ¿Qué conviene resolver antes de empezar?",
+      "options": [
+        "Nada: se juega igual",
+        "Quién lleva el registro de faltas acumuladas y cómo se comunica a los equipos",
+        "El color de las camisetas",
+        "Quién ejecuta los saques de esquina"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sin mesa, el registro de faltas acumuladas queda en manos del equipo arbitral, y de él depende el tiro desde la sexta. Definirlo antes evita el conflicto más caro del futsal amateur.",
+      "ruleReference": "Ley 6, Ley 12",
+      "tags": ["amateur", "faltas-acumuladas", "previa"]
+    }
+  ]
+}

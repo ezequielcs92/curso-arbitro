@@ -1,0 +1,204 @@
+{
+  "moduleId": "s2",
+  "discipline": "futsal",
+  "rulesVersion": "FIFA Futsal 2025-26",
+  "questions": [
+    {
+      "id": "s2-q1",
+      "moduleId": "s2",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuáles son las dimensiones de la pista para partidos NO internacionales?",
+      "options": [
+        "38 a 42 m de largo por 20 a 25 m de ancho",
+        "25 a 42 m de largo por 16 a 25 m de ancho",
+        "20 a 40 m de largo por 15 a 20 m de ancho",
+        "Las que fije el reglamento de la competición, sin límites"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Para partidos no internacionales, la Ley 1 admite de 25 a 42 m de línea de banda y de 16 a 25 m de línea de meta. Los 38–42 por 20–25 son los valores de partidos internacionales.",
+      "ruleReference": "Ley 1",
+      "tags": ["pista", "medidas"]
+    },
+    {
+      "id": "s2-q2",
+      "moduleId": "s2",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "En futsal la línea de banda debe ser más larga que la línea de meta.",
+      "correctAnswer": true,
+      "explanation": "La Ley 1 lo exige expresamente. Es una comprobación rápida y útil cuando llegás a una pista que no conocés.",
+      "ruleReference": "Ley 1",
+      "tags": ["pista"]
+    },
+    {
+      "id": "s2-q3",
+      "moduleId": "s2",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuánto miden los arcos de futsal?",
+      "options": ["3 m por 2 m", "4 m por 2 m", "3 m por 2.10 m", "7.32 m por 2.44 m"],
+      "correctAnswer": 0,
+      "explanation": "La Ley 1 fija 3 m entre los postes, en medida interior, y 2 m desde el borde inferior del travesaño al suelo. Postes y travesaño tienen 8 cm de ancho y profundidad, igual que las líneas.",
+      "ruleReference": "Ley 1",
+      "tags": ["pista", "meta"]
+    },
+    {
+      "id": "s2-q4",
+      "moduleId": "s2",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuánto miden de ancho todas las líneas de la pista?",
+      "options": ["5 cm", "8 cm", "10 cm", "12 cm"],
+      "correctAnswer": 1,
+      "explanation": "La Ley 1 fija 8 cm para todas las líneas. La misma medida se aplica al ancho y la profundidad de postes y travesaño.",
+      "ruleReference": "Ley 1",
+      "tags": ["pista"]
+    },
+    {
+      "id": "s2-q5",
+      "moduleId": "s2",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿A qué distancia está la segunda marca, desde la que se ejecuta el tiro libre desde la sexta falta?",
+      "options": ["6 m", "8 m", "10 m", "12 m"],
+      "correctAnswer": 2,
+      "explanation": "La marca de penal está a 6 m y la segunda marca a 10 m del punto medio entre los postes. Esa segunda marca es la del tiro libre desde la sexta falta acumulada.",
+      "ruleReference": "Ley 1",
+      "tags": ["pista", "faltas-acumuladas"]
+    },
+    {
+      "id": "s2-q6",
+      "moduleId": "s2",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿A qué distancia está la marca de penal en futsal?",
+      "options": ["6 m", "9 m", "10 m", "11 m"],
+      "correctAnswer": 0,
+      "explanation": "La marca de penal está a 6 m, equidistante de los postes. Los 11 m son de fútbol y los 10 m corresponden a la segunda marca del futsal.",
+      "ruleReference": "Ley 1",
+      "tags": ["pista", "penal"]
+    },
+    {
+      "id": "s2-q7",
+      "moduleId": "s2",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuál es la circunferencia del balón de futsal?",
+      "options": ["De 58 a 60 cm", "De 62 a 64 cm", "De 65 a 67 cm", "De 68 a 70 cm"],
+      "correctAnswer": 1,
+      "explanation": "La Ley 2 fija de 62 a 64 cm de circunferencia y de 400 a 440 g de peso al comienzo del partido. El de fútbol es de 68 a 70 cm y de 410 a 450 g.",
+      "ruleReference": "Ley 2",
+      "tags": ["balon"]
+    },
+    {
+      "id": "s2-q8",
+      "moduleId": "s2",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuánto debe pesar el balón de futsal al comienzo del partido?",
+      "options": ["De 350 a 390 g", "De 400 a 440 g", "De 410 a 450 g", "De 440 a 480 g"],
+      "correctAnswer": 1,
+      "explanation": "De 400 a 440 g. El balón de futsal también tiene una exigencia propia de rebote, que se comprueba dejándolo caer desde 2 m de altura.",
+      "ruleReference": "Ley 2",
+      "tags": ["balon"]
+    },
+    {
+      "id": "s2-q9",
+      "moduleId": "s2",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuántos jugadores tiene un equipo y cuál es el mínimo para jugar?",
+      "options": [
+        "Máximo 5, mínimo 4",
+        "Máximo 5, mínimo 3",
+        "Máximo 6, mínimo 3",
+        "Máximo 5, mínimo 2"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Ley 3 fija un máximo de cinco jugadores, uno de los cuales es el guardameta, y prohíbe empezar o reanudar si un equipo tiene menos de tres.",
+      "ruleReference": "Ley 3",
+      "tags": ["jugadores"]
+    },
+    {
+      "id": "s2-q10",
+      "moduleId": "s2",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Un equipo queda con dos jugadores porque uno abandonó la pista deliberadamente, con el balón en juego. ¿Qué corresponde?",
+      "options": [
+        "Detener el juego de inmediato",
+        "No estás obligado a detener y podés dar ventaja, pero no se reanuda sin el mínimo de tres",
+        "Continuar el partido hasta el final",
+        "Dar por finalizado el partido"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Ley 3 lo resuelve igual que el fútbol: si el equipo queda por debajo del mínimo porque alguien se fue deliberadamente, los árbitros no están obligados a detener y pueden dar ventaja, pero no se reanuda sin tres jugadores.",
+      "ruleReference": "Ley 3",
+      "tags": ["jugadores", "ventaja"]
+    },
+    {
+      "id": "s2-q11",
+      "moduleId": "s2",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "En futsal las sustituciones se hacen con el juego detenido y con autorización arbitral, como en fútbol.",
+      "correctAnswer": false,
+      "explanation": "El futsal usa sustituciones volantes: se hacen en cualquier momento, con el balón en juego o no —salvo durante un tiempo muerto—, por la zona de sustituciones propia del equipo. Ni la salida ni la entrada requieren autorización arbitral, aunque el suplente solo entra después de que el reemplazado haya salido.",
+      "ruleReference": "Ley 3",
+      "tags": ["sustituciones"]
+    },
+    {
+      "id": "s2-q12",
+      "moduleId": "s2",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántos suplentes pueden calentar al mismo tiempo?",
+      "options": ["Dos", "Tres", "Cinco", "Todos"],
+      "correctAnswer": 2,
+      "explanation": "La Ley 3 permite que un máximo de cinco suplentes por equipo calienten a la vez. Es un dato de gestión del banco que conviene tener presente.",
+      "ruleReference": "Ley 3",
+      "tags": ["sustituciones"]
+    },
+    {
+      "id": "s2-q13",
+      "moduleId": "s2",
+      "type": "true_false",
+      "difficulty": 4,
+      "question": "En futsal se permiten los accesorios que no sean peligrosos y estén cubiertos de forma segura, igual que en fútbol.",
+      "correctAnswer": false,
+      "explanation": "Es justamente donde los reglamentos se contradicen. IFAB 2026/27 permite accesorios no peligrosos y cubiertos; el futsal mantiene la prohibición de la joyería. El mismo árbitro aplica criterios opuestos según la disciplina.",
+      "ruleReference": "Ley 4",
+      "tags": ["equipamiento", "accesorios"]
+    },
+    {
+      "id": "s2-q14",
+      "moduleId": "s2",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Un jugador se niega a quitarse una pulsera, o se la vuelve a poner después de habérsela quitado. ¿Qué corresponde?",
+      "options": [
+        "Solo se le ordena salir de la pista",
+        "Se lo amonesta",
+        "Se lo expulsa",
+        "Se deja constancia en el acta y sigue jugando"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Ley 4 lo dice expresamente: el jugador que se niegue a cumplir o vuelva a llevar el objeto debe ser amonestado. Antes de eso se le ordena quitárselo, y salir de la pista en la próxima interrupción si no puede o no quiere.",
+      "ruleReference": "Ley 4",
+      "tags": ["equipamiento", "accesorios", "amonestacion"]
+    },
+    {
+      "id": "s2-q15",
+      "moduleId": "s2",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué radio tiene el círculo central en futsal?",
+      "options": ["1 m", "3 m", "6 m", "9.15 m"],
+      "correctAnswer": 1,
+      "explanation": "El círculo central de futsal tiene 3 m de radio, frente a los 9.15 m del fútbol. Es la referencia de distancia en el saque inicial.",
+      "ruleReference": "Ley 1",
+      "tags": ["pista", "saque-inicial"]
+    }
+  ]
+}

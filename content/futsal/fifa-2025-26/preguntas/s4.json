@@ -1,0 +1,239 @@
+{
+  "moduleId": "s4",
+  "discipline": "futsal",
+  "rulesVersion": "FIFA Futsal 2025-26",
+  "questions": [
+    {
+      "id": "s4-q1",
+      "moduleId": "s4",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué significa que el futsal se juegue con «tiempo de juego»?",
+      "options": [
+        "Que el reloj corre siempre, como en fútbol",
+        "Que el cronómetro se detiene en cada interrupción del juego",
+        "Que el árbitro añade tiempo al final",
+        "Que el partido dura lo que decidan los equipos"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El cronómetro se detiene cada vez que el balón deja de estar en juego y se reanuda cuando vuelve a ponerse en juego. Por eso 20 minutos de tiempo de juego duran bastante más de 20 minutos de reloj.",
+      "ruleReference": "Ley 7",
+      "tags": ["tiempo"]
+    },
+    {
+      "id": "s4-q2",
+      "moduleId": "s4",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuánto dura el descanso del medio tiempo en futsal?",
+      "options": ["10 minutos como máximo", "15 minutos como máximo", "20 minutos", "5 minutos"],
+      "correctAnswer": 1,
+      "explanation": "No debe exceder los 15 minutos. El reglamento de la competición debe indicar su duración, que solo puede modificarse con permiso de los árbitros.",
+      "ruleReference": "Ley 7",
+      "tags": ["tiempo", "descanso"]
+    },
+    {
+      "id": "s4-q3",
+      "moduleId": "s4",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué ocurre entre los dos períodos de la prórroga?",
+      "options": [
+        "Hay un descanso de 15 minutos",
+        "No hay intervalo: los equipos cambian de mitad y los bancos se intercambian",
+        "Hay un descanso de 5 minutos",
+        "Se sortea de nuevo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las Leyes lo especifican: no hay intervalo entre los dos períodos de la prórroga; los equipos simplemente cambian de mitad y los oficiales y suplentes cambian de banco. Sí se permite una pausa breve para beber, de hasta un minuto, en el descanso de la prórroga.",
+      "ruleReference": "Ley 7",
+      "tags": ["tiempo", "prorroga"]
+    },
+    {
+      "id": "s4-q4",
+      "moduleId": "s4",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuánto duran los períodos de la prórroga en futsal?",
+      "options": [
+        "10 minutos cada uno",
+        "Dos períodos iguales que no excedan los cinco minutos cada uno",
+        "15 minutos cada uno",
+        "Un solo período de 5 minutos"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las Leyes fijan dos períodos iguales de prórroga que no excedan los cinco minutos cada uno, y el reglamento de la competición debe estipular su duración exacta.",
+      "ruleReference": "Ley 7",
+      "tags": ["tiempo", "prorroga"]
+    },
+    {
+      "id": "s4-q5",
+      "moduleId": "s4",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "El cronómetro se detiene cuando se concede un tiro libre desde la sexta falta acumulada.",
+      "correctAnswer": true,
+      "explanation": "Como toda interrupción, el reloj se para. Por eso el tiempo de juego es una magnitud distinta del tiempo transcurrido, y por eso el registro de la reducción numérica se lleva en tiempo de juego.",
+      "ruleReference": "Ley 7",
+      "tags": ["tiempo", "faltas-acumuladas"]
+    },
+    {
+      "id": "s4-q6",
+      "moduleId": "s4",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Un equipo pide tiempo muerto mientras el rival va a sacar de banda. ¿Se concede?",
+      "options": [
+        "Sí, en cuanto el balón salga",
+        "No: se concede cuando el equipo solicitante vaya a ejecutar la reanudación o reciba un balón a tierra",
+        "Sí, siempre que el balón esté fuera de juego",
+        "Solo si el rival está de acuerdo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La condición de posesión de la reanudación es justamente la que impide usar el tiempo muerto para cortar el ritmo del rival.",
+      "ruleReference": "Ley 7",
+      "tags": ["tiempo-muerto"]
+    },
+    {
+      "id": "s4-q7",
+      "moduleId": "s4",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuándo se pueden hacer sustituciones en relación con un tiempo muerto?",
+      "options": [
+        "Durante el tiempo muerto",
+        "Solo después de la señal acústica que indica su final",
+        "Antes de solicitarlo",
+        "No se pueden hacer en todo el período"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las Leyes lo precisan: las sustituciones solo pueden hacerse después de que suene la señal acústica o el silbato que indica el fin del tiempo muerto.",
+      "ruleReference": "Ley 7",
+      "tags": ["tiempo-muerto", "sustituciones"]
+    },
+    {
+      "id": "s4-q8",
+      "moduleId": "s4",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Un jugador es expulsado a los 12:30 del cronómetro descendente del primer período. ¿Qué determina cuándo entra el suplente?",
+      "options": [
+        "El tiempo transcurrido de reloj real",
+        "Dos minutos de tiempo de juego, es decir, con el cronómetro corriendo",
+        "El criterio del árbitro",
+        "El final del período"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La reducción se mide en tiempo de juego, así que las interrupciones no cuentan. Por eso el cronometrador entrega un documento con el minuto y segundo exactos de reingreso.",
+      "ruleReference": "Ley 3, Ley 6, Ley 7",
+      "tags": ["reduccion-numerica", "tiempo"]
+    },
+    {
+      "id": "s4-q9",
+      "moduleId": "s4",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Un equipo con cinco jugadores enfrenta a otro con cuatro por expulsión, y el que tiene más marca un gol. ¿Qué corresponde?",
+      "options": [
+        "La reducción continúa hasta cumplir los dos minutos",
+        "El equipo sancionado puede completar cinco jugadores antes de que se cumplan los dos minutos",
+        "La reducción se duplica",
+        "El gol se anula"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las Leyes permiten abreviar la reducción cuando el equipo con más jugadores marca. Es una mecánica propia del futsal que no tiene equivalente en fútbol.",
+      "ruleReference": "Ley 3",
+      "tags": ["reduccion-numerica", "gol"]
+    },
+    {
+      "id": "s4-q10",
+      "moduleId": "s4",
+      "type": "true_false",
+      "difficulty": 2,
+      "question": "En futsal el árbitro añade tiempo al final de cada período por las interrupciones.",
+      "correctAnswer": false,
+      "explanation": "No hace falta: como el cronómetro se detiene en cada interrupción, el tiempo perdido nunca se pierde. El tiempo añadido es una figura del fútbol, donde el reloj corre.",
+      "ruleReference": "Ley 7",
+      "tags": ["tiempo"]
+    },
+    {
+      "id": "s4-q11",
+      "moduleId": "s4",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Quién debe estipular la duración del descanso del medio tiempo?",
+      "options": [
+        "Los árbitros",
+        "El reglamento de la competición",
+        "Los capitanes",
+        "La FIFA, que la fija en 15 minutos"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El reglamento de la competición lo estipula, dentro del máximo de 15 minutos, y solo puede alterarse con permiso de los árbitros.",
+      "ruleReference": "Ley 7",
+      "tags": ["tiempo", "reglamento-privado"]
+    },
+    {
+      "id": "s4-q12",
+      "moduleId": "s4",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué pausa se permite en el descanso de la prórroga?",
+      "options": [
+        "Ninguna",
+        "Una pausa breve para beber, que no debería exceder un minuto",
+        "Un descanso de cinco minutos",
+        "El mismo descanso de 15 minutos"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las Leyes permiten esa pausa breve para beber en el descanso de la prórroga, aunque no haya intervalo formal entre los dos períodos.",
+      "ruleReference": "Ley 7",
+      "tags": ["tiempo", "prorroga"]
+    },
+    {
+      "id": "s4-q13",
+      "moduleId": "s4",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "Dirigís futsal amateur sin cronómetro que se detenga. ¿Qué corresponde hacer?",
+      "options": [
+        "Jugar con reloj corrido sin avisar",
+        "Acordarlo antes con los dos equipos y dejarlo asentado como regla de la competición",
+        "Reducir los períodos a la mitad",
+        "Suspender el partido"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Jugar con reloj corrido no es tiempo de juego, así que es una regla distinta de la Ley 7. Se puede aplicar, pero corresponde acordarla y registrarla, no presentarla como si fuera el reglamento de FIFA.",
+      "ruleReference": "Ley 7",
+      "tags": ["tiempo", "amateur", "reglamento-privado"]
+    },
+    {
+      "id": "s4-q14",
+      "moduleId": "s4",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "Los oficiales de equipo pueden dar instrucciones dentro de la pista durante el tiempo muerto.",
+      "correctAnswer": false,
+      "explanation": "Las Leyes lo prohíben expresamente: durante el tiempo muerto los oficiales no pueden dar instrucciones dentro de la pista.",
+      "ruleReference": "Ley 7",
+      "tags": ["tiempo-muerto", "manejo"]
+    },
+    {
+      "id": "s4-q15",
+      "moduleId": "s4",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Durante un tiempo muerto, ¿dónde deben estar los suplentes?",
+      "options": [
+        "Dentro de la pista con sus compañeros",
+        "Fuera de la pista",
+        "En la zona de sustituciones",
+        "Donde indique el entrenador"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Los suplentes deben permanecer fuera de la pista durante todo el tiempo muerto. Los jugadores sí pueden quedarse dentro, salvo que quieran beber.",
+      "ruleReference": "Ley 7",
+      "tags": ["tiempo-muerto", "suplentes"]
+    }
+  ]
+}

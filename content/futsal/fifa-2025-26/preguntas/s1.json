@@ -1,0 +1,165 @@
+{
+  "moduleId": "s1",
+  "discipline": "futsal",
+  "rulesVersion": "FIFA Futsal 2025-26",
+  "questions": [
+    {
+      "id": "s1-q1",
+      "moduleId": "s1",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Qué reglamento rige el futsal?",
+      "options": [
+        "Las Reglas de Juego de IFAB",
+        "Las Futsal Laws of the Game de FIFA",
+        "El reglamento de cada federación nacional",
+        "Las Reglas de IFAB con anexos de FIFA"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El futsal tiene reglamento propio de FIFA, con 17 Leyes numeradas igual que las de IFAB pero de contenido distinto. La edición vigente es la 2025-26.",
+      "ruleReference": "Futsal Laws 2025-26",
+      "tags": ["fuente", "futsal"]
+    },
+    {
+      "id": "s1-q2",
+      "moduleId": "s1",
+      "type": "true_false",
+      "difficulty": 1,
+      "question": "Fútbol 5 y futsal son lo mismo.",
+      "correctAnswer": false,
+      "explanation": "Un fútbol 5 en césped sintético es fútbol, jugado con cinco por lado bajo las Reglas de IFAB. El futsal es un deporte distinto, con reglamento propio de FIFA, pista, balón, tiempo y mecánicas diferentes.",
+      "ruleReference": "Futsal Laws 2025-26",
+      "tags": ["futsal", "confusion"]
+    },
+    {
+      "id": "s1-q3",
+      "moduleId": "s1",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "La Ley 15 de futsal corresponde al saque de banda. ¿En qué se diferencia de la Regla 15 de fútbol?",
+      "options": [
+        "No se diferencia",
+        "En futsal el saque de banda se ejecuta con el pie, no con las manos",
+        "En futsal lo ejecuta siempre el guardameta",
+        "En futsal no existe el saque de banda"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mismo número, reanudación distinta: el saque de banda de futsal es con el pie. Es el ejemplo más claro de por qué no se puede razonar el futsal por analogía con el fútbol.",
+      "ruleReference": "Ley 15",
+      "tags": ["futsal", "saque-de-banda"]
+    },
+    {
+      "id": "s1-q4",
+      "moduleId": "s1",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuál de estas mecánicas NO existe en el fútbol?",
+      "options": [
+        "El fuera de juego",
+        "Las faltas acumuladas",
+        "El saque de esquina",
+        "El tiro penal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las faltas acumuladas son propias del futsal: cada falta sancionada con tiro libre directo se cuenta, y desde la sexta de un equipo en un período el rival tiene un tiro desde 10 m sin barrera.",
+      "ruleReference": "Ley 12",
+      "tags": ["faltas-acumuladas", "futsal"]
+    },
+    {
+      "id": "s1-q5",
+      "moduleId": "s1",
+      "type": "true_false",
+      "difficulty": 2,
+      "question": "En futsal existe el fuera de juego.",
+      "correctAnswer": false,
+      "explanation": "No existe. La Ley 11 de futsal no reproduce el fuera de juego del fútbol, así que ninguna posición adelantada es sancionable.",
+      "ruleReference": "Ley 11",
+      "tags": ["futsal", "fuera-de-juego"]
+    },
+    {
+      "id": "s1-q6",
+      "moduleId": "s1",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuánto dura un partido de futsal?",
+      "options": [
+        "Dos períodos de 25 minutos corridos",
+        "Dos períodos iguales de 20 minutos de tiempo de juego",
+        "Dos períodos de 30 minutos",
+        "Cuatro períodos de 10 minutos"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Ley 7 fija dos períodos iguales de 20 minutos de tiempo de juego, es decir, cronómetro que se detiene en cada interrupción. No es reloj corrido.",
+      "ruleReference": "Ley 7",
+      "tags": ["tiempo", "futsal"]
+    },
+    {
+      "id": "s1-q7",
+      "moduleId": "s1",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Un jugador es expulsado en futsal. ¿Qué pasa con su equipo?",
+      "options": [
+        "Queda con uno menos hasta el final",
+        "Queda en inferioridad dos minutos de tiempo de juego, y después puede entrar un suplente",
+        "Puede reemplazarlo de inmediato",
+        "Queda con uno menos solo ese período"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La reducción numérica dura dos minutos de tiempo de juego. Además puede abreviarse: si el equipo con más jugadores marca antes de que se cumplan, el sancionado recupera la igualdad.",
+      "ruleReference": "Ley 3, Ley 12",
+      "tags": ["expulsion", "reduccion-numerica"]
+    },
+    {
+      "id": "s1-q8",
+      "moduleId": "s1",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Quién lleva el cronómetro en futsal?",
+      "options": [
+        "El árbitro principal",
+        "El segundo árbitro",
+        "El cronometrador, desde la mesa",
+        "El delegado del equipo local"
+      ],
+      "correctAnswer": 2,
+      "explanation": "El cronometrador es un miembro del equipo arbitral con funciones propias: lleva el tiempo, registra las faltas acumuladas y los tiempos muertos, y da las señales acústicas obligatorias.",
+      "ruleReference": "Ley 6",
+      "tags": ["equipo-arbitral", "cronometrador"]
+    },
+    {
+      "id": "s1-q9",
+      "moduleId": "s1",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿A cuántos tiempos muertos tiene derecho cada equipo?",
+      "options": [
+        "Uno por partido",
+        "Uno de un minuto en cada período",
+        "Dos por período",
+        "No existen los tiempos muertos"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Ley 7 concede a cada equipo un tiempo muerto de un minuto en cada período. Es una mecánica que en fútbol no existe.",
+      "ruleReference": "Ley 7",
+      "tags": ["tiempo-muerto"]
+    },
+    {
+      "id": "s1-q10",
+      "moduleId": "s1",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Llegás a un complejo y ves parqué, arcos de handball y una mesa con cronómetro grande. ¿Qué vas a dirigir, probablemente?",
+      "options": [
+        "Fútbol 5 bajo las Reglas de IFAB",
+        "Futsal, con el reglamento de FIFA",
+        "Fútbol playa",
+        "Un formato privado del complejo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pista dura, arcos de 3 × 2 m y mesa de cronometraje son los indicios de futsal. Confirmarlo antes de empezar evita arbitrar un deporte con el reglamento de otro.",
+      "ruleReference": "Ley 1, Ley 6",
+      "tags": ["futsal", "previa"]
+    }
+  ]
+}
