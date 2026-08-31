@@ -1,0 +1,244 @@
+{
+  "moduleId": "f9",
+  "discipline": "football",
+  "rulesVersion": "IFAB 2026/27",
+  "questions": [
+    {
+      "id": "f9-q1",
+      "moduleId": "f9",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué obliga la Regla 5.3 respecto del informe del partido?",
+      "options": [
+        "Redactarlo solo si hubo expulsiones",
+        "Remitirlo a las autoridades competentes, con las sanciones y cualquier incidencia anterior, durante y posterior al partido",
+        "Entregarlo al capitán del equipo local",
+        "Publicarlo dentro de las 24 horas"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 5.3 incluye el informe entre las obligaciones del árbitro y extiende su alcance a las medidas disciplinarias y cualquier otra incidencia ocurrida antes, durante y después del partido.",
+      "ruleReference": "Regla 5.3",
+      "tags": ["informe"]
+    },
+    {
+      "id": "f9-q2",
+      "moduleId": "f9",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿De dónde sale el modelo de planilla del partido?",
+      "options": [
+        "De las Reglas de Juego de IFAB",
+        "De la FIFA",
+        "De cada organización: no existe una planilla oficial de IFAB",
+        "Del colegio de árbitros de cada país, con formato único"
+      ],
+      "correctAnswer": 2,
+      "explanation": "IFAB obliga a informar, pero no define ningún formulario. La planilla es un documento de cada organización, así que se clasifica como regla de competición o privada, nunca como oficial.",
+      "ruleReference": "Regla 5.3",
+      "tags": ["planilla", "reglamento-privado"]
+    },
+    {
+      "id": "f9-q3",
+      "moduleId": "f9",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "Un incidente ocurrido después del pitazo final, cuando el equipo arbitral se retiraba, debe informarse.",
+      "correctAnswer": true,
+      "explanation": "La Regla 5.3 cubre expresamente lo ocurrido después del partido. Es la parte que más se omite y la que más problemas genera cuando falta.",
+      "ruleReference": "Regla 5.3",
+      "tags": ["informe"]
+    },
+    {
+      "id": "f9-q4",
+      "moduleId": "f9",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cómo debe redactarse un informe arbitral?",
+      "options": [
+        "Describiendo lo que se pudo ver, sin interpretar intenciones",
+        "Explicando por qué el jugador actuó así",
+        "Con una valoración del comportamiento general del equipo",
+        "Resumiendo lo que contaron los delegados"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El informe registra hechos observables: minuto, quién, qué hizo, contra quién y qué se decidió, con el nombre reglamentario de la infracción. Las intenciones y las opiniones no son verificables y debilitan el documento.",
+      "ruleReference": "Regla 5.3",
+      "tags": ["informe", "redaccion"]
+    },
+    {
+      "id": "f9-q5",
+      "moduleId": "f9",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Por qué importa registrar una doble amarilla como tal y no como roja directa?",
+      "options": [
+        "Por prolijidad del acta",
+        "Porque son infracciones distintas en la Regla 12 y la sanción posterior puede diferir",
+        "Porque lo exige el reglamento de IFAB",
+        "No importa: ambas dejan al equipo con diez"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 12.4 lista la segunda amonestación como causa de expulsión, distinta de las rojas directas. Para la organización que aplica la sanción posterior no es lo mismo, y el acta es su única fuente.",
+      "ruleReference": "Regla 12.4",
+      "tags": ["planilla", "disciplina"]
+    },
+    {
+      "id": "f9-q6",
+      "moduleId": "f9",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cómo conviene identificar a un jugador en la planilla?",
+      "options": [
+        "Con su nombre completo siempre",
+        "Con el dorsal, y las iniciales si hace falta",
+        "Con su apodo",
+        "Con su número de documento"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El dorsal es el dato que la organización puede cruzar con la lista de jugadores. Cargar datos personales innecesarios en un documento que circula agrega un riesgo que no aporta nada.",
+      "ruleReference": "Regla 3, Regla 5.3",
+      "tags": ["planilla", "identificacion"]
+    },
+    {
+      "id": "f9-q7",
+      "moduleId": "f9",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "Firmar la planilla significa estar de acuerdo con las decisiones arbitrales.",
+      "correctAnswer": false,
+      "explanation": "Firmar es constancia de haber visto lo registrado, no conformidad. Explicarlo en el momento evita la mitad de las negativas a firmar.",
+      "ruleReference": "Regla 5.3",
+      "tags": ["planilla", "firmas"]
+    },
+    {
+      "id": "f9-q8",
+      "moduleId": "f9",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Un delegado se niega a firmar la planilla. ¿Qué corresponde?",
+      "options": [
+        "El acta queda invalidada",
+        "Se deja constancia de la negativa, sin interpretar el motivo, y el acta sigue siendo válida",
+        "Se firma por él",
+        "Se suspende la entrega hasta que firme"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La negativa es un hecho más que se registra. «El delegado del equipo A se negó a firmar» es un hecho; agregar por qué creés que se negó es opinión.",
+      "ruleReference": "Regla 5.3",
+      "tags": ["planilla", "firmas"]
+    },
+    {
+      "id": "f9-q9",
+      "moduleId": "f9",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuál de estos es un error administrativo frecuente y evitable?",
+      "options": [
+        "Anotar el minuto exacto de cada gol",
+        "Reconstruir de memoria los minutos y las tarjetas al terminar el partido",
+        "Sacar una foto del acta antes de entregarla",
+        "Preguntar el circuito de entrega antes de empezar"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Reconstruir al final es la causa más común de actas erróneas. Dos segundos por incidencia durante el juego —minuto, dorsal y motivo— resuelven el problema en el momento.",
+      "ruleReference": "Regla 5.3",
+      "tags": ["planilla", "errores"]
+    },
+    {
+      "id": "f9-q10",
+      "moduleId": "f9",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué debe acompañar siempre a una tarjeta en la planilla?",
+      "options": [
+        "El nombre del capitán",
+        "El motivo de la sanción",
+        "La firma del jugador",
+        "El resultado en ese momento"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Una tarjeta sin motivo obliga a la organización a llamarte o a resolver a ciegas. El motivo debe usar el nombre reglamentario de la infracción, no una descripción libre.",
+      "ruleReference": "Regla 12.4, Regla 5.3",
+      "tags": ["planilla", "disciplina"]
+    },
+    {
+      "id": "f9-q11",
+      "moduleId": "f9",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué tres preguntas conviene hacer sobre el informe antes de empezar el partido?",
+      "options": [
+        "Cuánto se cobra, quién paga y cuándo",
+        "A quién se entrega, en qué plazo y en qué formato",
+        "Quién arbitra el próximo partido y dónde",
+        "Cuántos suplentes hay por equipo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las Reglas obligan a remitir el informe, pero no fijan plazo ni formato: eso lo define cada organización. Preguntarlo en la previa evita entregar tarde o en un formato que no sirve.",
+      "ruleReference": "Regla 5.3",
+      "tags": ["informe", "previa"]
+    },
+    {
+      "id": "f9-q12",
+      "moduleId": "f9",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Cuál de estas redacciones es adecuada para un informe?",
+      "options": [
+        "«El 5 entró a matar, con toda la mala intención.»",
+        "«Minuto 34 del segundo tiempo. El jugador N.º 5 del equipo Blanco impactó con la plancha sobre el tobillo del N.º 8 del equipo Azul, que ya había jugado el balón. Se expulsó al N.º 5 por juego brusco grave.»",
+        "«Fue una jugada muy fea que el público no perdonó.»",
+        "«El partido estuvo caliente desde el principio.»"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La segunda registra minuto, período, quién, qué hizo, contra quién y qué se decidió, con el nombre reglamentario de la infracción. Las otras tres son interpretaciones o valoraciones.",
+      "ruleReference": "Regla 5.3",
+      "tags": ["informe", "redaccion"]
+    },
+    {
+      "id": "f9-q13",
+      "moduleId": "f9",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "Si actuaste sobre información que te dio un asistente, el informe debe indicar esa fuente.",
+      "correctAnswer": true,
+      "explanation": "La Regla 6 habilita a los otros miembros a informar al árbitro, pero el informe debe distinguir lo observado directamente de lo reportado. Presentar como propio lo que te contaron debilita el documento.",
+      "ruleReference": "Regla 6, Regla 5.3",
+      "tags": ["informe", "equipo-arbitral"]
+    },
+    {
+      "id": "f9-q14",
+      "moduleId": "f9",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué exige la Regla 3 respecto de la lista de jugadores?",
+      "options": [
+        "Nada: es potestad de la organización",
+        "Si el reglamento exige dar los nombres antes del saque inicial, solo los que figuren en la alineación podrán participar al llegar",
+        "Que la firme el árbitro antes del partido",
+        "Que incluya el documento de cada jugador"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 3 prevé el caso: si el reglamento exige nombrar a jugadores y suplentes antes del saque inicial y un equipo empieza con menos de once, únicamente los que figuren en la alineación podrán participar en cuanto lleguen.",
+      "ruleReference": "Regla 3",
+      "tags": ["planilla", "jugadores"]
+    },
+    {
+      "id": "f9-q15",
+      "moduleId": "f9",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuál es la práctica más simple para protegerse ante una impugnación?",
+      "options": [
+        "Guardar el silbato del partido",
+        "Sacar una foto del acta firmada antes de entregarla y confirmar la recepción",
+        "Anotar el resultado en el teléfono",
+        "Pedir el teléfono de los delegados"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La foto conserva el estado exacto del acta al momento de entregarla, y la confirmación de recepción cierra la discusión sobre si llegó. Son treinta segundos que resuelven la mayoría de los conflictos posteriores.",
+      "ruleReference": "Regla 5.3",
+      "tags": ["planilla", "entrega"]
+    }
+  ]
+}

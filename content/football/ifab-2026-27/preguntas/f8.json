@@ -1,0 +1,314 @@
+{
+  "moduleId": "f8",
+  "discipline": "football",
+  "rulesVersion": "IFAB 2026/27",
+  "questions": [
+    {
+      "id": "f8-q1",
+      "moduleId": "f8",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Desde cuándo será obligatoria la disposición de que solo el capitán pueda acercarse al árbitro?",
+      "options": [
+        "Ya es obligatoria en todas las competiciones",
+        "Para todas las competiciones que comiencen a partir del 1 de julio de 2027",
+        "Es opcional de forma permanente",
+        "Solo en competiciones internacionales"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hoy es una de las adaptaciones que una federación puede implementar; su aplicación será obligatoria para todas las competiciones que comiencen a partir del 1 de julio de 2027.",
+      "ruleReference": "Adaptación de las Reglas",
+      "tags": ["capitan", "manejo"]
+    },
+    {
+      "id": "f8-q2",
+      "moduleId": "f8",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "El guardameta es el capitán del equipo. ¿Qué corresponde?",
+      "options": [
+        "Se acerca el guardameta siempre",
+        "Antes del sorteo se informa al árbitro qué jugador se acercará en su lugar, y solo uno de los dos puede hacerlo",
+        "Se acercan el guardameta y otro jugador",
+        "No se acerca nadie"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Antes del lanzamiento de la moneda se informa al árbitro del jugador designado. Solamente el guardameta o el designado, en ningún caso ambos, podrá aproximarse. Si el designado es sustituido o expulsado, se designa otro.",
+      "ruleReference": "Regla 5, Adaptación de las Reglas",
+      "tags": ["capitan", "guardameta"]
+    },
+    {
+      "id": "f8-q3",
+      "moduleId": "f8",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "Con la disposición del capitán en vigor, el árbitro nunca puede hablar con otro jugador.",
+      "correctAnswer": false,
+      "explanation": "El árbitro decide a su discreción si interactúa o permite acercarse a otro jugador, por ejemplo si cometió una infracción, sufrió una falta o está lesionado. La disposición limita el asedio, no el diálogo necesario.",
+      "ruleReference": "Regla 5",
+      "tags": ["capitan", "manejo"]
+    },
+    {
+      "id": "f8-q4",
+      "moduleId": "f8",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "En fútbol juvenil, de veteranos, de discapacidad y base, ¿cuál es la señal para indicar que solo el capitán puede acercarse?",
+      "options": [
+        "Brazo extendido hacia el capitán",
+        "Levantar los brazos por encima de la cabeza y cruzar las muñecas, y luego descruzarlos con las manos abiertas hacia delante",
+        "Silbato largo y mano en alto",
+        "Señalar el círculo central"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La señal es en dos tiempos: brazos arriba con las muñecas cruzadas, y después brazos delante del cuerpo con las manos abiertas apuntando hacia delante para indicar que no se acerquen. La zona exclusiva del capitán tiene un radio de 4 m.",
+      "ruleReference": "Adaptación de las Reglas",
+      "tags": ["capitan", "senalizacion"]
+    },
+    {
+      "id": "f8-q5",
+      "moduleId": "f8",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuánto mide la zona exclusiva del capitán en las competiciones que aplican esa pauta?",
+      "options": ["2 m de radio", "4 m de radio", "9.15 m de radio", "No está definida"],
+      "correctAnswer": 1,
+      "explanation": "La zona exclusiva ocupa un radio de 4 m alrededor del árbitro. Fuera de ese radio los demás jugadores pueden permanecer; dentro, solo el capitán.",
+      "ruleReference": "Adaptación de las Reglas",
+      "tags": ["capitan", "distancia"]
+    },
+    {
+      "id": "f8-q6",
+      "moduleId": "f8",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué dimensiones tiene el área técnica?",
+      "options": [
+        "5 m a cada lado del banquillo y 2 m de la línea de banda",
+        "1 m a cada lado del banquillo y hasta 1 m de la línea de banda",
+        "Todo el largo del banquillo, sin límite lateral",
+        "Las que fije el club local"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 1 la define así: se extiende únicamente 1 m a cada lado del banquillo y hasta 1 m de distancia de la línea de banda, y debe delimitarse con líneas de demarcación.",
+      "ruleReference": "Regla 1",
+      "tags": ["area-tecnica"]
+    },
+    {
+      "id": "f8-q7",
+      "moduleId": "f8",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántas personas pueden dar instrucciones tácticas desde el área técnica al mismo tiempo?",
+      "options": ["Todas las autorizadas", "Dos", "Una a la vez", "Solo el entrenador principal, siempre"],
+      "correctAnswer": 2,
+      "explanation": "La Regla 1 es tajante: solamente podrá dar instrucciones tácticas desde el área técnica una persona a la vez. Es la herramienta más útil para ordenar un banco ruidoso.",
+      "ruleReference": "Regla 1",
+      "tags": ["area-tecnica", "manejo"]
+    },
+    {
+      "id": "f8-q8",
+      "moduleId": "f8",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué se exige a los ocupantes del área técnica?",
+      "options": [
+        "Solo permanecer sentados",
+        "Identificarse antes del inicio, comportarse de modo responsable y permanecer dentro de sus límites salvo circunstancias especiales",
+        "Vestir indumentaria del club",
+        "No hablar durante el juego"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las tres obligaciones están en la Regla 1. La excepción prevista es, por ejemplo, que el fisioterapeuta o el médico entren al terreno con permiso del árbitro para atender a un lesionado.",
+      "ruleReference": "Regla 1",
+      "tags": ["area-tecnica"]
+    },
+    {
+      "id": "f8-q9",
+      "moduleId": "f8",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Quién determina el número de personas autorizadas en el área técnica?",
+      "options": [
+        "Las Reglas de Juego, que fijan un máximo de siete",
+        "El reglamento de la competición",
+        "El árbitro en la reunión previa",
+        "El club local"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 1 delega ese número en el reglamento de la competición. Es uno de los datos que conviene preguntar antes de empezar en un torneo que no conocés.",
+      "ruleReference": "Regla 1",
+      "tags": ["area-tecnica", "reglamento-privado"]
+    },
+    {
+      "id": "f8-q10",
+      "moduleId": "f8",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Un jugador muestra desaprobación con palabras. ¿Qué corresponde?",
+      "options": [
+        "Expulsión",
+        "Amonestación",
+        "Advertencia obligatoria antes de sancionar",
+        "Nada, si no insulta"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mostrar desaprobación con palabras o acciones está en la lista de infracciones amonestables. Si el lenguaje pasa a ser ofensivo, insultante o humillante, la sanción sube a expulsión.",
+      "ruleReference": "Regla 12.4",
+      "tags": ["protestas", "amonestacion"]
+    },
+    {
+      "id": "f8-q11",
+      "moduleId": "f8",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "El árbitro puede retrasar la reanudación para que los capitanes expliquen una decisión a sus compañeros.",
+      "correctAnswer": true,
+      "explanation": "Está previsto expresamente: si lo considera oportuno, el árbitro retrasará la reanudación para dar tiempo a los capitanes a explicar la decisión y exigir a sus compañeros que se comporten correctamente.",
+      "ruleReference": "Regla 5",
+      "tags": ["capitan", "manejo"]
+    },
+    {
+      "id": "f8-q12",
+      "moduleId": "f8",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Llegás a un torneo privado cuyo reglamento no aclara si se juega con fuera de juego. ¿Qué corresponde hacer?",
+      "options": [
+        "Suponer que no se juega, porque es amateur",
+        "Preguntarlo antes de empezar y dejarlo asentado ante los dos delegados",
+        "Aplicar la Regla 11 sin avisar",
+        "Decidirlo durante el partido según cómo se desarrolle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Lo incorrecto no es aplicar una u otra, sino no saber cuál estás aplicando o resolverlo a mitad de partido. Se pregunta antes; si no hay respuesta escrita, la Regla es el default legítimo y se comunica a los dos equipos.",
+      "ruleReference": "Regla 11, Adaptación de las Reglas",
+      "tags": ["reglamento-privado", "previa"]
+    },
+    {
+      "id": "f8-q13",
+      "moduleId": "f8",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "El reglamento de un torneo prohíbe la barrida pero no dice cómo se sanciona. ¿Qué corresponde?",
+      "options": [
+        "Crear una sanción propia y aplicarla",
+        "Aplicar la Regla 12 según sea imprudente, temerario o con fuerza excesiva",
+        "Ignorar la prohibición",
+        "Expulsar siempre al infractor"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cuando el reglamento privado deja un hueco, la Regla es el default defendible. No corresponde inventar una tarjeta que no existe: la graduación de la Regla 12 ya cubre la conducta.",
+      "ruleReference": "Regla 12",
+      "tags": ["reglamento-privado", "criterio"]
+    },
+    {
+      "id": "f8-q14",
+      "moduleId": "f8",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué indica un tiro libre indirecto en la señalización del árbitro?",
+      "options": [
+        "Brazo extendido hacia la portería",
+        "Brazo levantado por encima de la cabeza, mantenido hasta que el balón toque a otro jugador o salga de juego",
+        "Ambos brazos cruzados",
+        "Brazo señalando el punto penal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El brazo levantado se mantiene hasta que el balón toque a otro jugador o deje de estar en juego. Bajarlo antes es el error de señalización más frecuente, y complica saber si un gol es válido.",
+      "ruleReference": "Regla 5, Regla 13",
+      "tags": ["senalizacion", "indirecto"]
+    },
+    {
+      "id": "f8-q15",
+      "moduleId": "f8",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué señal acompaña a la ventaja?",
+      "options": [
+        "Silbato corto y brazo en alto",
+        "Ambos brazos extendidos hacia adelante, a la altura de la cintura, en la dirección del ataque",
+        "Brazo señalando el suelo",
+        "No lleva señal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La ventaja se señaliza con ambos brazos hacia adelante en el sentido del ataque. La señal importa: comunica que viste la infracción y decidiste dejar seguir, que es lo que evita la protesta.",
+      "ruleReference": "Regla 5",
+      "tags": ["senalizacion", "ventaja"]
+    },
+    {
+      "id": "f8-q16",
+      "moduleId": "f8",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Dirigís solo, sin asistentes. ¿Qué prioridad de ubicación conviene en un ataque por banda?",
+      "options": [
+        "Correr al centro del área",
+        "Buscar el ángulo que te deje ver el contacto y la línea, aunque implique alejarte del balón",
+        "Seguir siempre al balón lo más cerca posible",
+        "Quedarte en el círculo central"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sin asistentes, la ubicación se elige por ángulo de visión y no por cercanía. Estar cerca no sirve si el cuerpo del defensor tapa el contacto.",
+      "ruleReference": "Regla 5, Regla 6",
+      "tags": ["posicionamiento", "amateur"]
+    },
+    {
+      "id": "f8-q17",
+      "moduleId": "f8",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué corresponde a un jugador que abandona el terreno deliberadamente sin permiso del árbitro?",
+      "options": ["Nada", "Amonestación", "Expulsión", "Tiro libre indirecto para el rival"],
+      "correctAnswer": 1,
+      "explanation": "Entrar, volver a entrar o abandonar el terreno de manera deliberada y sin permiso del árbitro está en la lista de infracciones amonestables de la Regla 12.4.",
+      "ruleReference": "Regla 12.4",
+      "tags": ["amonestacion", "manejo"]
+    },
+    {
+      "id": "f8-q18",
+      "moduleId": "f8",
+      "type": "true_false",
+      "difficulty": 4,
+      "question": "Un torneo puede establecer exclusiones temporales por tarjeta amarilla sin contradecir a IFAB.",
+      "correctAnswer": true,
+      "explanation": "El uso de exclusiones temporales para algunas amonestaciones o todas figura entre las adaptaciones permitidas, pero solo en fútbol juvenil, de veteranos, de personas con discapacidad y fútbol base. Fuera de esas categorías es regla privada.",
+      "ruleReference": "Adaptación de las Reglas",
+      "tags": ["reglamento-privado", "disciplina"]
+    },
+    {
+      "id": "f8-q19",
+      "moduleId": "f8",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Un jugador expulsado se queda discutiendo junto al banco de suplentes. ¿Qué corresponde?",
+      "options": [
+        "Puede quedarse si no interviene",
+        "Debe abandonar las inmediaciones del terreno de juego y del área técnica",
+        "Puede quedarse en el área técnica sentado",
+        "Debe salir solo si el rival lo pide"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Regla 12 lo exige: los jugadores, suplentes o jugadores sustituidos expulsados deben abandonar igualmente las inmediaciones del terreno de juego y del área técnica.",
+      "ruleReference": "Regla 12.4",
+      "tags": ["expulsion", "manejo"]
+    },
+    {
+      "id": "f8-q20",
+      "moduleId": "f8",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "En un complejo de fútbol 5 con paredes, ¿qué reglamento cubre el rebote en la pared?",
+      "options": [
+        "Las Reglas de IFAB",
+        "Las Leyes de futsal de FIFA",
+        "Ninguno: es regla privada del complejo y hay que preguntarla",
+        "El reglamento de fútbol playa"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Si la cancha tiene paredes no es fútbol de IFAB ni futsal de FIFA. Todo lo relativo al rebote, al balón fuera y a la altura permitida es reglamento del complejo, y conviene preguntarlo entero antes de empezar.",
+      "ruleReference": "Adaptación de las Reglas",
+      "tags": ["reglamento-privado", "formatos-reducidos"]
+    }
+  ]
+}
