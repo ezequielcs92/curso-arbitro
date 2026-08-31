@@ -47,7 +47,7 @@ export function LessonFooter({ slug, lessonId, previous, next }: Props) {
   }
 
   return (
-    <div className="mt-16 border-t border-[var(--color-line)] pt-8">
+    <div className="no-print mt-16 border-t border-[var(--color-line)] pt-8">
       <div className="flex flex-wrap items-center gap-3">
         <button
           type="button"

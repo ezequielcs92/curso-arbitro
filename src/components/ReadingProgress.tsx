@@ -41,7 +41,7 @@ export function ReadingProgress() {
   return (
     <div
       aria-hidden="true"
-      className="pointer-events-none fixed inset-x-0 top-14 z-40 h-[2px]"
+      className="no-print pointer-events-none fixed inset-x-0 top-14 z-40 h-[2px]"
     >
       <div
         ref={ref}

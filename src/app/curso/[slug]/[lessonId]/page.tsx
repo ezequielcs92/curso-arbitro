@@ -61,7 +61,7 @@ export default async function LessonPage({ params }: { params: Promise<Params> }
 
       <div className="mx-auto flex max-w-[1440px] gap-0 px-4 sm:px-6">
         {/* ------------------------------------------------------- lateral */}
-        <aside className="hidden w-[276px] flex-none lg:block">
+        <aside className="no-print hidden w-[276px] flex-none lg:block">
           <div className="sticky top-14 max-h-[calc(100dvh-3.5rem)] overflow-y-auto overscroll-contain py-6 pr-6">
             <CourseSidebar
               slug={parsed}
@@ -127,7 +127,7 @@ export default async function LessonPage({ params }: { params: Promise<Params> }
 
           {/* Índice en pantallas donde la columna derecha no entra. */}
           {page.doc.headings.length > 2 && (
-            <details className="group mt-7 rounded-xl border border-[var(--color-line)] bg-[var(--color-surface)] xl:hidden">
+            <details className="no-print group mt-7 rounded-xl border border-[var(--color-line)] bg-[var(--color-surface)] xl:hidden">
               <summary className="flex cursor-pointer list-none items-center gap-2 px-4 py-3 text-[12.5px] font-[600] uppercase tracking-[0.07em] text-[var(--color-ink-muted)]">
                 <svg
                   viewBox="0 0 16 16"
@@ -178,7 +178,7 @@ export default async function LessonPage({ params }: { params: Promise<Params> }
         </article>
 
         {/* ---------------------------------------------------------- índice */}
-        <aside className="hidden w-[228px] flex-none xl:block">
+        <aside className="no-print hidden w-[228px] flex-none xl:block">
           <div className="sticky top-20 max-h-[calc(100dvh-6rem)] overflow-y-auto py-10 pl-8">
             <Toc headings={page.doc.headings} />
           </div>

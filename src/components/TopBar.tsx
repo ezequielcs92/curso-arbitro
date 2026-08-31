@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { Wordmark } from './Brand'
 import { ThemeToggle } from './ThemeToggle'
+import { Search } from './Search'
 
 const LINKS = [
   { href: '/', label: 'Cursos', match: (p: string) => p === '/' || p.startsWith('/curso') },
@@ -14,7 +15,7 @@ export function TopBar() {
   const pathname = usePathname() ?? '/'
 
   return (
-    <header className="sticky top-0 z-50 border-b border-[var(--color-line)] bg-[color-mix(in_oklab,var(--color-canvas)_82%,transparent)] backdrop-blur-xl backdrop-saturate-150">
+    <header className="no-print sticky top-0 z-50 border-b border-[var(--color-line)] bg-[color-mix(in_oklab,var(--color-canvas)_82%,transparent)] backdrop-blur-xl backdrop-saturate-150">
       <div className="mx-auto flex h-14 max-w-[1440px] items-center gap-3 px-4 sm:px-6">
         <Link
           href="/"
@@ -44,7 +45,8 @@ export function TopBar() {
           })}
         </nav>
 
-        <div className="ml-auto flex items-center gap-1">
+        <div className="ml-auto flex items-center gap-1.5">
+          <Search />
           <nav className="flex items-center gap-1 sm:hidden">
             {LINKS.map((link) => {
               const active = link.match(pathname)

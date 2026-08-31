@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { CourseHeader } from '@/components/CourseHeader'
 import { ModuleList } from '@/components/ModuleList'
+import { OfflineCourse } from '@/components/OfflineCourse'
 import { accentClass } from '@/lib/accent'
 import { DISCIPLINE_SLUGS, getCourse, type DisciplineSlug } from '@/lib/content'
 
@@ -61,6 +62,12 @@ export default async function CoursePage({ params }: { params: Promise<Params> }
         tagline={course.tagline}
         rulesVersion={course.rulesVersion}
         modules={modules}
+      />
+
+      <OfflineCourse
+        slug={parsed}
+        courseTitle={course.short}
+        lessonIds={modules.flatMap((m) => m.lessons.map((l) => l.id))}
       />
 
       <h2 className="mt-14 text-[13px] font-[620] uppercase tracking-[0.09em] text-[var(--color-ink-subtle)]">

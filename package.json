@@ -8,7 +8,8 @@
     "build": "next build --webpack",
     "start": "next start",
     "lint": "next lint",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "test:sw": "node scripts/test_sw.mjs"
   },
   "dependencies": {
     "github-slugger": "^2.0.0",

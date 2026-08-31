@@ -365,3 +365,84 @@ export function getFormatSheet(
 
   return { meta, doc: renderMarkdown(path.join(ROOT, meta.contentPath)) }
 }
+
+// ---------------------------------------------------------------------------
+// Índice de búsqueda
+// ---------------------------------------------------------------------------
+
+export type SearchEntry = {
+  /** Ruta a la que lleva el resultado. */
+  u: string
+  /** Título. */
+  t: string
+  /** Dónde vive: módulo del curso, o «Ficha de formato». */
+  c: string
+  /** Curso, para agrupar los resultados. */
+  g: string
+  /** Texto plano de la lección, para buscar dentro. */
+  b: string
+}
+
+/**
+ * Pasa el Markdown a texto plano.
+ *
+ * No hace falta un parser: alcanza con sacar la sintaxis, porque el resultado
+ * solo se usa para buscar y para recortar el fragmento que se muestra.
+ */
+function toPlainText(markdown: string): string {
+  return markdown
+    .replace(/^---[\s\S]*?---/, '')          // frontmatter
+    .replace(/```[\s\S]*?```/g, ' ')          // bloques de código
+    .replace(/<[^>]+>/g, ' ')                  // etiquetas HTML sueltas
+    .replace(/!\[[^\]]*\]\([^)]*\)/g, ' ')    // imágenes
+    .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')  // enlaces: queda el texto
+    .replace(/^#{1,6}\s+/gm, '')               // marcas de encabezado
+    .replace(/^>\s?/gm, '')                    // citas
+    .replace(/^\s*[-*+]\s+/gm, '')            // viñetas
+    .replace(/\|/g, ' ')                       // tablas
+    .replace(/^\s*:?-{2,}:?\s*$/gm, ' ')       // separadores de tabla
+    .replace(/[*_`]/g, '')                     // énfasis y código en línea
+    .replace(/\s+/g, ' ')
+    .trim()
+}
+
+/**
+ * Índice completo, armado en tiempo de compilación.
+ *
+ * Va con claves de una letra porque son 178 documentos y el JSON viaja entero
+ * al navegador: con nombres largos el archivo crece sin darle nada al usuario.
+ * Se descarga la primera vez que se abre el buscador, no al cargar la página.
+ */
+export function getSearchIndex(): SearchEntry[] {
+  const entries: SearchEntry[] = []
+
+  for (const slug of DISCIPLINE_SLUGS) {
+    const course = getCourse(slug)
+
+    for (const module of course.modules) {
+      for (const lesson of module.lessons) {
+        const source = fs.readFileSync(path.join(ROOT, lesson.contentPath), 'utf8')
+        entries.push({
+          u: `/curso/${slug}/${lesson.id}`,
+          t: lesson.title,
+          c: module.title,
+          g: course.short,
+          b: toPlainText(source),
+        })
+      }
+    }
+  }
+
+  for (const sheet of getFormatSheets().sheets) {
+    const source = fs.readFileSync(path.join(ROOT, sheet.contentPath), 'utf8')
+    entries.push({
+      u: `/formatos/${sheet.format.toLowerCase()}`,
+      t: `${sheet.title} (${sheet.format})`,
+      c: 'Ficha de formato',
+      g: 'Fichas',
+      b: toPlainText(source),
+    })
+  }
+
+  return entries
+}

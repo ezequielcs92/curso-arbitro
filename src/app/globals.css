@@ -17,7 +17,7 @@
 
   --color-ink: #16191d;
   --color-ink-muted: #5b6270;
-  --color-ink-subtle: #858d9b;
+  --color-ink-subtle: #6b7280;
 
   --color-canvas: #fbfbfc;
   --color-surface: #ffffff;
@@ -48,7 +48,7 @@
 .dark {
   --color-ink: #e9ebee;
   --color-ink-muted: #98a1ae;
-  --color-ink-subtle: #6b7482;
+  --color-ink-subtle: #78828f;
 
   --color-canvas: #0a0c0f;
   --color-surface: #101317;
@@ -525,4 +525,117 @@
 
 .prose .opt-text {
   min-width: 0;
+}
+
+/* ---------------------------------------------------------------------------
+   Impresión
+
+   Pensado sobre todo para las fichas de formato: terminan en un bloque para
+   completar a mano antes del partido, y ese papel doblado en el bolsillo es
+   justo para lo que existen. Se imprime la hoja, no la aplicación.
+   --------------------------------------------------------------------------- */
+
+@media print {
+  :root {
+    --color-ink: #000000;
+    --color-ink-muted: #333333;
+    --color-ink-subtle: #555555;
+    --color-canvas: #ffffff;
+    --color-surface: #ffffff;
+    --color-surface-2: #ffffff;
+    --color-surface-3: #ffffff;
+    --color-line: #b8b8b8;
+    --color-line-strong: #8a8a8a;
+    --color-brand: #000000;
+    --accent: #000000;
+  }
+
+  @page {
+    margin: 14mm 12mm;
+  }
+
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+
+  /* Nada de interfaz: barra superior, índices, botones, navegación. */
+  .no-print {
+    display: none !important;
+  }
+
+  main {
+    padding: 0 !important;
+  }
+
+  .prose {
+    font-size: 10.5pt;
+    line-height: 1.45;
+    max-width: none !important;
+  }
+
+  .prose h2 {
+    font-size: 10pt;
+    margin-top: 1.4em;
+    padding-top: 0.6em;
+    break-after: avoid;
+  }
+
+  .prose h3,
+  .prose h4 {
+    break-after: avoid;
+  }
+
+  /* Sin scroll horizontal en papel: la tabla entra entera. */
+  .prose .table-scroll {
+    overflow: visible !important;
+    break-inside: avoid;
+  }
+
+  .prose table {
+    font-size: 9pt;
+  }
+
+  .prose th,
+  .prose td {
+    padding: 0.32rem 0.45rem;
+    border: 1px solid #b8b8b8;
+  }
+
+  /* El bloque para completar: se imprime con espacio real para escribir. */
+  .prose pre {
+    font-size: 9.5pt;
+    line-height: 2;
+    border: 1px solid #8a8a8a;
+    background: #ffffff;
+    break-inside: avoid;
+  }
+
+  .prose blockquote {
+    border-left: 2px solid #8a8a8a;
+    background: #ffffff;
+    break-inside: avoid;
+  }
+
+  /* En papel no hay nada que desplegar: las respuestas se imprimen abiertas. */
+  .prose details {
+    break-inside: avoid;
+  }
+
+  .prose details > *:not(summary) {
+    display: block !important;
+  }
+
+  .prose summary {
+    color: #000000;
+  }
+
+  .prose ol.options li {
+    break-inside: avoid;
+  }
+
+  a {
+    text-decoration: none !important;
+    color: #000000 !important;
+  }
 }

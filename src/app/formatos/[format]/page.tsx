@@ -42,7 +42,7 @@ export default async function FormatSheetPage({ params }: { params: Promise<Para
         <article className="min-w-0 flex-1 py-8 sm:py-10">
           <nav
             aria-label="Ubicación"
-            className="flex flex-wrap items-center gap-x-2 gap-y-1 text-[12.5px]"
+            className="no-print flex flex-wrap items-center gap-x-2 gap-y-1 text-[12.5px]"
           >
             <Link
               href="/formatos"
@@ -75,7 +75,7 @@ export default async function FormatSheetPage({ params }: { params: Promise<Para
 
           <nav
             aria-label="Otras fichas"
-            className="mt-16 max-w-[70ch] border-t border-[var(--color-line)] pt-8"
+            className="no-print mt-16 max-w-[70ch] border-t border-[var(--color-line)] pt-8"
           >
             <p className="text-[12.5px] font-[620] uppercase tracking-[0.08em] text-[var(--color-ink-subtle)]">
               Otras fichas
@@ -97,7 +97,7 @@ export default async function FormatSheetPage({ params }: { params: Promise<Para
           </nav>
         </article>
 
-        <aside className="hidden w-[228px] flex-none xl:block">
+        <aside className="no-print hidden w-[228px] flex-none xl:block">
           <div className="sticky top-20 max-h-[calc(100dvh-6rem)] overflow-y-auto py-10 pl-8">
             <Toc headings={sheet.doc.headings} />
           </div>
