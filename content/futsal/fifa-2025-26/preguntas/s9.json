@@ -1,0 +1,184 @@
+{
+  "moduleId": "s9",
+  "discipline": "futsal",
+  "rulesVersion": "FIFA Futsal 2025-26",
+  "questions": [
+    {
+      "id": "s9-q1",
+      "moduleId": "s9",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cómo se ejecuta el saque de banda en futsal?",
+      "options": [
+        "Con ambas manos desde atrás y por encima de la cabeza",
+        "Con el pie, desde la línea de banda",
+        "Con la mano, como el guardameta",
+        "Con el pie o la mano, a elección"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El saque de banda de futsal se ejecuta con el pie. Mismo número de Ley que en fútbol, reanudación completamente distinta.",
+      "ruleReference": "Ley 15",
+      "tags": ["saque-de-banda"]
+    },
+    {
+      "id": "s9-q2",
+      "moduleId": "s9",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿En cuánto tiempo debe ejecutarse un saque de banda?",
+      "options": ["En dos segundos", "En cuatro segundos", "En seis segundos", "No hay límite"],
+      "correctAnswer": 1,
+      "explanation": "Cuatro segundos desde que el equipo está listo o desde que el árbitro señala que lo está. Si no se ejecuta, el saque pasa al adversario.",
+      "ruleReference": "Ley 15",
+      "tags": ["saque-de-banda", "cuatro-segundos"]
+    },
+    {
+      "id": "s9-q3",
+      "moduleId": "s9",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Un saque de banda no se ejecuta dentro de los cuatro segundos. ¿Qué corresponde?",
+      "options": [
+        "Tiro libre indirecto para el adversario",
+        "Saque de banda para el adversario",
+        "Amonestación",
+        "Se repite"
+      ],
+      "correctAnswer": 1,
+      "explanation": "En el saque de banda la consecuencia es que el saque pasa al rival. No confundir con el tiro libre, donde exceder los cuatro segundos da libre indirecto.",
+      "ruleReference": "Ley 15",
+      "tags": ["saque-de-banda", "cuatro-segundos"]
+    },
+    {
+      "id": "s9-q4",
+      "moduleId": "s9",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cómo se ejecuta el saque de meta en futsal?",
+      "options": [
+        "El guardameta lo patea desde el suelo",
+        "El guardameta lo lanza o suelta con la mano desde cualquier punto de su área penal",
+        "Cualquier jugador lo patea desde el área",
+        "Se ejecuta desde la línea de meta"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Es una de las diferencias más grandes con el fútbol: el saque de meta de futsal se ejecuta con la mano, lanzado o soltado por el guardameta desde cualquier punto de su área.",
+      "ruleReference": "Ley 16",
+      "tags": ["saque-de-meta"]
+    },
+    {
+      "id": "s9-q5",
+      "moduleId": "s9",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "Se puede marcar gol directamente de un saque de meta en futsal.",
+      "correctAnswer": false,
+      "explanation": "Las Leyes lo prohíben expresamente. Si el balón entra directamente en la portería del equipo que lo ejecutó, se concede saque de esquina al rival; si entra en la del otro equipo, se concede saque de meta a ese equipo.",
+      "ruleReference": "Ley 16",
+      "tags": ["saque-de-meta", "gol"]
+    },
+    {
+      "id": "s9-q6",
+      "moduleId": "s9",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuándo está en juego el balón en un saque de meta de futsal?",
+      "options": [
+        "Cuando sale del área penal",
+        "Cuando es lanzado o soltado y se mueve claramente",
+        "Cuando lo toca otro jugador",
+        "Cuando cruza la línea del medio campo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El balón está en juego al ser lanzado o soltado y moverse con claridad. No hace falta que salga del área.",
+      "ruleReference": "Ley 16",
+      "tags": ["saque-de-meta"]
+    },
+    {
+      "id": "s9-q7",
+      "moduleId": "s9",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿En cuánto tiempo debe ponerse en juego un saque de meta?",
+      "options": ["Dos segundos", "Cuatro segundos", "Seis segundos", "No hay límite"],
+      "correctAnswer": 1,
+      "explanation": "Cuatro segundos desde que el equipo está listo o desde que el árbitro lo señala. Es el mismo plazo que rige el saque de banda, el saque de esquina y el tiro libre.",
+      "ruleReference": "Ley 16",
+      "tags": ["saque-de-meta", "cuatro-segundos"]
+    },
+    {
+      "id": "s9-q8",
+      "moduleId": "s9",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuándo se concede un saque de esquina?",
+      "options": [
+        "Cuando el balón cruza la línea de meta habiendo tocado por última vez a un jugador del equipo defensor, sin que se marque gol",
+        "Cuando el balón cruza la línea de banda",
+        "Cuando el guardameta retiene el balón demasiado tiempo",
+        "Cuando el balón toca el cielorraso"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Es el mismo criterio que en fútbol: la última pertenencia del toque decide entre saque de esquina y saque de meta.",
+      "ruleReference": "Ley 17",
+      "tags": ["saque-de-esquina"]
+    },
+    {
+      "id": "s9-q9",
+      "moduleId": "s9",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "Se puede marcar gol directamente de un saque de esquina en futsal.",
+      "correctAnswer": true,
+      "explanation": "Sí, pero solo contra el equipo adversario. Si el balón entra directamente en la propia portería, se concede saque de esquina al rival.",
+      "ruleReference": "Ley 17",
+      "tags": ["saque-de-esquina", "gol"]
+    },
+    {
+      "id": "s9-q10",
+      "moduleId": "s9",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿En cuánto tiempo debe ejecutarse un saque de esquina?",
+      "options": ["Dos segundos", "Cuatro segundos", "Ocho segundos", "No hay límite"],
+      "correctAnswer": 1,
+      "explanation": "También cuatro segundos, contados desde que el equipo está listo o desde que el árbitro lo señala. El futsal unifica ese plazo en casi todas las reanudaciones.",
+      "ruleReference": "Ley 17",
+      "tags": ["saque-de-esquina", "cuatro-segundos"]
+    },
+    {
+      "id": "s9-q11",
+      "moduleId": "s9",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Dónde se coloca el balón en un saque de esquina?",
+      "options": [
+        "En cualquier punto de la línea de meta",
+        "En el área de esquina más cercana al punto por donde el balón cruzó la línea de meta",
+        "A un metro de la esquina",
+        "Donde elija el ejecutor"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El balón debe colocarse en el área de esquina más cercana al punto por el que cruzó la línea de meta, y debe estar quieto antes de ser golpeado por un jugador del equipo atacante.",
+      "ruleReference": "Ley 17",
+      "tags": ["saque-de-esquina"]
+    },
+    {
+      "id": "s9-q12",
+      "moduleId": "s9",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "En futsal juvenil, de veteranos, de discapacidad o base, algunos reglamentos nacionales prohíben que el guardameta lance el saque de meta directamente más allá de la línea central. ¿Qué corresponde si lo hace?",
+      "options": [
+        "El juego continúa",
+        "Tiro libre indirecto para el adversario, desde el lugar donde el balón cruzó la línea central",
+        "Saque de banda para el adversario",
+        "Se repite el saque de meta"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las Leyes contemplan esa opción para reglamentos nacionales de esas categorías, y fijan la sanción: libre indirecto ejecutado desde el punto donde el balón cruzó la línea central. Fuera de esas categorías, no rige.",
+      "ruleReference": "Ley 16",
+      "tags": ["saque-de-meta", "reglamento-privado", "guardameta"]
+    }
+  ]
+}

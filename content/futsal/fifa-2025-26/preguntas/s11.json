@@ -1,0 +1,103 @@
+{
+  "moduleId": "s11",
+  "discipline": "futsal",
+  "rulesVersion": "FIFA Futsal 2025-26",
+  "questions": [
+    {
+      "id": "s11-q1",
+      "moduleId": "s11",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué dato propio del futsal no puede faltar en el acta y no tiene equivalente en fútbol?",
+      "options": [
+        "El resultado final",
+        "Las faltas acumuladas de cada equipo por período",
+        "Los goleadores",
+        "La hora de inicio"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El recuento de faltas acumuladas es por equipo y por período, y de él dependió cada tiro desde la sexta. Sin ese desglose, el acta no permite reconstruir lo que pasó.",
+      "ruleReference": "Ley 12, Ley 6",
+      "tags": ["planilla", "faltas-acumuladas"]
+    },
+    {
+      "id": "s11-q2",
+      "moduleId": "s11",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Tras una expulsión, ¿qué debe registrar el acta además del minuto de la sanción?",
+      "options": [
+        "Solo el dorsal del expulsado",
+        "El minuto de reingreso del suplente, y si la reducción se abrevió por un gol",
+        "El nombre del entrenador",
+        "El resultado en ese momento"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La reducción numérica dura dos minutos de tiempo de juego y puede abreviarse si el equipo con más jugadores marca. Sin esos dos datos, el estado numérico del partido no se puede reconstruir.",
+      "ruleReference": "Ley 3, Ley 6",
+      "tags": ["planilla", "reduccion-numerica"]
+    },
+    {
+      "id": "s11-q3",
+      "moduleId": "s11",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "El cronometrador entrega a los oficiales de cada equipo un documento con el momento exacto en que puede entrar el suplente del expulsado.",
+      "correctAnswer": true,
+      "explanation": "Las Leyes lo prevén expresamente, con el minuto y segundo del cronómetro y el período. Es una constancia escrita que conviene copiar al acta.",
+      "ruleReference": "Ley 6",
+      "tags": ["planilla", "cronometrador"]
+    },
+    {
+      "id": "s11-q4",
+      "moduleId": "s11",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué exigen las Leyes respecto de los nombres de jugadores y suplentes?",
+      "options": [
+        "Que se den al final del partido",
+        "Que se entreguen a los árbitros antes del inicio, estén presentes o no; quien no figure no puede participar",
+        "Que los verifique el delegado local",
+        "No hay exigencia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Ley 3 lo dice sin matices: en todos los partidos los nombres deben darse antes del comienzo, y quien no figure en ese momento no puede tomar parte.",
+      "ruleReference": "Ley 3",
+      "tags": ["planilla", "jugadores"]
+    },
+    {
+      "id": "s11-q5",
+      "moduleId": "s11",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cómo conviene redactar el informe de una expulsión en futsal?",
+      "options": [
+        "Explicando la intención del jugador",
+        "Con período, minuto, dorsal, qué hizo, contra quién, la decisión y el estado numérico resultante",
+        "Resumiendo el clima del partido",
+        "Con la versión del delegado"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A la estructura habitual el futsal le agrega el estado numérico: minuto de la expulsión, minuto de reingreso y si hubo abreviación por gol. Es información que solo el equipo arbitral puede aportar.",
+      "ruleReference": "Ley 5, Ley 3",
+      "tags": ["informe", "reduccion-numerica"]
+    },
+    {
+      "id": "s11-q6",
+      "moduleId": "s11",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Dirigís sin mesa y llevaste vos el recuento de faltas. ¿Qué conviene hacer antes de pedir firmas?",
+      "options": [
+        "Nada en particular",
+        "Repasar en voz alta el recuento por período y los tiros desde la sexta concedidos",
+        "Pedir que firme solo el equipo ganador",
+        "Entregar el acta sin repasarla"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Es el dato más objetable del futsal amateur, y el que se resuelve en treinta segundos con el acta a la vista en vez de en una impugnación tres días después.",
+      "ruleReference": "Ley 6, Ley 12",
+      "tags": ["planilla", "firmas", "amateur"]
+    }
+  ]
+}

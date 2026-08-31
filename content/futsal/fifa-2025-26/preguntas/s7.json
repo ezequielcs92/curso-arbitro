@@ -1,0 +1,305 @@
+{
+  "moduleId": "s7",
+  "discipline": "futsal",
+  "rulesVersion": "FIFA Futsal 2025-26",
+  "questions": [
+    {
+      "id": "s7-q1",
+      "moduleId": "s7",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué faltas cuentan como acumuladas?",
+      "options": [
+        "Todas las infracciones sancionadas",
+        "Todas las sancionadas con tiro libre directo",
+        "Solo las que llevan tarjeta",
+        "Solo las cometidas dentro del área"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Ley 12 lo dice al cerrar la lista de infracciones de tiro libre directo: todas ellas cuentan como faltas acumuladas. Las de libre indirecto no acumulan.",
+      "ruleReference": "Ley 12",
+      "tags": ["faltas-acumuladas"]
+    },
+    {
+      "id": "s7-q2",
+      "moduleId": "s7",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Cuál es la única excepción al registro de una falta acumulada?",
+      "options": [
+        "Cuando el infractor es el guardameta",
+        "Cuando se concede un tiro penal",
+        "Cuando el equipo va perdiendo",
+        "Cuando la falta ocurre en el último minuto"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El texto es explícito: no se registra falta acumulada cuando se concede un tiro penal. Es la excepción que más se olvida y la que más descuadra el recuento.",
+      "ruleReference": "Ley 12",
+      "tags": ["faltas-acumuladas", "penal"]
+    },
+    {
+      "id": "s7-q3",
+      "moduleId": "s7",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿A partir de qué falta acumulada se concede el tiro libre desde la segunda marca?",
+      "options": ["La quinta", "La sexta", "La séptima", "La cuarta"],
+      "correctAnswer": 1,
+      "explanation": "Desde la sexta falta acumulada de un equipo en cada período, y en todas las siguientes. La quinta solo se anuncia con una señal acústica para avisar de que la próxima ya es la sexta.",
+      "ruleReference": "Ley 13",
+      "tags": ["faltas-acumuladas", "dfksaf"]
+    },
+    {
+      "id": "s7-q4",
+      "moduleId": "s7",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "El recuento de faltas acumuladas se reinicia en cada período.",
+      "correctAnswer": true,
+      "explanation": "El recuento es por equipo y por período. Un equipo que terminó el primer período con cinco faltas empieza el segundo desde cero.",
+      "ruleReference": "Ley 12, Ley 13",
+      "tags": ["faltas-acumuladas"]
+    },
+    {
+      "id": "s7-q5",
+      "moduleId": "s7",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "La sexta falta acumulada de un equipo se comete dentro de su propia área penal. ¿Qué corresponde?",
+      "options": [
+        "Tiro libre desde la segunda marca",
+        "Tiro penal",
+        "Tiro libre desde el lugar de la infracción",
+        "El infractor elige"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las Leyes lo resuelven expresamente: si la sexta o una posterior se comete dentro del área del infractor, se concede penal en su lugar. Y al concederse penal, esa falta no se registra como acumulada.",
+      "ruleReference": "Ley 13, Ley 12",
+      "tags": ["faltas-acumuladas", "penal"]
+    },
+    {
+      "id": "s7-q6",
+      "moduleId": "s7",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "El equipo defensor puede formar barrera en un tiro libre desde la sexta falta acumulada.",
+      "correctAnswer": false,
+      "explanation": "Las Leyes lo prohíben expresamente. Es lo que convierte ese tiro en una ocasión clarísima: el ejecutor queda mano a mano con el guardameta.",
+      "ruleReference": "Ley 13",
+      "tags": ["dfksaf", "barrera"]
+    },
+    {
+      "id": "s7-q7",
+      "moduleId": "s7",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "El ejecutor del tiro libre desde la sexta falta debe intentar marcar.",
+      "correctAnswer": true,
+      "explanation": "Las Leyes lo exigen: se puede marcar directamente y el ejecutor debe intentarlo. No se puede usar como un pase disimulado a un compañero.",
+      "ruleReference": "Ley 13",
+      "tags": ["dfksaf"]
+    },
+    {
+      "id": "s7-q8",
+      "moduleId": "s7",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Desde dónde se ejecuta el tiro libre desde la sexta falta acumulada?",
+      "options": [
+        "Siempre desde la segunda marca de 10 m",
+        "Desde la segunda marca, o desde el lugar de la infracción si esta ocurrió entre la línea de meta defensora y la línea imaginaria de 10 m, a elección del ejecutor",
+        "Siempre desde el lugar de la infracción",
+        "Desde el punto de penal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Si la infracción se cometió en esa zona más cercana al arco, el ejecutor puede elegir entre la marca de 10 m y el lugar de la infracción. Fuera de esa zona, se ejecuta desde la segunda marca.",
+      "ruleReference": "Ley 13",
+      "tags": ["dfksaf", "ubicacion"]
+    },
+    {
+      "id": "s7-q9",
+      "moduleId": "s7",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿A qué distancia debe estar el guardameta defensor en un tiro libre desde la sexta falta?",
+      "options": ["A 3 m", "A 5 m como mínimo del balón hasta que sea golpeado", "A 10 m", "Sobre la línea de meta"],
+      "correctAnswer": 1,
+      "explanation": "El guardameta debe estar al menos a 5 m del balón hasta que sea golpeado, y no puede comportarse de forma que distraiga injustamente al ejecutor, por ejemplo demorando el tiro o tocando los postes, el travesaño o la red.",
+      "ruleReference": "Ley 13",
+      "tags": ["dfksaf", "guardameta"]
+    },
+    {
+      "id": "s7-q10",
+      "moduleId": "s7",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Dónde deben ubicarse los demás jugadores en un tiro libre desde la sexta falta?",
+      "options": [
+        "Donde quieran, fuera del área",
+        "En la pista, a 5 m como mínimo del balón, detrás del balón y fuera del área penal",
+        "Detrás de la línea de meta",
+        "En su propia mitad"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las cuatro condiciones son acumulativas: dentro de la pista, a 5 m del balón, detrás del balón y fuera del área penal.",
+      "ruleReference": "Ley 13",
+      "tags": ["dfksaf", "ubicacion"]
+    },
+    {
+      "id": "s7-q11",
+      "moduleId": "s7",
+      "type": "true_false",
+      "difficulty": 4,
+      "question": "El ejecutor del tiro libre desde la sexta falta debe estar claramente identificado.",
+      "correctAnswer": true,
+      "explanation": "Las Leyes lo exigen. Evita que un jugador amague y otro remate, que sería una forma de burlar la obligación de intentar marcar.",
+      "ruleReference": "Ley 13",
+      "tags": ["dfksaf"]
+    },
+    {
+      "id": "s7-q12",
+      "moduleId": "s7",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿En qué situaciones NO debe aplicarse la ventaja en futsal?",
+      "options": [
+        "En cualquier falta acumulada",
+        "En juego brusco grave, conducta violenta, segunda amonestación o sexta falta acumulada (o posterior), salvo que haya una clara ocasión de gol",
+        "Solo en las faltas del guardameta",
+        "En el último minuto de cada período"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La lista es tasada y la excepción también: si hay una clara oportunidad de marcar, la ventaja sí se aplica. Fuera de eso, dejar seguir en la sexta falta le quita al rival un tiro sin barrera desde 10 m.",
+      "ruleReference": "Ley 5, Ley 12",
+      "tags": ["ventaja", "faltas-acumuladas"]
+    },
+    {
+      "id": "s7-q13",
+      "moduleId": "s7",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "Un equipo con cinco faltas comete la sexta, y su rival queda con el balón en una posición sin peligro. ¿Qué conviene?",
+      "options": [
+        "Dar ventaja para no cortar el juego",
+        "Sancionar: sin una clara ocasión de gol, la ventaja no debe aplicarse en la sexta falta",
+        "Esperar a ver cómo sigue la jugada",
+        "Sancionar solo si el rival reclama"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dar ventaja en esa situación cambia un tiro sin barrera desde 10 m por una posesión intrascendente. La Ley solo admite la ventaja ahí cuando hay una clara oportunidad de gol.",
+      "ruleReference": "Ley 5, Ley 12",
+      "tags": ["ventaja", "faltas-acumuladas", "criterio"]
+    },
+    {
+      "id": "s7-q14",
+      "moduleId": "s7",
+      "type": "decision",
+      "difficulty": 5,
+      "question": "Un defensor sujeta a un atacante fuera del área. Es la sexta falta acumulada de su equipo en el período. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "dfksaf",
+        "disciplinary": "none",
+        "restart": "ten_metre_mark"
+      },
+      "explanation": "Sujetar es infracción de tiro libre directo, así que acumula. Al ser la sexta, se concede el tiro libre desde la segunda marca de 10 m, sin barrera. Sujetar sin más agravantes no lleva tarjeta por sí solo.",
+      "ruleReference": "Ley 12, Ley 13",
+      "tags": ["decision", "dfksaf", "faltas-acumuladas"]
+    },
+    {
+      "id": "s7-q15",
+      "moduleId": "s7",
+      "type": "decision",
+      "difficulty": 5,
+      "question": "Un defensor comete su séptima falta acumulada del período dentro de su propia área penal, empujando a un rival. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "penalty_kick",
+        "disciplinary": "none",
+        "restart": "penalty_mark"
+      },
+      "explanation": "Cuando la sexta o una posterior se comete dentro del área del infractor, se concede penal en su lugar. Y como se concede penal, esa falta no se registra como acumulada.",
+      "ruleReference": "Ley 12, Ley 13",
+      "tags": ["decision", "penal", "faltas-acumuladas"]
+    },
+    {
+      "id": "s7-q16",
+      "moduleId": "s7",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué debe hacer el equipo arbitral cuando un equipo llega a cinco faltas acumuladas?",
+      "options": [
+        "Nada en particular",
+        "El cronometrador lo indica con una señal acústica distinta de la de los árbitros",
+        "Se detiene el partido un minuto",
+        "Se amonesta al capitán"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La señal avisa a los dos equipos y al equipo arbitral de que la próxima falta directa ya será la sexta. Es la información que cambia el criterio de ventaja del resto del período.",
+      "ruleReference": "Ley 6",
+      "tags": ["faltas-acumuladas", "cronometrador"]
+    },
+    {
+      "id": "s7-q17",
+      "moduleId": "s7",
+      "type": "true_false",
+      "difficulty": 4,
+      "question": "Una infracción sancionada con tiro libre indirecto también suma al recuento de faltas acumuladas.",
+      "correctAnswer": false,
+      "explanation": "Solo acumulan las de tiro libre directo. Por eso distinguir obstaculizar con contacto de obstaculizar sin contacto tiene consecuencias sobre el recuento del período.",
+      "ruleReference": "Ley 12",
+      "tags": ["faltas-acumuladas", "indirecto"]
+    },
+    {
+      "id": "s7-q18",
+      "moduleId": "s7",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "En la prórroga, ¿qué pasa con las faltas acumuladas?",
+      "options": [
+        "Se reinician a cero",
+        "Continúan las del segundo período",
+        "Se promedian los dos períodos",
+        "No se cuentan"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La prórroga se considera continuación del segundo período a estos efectos, así que las faltas acumuladas de ese período siguen contando. Es un dato que conviene confirmar con la mesa antes de empezarla.",
+      "ruleReference": "Ley 12, Ley 13",
+      "tags": ["faltas-acumuladas", "prorroga"]
+    },
+    {
+      "id": "s7-q19",
+      "moduleId": "s7",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "Dirigís futsal amateur sin mesa. ¿Cuál es el riesgo más concreto?",
+      "options": [
+        "Que el partido dure de más",
+        "Perder el recuento de faltas acumuladas y no conceder, o conceder de más, el tiro desde 10 m",
+        "Que no se anoten los goles",
+        "Que los equipos hagan cambios de más"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Es el error más caro del futsal amateur. Sin cronometrador, el recuento debe llevarlo el equipo arbitral de forma visible y comunicarse a los equipos, o el tiro desde la sexta se vuelve discutible.",
+      "ruleReference": "Ley 6, Ley 12",
+      "tags": ["faltas-acumuladas", "amateur"]
+    },
+    {
+      "id": "s7-q20",
+      "moduleId": "s7",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "El guardameta defensor demora el tiro libre desde la sexta falta tocando el travesaño. ¿Cómo se califica esa conducta?",
+      "options": [
+        "Está permitida",
+        "Es un comportamiento que distrae injustamente al ejecutor y las Leyes lo prohíben",
+        "Solo se sanciona si el tiro falla",
+        "Obliga a repetir el tiro siempre"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las Leyes prohíben expresamente que el guardameta se comporte de manera que distraiga injustamente al ejecutor, y ponen como ejemplos demorar el tiro o tocar los postes, el travesaño o la red.",
+      "ruleReference": "Ley 13",
+      "tags": ["dfksaf", "guardameta", "conducta"]
+    }
+  ]
+}

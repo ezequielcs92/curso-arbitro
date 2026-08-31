@@ -1,0 +1,126 @@
+{
+  "moduleId": "s10",
+  "discipline": "futsal",
+  "rulesVersion": "FIFA Futsal 2025-26",
+  "questions": [
+    {
+      "id": "s10-q1",
+      "moduleId": "s10",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿A partir de cuántos defensores se considera «barrera» en futsal?",
+      "options": ["Uno", "Dos o más", "Tres o más", "Cuatro o más"],
+      "correctAnswer": 1,
+      "explanation": "En futsal la barrera se forma con dos o más jugadores del equipo defensor, y entonces los atacantes deben mantenerse al menos a 1 m de ella. En fútbol el umbral es de tres o más.",
+      "ruleReference": "Ley 13",
+      "tags": ["barrera", "tiro-libre"]
+    },
+    {
+      "id": "s10-q2",
+      "moduleId": "s10",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "Fintar la ejecución de un tiro libre está permitido en futsal.",
+      "correctAnswer": true,
+      "explanation": "Las Leyes lo admiten expresamente como parte del futsal, igual que en fútbol. También se puede ejecutar elevando el balón con un pie o con los dos a la vez.",
+      "ruleReference": "Ley 13",
+      "tags": ["tiro-libre", "finta"]
+    },
+    {
+      "id": "s10-q3",
+      "moduleId": "s10",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Aplicás ventaja sobre una infracción que acumula. ¿Qué debés hacer con la mesa?",
+      "options": [
+        "Nada: la ventaja anula la falta",
+        "Usar las señales obligatorias para indicar la falta acumulada al cronometrador y al tercer árbitro en cuanto el balón salga de juego",
+        "Comunicarlo al final del período",
+        "Anotarlo solo en el acta"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las Leyes lo exigen: la ventaja no borra la falta acumulada, y la señal a la mesa debe hacerse en cuanto el balón salga de juego para que el recuento quede correcto.",
+      "ruleReference": "Ley 5, Ley 12",
+      "tags": ["ventaja", "faltas-acumuladas", "senalizacion"]
+    },
+    {
+      "id": "s10-q4",
+      "moduleId": "s10",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Dónde se sitúan las zonas de sustitución?",
+      "options": [
+        "En la línea de meta, junto a los arcos",
+        "En la línea de banda, frente a las áreas técnicas, a 5 m de la línea central y con 5 m de longitud",
+        "Detrás de los bancos",
+        "En el centro de la pista"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Están frente a las áreas técnicas, a 5 m de la línea central y miden 5 m de largo. Controlar que las sustituciones se hagan por esa zona es parte del manejo del partido.",
+      "ruleReference": "Ley 1, Ley 3",
+      "tags": ["sustituciones", "pista"]
+    },
+    {
+      "id": "s10-q5",
+      "moduleId": "s10",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Un suplente entra a la pista antes de que salga el jugador al que reemplaza. ¿Qué corresponde?",
+      "options": [
+        "Nada, si lo hace rápido",
+        "Es una sustitución incorrecta: el suplente solo entra después de que el reemplazado haya salido",
+        "Se amonesta al entrenador",
+        "Se detiene el partido un minuto"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El procedimiento es estricto en el orden: primero sale el reemplazado por su zona, después entra el suplente por la misma zona. La sustitución se completa cuando el suplente entra por completo tras entregar el peto.",
+      "ruleReference": "Ley 3",
+      "tags": ["sustituciones"]
+    },
+    {
+      "id": "s10-q6",
+      "moduleId": "s10",
+      "type": "true_false",
+      "difficulty": 4,
+      "question": "Un suplente que no completó el procedimiento de sustitución puede ejecutar un saque de banda.",
+      "correctAnswer": false,
+      "explanation": "Las Leyes lo prohíben expresamente: no puede reanudar el juego con un saque de banda, un penal, un tiro libre, un saque de esquina ni un saque de meta, ni recibir un balón a tierra.",
+      "ruleReference": "Ley 3",
+      "tags": ["sustituciones", "reanudaciones"]
+    },
+    {
+      "id": "s10-q7",
+      "moduleId": "s10",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuándo se puede rechazar una sustitución?",
+      "options": [
+        "Nunca",
+        "En ciertas circunstancias, por ejemplo si el equipamiento del suplente no está en orden",
+        "Solo en el segundo período",
+        "Cuando lo pida el rival"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las Leyes prevén que el permiso pueda denegarse en determinadas circunstancias, y ponen como ejemplo el equipamiento del suplente que no está en condiciones.",
+      "ruleReference": "Ley 3",
+      "tags": ["sustituciones", "equipamiento"]
+    },
+    {
+      "id": "s10-q8",
+      "moduleId": "s10",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "Dirigís futsal amateur y el reglamento del torneo permite reloj corrido y sustituciones con juego detenido. ¿Cómo se clasifican esas normas?",
+      "options": [
+        "Reglamento oficial de FIFA para futsal amateur",
+        "Reglas de competición o privadas: se aplican, pero no son las Leyes de futsal",
+        "Adaptaciones prohibidas",
+        "Reglas de IFAB"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El tiempo de juego y las sustituciones volantes son propios de las Leyes de FIFA. Un torneo puede cambiarlos, pero corresponde registrarlo como regla de competición o privada y avisarlo, no presentarlo como el reglamento oficial.",
+      "ruleReference": "Ley 3, Ley 7",
+      "tags": ["reglamento-privado", "amateur"]
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "moduleId": "s8",
+  "discipline": "futsal",
+  "rulesVersion": "FIFA Futsal 2025-26",
+  "questions": [
+    {
+      "id": "s8-q1",
+      "moduleId": "s8",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿En cuánto tiempo debe ejecutarse un tiro libre en futsal?",
+      "options": [
+        "No hay límite",
+        "Dentro de los cuatro segundos",
+        "Dentro de los seis segundos",
+        "Dentro de los diez segundos"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Si el tiro libre no se ejecuta dentro de los cuatro segundos, se concede un tiro libre indirecto al equipo adversario. Los cuatro segundos atraviesan casi todas las reanudaciones del futsal.",
+      "ruleReference": "Ley 13",
+      "tags": ["tiro-libre", "cuatro-segundos"]
+    },
+    {
+      "id": "s8-q2",
+      "moduleId": "s8",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Un equipo no ejecuta un tiro libre dentro de los cuatro segundos. ¿Qué corresponde?",
+      "options": [
+        "Se repite el tiro libre",
+        "Tiro libre indirecto para el adversario",
+        "Amonestación al ejecutor",
+        "Saque de banda para el adversario"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La sanción es libre indirecto para el rival, en el lugar donde debía ejecutarse. No es una amonestación automática ni una repetición.",
+      "ruleReference": "Ley 13",
+      "tags": ["tiro-libre", "cuatro-segundos"]
+    },
+    {
+      "id": "s8-q3",
+      "moduleId": "s8",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿A qué distancia deben estar los adversarios en un tiro libre ordinario de futsal?",
+      "options": ["A 3 m", "A 5 m", "A 9.15 m", "A 2 m"],
+      "correctAnswer": 1,
+      "explanation": "La distancia en futsal es de 5 m, muy inferior a los 9.15 m del fútbol, coherente con el tamaño de la pista.",
+      "ruleReference": "Ley 13",
+      "tags": ["tiro-libre", "distancia"]
+    },
+    {
+      "id": "s8-q4",
+      "moduleId": "s8",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Desde dónde se ejecuta el tiro penal en futsal?",
+      "options": ["Desde 6 m", "Desde 10 m", "Desde 11 m", "Desde el borde del área"],
+      "correctAnswer": 0,
+      "explanation": "Desde la marca de penal, situada a 6 m. La marca de 10 m es la del tiro libre desde la sexta falta acumulada, que es otra cosa.",
+      "ruleReference": "Ley 14, Ley 1",
+      "tags": ["penal"]
+    },
+    {
+      "id": "s8-q5",
+      "moduleId": "s8",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "El ejecutor de un penal en futsal debe estar claramente identificado.",
+      "correctAnswer": true,
+      "explanation": "Las Leyes lo exigen, igual que en el tiro libre desde la sexta falta. Evita las ejecuciones en las que un jugador amaga y otro remata.",
+      "ruleReference": "Ley 14",
+      "tags": ["penal"]
+    },
+    {
+      "id": "s8-q6",
+      "moduleId": "s8",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Dónde debe estar el guardameta defensor durante un tiro penal?",
+      "options": [
+        "En cualquier punto del área",
+        "Sobre la línea de meta, de cara al ejecutor y entre los postes, hasta que el balón sea golpeado",
+        "A 5 m del balón",
+        "Fuera del área"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Debe permanecer sobre la línea de meta, de frente al ejecutor y entre los postes, hasta que el balón haya sido golpeado, y no puede distraerlo injustamente demorando el tiro o tocando el arco.",
+      "ruleReference": "Ley 14",
+      "tags": ["penal", "guardameta"]
+    },
+    {
+      "id": "s8-q7",
+      "moduleId": "s8",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Dónde deben estar los jugadores distintos del ejecutor y del guardameta durante un penal?",
+      "options": [
+        "Fuera de la pista",
+        "En la pista, fuera del área, detrás de la marca de penal y a 5 m como mínimo",
+        "En su propia mitad",
+        "Detrás de la línea de meta"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las condiciones son las mismas que estructuran el tiro libre desde la sexta falta: dentro de la pista, fuera del área, detrás del balón y a distancia mínima.",
+      "ruleReference": "Ley 14",
+      "tags": ["penal", "ubicacion"]
+    },
+    {
+      "id": "s8-q8",
+      "moduleId": "s8",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "Se concede un tiro libre desde la sexta falta acumulada justo cuando el período está por terminar. ¿Qué corresponde?",
+      "options": [
+        "El período termina y el tiro se pierde",
+        "El período se considera terminado una vez completado el tiro",
+        "El tiro se ejecuta al comienzo del período siguiente",
+        "Se repite el período"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las Leyes lo prevén expresamente, tanto para el tiro desde la sexta falta como para el penal: el período se considera terminado una vez completado el tiro.",
+      "ruleReference": "Ley 7, Ley 13",
+      "tags": ["dfksaf", "penal", "tiempo"]
+    },
+    {
+      "id": "s8-q9",
+      "moduleId": "s8",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿Cuándo se considera completado un tiro penal o un tiro desde la sexta falta a efectos del final del período?",
+      "options": [
+        "Cuando el ejecutor golpea el balón",
+        "Cuando el balón deja de moverse, sale de juego, o los árbitros detienen el juego por una infracción",
+        "Cuando el guardameta toca el balón",
+        "Cuando pasan cuatro segundos"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Esa definición evita las discusiones sobre si un rebote posterior cuenta. El tiro termina cuando el balón se detiene, sale, o el juego se detiene por una infracción.",
+      "ruleReference": "Ley 7",
+      "tags": ["penal", "dfksaf", "tiempo"]
+    },
+    {
+      "id": "s8-q10",
+      "moduleId": "s8",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "En una tanda de penales, el guardameta comete una infracción y el tiro debe repetirse. ¿Qué corresponde?",
+      "options": [
+        "Amonestación inmediata",
+        "Advertencia por la primera infracción; amonestación si el mismo jugador comete otra",
+        "Expulsión",
+        "Nada"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las Leyes gradúan la respuesta: advertencia la primera vez y amonestación en las siguientes del mismo jugador.",
+      "ruleReference": "Ley 14",
+      "tags": ["penal", "tanda", "disciplina"]
+    },
+    {
+      "id": "s8-q11",
+      "moduleId": "s8",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "En una tanda de penales, el ejecutor comete una infracción después de la señal para lanzar. ¿Qué corresponde?",
+      "options": [
+        "Se repite el tiro",
+        "El tiro se registra como fallado y el ejecutor es amonestado",
+        "El tiro es válido si entra",
+        "Se pasa al siguiente ejecutor sin más"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las Leyes lo resuelven de forma tajante: el tiro se registra como fallado y el ejecutor recibe amonestación.",
+      "ruleReference": "Ley 14",
+      "tags": ["penal", "tanda", "disciplina"]
+    },
+    {
+      "id": "s8-q12",
+      "moduleId": "s8",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "En una tanda de penales, cualquier jugador o suplente habilitado puede cambiar de puesto con el guardameta.",
+      "correctAnswer": true,
+      "explanation": "Las Leyes lo permiten expresamente. Es una posibilidad táctica que conviene conocer antes de que aparezca en el momento.",
+      "ruleReference": "Ley 14",
+      "tags": ["penal", "tanda", "guardameta"]
+    }
+  ]
+}

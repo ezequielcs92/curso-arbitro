@@ -1,0 +1,283 @@
+{
+  "moduleId": "s6",
+  "discipline": "futsal",
+  "rulesVersion": "FIFA Futsal 2025-26",
+  "questions": [
+    {
+      "id": "s6-q1",
+      "moduleId": "s6",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuáles son las tres gradaciones con que se juzga una infracción de contacto?",
+      "options": [
+        "Leve, media y grave",
+        "Imprudente, temeraria y con uso de fuerza excesiva",
+        "Involuntaria, voluntaria y dolosa",
+        "Primera, segunda y tercera"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Ley 12 usa las mismas tres categorías que el fútbol, y cada una tiene su consecuencia disciplinaria: imprudente no lleva sanción, temeraria obliga a amonestar y la fuerza excesiva obliga a expulsar.",
+      "ruleReference": "Ley 12",
+      "tags": ["faltas", "graduacion"]
+    },
+    {
+      "id": "s6-q2",
+      "moduleId": "s6",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Un jugador actúa con desprecio del peligro o las consecuencias para el adversario. ¿Qué corresponde?",
+      "options": [
+        "Solo tiro libre",
+        "Tiro libre y amonestación",
+        "Tiro libre y expulsión",
+        "Advertencia verbal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Esa es la definición de temerario, y la Ley 12 obliga a amonestar. La expulsión queda para la fuerza excesiva, que es exceder la fuerza necesaria o poner en peligro la seguridad del adversario.",
+      "ruleReference": "Ley 12",
+      "tags": ["faltas", "amonestacion"]
+    },
+    {
+      "id": "s6-q3",
+      "moduleId": "s6",
+      "type": "true_false",
+      "difficulty": 4,
+      "question": "Las Leyes de futsal prohíben expresamente la barrida.",
+      "correctAnswer": false,
+      "explanation": "No hay una prohibición específica de la barrida. Se juzga como cualquier disputa, por la graduación de la Ley 12. Si un torneo la prohíbe, es regla de competición o privada, y conviene preguntar cómo la sanciona.",
+      "ruleReference": "Ley 12",
+      "tags": ["faltas", "reglamento-privado"]
+    },
+    {
+      "id": "s6-q4",
+      "moduleId": "s6",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuál de estas infracciones NO se sanciona con tiro libre directo?",
+      "options": [
+        "Sujetar a un adversario",
+        "Obstaculizar a un adversario con contacto",
+        "Obstaculizar a un adversario sin contacto",
+        "Escupir a alguien de las listas o a un miembro del equipo arbitral"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Obstaculizar sin contacto es libre indirecto y, por lo tanto, no acumula. Con contacto pasa a ser directo y sí acumula. La diferencia entre esas dos palabras cambia el recuento del período.",
+      "ruleReference": "Ley 12",
+      "tags": ["faltas", "indirecto"]
+    },
+    {
+      "id": "s6-q5",
+      "moduleId": "s6",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "El guardameta controla el balón con los pies en su propia mitad durante más de cuatro segundos. ¿Qué corresponde?",
+      "options": [
+        "Nada: los cuatro segundos solo aplican a las manos",
+        "Tiro libre indirecto",
+        "Tiro libre directo",
+        "Saque de esquina"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El futsal cuenta los cuatro segundos con las manos, los brazos o los pies, y en toda su propia mitad de la pista, no solo en el área. La sanción es libre indirecto.",
+      "ruleReference": "Ley 12",
+      "tags": ["guardameta", "cuatro-segundos"]
+    },
+    {
+      "id": "s6-q6",
+      "moduleId": "s6",
+      "type": "true_false",
+      "difficulty": 4,
+      "question": "En futsal, los cuatro segundos del guardameta se cuentan solo dentro de su área penal.",
+      "correctAnswer": false,
+      "explanation": "Se cuentan en toda su propia mitad de la pista. Es una diferencia grande con el fútbol, donde los ocho segundos del guardameta se cuentan dentro de su área.",
+      "ruleReference": "Ley 12",
+      "tags": ["guardameta", "cuatro-segundos"]
+    },
+    {
+      "id": "s6-q7",
+      "moduleId": "s6",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "El guardameta juega el balón en posesión controlada, y tras un pase deliberado de un compañero vuelve a tocarlo en su propia mitad sin que ningún adversario lo haya jugado. ¿Qué corresponde?",
+      "options": [
+        "Tiro libre indirecto, sin sanción disciplinaria",
+        "Tiro libre directo",
+        "Penal",
+        "Amonestación y libre indirecto"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La Ley 12 lo lista entre las infracciones de libre indirecto del guardameta y aclara expresamente que no hay sanción disciplinaria.",
+      "ruleReference": "Ley 12",
+      "tags": ["guardameta", "indirecto"]
+    },
+    {
+      "id": "s6-q8",
+      "moduleId": "s6",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Un compañero le cede el balón con el pie al guardameta, incluso desde un saque de banda, y este lo toca con las manos dentro de su área. ¿Qué corresponde?",
+      "options": [
+        "El juego continúa",
+        "Tiro libre indirecto",
+        "Tiro libre directo",
+        "Penal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La cesión deliberada con el pie, incluida la que llega desde un saque de banda, impide al guardameta usar las manos. La sanción es libre indirecto.",
+      "ruleReference": "Ley 12",
+      "tags": ["guardameta", "cesion"]
+    },
+    {
+      "id": "s6-q9",
+      "moduleId": "s6",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuál es el límite superior del brazo para determinar las infracciones por mano en futsal?",
+      "options": ["El hombro", "El punto inferior de la axila", "El codo", "La muñeca"],
+      "correctAnswer": 1,
+      "explanation": "Es el mismo criterio que en fútbol: el límite superior del brazo coincide con el punto inferior de la axila.",
+      "ruleReference": "Ley 12",
+      "tags": ["mano"]
+    },
+    {
+      "id": "s6-q10",
+      "moduleId": "s6",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Cuándo se sanciona una infracción por mano con tiro libre directo en futsal?",
+      "options": [
+        "Ante cualquier contacto con la mano",
+        "Cuando es deliberada o cuando la mano o el brazo hacen que el cuerpo ocupe más espacio de manera antinatural",
+        "Solo cuando evita un gol",
+        "Solo dentro del área"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El criterio es el mismo del fútbol, con la excepción del guardameta dentro de su propia área. Y como toda infracción de libre directo, acumula.",
+      "ruleReference": "Ley 12",
+      "tags": ["mano", "faltas-acumuladas"]
+    },
+    {
+      "id": "s6-q11",
+      "moduleId": "s6",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Un jugador lanza un objeto contra el balón, un adversario o un miembro del equipo arbitral. ¿Cómo se sanciona?",
+      "options": [
+        "Tiro libre indirecto",
+        "Tiro libre directo",
+        "Solo con tarjeta, sin tiro libre",
+        "Balón a tierra"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Ley 12 lo incluye entre las infracciones de tiro libre directo, junto con tocar el balón con un objeto sostenido y mover deliberadamente el arco para que toque el balón. Todas acumulan.",
+      "ruleReference": "Ley 12",
+      "tags": ["faltas", "objetos"]
+    },
+    {
+      "id": "s6-q12",
+      "moduleId": "s6",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Un jugador entra a la pista sin permiso e interfiere en el juego dentro del área de su equipo. ¿Qué corresponde?",
+      "options": [
+        "Tiro libre indirecto y amonestación",
+        "Penal y amonestación, sin registrar falta acumulada",
+        "Penal y expulsión",
+        "Solo amonestación"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las Leyes prevén tiro libre directo desde el lugar de la interferencia, o penal si fue en el área, con falta acumulada salvo cuando se concede penal, y amonestación por entrar sin permiso.",
+      "ruleReference": "Ley 3, Ley 12",
+      "tags": ["penal", "amonestacion", "faltas-acumuladas"]
+    },
+    {
+      "id": "s6-q13",
+      "moduleId": "s6",
+      "type": "decision",
+      "difficulty": 4,
+      "question": "Un defensor empuja con imprudencia a un atacante fuera del área. Su equipo lleva dos faltas acumuladas en el período. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "direct_free_kick",
+        "disciplinary": "none",
+        "restart": "place_of_offence"
+      },
+      "explanation": "Empujar con imprudencia es tiro libre directo sin sanción disciplinaria, y como toda infracción de libre directo se registra como tercera falta acumulada del período.",
+      "ruleReference": "Ley 12",
+      "tags": ["decision", "faltas-acumuladas"]
+    },
+    {
+      "id": "s6-q14",
+      "moduleId": "s6",
+      "type": "decision",
+      "difficulty": 5,
+      "question": "El guardameta retiene el balón con las manos en su propia mitad durante cinco segundos, sin presión rival. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "indirect_free_kick",
+        "disciplinary": "none",
+        "restart": "place_of_offence"
+      },
+      "explanation": "Superar los cuatro segundos es libre indirecto sin sanción disciplinaria. Y por ser indirecto, no acumula: el recuento de faltas del período no se toca.",
+      "ruleReference": "Ley 12",
+      "tags": ["decision", "guardameta", "cuatro-segundos"]
+    },
+    {
+      "id": "s6-q15",
+      "moduleId": "s6",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué corresponde ante una infracción imprudente, sin más agravantes?",
+      "options": [
+        "Tiro libre y amonestación",
+        "Tiro libre sin sanción disciplinaria",
+        "Tiro libre y expulsión",
+        "Advertencia obligatoria"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Ley 12 lo dice expresamente: imprudente es falta de atención o de precaución, y no necesita sanción disciplinaria. La tarjeta aparece con lo temerario.",
+      "ruleReference": "Ley 12",
+      "tags": ["faltas", "graduacion"]
+    },
+    {
+      "id": "s6-q16",
+      "moduleId": "s6",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué corresponde a quien usa fuerza excesiva?",
+      "options": ["Amonestación", "Expulsión", "Solo tiro libre", "Depende de si hay lesión"],
+      "correctAnswer": 1,
+      "explanation": "Usar fuerza excesiva es exceder la fuerza necesaria o poner en peligro la seguridad del adversario, y la Ley 12 obliga a expulsar.",
+      "ruleReference": "Ley 12",
+      "tags": ["expulsion", "fuerza-excesiva"]
+    },
+    {
+      "id": "s6-q17",
+      "moduleId": "s6",
+      "type": "true_false",
+      "difficulty": 4,
+      "question": "Un jugador que cruza una línea de demarcación como parte de un movimiento propio del juego comete infracción.",
+      "correctAnswer": false,
+      "explanation": "Las Leyes lo aclaran expresamente: cruzar una línea como parte de una acción de juego no constituye infracción. Lo sancionable es entrar o salir de la pista sin permiso al margen del juego.",
+      "ruleReference": "Ley 3",
+      "tags": ["jugadores", "lineas"]
+    },
+    {
+      "id": "s6-q18",
+      "moduleId": "s6",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿Por qué importa distinguir si una infracción es de libre directo o indirecto en futsal, más que en fútbol?",
+      "options": [
+        "Porque cambia la distancia de la barrera",
+        "Porque solo las de libre directo se registran como faltas acumuladas",
+        "Porque las indirectas no se informan",
+        "Porque las directas siempre llevan tarjeta"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El recuento del período depende de esa clasificación, y de él depende el tiro desde 10 m sin barrera. Confundir directo con indirecto altera el marcador de faltas y puede regalar o negar una ocasión clarísima.",
+      "ruleReference": "Ley 12",
+      "tags": ["faltas-acumuladas", "criterio"]
+    }
+  ]
+}
