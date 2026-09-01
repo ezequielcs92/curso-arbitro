@@ -1,0 +1,195 @@
+{
+  "part": "C",
+  "discipline": "futsal",
+  "rulesVersion": "FIFA Futsal 2025-26",
+  "note": "Reglamentos privados de ficción, con las omisiones y los atajos que tienen los reales.",
+  "rulebooks": [
+    {
+      "id": "liga-club-futsal",
+      "name": "Liga de Clubes de Futsal — Reglamento interno",
+      "format": "FUTSAL",
+      "intro": "Torneo privado de adultos en polideportivo, sin mesa de cronometraje.",
+      "articles": [
+        { "n": "1", "text": "Dos tiempos de 20 minutos a reloj corrido. Solo se detiene el reloj en los últimos 2 minutos de cada período y en los tiempos muertos." },
+        { "n": "2", "text": "Un tiempo muerto de un minuto por equipo y período, solicitado al árbitro." },
+        { "n": "3", "text": "Las faltas acumuladas las lleva el equipo arbitral y se comunican en voz alta al llegar a la quinta." },
+        { "n": "4", "text": "Cambios volantes por la zona de sustituciones, sin detener el juego." },
+        { "n": "5", "text": "Prohibida la barrida. Se sanciona con tiro libre directo y amonestación en toda circunstancia." },
+        { "n": "6", "text": "La expulsión implica dos minutos de inferioridad. Si el rival marca antes, el equipo se completa." },
+        { "n": "7", "text": "Se juega con calzado de suela lisa. No se admite calzado con tapones." }
+      ],
+      "questions": [
+        {
+          "id": "sx-c1-1",
+          "moduleId": "examen",
+          "type": "multiple_choice",
+          "difficulty": 4,
+          "question": "¿Cómo se clasifica el reloj corrido del artículo 1?",
+          "options": [
+            "Regla oficial de FIFA para futsal amateur",
+            "Regla privada del torneo: la Ley 7 exige tiempo de juego, con el cronómetro detenido en cada interrupción",
+            "Adaptación permitida por FIFA",
+            "Está prohibido y no debe aplicarse"
+          ],
+          "correctAnswer": 1,
+          "explanation": "El tiempo de juego es propio de las Leyes de futsal. Un torneo puede cambiarlo, pero corresponde registrarlo como regla del torneo y no presentarlo como el reglamento de FIFA.",
+          "ruleReference": "Ley 7",
+          "tags": ["reglamento-privado", "tiempo"]
+        },
+        {
+          "id": "sx-c1-2",
+          "moduleId": "examen",
+          "type": "multiple_choice",
+          "difficulty": 5,
+          "question": "El artículo 5 sanciona toda barrida con amonestación. ¿Cómo se clasifica?",
+          "options": [
+            "Coincide con las Leyes de futsal",
+            "Regla privada: las Leyes no prohíben la barrida y la juzgan por la graduación imprudente, temeraria o con fuerza excesiva",
+            "Adaptación permitida por FIFA",
+            "No debe aplicarse"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Las Leyes de futsal no contienen ninguna prohibición específica de la barrida. Amonestar siempre es una norma del torneo, y se aplica como tal.",
+          "ruleReference": "Ley 12",
+          "tags": ["reglamento-privado", "barrida"]
+        },
+        {
+          "id": "sx-c1-3",
+          "moduleId": "examen",
+          "type": "multiple_choice",
+          "difficulty": 4,
+          "question": "El reglamento no dice qué faltas acumulan. ¿Qué corresponde?",
+          "options": [
+            "Acumular todas las infracciones sancionadas",
+            "Acumular solo las de tiro libre directo, y ninguna cuando se concede penal",
+            "Acumular solo las que llevan tarjeta",
+            "No llevar el recuento"
+          ],
+          "correctAnswer": 1,
+          "explanation": "En lo que el reglamento no modifica rigen las Leyes: acumulan las infracciones de tiro libre directo, y no se registra falta acumulada cuando se concede un penal.",
+          "ruleReference": "Ley 12",
+          "tags": ["faltas-acumuladas", "reglamento-privado"]
+        },
+        {
+          "id": "sx-c1-4",
+          "moduleId": "examen",
+          "type": "multiple_choice",
+          "difficulty": 4,
+          "question": "Sin mesa de cronometraje, ¿cuál es el riesgo concreto del artículo 3?",
+          "options": [
+            "Que el partido dure de más",
+            "Perder el recuento y conceder de menos o de más el tiro desde la sexta falta",
+            "Que no se anoten los goles",
+            "Que los cambios sean irregulares"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Es el error más caro del futsal amateur: del recuento depende un tiro sin barrera desde diez metros. Comunicarlo en voz alta al llegar a la quinta es justamente lo que lo hace verificable.",
+          "ruleReference": "Ley 6, Ley 12",
+          "tags": ["faltas-acumuladas", "amateur"]
+        },
+        {
+          "id": "sx-c1-5",
+          "moduleId": "examen",
+          "type": "multiple_choice",
+          "difficulty": 5,
+          "question": "Un equipo con cinco faltas comete la sexta y el rival queda con una clara ocasión de gol. ¿Qué corresponde?",
+          "options": [
+            "Sancionar siempre: en la sexta no hay ventaja",
+            "Se puede aplicar ventaja: la Ley solo la excluye salvo que haya una clara oportunidad de marcar",
+            "Detener y dar tiempo muerto",
+            "Repetir la jugada"
+          ],
+          "correctAnswer": 1,
+          "explanation": "La ventaja no debe aplicarse en una sexta falta o posterior, salvo que exista una clara oportunidad de gol. Y aunque se aplique, la falta acumula igual y hay que señalarla en cuanto el balón salga.",
+          "ruleReference": "Ley 5, Ley 12",
+          "tags": ["ventaja", "faltas-acumuladas"]
+        },
+        {
+          "id": "sx-c1-6",
+          "moduleId": "examen",
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "question": "El artículo 6 coincide con las Leyes en la reducción numérica. ¿Qué dato falta y conviene resolver?",
+          "options": [
+            "Quién puede ingresar",
+            "Si los dos minutos se cuentan en tiempo de juego o en reloj corrido, dado el artículo 1",
+            "El color de los petos",
+            "Quién anota los goles"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Las Leyes miden la reducción en tiempo de juego. Con reloj corrido, esos dos minutos son otra cosa: hay que acordarlo antes y dejarlo asentado.",
+          "ruleReference": "Ley 3, Ley 7",
+          "tags": ["reduccion-numerica", "reglamento-privado"]
+        },
+        {
+          "id": "sx-c1-7",
+          "moduleId": "examen",
+          "type": "multiple_choice",
+          "difficulty": 4,
+          "question": "El artículo 7 exige suela lisa. ¿Cómo se clasifica?",
+          "options": [
+            "Coincide con las Leyes, que especifican el tipo de suela",
+            "Regla del torneo: las Leyes solo exigen «calzado», sin especificar la suela",
+            "Contradice a FIFA",
+            "No es aplicable"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Las Leyes de futsal listan «calzado» entre el equipamiento obligatorio y no describen el tipo de suela. Exigir suela lisa es razonable y habitual, pero es norma del torneo.",
+          "ruleReference": "Ley 4",
+          "tags": ["equipamiento", "reglamento-privado"]
+        },
+        {
+          "id": "sx-c1-8",
+          "moduleId": "examen",
+          "type": "multiple_choice",
+          "difficulty": 4,
+          "question": "El reglamento no menciona la joyería. ¿Qué corresponde?",
+          "options": [
+            "Permitirla si no es peligrosa y está cubierta, como en IFAB",
+            "Prohibirla toda: las Leyes de futsal la prohíben y no admiten cubrirla con cinta",
+            "Dejarlo a criterio de cada equipo",
+            "Permitirla si el rival no reclama"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Es la contradicción clásica entre disciplinas. IFAB 2026/27 permite accesorios no peligrosos y cubiertos; el futsal mantiene la prohibición total, y quien se niegue o reincida debe ser amonestado.",
+          "ruleReference": "Ley 4",
+          "tags": ["equipamiento", "accesorios"]
+        },
+        {
+          "id": "sx-c1-9",
+          "moduleId": "examen",
+          "type": "multiple_choice",
+          "difficulty": 4,
+          "question": "El artículo 2 hace que el tiempo muerto se solicite al árbitro. ¿Es compatible con las Leyes?",
+          "options": [
+            "No, contradice a FIFA",
+            "Sí: las Leyes prevén que, sin tercer árbitro ni cronometrador, un oficial pueda pedirlo a los árbitros",
+            "Solo en el segundo período",
+            "Solo si lo acepta el rival"
+          ],
+          "correctAnswer": 1,
+          "explanation": "La vía normal es el tercer árbitro o el cronometrador, pero las Leyes contemplan expresamente el caso en que no haya ninguno de los dos.",
+          "ruleReference": "Ley 7",
+          "tags": ["tiempo-muerto", "amateur"]
+        },
+        {
+          "id": "sx-c1-10",
+          "moduleId": "examen",
+          "type": "multiple_choice",
+          "difficulty": 5,
+          "question": "El reglamento no dice nada sobre los cuatro segundos del guardameta. ¿Qué corresponde?",
+          "options": [
+            "No aplicarlos, porque no están escritos",
+            "Aplicarlos como en las Leyes: manos, brazos o pies, en toda su propia mitad, con libre indirecto",
+            "Aplicarlos solo dentro del área",
+            "Aplicar ocho segundos, como en fútbol"
+          ],
+          "correctAnswer": 1,
+          "explanation": "En lo que el reglamento no modifica rigen las Leyes. Y aplicar los ocho segundos del fútbol sería trasladar una regla de otra disciplina, que además tiene otra sanción.",
+          "ruleReference": "Ley 12",
+          "tags": ["guardameta", "cuatro-segundos"]
+        }
+      ]
+    }
+  ]
+}

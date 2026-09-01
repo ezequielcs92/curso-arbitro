@@ -1,0 +1,283 @@
+{
+  "part": "B",
+  "discipline": "beach_soccer",
+  "rulesVersion": "FIFA Beach Soccer 2025-26",
+  "note": "Pozo propio del examen, distinto de los bancos por módulo.",
+  "questions": [
+    {
+      "id": "px-b1",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 4,
+      "question": "Un jugador juega de forma peligrosa, sin contacto, dentro de su PROPIA mitad de la cancha. ¿Cuál es tu decisión completa?",
+      "correctAnswer": { "isOffence": true, "technical": "free_kick", "disciplinary": "none", "restart": "centre_of_pitch" },
+      "explanation": "El juego peligroso está entre las infracciones que, cometidas en la propia mitad, se sancionan con tiro libre desde el centro de la cancha.",
+      "ruleReference": "Ley 12",
+      "tags": ["juego-peligroso", "ubicacion"]
+    },
+    {
+      "id": "px-b2",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 4,
+      "question": "El mismo jugador juega de forma peligrosa, sin contacto, pero en la mitad RIVAL. ¿Cuál es tu decisión completa?",
+      "correctAnswer": { "isOffence": true, "technical": "free_kick", "disciplinary": "none", "restart": "place_of_offence" },
+      "explanation": "En la mitad del adversario ese mismo grupo de infracciones se ejecuta en el lugar. La mitad de cancha decide la ubicación del tiro.",
+      "ruleReference": "Ley 12",
+      "tags": ["juego-peligroso", "ubicacion"]
+    },
+    {
+      "id": "px-b3",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 3,
+      "question": "Un defensor sujeta con imprudencia a un atacante en la mitad rival. ¿Cuál es tu decisión completa?",
+      "correctAnswer": { "isOffence": true, "technical": "free_kick", "disciplinary": "none", "restart": "place_of_offence" },
+      "explanation": "Sujetar es infracción de tiro libre. En la mitad del adversario se ejecuta en el lugar, y sin barrera posible queda como una ocasión clara.",
+      "ruleReference": "Ley 12, Ley 13",
+      "tags": ["sujetar", "barrera"]
+    },
+    {
+      "id": "px-b4",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 4,
+      "question": "Un defensor entra de forma temeraria sobre un rival en la mitad rival. ¿Cuál es tu decisión completa?",
+      "correctAnswer": { "isOffence": true, "technical": "free_kick", "disciplinary": "caution", "restart": "place_of_offence" },
+      "explanation": "Temerario obliga a amonestar, igual que en las otras dos disciplinas. La ubicación depende de la mitad en que se cometió.",
+      "ruleReference": "Ley 12",
+      "tags": ["amonestacion", "ubicacion"]
+    },
+    {
+      "id": "px-b5",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 4,
+      "question": "Un jugador usa fuerza excesiva en una disputa dentro de su propia mitad. ¿Cuál es tu decisión completa?",
+      "correctAnswer": { "isOffence": true, "technical": "free_kick", "disciplinary": "send_off", "restart": "centre_of_pitch" },
+      "explanation": "La fuerza excesiva obliga a expulsar. Como la infracción fue en la propia mitad, el tiro libre se ejecuta desde el centro de la cancha.",
+      "ruleReference": "Ley 12",
+      "tags": ["expulsion", "ubicacion"]
+    },
+    {
+      "id": "px-b6",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 4,
+      "question": "Un defensor sujeta a un atacante dentro de su propia área penal, impidiéndole rematar. No hay fuerza excesiva. ¿Cuál es tu decisión completa?",
+      "correctAnswer": { "isOffence": true, "technical": "penalty_kick", "disciplinary": "none", "restart": "penalty_mark" },
+      "explanation": "Las infracciones de la Ley 12.1 cometidas dentro de la propia área dan penal, ejecutado desde la marca de penal imaginaria.",
+      "ruleReference": "Ley 12, Ley 14",
+      "tags": ["penal"]
+    },
+    {
+      "id": "px-b7",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 5,
+      "question": "Un ATACANTE comete una infracción dentro del área penal del adversario. ¿Cuál es tu decisión completa?",
+      "correctAnswer": { "isOffence": true, "technical": "free_kick", "disciplinary": "none", "restart": "penalty_mark" },
+      "explanation": "Es una regla propia del fútbol playa: la infracción cometida dentro del área del adversario da tiro libre para el equipo defensor, ejecutado desde la marca de penal imaginaria de esa área.",
+      "ruleReference": "Ley 12",
+      "tags": ["ubicacion", "area"]
+    },
+    {
+      "id": "px-b8",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 5,
+      "question": "Un equipo mantiene el balón en juego dentro de su propia área penal durante más de cuatro segundos. ¿Cuál es tu decisión completa?",
+      "correctAnswer": { "isOffence": true, "technical": "free_kick", "disciplinary": "none", "restart": "centre_of_pitch" },
+      "explanation": "Los cuatro segundos alcanzan a todo el equipo dentro de su área, no solo al guardameta. Se sanciona con tiro libre desde el centro y sin medida disciplinaria, aunque la infracción impida un gol.",
+      "ruleReference": "Ley 12",
+      "tags": ["cuatro-segundos"]
+    },
+    {
+      "id": "px-b9",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 4,
+      "question": "El guardameta controla el balón con los pies en su propia mitad durante más de cuatro segundos. ¿Cuál es tu decisión completa?",
+      "correctAnswer": { "isOffence": true, "technical": "free_kick", "disciplinary": "none", "restart": "centre_of_pitch" },
+      "explanation": "Los cuatro segundos cuentan con manos, brazos o pies y en toda la propia mitad. Lo distintivo del fútbol playa es la ubicación: el centro de la cancha.",
+      "ruleReference": "Ley 12",
+      "tags": ["guardameta", "cuatro-segundos"]
+    },
+    {
+      "id": "px-b10",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 5,
+      "question": "El guardameta, con el balón en juego, lo suelta de las manos y lo patea al aire antes de que toque el suelo. ¿Cuál es tu decisión completa?",
+      "correctAnswer": { "isOffence": true, "technical": "free_kick", "disciplinary": "none", "restart": "centre_of_pitch" },
+      "explanation": "Está listado entre las infracciones del guardameta sancionadas con tiro libre desde el centro de la cancha, sin medida disciplinaria.",
+      "ruleReference": "Ley 12",
+      "tags": ["guardameta"]
+    },
+    {
+      "id": "px-b11",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 5,
+      "question": "El guardameta juega el balón fuera de su área, vuelve deliberadamente al área con él y lo toca antes de que lo haga otro jugador. ¿Cuál es tu decisión completa?",
+      "correctAnswer": { "isOffence": true, "technical": "free_kick", "disciplinary": "none", "restart": "centre_of_pitch" },
+      "explanation": "También figura entre las infracciones del guardameta sancionadas desde el centro de la cancha.",
+      "ruleReference": "Ley 12",
+      "tags": ["guardameta"]
+    },
+    {
+      "id": "px-b12",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 4,
+      "question": "Un defensor impide ilegalmente que un atacante ejecute una chilena en la mitad rival. ¿Cuál es tu decisión completa?",
+      "correctAnswer": { "isOffence": true, "technical": "free_kick", "disciplinary": "none", "restart": "place_of_offence" },
+      "explanation": "Impedir ilegalmente una chilena o tijera es infracción tipificada: las Leyes exigen proteger su ejecución y a quien la realiza. En la mitad rival se ejecuta en el lugar.",
+      "ruleReference": "Ley 12",
+      "tags": ["chilena"]
+    },
+    {
+      "id": "px-b13",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 4,
+      "question": "Un jugador arroja arena deliberadamente a un adversario con el balón en juego, en su propia mitad. ¿Cuál es tu decisión completa?",
+      "correctAnswer": { "isOffence": true, "technical": "free_kick", "disciplinary": "send_off", "restart": "centre_of_pitch" },
+      "explanation": "Arrojar arena deliberadamente está tipificado junto con morder y escupir, así que la sanción disciplinaria es la expulsión. Cometida en la propia mitad, el tiro va desde el centro.",
+      "ruleReference": "Ley 12",
+      "tags": ["expulsion", "conducta"]
+    },
+    {
+      "id": "px-b14",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 5,
+      "question": "Un jugador simula haber sido derribado en la mitad rival. ¿Cuál es tu decisión completa?",
+      "correctAnswer": { "isOffence": true, "technical": "free_kick", "disciplinary": "caution", "restart": "place_of_offence" },
+      "explanation": "Intentar engañar a los árbitros está entre las infracciones que se ejecutan en el lugar cuando ocurren en la mitad del adversario, y la simulación es conducta antideportiva.",
+      "ruleReference": "Ley 12",
+      "tags": ["simulacion", "amonestacion"]
+    },
+    {
+      "id": "px-b15",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 4,
+      "question": "Un jugador bloquea a un adversario estando quieto, sin provocar el contacto y dejándole la posibilidad de evitarlo. ¿Cuál es tu decisión completa?",
+      "correctAnswer": { "isOffence": false, "technical": "play_on", "disciplinary": "none", "restart": "no_restart" },
+      "explanation": "El bloqueo es táctica legítima cuando se cumplen las tres condiciones: quien bloquea está quieto, no provoca el contacto moviéndose o extendiendo el cuerpo, y el adversario puede evitarlo.",
+      "ruleReference": "Ley 12",
+      "tags": ["bloqueo", "criterio"]
+    },
+    {
+      "id": "px-b16",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 4,
+      "question": "Un atacante que estaba claramente adelantado recibe un pase y define. ¿Cuál es tu decisión completa?",
+      "correctAnswer": { "isOffence": false, "technical": "play_on", "disciplinary": "none", "restart": "centre_of_pitch" },
+      "explanation": "No hay fuera de juego en fútbol playa, así que el gol es válido y se reanuda con saque inicial desde el centro.",
+      "ruleReference": "Ley 11",
+      "tags": ["fuera-de-juego", "gol"]
+    },
+    {
+      "id": "px-b17",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 4,
+      "question": "Un equipo no ejecuta el saque de banda dentro de los cuatro segundos. ¿Cuál es tu decisión completa?",
+      "correctAnswer": { "isOffence": true, "technical": "throw_in", "disciplinary": "none", "restart": "place_of_offence" },
+      "explanation": "El saque pasa al equipo adversario, que además conserva la elección entre ejecutarlo con el pie o con las manos.",
+      "ruleReference": "Ley 15",
+      "tags": ["saque-de-banda", "cuatro-segundos"]
+    },
+    {
+      "id": "px-b18",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 5,
+      "question": "El ejecutor de un saque de banda, que no es el guardameta, comete infracción por mano dentro de su propia área penal. ¿Cuál es tu decisión completa?",
+      "correctAnswer": { "isOffence": true, "technical": "penalty_kick", "disciplinary": "none", "restart": "penalty_mark" },
+      "explanation": "La Ley 15 concede penal, salvo que el infractor sea el guardameta, en cuyo caso corresponde tiro libre desde el centro de la cancha.",
+      "ruleReference": "Ley 15",
+      "tags": ["saque-de-banda", "mano", "penal"]
+    },
+    {
+      "id": "px-b19",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 5,
+      "question": "El GUARDAMETA es quien comete la infracción por mano al ejecutar el saque de banda dentro de su propia área. ¿Cuál es tu decisión completa?",
+      "correctAnswer": { "isOffence": true, "technical": "free_kick", "disciplinary": "none", "restart": "centre_of_pitch" },
+      "explanation": "Es la excepción expresa de la Ley 15: tratándose del guardameta, en lugar de penal se concede tiro libre desde el centro de la cancha.",
+      "ruleReference": "Ley 15",
+      "tags": ["saque-de-banda", "guardameta"]
+    },
+    {
+      "id": "px-b20",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 4,
+      "question": "El guardameta ejecuta el saque de meta y el balón entra directamente en la portería contraria. ¿Cuál es tu decisión completa?",
+      "correctAnswer": { "isOffence": false, "technical": "goal_kick", "disciplinary": "none", "restart": "goal_line" },
+      "explanation": "No hay infracción, pero no se puede marcar directamente de saque de meta: el equipo que no lo ejecutó obtiene un saque de meta.",
+      "ruleReference": "Ley 16",
+      "tags": ["saque-de-meta", "gol"]
+    },
+    {
+      "id": "px-b21",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 4,
+      "question": "Un jugador ejecuta un tiro libre antes de la señal de los árbitros. ¿Cuál es tu decisión completa?",
+      "correctAnswer": { "isOffence": true, "technical": "free_kick", "disciplinary": "caution", "restart": "place_of_offence" },
+      "explanation": "La Ley 13 es explícita en las tres consecuencias: se detiene el juego, se ordena repetir el tiro desde el mismo lugar y se amonesta al ejecutor.",
+      "ruleReference": "Ley 13",
+      "tags": ["tiro-libre", "amonestacion"]
+    },
+    {
+      "id": "px-b22",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 5,
+      "question": "El balón se daña tras golpear el poste en un tiro libre y no entra en la portería. ¿Cuál es tu decisión completa?",
+      "correctAnswer": { "isOffence": false, "technical": "dropped_ball", "disciplinary": "none", "restart": "place_of_offence" },
+      "explanation": "Las Leyes lo aclaran para evitar la repetición automática: no se ordena repetir el tiro; se detiene el juego y se reanuda con balón a tierra.",
+      "ruleReference": "Ley 13",
+      "tags": ["tiro-libre", "balon"]
+    },
+    {
+      "id": "px-b23",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 5,
+      "question": "Un adversario se acerca a menos de 5 m del punto de un saque de banda y estorba al ejecutor, que ya lo había ejecutado, en la mitad del equipo que sacaba. ¿Cuál es tu decisión completa?",
+      "correctAnswer": { "isOffence": true, "technical": "free_kick", "disciplinary": "caution", "restart": "place_of_offence" },
+      "explanation": "Distraer o estorbar injustamente al ejecutor, incluido acercarse a menos de 5 m, es amonestación por conducta antideportiva. El tiro libre se ejecuta en el lugar cuando la infracción ocurrió en la mitad del equipo que sacaba.",
+      "ruleReference": "Ley 15",
+      "tags": ["saque-de-banda", "amonestacion", "distancia"]
+    },
+    {
+      "id": "px-b24",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 5,
+      "question": "Un jugador comete una infracción de la Ley 12.1 estando fuera de la cancha, y el punto de la línea más cercano cae sobre la línea de meta. ¿Cuál es tu decisión completa?",
+      "correctAnswer": { "isOffence": true, "technical": "penalty_kick", "disciplinary": "none", "restart": "penalty_mark" },
+      "explanation": "La Ley 13 lo prevé con precisión: el tiro libre se ejecuta sobre la línea más cercana, pero si ese punto cae en la línea de meta o en la parte de la línea de banda del área del infractor, se concede penal.",
+      "ruleReference": "Ley 13",
+      "tags": ["fuera-de-cancha", "penal"]
+    },
+    {
+      "id": "px-b25",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 5,
+      "question": "Un jugador emplea lenguaje ofensivo hacia un adversario, con el balón en juego y en su propia mitad. ¿Cuál es tu decisión completa?",
+      "correctAnswer": { "isOffence": true, "technical": "free_kick", "disciplinary": "send_off", "restart": "centre_of_pitch" },
+      "explanation": "El lenguaje ofensivo, insultante o humillante está entre las infracciones sancionadas con tiro libre y, por su gravedad, con expulsión. En la propia mitad, la ejecución es desde el centro.",
+      "ruleReference": "Ley 12",
+      "tags": ["expulsion", "lenguaje", "ubicacion"]
+    }
+  ]
+}

@@ -9,11 +9,19 @@
       "type": "multiple_choice",
       "difficulty": 2,
       "question": "En un tiro libre, ¿a qué distancia mínima deben estar los adversarios?",
-      "options": ["2 m", "5 m", "9.15 m", "11 m"],
+      "options": [
+        "2 m",
+        "5 m",
+        "9.15 m",
+        "11 m"
+      ],
       "correctAnswer": 2,
       "explanation": "La Regla 13 fija 9.15 m como mínimo, salvo cuando los adversarios están sobre su propia línea de meta entre los postes. Esa distancia no es adaptable por ninguna federación.",
       "ruleReference": "Regla 13",
-      "tags": ["tiro-libre", "distancia"]
+      "tags": [
+        "tiro-libre",
+        "distancia"
+      ]
     },
     {
       "id": "f7-q2",
@@ -30,7 +38,10 @@
       "correctAnswer": 1,
       "explanation": "La Regla 13 exige a los atacantes al menos 1 m de separación de la barrera cuando esta la forman tres o más defensores. Evita los empujones dentro de la barrera en el momento del disparo.",
       "ruleReference": "Regla 13",
-      "tags": ["tiro-libre", "barrera"]
+      "tags": [
+        "tiro-libre",
+        "barrera"
+      ]
     },
     {
       "id": "f7-q3",
@@ -41,7 +52,10 @@
       "correctAnswer": false,
       "explanation": "La Regla 13 lo permite expresamente: fintar durante la ejecución de un tiro libre forma parte del juego. La finta prohibida es la del penal, una vez completada la carrera.",
       "ruleReference": "Regla 13",
-      "tags": ["tiro-libre", "finta"]
+      "tags": [
+        "tiro-libre",
+        "finta"
+      ]
     },
     {
       "id": "f7-q4",
@@ -52,7 +66,10 @@
       "correctAnswer": true,
       "explanation": "La Regla 13 lo admite expresamente. Es una ejecución legal aunque poco frecuente, y conviene conocerla para no anularla por desconocimiento.",
       "ruleReference": "Regla 13",
-      "tags": ["tiro-libre", "ejecucion"]
+      "tags": [
+        "tiro-libre",
+        "ejecucion"
+      ]
     },
     {
       "id": "f7-q5",
@@ -69,7 +86,9 @@
       "correctAnswer": 1,
       "explanation": "La Regla 15 admite las dos posibilidades: pisar la línea con los dos pies —aunque sea parcialmente— o estar por fuera. Lo que no se permite es tener un pie dentro del terreno.",
       "ruleReference": "Regla 15.1",
-      "tags": ["saque-de-banda"]
+      "tags": [
+        "saque-de-banda"
+      ]
     },
     {
       "id": "f7-q6",
@@ -77,11 +96,19 @@
       "type": "multiple_choice",
       "difficulty": 2,
       "question": "¿A qué distancia deben estar los adversarios en un saque de banda?",
-      "options": ["A 1 m", "A 2 m del lugar de la línea de banda donde se ejecuta", "A 5 m", "A 9.15 m"],
+      "options": [
+        "A 1 m",
+        "A 2 m del lugar de la línea de banda donde se ejecuta",
+        "A 5 m",
+        "A 9.15 m"
+      ],
       "correctAnswer": 1,
       "explanation": "La Regla 15 exige una distancia mínima de 2 m del punto de la línea de banda donde se va a ejecutar el saque. Es la única reanudación con esa distancia.",
       "ruleReference": "Regla 15.1",
-      "tags": ["saque-de-banda", "distancia"]
+      "tags": [
+        "saque-de-banda",
+        "distancia"
+      ]
     },
     {
       "id": "f7-q7",
@@ -98,7 +125,10 @@
       "correctAnswer": 1,
       "explanation": "Es una de las novedades de 2026/27. La amonestación solo llega si el infractor retrasa excesivamente la reanudación después de que el saque se le haya concedido al adversario.",
       "ruleReference": "Regla 15.2",
-      "tags": ["saque-de-banda", "cinco-segundos"]
+      "tags": [
+        "saque-de-banda",
+        "cinco-segundos"
+      ]
     },
     {
       "id": "f7-q8",
@@ -115,7 +145,10 @@
       "correctAnswer": 1,
       "explanation": "En el saque de meta la consecuencia es saque de esquina para el adversario, no saque de banda. Es distinta de la del saque de banda, y conviene no mezclarlas.",
       "ruleReference": "Regla 16",
-      "tags": ["saque-de-meta", "cinco-segundos"]
+      "tags": [
+        "saque-de-meta",
+        "cinco-segundos"
+      ]
     },
     {
       "id": "f7-q9",
@@ -132,7 +165,9 @@
       "correctAnswer": 1,
       "explanation": "La Regla 15 distingue dos casos: si el balón toca el suelo antes de entrar, se repite desde la misma posición; si el saque no se ejecutó correctamente, saca el adversario.",
       "ruleReference": "Regla 15.1",
-      "tags": ["saque-de-banda"]
+      "tags": [
+        "saque-de-banda"
+      ]
     },
     {
       "id": "f7-q10",
@@ -149,7 +184,10 @@
       "correctAnswer": 1,
       "explanation": "La Regla 15.2 concede libre indirecto. Si el segundo toque fuera con la mano, la sanción cambia a libre directo, o penal si ocurrió en su propia área, salvo que se trate del guardameta defensor.",
       "ruleReference": "Regla 15.2",
-      "tags": ["saque-de-banda", "segundo-toque"]
+      "tags": [
+        "saque-de-banda",
+        "segundo-toque"
+      ]
     },
     {
       "id": "f7-q11",
@@ -166,7 +204,11 @@
       "correctAnswer": 1,
       "explanation": "La Regla 15.2 lo resuelve: libre directo, o penal si la infracción se cometió dentro de su área, a menos que fuera el guardameta del equipo defensor, en cuyo caso se concede libre indirecto.",
       "ruleReference": "Regla 15.2",
-      "tags": ["saque-de-banda", "mano", "penal"]
+      "tags": [
+        "saque-de-banda",
+        "mano",
+        "penal"
+      ]
     },
     {
       "id": "f7-q12",
@@ -183,7 +225,9 @@
       "correctAnswer": 1,
       "explanation": "La Regla 15 lo fija en el instante en que el balón entra en el terreno. No hace falta que toque a nadie ni que toque el suelo.",
       "ruleReference": "Regla 15.1",
-      "tags": ["saque-de-banda"]
+      "tags": [
+        "saque-de-banda"
+      ]
     },
     {
       "id": "f7-q13",
@@ -200,7 +244,9 @@
       "correctAnswer": 1,
       "explanation": "La Regla 15 exige las tres condiciones a la vez: ambas manos, desde atrás y por encima de la cabeza, y desde el lugar por donde el balón salió del terreno.",
       "ruleReference": "Regla 15.1",
-      "tags": ["saque-de-banda"]
+      "tags": [
+        "saque-de-banda"
+      ]
     },
     {
       "id": "f7-q14",
@@ -216,7 +262,11 @@
       },
       "explanation": "No respetar la distancia reglamentaria en un tiro libre figura entre las infracciones amonestables de la Regla 12.4. Se repite el tiro libre desde el mismo lugar, con la clase de tiro que correspondía.",
       "ruleReference": "Regla 13, Regla 12.4",
-      "tags": ["decision", "tiro-libre", "distancia"]
+      "tags": [
+        "decision",
+        "tiro-libre",
+        "distancia"
+      ]
     },
     {
       "id": "f7-q15",
@@ -233,7 +283,9 @@
       "correctAnswer": 1,
       "explanation": "La Regla 8.2 lo resuelve sin ambigüedad: si el balón estaba en el área penal, el balón a tierra es para el guardameta del equipo defensor, dentro de su área.",
       "ruleReference": "Regla 8.2",
-      "tags": ["balon-a-tierra"]
+      "tags": [
+        "balon-a-tierra"
+      ]
     },
     {
       "id": "f7-q16",
@@ -250,7 +302,10 @@
       "correctAnswer": 1,
       "explanation": "La Regla 8.2 prioriza al equipo que habría conservado o ganado la posesión, siempre que el árbitro pueda determinarlo; si no, se deja caer ante un jugador del equipo que lo tocó por última vez.",
       "ruleReference": "Regla 8.2",
-      "tags": ["balon-a-tierra", "posesion"]
+      "tags": [
+        "balon-a-tierra",
+        "posesion"
+      ]
     },
     {
       "id": "f7-q17",
@@ -267,7 +322,9 @@
       "correctAnswer": 1,
       "explanation": "En el lugar donde estaba al detenerse el juego, salvo que hubiera impactado en un árbitro o en un agente externo: en ese caso, en el lugar donde se produjo la interferencia o el contacto.",
       "ruleReference": "Regla 8.2",
-      "tags": ["balon-a-tierra"]
+      "tags": [
+        "balon-a-tierra"
+      ]
     },
     {
       "id": "f7-q18",
@@ -283,7 +340,11 @@
       },
       "explanation": "La Regla 12 lo dice así: cuando se evita una ocasión manifiesta dentro de la propia área y el árbitro señala penal, el infractor solamente será amonestado si con la infracción se pretendía jugar o disputar el balón. En el resto de acciones —agarrar, tirar, empujar, imposibilidad de jugar el balón— corresponde expulsión.",
       "ruleReference": "Regla 12.4, Regla 14",
-      "tags": ["decision", "penal", "ocasion-manifiesta"]
+      "tags": [
+        "decision",
+        "penal",
+        "ocasion-manifiesta"
+      ]
     },
     {
       "id": "f7-q19",
@@ -300,7 +361,9 @@
       "correctAnswer": 1,
       "explanation": "La Regla 14 sitúa la ejecución en el punto penal, que la Regla 1 fija a 11 m de la línea de meta y equidistante de los postes.",
       "ruleReference": "Regla 14, Regla 1",
-      "tags": ["penal"]
+      "tags": [
+        "penal"
+      ]
     },
     {
       "id": "f7-q20",
@@ -317,7 +380,10 @@
       "correctAnswer": 1,
       "explanation": "La Regla 14 exige que los jugadores distintos del ejecutor y del guardameta estén dentro del terreno, fuera del área penal, detrás del punto penal y a un mínimo de 9.15 m de él.",
       "ruleReference": "Regla 14.1",
-      "tags": ["penal", "distancia"]
+      "tags": [
+        "penal",
+        "distancia"
+      ]
     },
     {
       "id": "f7-q21",
@@ -334,7 +400,10 @@
       "correctAnswer": 1,
       "explanation": "La Regla 14 permite fintar durante la carrera, pero no una vez completada. Es la diferencia con el tiro libre, donde fintar durante la ejecución sí forma parte del juego.",
       "ruleReference": "Regla 14.1, Regla 13",
-      "tags": ["penal", "finta"]
+      "tags": [
+        "penal",
+        "finta"
+      ]
     },
     {
       "id": "f7-q22",
@@ -351,7 +420,9 @@
       "correctAnswer": 1,
       "explanation": "El balón está en juego al ser golpeado y moverse claramente hacia adelante. Desde ese momento cuentan las infracciones de invasión y el ejecutor no puede volver a tocarlo hasta que lo haga otro jugador.",
       "ruleReference": "Regla 14.1",
-      "tags": ["penal"]
+      "tags": [
+        "penal"
+      ]
     },
     {
       "id": "f7-q23",
@@ -368,7 +439,10 @@
       "correctAnswer": 1,
       "explanation": "La Regla 17 permite el gol directo de saque de esquina contra el equipo adversario. En cambio, no se puede marcar en propia meta directamente: eso daría saque de esquina para el rival.",
       "ruleReference": "Regla 17",
-      "tags": ["saque-de-esquina", "gol"]
+      "tags": [
+        "saque-de-esquina",
+        "gol"
+      ]
     },
     {
       "id": "f7-q24",
@@ -376,11 +450,19 @@
       "type": "multiple_choice",
       "difficulty": 3,
       "question": "En un saque de esquina, ¿a qué distancia deben estar los adversarios?",
-      "options": ["A 2 m", "A 5 m", "A 9.15 m del área de esquina hasta que el balón esté en juego", "No hay distancia fija"],
+      "options": [
+        "A 2 m",
+        "A 5 m",
+        "A 9.15 m del área de esquina hasta que el balón esté en juego",
+        "No hay distancia fija"
+      ],
       "correctAnswer": 2,
       "explanation": "La Regla 17 exige que los adversarios permanezcan a 9.15 m como mínimo del área de esquina hasta que el balón esté en juego. No respetarla es conducta amonestable.",
       "ruleReference": "Regla 17, Regla 12.4",
-      "tags": ["saque-de-esquina", "distancia"]
+      "tags": [
+        "saque-de-esquina",
+        "distancia"
+      ]
     },
     {
       "id": "f7-q25",
@@ -391,7 +473,10 @@
       "correctAnswer": true,
       "explanation": "La Regla 16 lo permite. Lo que no se puede es marcar en propia meta directamente desde un saque de meta: eso daría saque de esquina para el rival.",
       "ruleReference": "Regla 16",
-      "tags": ["saque-de-meta", "gol"]
+      "tags": [
+        "saque-de-meta",
+        "gol"
+      ]
     },
     {
       "id": "f7-q26",
@@ -408,7 +493,9 @@
       "correctAnswer": 1,
       "explanation": "Desde la edición que eliminó la obligación de salir del área, el balón está en juego al ser golpeado y moverse claramente. Los adversarios deben estar fuera del área penal hasta ese momento.",
       "ruleReference": "Regla 16",
-      "tags": ["saque-de-meta"]
+      "tags": [
+        "saque-de-meta"
+      ]
     },
     {
       "id": "f7-q27",
@@ -418,13 +505,17 @@
       "question": "El guardameta se queda con el balón controlado en las manos y agota los cinco segundos de la cuenta atrás en un saque de meta que retrasa deliberadamente su equipo. ¿Cuál es tu decisión completa por el retraso del saque de meta?",
       "correctAnswer": {
         "isOffence": true,
-        "technical": "direct_free_kick",
+        "technical": "corner_kick",
         "disciplinary": "none",
         "restart": "corner"
       },
       "explanation": "En el saque de meta, superar la cuenta atrás de cinco segundos concede saque de esquina al adversario. No lleva sanción disciplinaria por sí misma: la amonestación queda para el retraso excesivo posterior.",
       "ruleReference": "Regla 16",
-      "tags": ["decision", "saque-de-meta", "cinco-segundos"]
+      "tags": [
+        "decision",
+        "saque-de-meta",
+        "cinco-segundos"
+      ]
     },
     {
       "id": "f7-q28",
@@ -441,7 +532,11 @@
       "correctAnswer": 1,
       "explanation": "La Regla 13 traslada la ejecución a la línea del área de meta paralela a la línea de meta, en el punto más próximo al lugar de la infracción. Ejecutarlo desde dentro del área de meta no es posible.",
       "ruleReference": "Regla 13",
-      "tags": ["tiro-libre", "indirecto", "ubicacion"]
+      "tags": [
+        "tiro-libre",
+        "indirecto",
+        "ubicacion"
+      ]
     },
     {
       "id": "f7-q29",
@@ -452,7 +547,11 @@
       "correctAnswer": false,
       "explanation": "En el indirecto el balón debe tocar a otro jugador antes de entrar. Si entra directamente en la portería contraria, se concede saque de meta; si entra en la propia, saque de esquina para el rival.",
       "ruleReference": "Regla 13",
-      "tags": ["tiro-libre", "indirecto", "gol"]
+      "tags": [
+        "tiro-libre",
+        "indirecto",
+        "gol"
+      ]
     },
     {
       "id": "f7-q30",
@@ -469,7 +568,11 @@
       "correctAnswer": 1,
       "explanation": "Los 9.15 m no figuran entre los aspectos que la sección «Adaptación de las Reglas» permite modificar. Si el torneo usa una distancia menor, es regla privada: se anota y se aplica igual para los dos equipos.",
       "ruleReference": "Regla 13, Adaptación de las Reglas",
-      "tags": ["tiro-libre", "formatos-reducidos", "reglamento-privado"]
+      "tags": [
+        "tiro-libre",
+        "formatos-reducidos",
+        "reglamento-privado"
+      ]
     }
   ]
 }

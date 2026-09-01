@@ -44,14 +44,21 @@ TARGETS = {
     },
 }
 
+# Composicion del examen final, seccion 70-73 de la especificacion.
+EXAM_TARGETS = {
+    "football": {"jugadas": 30, "reglamentos": 10},
+    "futsal": {"jugadas": 25, "reglamentos": 10},
+    "beach_soccer": {"jugadas": 25, "reglamentos": 10},
+}
+
 VALID_TYPES = {"multiple_choice", "true_false", "decision"}
 VALID_TECHNICAL = {
-    "direct_free_kick", "indirect_free_kick", "penalty_kick", "dropped_ball",
-    "play_on", "advantage", "dfksaf",
+    "direct_free_kick", "indirect_free_kick", "free_kick", "penalty_kick", "dropped_ball",
+    "play_on", "advantage", "corner_kick", "goal_kick", "throw_in", "dfksaf",
 }
 VALID_DISCIPLINARY = {"none", "caution", "send_off"}
 VALID_RESTART = {
-    "place_of_offence", "penalty_mark", "ten_metre_mark", "centre_of_pitch",
+    "no_restart", "place_of_offence", "penalty_mark", "ten_metre_mark", "centre_of_pitch",
     "penalty_area_line", "goal_line", "corner",
 }
 
@@ -127,8 +134,66 @@ def check_question(where, q, discipline, module_id):
             if answer.get("technical") == "dfksaf" and discipline != "futsal":
                 fail(at, "dfksaf solo existe en futsal")
 
+            # El fútbol playa no distingue directo de indirecto, y las otras dos
+            # disciplinas sí: usar el término de la otra enseñaría mal.
+            tech = answer.get("technical")
+            if discipline == "beach_soccer" and tech in (
+                    "direct_free_kick", "indirect_free_kick"):
+                fail(at, "en fútbol playa el tiro libre no se divide en directo "
+                         "e indirecto: usar 'free_kick'")
+            if discipline != "beach_soccer" and tech == "free_kick":
+                fail(at, "'free_kick' es solo de fútbol playa")
+
     if q.get("moduleId") != module_id:
         fail(at, "moduleId no coincide con el archivo: %r" % q.get("moduleId"))
+
+
+def check_exam(base, discipline, name):
+    """Valida el pozo de jugadas y los reglamentos privados de un curso."""
+    targets = EXAM_TARGETS[discipline]
+    lines = []
+
+    # Parte B: jugadas
+    path = os.path.join(ROOT, base, "examen", "jugadas.json")
+    count = 0
+    if os.path.exists(path):
+        data = json.load(io.open(path, encoding="utf-8"))
+        if data.get("discipline") != discipline:
+            fail(path, "disciplina incorrecta")
+        for q in data.get("questions", []):
+            check_question("examen/jugadas.json", q, discipline, "examen")
+            if q.get("type") != "decision":
+                fail("examen/jugadas.json [%s]" % q.get("id"),
+                     "la parte B son decisiones completas")
+        count = len(data.get("questions", []))
+    lines.append("jugadas %d/%d" % (count, targets["jugadas"]))
+
+    # Parte C: reglamentos privados, cada uno con sus situaciones
+    path = os.path.join(ROOT, base, "examen", "reglamentos.json")
+    books = 0
+    if os.path.exists(path):
+        data = json.load(io.open(path, encoding="utf-8"))
+        if data.get("discipline") != discipline:
+            fail(path, "disciplina incorrecta")
+
+        for book in data.get("rulebooks", []):
+            books += 1
+            where = "examen/reglamentos.json [%s]" % book.get("id")
+
+            if not book.get("articles"):
+                fail(where, "reglamento sin articulos")
+            if not book.get("name"):
+                fail(where, "reglamento sin nombre")
+
+            questions = book.get("questions", [])
+            if len(questions) != targets["reglamentos"]:
+                fail(where, "tiene %d situaciones, se esperan %d"
+                     % (len(questions), targets["reglamentos"]))
+            for q in questions:
+                check_question(where, q, discipline, "examen")
+
+    lines.append("reglamentos %d" % books)
+    print("%14s examen: %s" % ("", ", ".join(lines)))
 
 
 def main():
@@ -183,6 +248,8 @@ def main():
 
         if pending:
             print("%14s faltan: %s" % ("", ", ".join(pending)))
+
+        check_exam(base, discipline, name)
 
     print("-" * 64)
     pct = 100.0 * grand_have / grand_want if grand_want else 0

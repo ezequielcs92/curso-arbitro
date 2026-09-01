@@ -1,0 +1,581 @@
+{
+  "part": "B",
+  "discipline": "football",
+  "rulesVersion": "IFAB 2026/27",
+  "note": "Pozo propio del examen, distinto de los bancos por módulo: el examen debe medir transferencia, no memoria de las preguntas ya vistas.",
+  "questions": [
+    {
+      "id": "fx-b1",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 3,
+      "question": "Un defensor zancadillea con imprudencia a un atacante a treinta metros del arco. No corta ningún ataque prometedor. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "direct_free_kick",
+        "disciplinary": "none",
+        "restart": "place_of_offence"
+      },
+      "explanation": "Zancadillear es infracción de tiro libre directo. Imprudente significa falta de atención o de precaución, y la Regla 12 aclara que no necesita sanción disciplinaria.",
+      "ruleReference": "Regla 12.1",
+      "tags": [
+        "falta",
+        "graduacion"
+      ]
+    },
+    {
+      "id": "fx-b2",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 4,
+      "question": "Un defensor entra de forma temeraria sobre el tobillo de un rival en el mediocampo. No hay fuerza excesiva. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "direct_free_kick",
+        "disciplinary": "caution",
+        "restart": "place_of_offence"
+      },
+      "explanation": "Temerario es actuar con desprecio del peligro o las consecuencias para el adversario, y la Regla 12 obliga a amonestar. La expulsión queda reservada a la fuerza excesiva.",
+      "ruleReference": "Regla 12.1",
+      "tags": [
+        "falta",
+        "amonestacion"
+      ]
+    },
+    {
+      "id": "fx-b3",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 4,
+      "question": "Un jugador arremete con ambas piernas y fuerza excesiva sobre un adversario en la disputa del balón. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "direct_free_kick",
+        "disciplinary": "send_off",
+        "restart": "place_of_offence"
+      },
+      "explanation": "Es juego brusco y grave: arremeter con una o ambas piernas usando fuerza excesiva o poniendo en peligro la integridad del adversario obliga a expulsar.",
+      "ruleReference": "Regla 12.4",
+      "tags": [
+        "expulsion",
+        "juego-brusco"
+      ]
+    },
+    {
+      "id": "fx-b4",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 4,
+      "question": "Un atacante levanta el pie a la altura de la cabeza de un defensor que va a cabecear. No hay contacto, pero el defensor se retira por temor. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "indirect_free_kick",
+        "disciplinary": "none",
+        "restart": "place_of_offence"
+      },
+      "explanation": "Es juego peligroso: una acción que, al intentar jugar el balón, impide a un adversario cercano jugarlo por temor a lesionarse. Sin contacto, la sanción es libre indirecto.",
+      "ruleReference": "Regla 12.2",
+      "tags": [
+        "juego-peligroso",
+        "indirecto"
+      ]
+    },
+    {
+      "id": "fx-b5",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 3,
+      "question": "Un defensor empuja con imprudencia a un atacante dentro de su propia área. No era ocasión manifiesta ni ataque prometedor. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "penalty_kick",
+        "disciplinary": "none",
+        "restart": "penalty_mark"
+      },
+      "explanation": "Empujar es infracción de tiro libre directo; cometida por la defensa dentro de su área, da penal desde el punto penal. La imprudencia sola no lleva tarjeta.",
+      "ruleReference": "Regla 12.1, Regla 14",
+      "tags": [
+        "penal"
+      ]
+    },
+    {
+      "id": "fx-b6",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 5,
+      "question": "El último defensor agarra de la camiseta a un atacante que iba solo hacia el arco, fuera del área, sin ninguna intención de jugar el balón. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "direct_free_kick",
+        "disciplinary": "send_off",
+        "restart": "place_of_offence"
+      },
+      "explanation": "Evitar una ocasión manifiesta mediante una infracción sancionable con tiro libre obliga a expulsar. La reducción a amonestación solo opera dentro del área y cuando se pretendía jugar o disputar el balón.",
+      "ruleReference": "Regla 12.4",
+      "tags": [
+        "expulsion",
+        "ocasion-manifiesta"
+      ]
+    },
+    {
+      "id": "fx-b7",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 5,
+      "question": "Un defensor llega tarde en una entrada dentro de su área intentando claramente jugar el balón, derriba al atacante y evita una ocasión manifiesta. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "penalty_kick",
+        "disciplinary": "caution",
+        "restart": "penalty_mark"
+      },
+      "explanation": "La Regla 12 reduce la sanción a amonestación cuando se evita la ocasión manifiesta dentro de la propia área y con la infracción se pretendía jugar o disputar el balón.",
+      "ruleReference": "Regla 12.4",
+      "tags": [
+        "penal",
+        "ocasion-manifiesta"
+      ]
+    },
+    {
+      "id": "fx-b8",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 5,
+      "question": "Un defensor que no es el guardameta desvía con la mano voluntariamente un remate que entraba, dentro de su propia área. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "penalty_kick",
+        "disciplinary": "send_off",
+        "restart": "penalty_mark"
+      },
+      "explanation": "Evitar un gol mediante mano voluntaria obliga a expulsar, con la única excepción del guardameta dentro de su área. La infracción por mano en el área da penal.",
+      "ruleReference": "Regla 12.4",
+      "tags": [
+        "mano",
+        "expulsion",
+        "penal"
+      ]
+    },
+    {
+      "id": "fx-b9",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 5,
+      "question": "Un defensor evita una ocasión manifiesta con una mano involuntaria dentro de su propia área, y concedés penal. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "penalty_kick",
+        "disciplinary": "caution",
+        "restart": "penalty_mark"
+      },
+      "explanation": "La Regla 12 lo distingue con precisión: mano involuntaria que evita gol u ocasión manifiesta y que se sanciona con penal se resuelve con amonestación, no con expulsión.",
+      "ruleReference": "Regla 12.4",
+      "tags": [
+        "mano",
+        "penal",
+        "amonestacion"
+      ]
+    },
+    {
+      "id": "fx-b10",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 4,
+      "question": "El guardameta retiene el balón controlado con las manos dentro de su área durante nueve segundos, con tu cuenta atrás visible. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "corner_kick",
+        "disciplinary": "none",
+        "restart": "corner"
+      },
+      "explanation": "En la edición 2026/27 la sanción es saque de esquina para el adversario, no libre indirecto, y no lleva medida disciplinaria.",
+      "ruleReference": "Regla 12.3",
+      "tags": [
+        "guardameta",
+        "ocho-segundos"
+      ]
+    },
+    {
+      "id": "fx-b11",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 4,
+      "question": "Un defensor cede el balón con el pie a su guardameta, que lo toma con las manos dentro del área. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "indirect_free_kick",
+        "disciplinary": "none",
+        "restart": "place_of_offence"
+      },
+      "explanation": "Tocar el balón con la mano tras una cesión deliberada con el pie es libre indirecto, y la Regla 12 aclara que no lleva sanción disciplinaria alguna.",
+      "ruleReference": "Regla 12.1",
+      "tags": [
+        "cesion",
+        "guardameta",
+        "indirecto"
+      ]
+    },
+    {
+      "id": "fx-b12",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 4,
+      "question": "Un atacante en posición de fuera de juego recibe un pase de su compañero y avanza con el balón, en el mediocampo rival. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "indirect_free_kick",
+        "disciplinary": "none",
+        "restart": "place_of_offence"
+      },
+      "explanation": "Interferir en el juego jugando el balón desde posición de fuera de juego es infracción, sancionada con libre indirecto en el lugar donde se produjo.",
+      "ruleReference": "Regla 11.2, Regla 11.4",
+      "tags": [
+        "fuera-de-juego"
+      ]
+    },
+    {
+      "id": "fx-b13",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 5,
+      "question": "Un atacante adelantado recibe el balón de un defensor que lo jugó voluntariamente, sin que fuera una salvada, y define. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": false,
+        "technical": "play_on",
+        "disciplinary": "none",
+        "restart": "centre_of_pitch"
+      },
+      "explanation": "No se considera que sacó ventaja quien recibe el balón de un adversario que lo juega voluntariamente, salvo que sea una salvada. El gol es válido y se reanuda con saque desde el centro.",
+      "ruleReference": "Regla 11.2",
+      "tags": [
+        "fuera-de-juego",
+        "juego-deliberado"
+      ]
+    },
+    {
+      "id": "fx-b14",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 5,
+      "question": "El guardameta ataja un remate y el rechace le queda a un atacante que estaba adelantado en el momento del disparo, que interviene. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "indirect_free_kick",
+        "disciplinary": "none",
+        "restart": "place_of_offence"
+      },
+      "explanation": "La salvada es la excepción a la excepción: recibir el balón salvado por un adversario sí constituye sacar ventaja de la posición de fuera de juego.",
+      "ruleReference": "Regla 11.2",
+      "tags": [
+        "fuera-de-juego",
+        "salvada"
+      ]
+    },
+    {
+      "id": "fx-b15",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 4,
+      "question": "Un atacante adelantado no toca el balón, pero se planta delante del guardameta y le obstaculiza claramente la visión del remate, que entra. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "indirect_free_kick",
+        "disciplinary": "none",
+        "restart": "place_of_offence"
+      },
+      "explanation": "Interferir a un adversario incluye impedirle jugar el balón obstaculizándole claramente la línea de visión. No hace falta tocar el balón para infringir la Regla 11.",
+      "ruleReference": "Regla 11.2",
+      "tags": [
+        "fuera-de-juego",
+        "interferir"
+      ]
+    },
+    {
+      "id": "fx-b16",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 3,
+      "question": "Un atacante recibe directamente un saque de banda estando claramente adelantado y define. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": false,
+        "technical": "play_on",
+        "disciplinary": "none",
+        "restart": "centre_of_pitch"
+      },
+      "explanation": "No existe infracción de fuera de juego desde un saque de banda, un saque de meta ni un saque de esquina. El gol vale y se reanuda desde el centro.",
+      "ruleReference": "Regla 11.3",
+      "tags": [
+        "fuera-de-juego",
+        "reanudaciones"
+      ]
+    },
+    {
+      "id": "fx-b17",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 5,
+      "question": "Un jugador en posición de fuera de juego se mete en la trayectoria de un defensor y le impide el avance obstaculizándole el paso, sin disputar el balón. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "indirect_free_kick",
+        "disciplinary": "none",
+        "restart": "place_of_offence"
+      },
+      "explanation": "La Regla 11 remite a la Regla 12 cuando el jugador simplemente impide el avance obstaculizando el paso. Obstaculizar sin contacto es libre indirecto en el lugar de la infracción.",
+      "ruleReference": "Regla 11.2, Regla 12.2",
+      "tags": [
+        "fuera-de-juego",
+        "obstruccion"
+      ]
+    },
+    {
+      "id": "fx-b18",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 4,
+      "question": "El balón golpea a un asistente dentro del terreno, permanece en juego y a raíz de eso cambia el equipo en posesión. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": false,
+        "technical": "dropped_ball",
+        "disciplinary": "none",
+        "restart": "place_of_offence"
+      },
+      "explanation": "No hay infracción de ningún jugador, pero la Regla 9 obliga a detener: el balón tocó a un miembro del equipo arbitral, quedó en el terreno y cambió la posesión. Se reanuda con balón a tierra en el lugar.",
+      "ruleReference": "Regla 9.1, Regla 8.2",
+      "tags": [
+        "balon-a-tierra",
+        "arbitro"
+      ]
+    },
+    {
+      "id": "fx-b19",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 4,
+      "question": "Detenés el juego porque un espectador entró al campo. El balón estaba en el mediocampo, en poder de un equipo. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": false,
+        "technical": "dropped_ball",
+        "disciplinary": "none",
+        "restart": "place_of_offence"
+      },
+      "explanation": "Es una detención por un motivo no contemplado en las Reglas, así que corresponde balón a tierra para el equipo que habría conservado la posesión, en el lugar donde estaba el balón.",
+      "ruleReference": "Regla 8.2",
+      "tags": [
+        "balon-a-tierra",
+        "interferencia"
+      ]
+    },
+    {
+      "id": "fx-b20",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 4,
+      "question": "El guardameta lanza el balón con la mano desde su área y entra directamente en la portería contraria. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": false,
+        "technical": "goal_kick",
+        "disciplinary": "none",
+        "restart": "goal_line"
+      },
+      "explanation": "No hay infracción, pero tampoco hay gol: la Regla 10 concede saque de meta cuando el guardameta lanza el balón con la mano y entra directamente en la portería contraria.",
+      "ruleReference": "Regla 10.1",
+      "tags": [
+        "gol",
+        "guardameta"
+      ]
+    },
+    {
+      "id": "fx-b21",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 4,
+      "question": "El ejecutor de un saque de banda vuelve a tocar el balón con el pie antes de que lo toque otro jugador, en el mediocampo. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "indirect_free_kick",
+        "disciplinary": "none",
+        "restart": "place_of_offence"
+      },
+      "explanation": "La Regla 15 concede libre indirecto por el segundo toque del ejecutor. Solo si ese segundo toque fuera con la mano cambiaría a directo, o a penal dentro de su propia área.",
+      "ruleReference": "Regla 15.2",
+      "tags": [
+        "saque-de-banda",
+        "segundo-toque"
+      ]
+    },
+    {
+      "id": "fx-b22",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 5,
+      "question": "El ejecutor de un saque de banda, que no es el guardameta, comete infracción por mano dentro de su propia área penal. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "penalty_kick",
+        "disciplinary": "none",
+        "restart": "penalty_mark"
+      },
+      "explanation": "La Regla 15 lo resuelve expresamente: libre directo, o penal si la infracción por mano del ejecutor ocurre dentro de su área, salvo que se trate del guardameta defensor.",
+      "ruleReference": "Regla 15.2",
+      "tags": [
+        "saque-de-banda",
+        "mano",
+        "penal"
+      ]
+    },
+    {
+      "id": "fx-b23",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 4,
+      "question": "Un equipo agota los cinco segundos de la cuenta atrás sin ejecutar el saque de meta. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "corner_kick",
+        "disciplinary": "none",
+        "restart": "corner"
+      },
+      "explanation": "En el saque de meta, superar la cuenta atrás de cinco segundos concede saque de esquina al adversario. En el saque de banda, en cambio, el saque pasa al rival.",
+      "ruleReference": "Regla 16",
+      "tags": [
+        "saque-de-meta",
+        "cinco-segundos"
+      ]
+    },
+    {
+      "id": "fx-b24",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 4,
+      "question": "Un defensor no respeta los 9.15 m en un tiro libre pese a tu indicación expresa, e intercepta el balón. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "direct_free_kick",
+        "disciplinary": "caution",
+        "restart": "place_of_offence"
+      },
+      "explanation": "No respetar la distancia reglamentaria en un tiro libre está entre las infracciones amonestables, y el tiro libre se repite desde el mismo lugar.",
+      "ruleReference": "Regla 13, Regla 12.4",
+      "tags": [
+        "tiro-libre",
+        "distancia",
+        "amonestacion"
+      ]
+    },
+    {
+      "id": "fx-b25",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 5,
+      "question": "Un atacante comete una infracción de juego peligroso, sin contacto, dentro del área rival. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "indirect_free_kick",
+        "disciplinary": "none",
+        "restart": "place_of_offence"
+      },
+      "explanation": "El juego peligroso sin contacto es libre indirecto aunque ocurra dentro del área: solo las infracciones de tiro libre directo cometidas por la defensa dentro de su propia área dan penal.",
+      "ruleReference": "Regla 12.2",
+      "tags": [
+        "juego-peligroso",
+        "indirecto"
+      ]
+    },
+    {
+      "id": "fx-b26",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 4,
+      "question": "Un defensor comienza a sujetar a un atacante fuera del área y continúa sujetándolo dentro de ella. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "penalty_kick",
+        "disciplinary": "none",
+        "restart": "penalty_mark"
+      },
+      "explanation": "La Regla 12 lo resuelve expresamente: si la sujeción comienza fuera y continúa dentro del área, se señala tiro penal.",
+      "ruleReference": "Regla 12.4",
+      "tags": [
+        "penal",
+        "sujetar"
+      ]
+    },
+    {
+      "id": "fx-b27",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 4,
+      "question": "Un jugador ya amonestado protesta ostensiblemente una decisión con palabras, sin insultar. ¿Cuál es tu decisión completa por esa protesta, con el juego ya detenido por una falta previa suya?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "direct_free_kick",
+        "disciplinary": "send_off",
+        "restart": "place_of_offence"
+      },
+      "explanation": "Mostrar desaprobación con palabras es amonestación; al ser la segunda del partido, corresponde expulsión. La reanudación sigue siendo el tiro libre por la falta previa, en su lugar.",
+      "ruleReference": "Regla 12.4",
+      "tags": [
+        "expulsion",
+        "protestas"
+      ]
+    },
+    {
+      "id": "fx-b28",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 5,
+      "question": "Un atacante impide que el guardameta suelte el balón que está en proceso de poner en juego, dentro del área. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "indirect_free_kick",
+        "disciplinary": "none",
+        "restart": "place_of_offence"
+      },
+      "explanation": "La Regla 12.2 lista expresamente impedir que el guardameta saque el balón con la mano, lo juegue o lo intente jugar cuando está en proceso de soltarlo, entre las infracciones de libre indirecto.",
+      "ruleReference": "Regla 12.2",
+      "tags": [
+        "guardameta",
+        "indirecto"
+      ]
+    },
+    {
+      "id": "fx-b29",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 5,
+      "question": "Un defensor despeja con una barrida limpia, tomando el balón primero y sin contacto posterior peligroso. El atacante cae. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": false,
+        "technical": "play_on",
+        "disciplinary": "none",
+        "restart": "no_restart"
+      },
+      "explanation": "Las Reglas no prohíben la barrida: la juzgan por la graduación. Si se juega el balón sin imprudencia, temeridad ni fuerza excesiva, no hay infracción y el juego continúa.",
+      "ruleReference": "Regla 12.1",
+      "tags": [
+        "barrida",
+        "criterio"
+      ]
+    },
+    {
+      "id": "fx-b30",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 5,
+      "question": "Un jugador escupe a un adversario con el balón en juego, en el mediocampo. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "direct_free_kick",
+        "disciplinary": "send_off",
+        "restart": "place_of_offence"
+      },
+      "explanation": "Escupir o morder a alguien está entre las infracciones sancionables con expulsión. Como infracción cometida con el balón en juego, se reanuda con tiro libre directo en el lugar.",
+      "ruleReference": "Regla 12.4",
+      "tags": [
+        "expulsion",
+        "conducta"
+      ]
+    }
+  ]
+}

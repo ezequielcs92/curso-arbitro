@@ -204,16 +204,24 @@ export type DecisionAnswer = {
 export type TechnicalDecision =
   | 'direct_free_kick'
   | 'indirect_free_kick'
+  /** Beach soccer only: its Laws draw no direct/indirect distinction. */
+  | 'free_kick'
   | 'penalty_kick'
   | 'dropped_ball'
   | 'play_on'
   | 'advantage'
+  /** Restarts that are not free kicks but are themselves the sanction. */
+  | 'corner_kick'
+  | 'goal_kick'
+  | 'throw_in'
   /** Futsal only: direct free kick from the sixth accumulated foul. */
   | 'dfksaf'
 
 export type DisciplinaryDecision = 'none' | 'caution' | 'send_off'
 
 export type RestartLocation =
+  /** El juego no se detuvo: no hay reanudación que decidir. */
+  | 'no_restart'
   | 'place_of_offence'
   | 'penalty_mark'
   | 'ten_metre_mark'

@@ -1,0 +1,195 @@
+{
+  "part": "C",
+  "discipline": "beach_soccer",
+  "rulesVersion": "FIFA Beach Soccer 2025-26",
+  "note": "Reglamento privado de ficción, con las omisiones y los atajos que tienen los reales.",
+  "rulebooks": [
+    {
+      "id": "circuito-verano",
+      "name": "Circuito de Verano de Fútbol Playa — Bases del torneo",
+      "format": "BEACH",
+      "intro": "Torneo de fin de semana en la costa, con canchas montadas sobre la arena y mesa improvisada.",
+      "articles": [
+        { "n": "1", "text": "Tres períodos de 10 minutos de tiempo de juego. Descanso de 2 minutos entre períodos." },
+        { "n": "2", "text": "Cinco jugadores por equipo. Se juega descalzo." },
+        { "n": "3", "text": "Victoria en el tercer período: 3 puntos. En prórroga: 2. Por penales: 1." },
+        { "n": "4", "text": "Se permite formar barrera de hasta dos jugadores en los tiros libres cercanos al área." },
+        { "n": "5", "text": "Pausa de hidratación de un minuto a mitad de cada período, obligatoria si la temperatura supera los 30 grados." },
+        { "n": "6", "text": "El árbitro entrega el acta al coordinador de cancha, indicando cómo se definió el resultado." },
+        { "n": "7", "text": "Está prohibido el uso de gorras, salvo para el guardameta." }
+      ],
+      "questions": [
+        {
+          "id": "px-c1-1",
+          "moduleId": "examen",
+          "type": "multiple_choice",
+          "difficulty": 5,
+          "question": "¿Cómo se clasifica el artículo 4, que permite barrera de hasta dos jugadores?",
+          "options": [
+            "Coincide con las Leyes",
+            "Regla privada que contradice a las Leyes: el fútbol playa prohíbe formar barrera",
+            "Adaptación permitida por FIFA",
+            "Es una regla de competición avalada"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Las Leyes lo prohíben con una frase: los jugadores no pueden formar barrera. Es lo que convierte cada tiro libre cercano en un duelo con el guardameta, así que este artículo cambia el juego de raíz.",
+          "ruleReference": "Ley 13",
+          "tags": ["reglamento-privado", "barrera"]
+        },
+        {
+          "id": "px-c1-2",
+          "moduleId": "examen",
+          "type": "multiple_choice",
+          "difficulty": 4,
+          "question": "¿Cómo se clasifica el reparto de puntos del artículo 3?",
+          "options": [
+            "Regla privada del torneo",
+            "Reproduce lo que ya dice la Ley: 3 por ganar en el tercer período, 2 en prórroga y 1 por penales",
+            "Contradice a las Leyes",
+            "Es una adaptación permitida"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Es la particularidad del fútbol playa: el reparto 3-2-1 está en la propia Ley, no en el reglamento de cada torneo. Este artículo solo lo repite.",
+          "ruleReference": "Ley 10",
+          "tags": ["puntos", "resultado"]
+        },
+        {
+          "id": "px-c1-3",
+          "moduleId": "examen",
+          "type": "multiple_choice",
+          "difficulty": 4,
+          "question": "El artículo 1 fija períodos de 10 minutos. ¿Cómo se clasifica?",
+          "options": [
+            "Coincide con las Leyes",
+            "Regla del torneo: las Leyes fijan tres períodos de 12 minutos, reducibles solo si el reglamento de la competición lo permite",
+            "Contradice a las Leyes y no debe aplicarse",
+            "Es una adaptación de FIFA"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Las Leyes admiten expresamente la reducción cuando el reglamento de la competición lo permite, así que es una norma válida del torneo, distinta del valor por defecto.",
+          "ruleReference": "Ley 7",
+          "tags": ["tiempo", "reglamento-privado"]
+        },
+        {
+          "id": "px-c1-4",
+          "moduleId": "examen",
+          "type": "multiple_choice",
+          "difficulty": 4,
+          "question": "El descanso del artículo 1 es de 2 minutos. ¿Es compatible con las Leyes?",
+          "options": [
+            "No: las Leyes exigen exactamente 3 minutos",
+            "Sí: las Leyes fijan un máximo que no exceda los 3 minutos, y el reglamento debe estipular su duración",
+            "No: el descanso debe ser de 15 minutos",
+            "Solo si lo aceptan los capitanes"
+          ],
+          "correctAnswer": 1,
+          "explanation": "El límite es un máximo, no un valor fijo, y las Leyes remiten al reglamento de la competición para estipular la duración exacta.",
+          "ruleReference": "Ley 7",
+          "tags": ["tiempo", "descanso"]
+        },
+        {
+          "id": "px-c1-5",
+          "moduleId": "examen",
+          "type": "multiple_choice",
+          "difficulty": 4,
+          "question": "¿Cómo se clasifica la pausa de hidratación del artículo 5?",
+          "options": [
+            "Regla privada que contradice a las Leyes",
+            "Regla de competición prevista por las Leyes, que contemplan pausas médicas de hasta un minuto según el reglamento",
+            "Está prohibida",
+            "Es una adaptación de IFAB"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Las Leyes remiten al reglamento de la competición para las pausas médicas, como las de beber o refrescarse, y fijan el minuto como referencia.",
+          "ruleReference": "Ley 7",
+          "tags": ["pausas", "seguridad"]
+        },
+        {
+          "id": "px-c1-6",
+          "moduleId": "examen",
+          "type": "multiple_choice",
+          "difficulty": 4,
+          "question": "El artículo 7 prohíbe las gorras salvo al guardameta. ¿Cómo se clasifica?",
+          "options": [
+            "Coincide con las Leyes",
+            "Regla del torneo: las Leyes permiten equipamiento protector no peligroso y mencionan expresamente las gorras de guardameta",
+            "Contradice a las Leyes y no debe aplicarse",
+            "Es indiferente"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Las Leyes permiten equipamiento protector no peligroso y citan las gorras de guardameta. Restringirlo al resto es una norma del torneo, aplicable pero propia.",
+          "ruleReference": "Ley 4",
+          "tags": ["equipamiento", "reglamento-privado"]
+        },
+        {
+          "id": "px-c1-7",
+          "moduleId": "examen",
+          "type": "multiple_choice",
+          "difficulty": 5,
+          "question": "El reglamento no dice nada sobre los cuatro segundos. ¿Qué corresponde?",
+          "options": [
+            "No aplicarlos",
+            "Aplicarlos como en las Leyes, incluida la regla de que el equipo no puede mantener el balón en su propia área más de cuatro segundos",
+            "Aplicarlos solo al guardameta",
+            "Aplicar ocho segundos, como en fútbol"
+          ],
+          "correctAnswer": 1,
+          "explanation": "En lo que el reglamento no modifica rigen las Leyes. Y lo distintivo del fútbol playa es que los cuatro segundos alcanzan a todo el equipo dentro de su área, no solo al guardameta.",
+          "ruleReference": "Ley 12",
+          "tags": ["cuatro-segundos"]
+        },
+        {
+          "id": "px-c1-8",
+          "moduleId": "examen",
+          "type": "multiple_choice",
+          "difficulty": 4,
+          "question": "El reglamento no menciona los sorteos. ¿Cuántos hay y por qué importan?",
+          "options": [
+            "Uno, al comienzo",
+            "Dos: antes del primer período y antes del tercero, y de ellos depende quién elige arco y quién saca en la prórroga",
+            "Tres, uno por período",
+            "Ninguno"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Están separados por media hora, así que si no se anotan en el momento después nadie los recuerda. Del segundo se deriva además el saque de la prórroga.",
+          "ruleReference": "Ley 8",
+          "tags": ["sorteo", "planilla"]
+        },
+        {
+          "id": "px-c1-9",
+          "moduleId": "examen",
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "question": "El artículo 6 exige indicar cómo se definió el resultado. ¿Por qué es imprescindible?",
+          "options": [
+            "Por prolijidad",
+            "Porque de eso depende el reparto de puntos, que está en la propia Ley",
+            "Porque lo pide el coordinador",
+            "Para las estadísticas de goles"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Sin ese dato la organización no puede cargar la fecha: no es lo mismo ganar en el tercer período, en prórroga o por penales.",
+          "ruleReference": "Ley 10, Ley 5",
+          "tags": ["planilla", "puntos"]
+        },
+        {
+          "id": "px-c1-10",
+          "moduleId": "examen",
+          "type": "multiple_choice",
+          "difficulty": 5,
+          "question": "Aplicando el artículo 4, un equipo forma barrera de dos en un tiro libre. ¿Qué hacés y qué informás?",
+          "options": [
+            "Prohibirlo igual, porque las Leyes mandan",
+            "Aplicar el reglamento del torneo y dejar asentado que es una norma propia que se aparta de la Ley 13",
+            "Suspender el partido",
+            "Permitir barrera de cualquier cantidad"
+          ],
+          "correctAnswer": 1,
+          "explanation": "El reglamento de la competición se aplica; lo que no corresponde es presentarlo como si fuera la Ley. Dejarlo asentado protege al árbitro y le sirve a la organización.",
+          "ruleReference": "Ley 13, Ley 5",
+          "tags": ["reglamento-privado", "barrera", "informe"]
+        }
+      ]
+    }
+  ]
+}

@@ -18,7 +18,9 @@
       "correctAnswer": 1,
       "explanation": "La Regla 12 fija el límite en el punto inferior de la axila. Es el mismo límite que usa la Regla 11 para el fuera de juego, lo que facilita recordarlo.",
       "ruleReference": "Regla 12.1",
-      "tags": ["mano"]
+      "tags": [
+        "mano"
+      ]
     },
     {
       "id": "f6-q2",
@@ -29,7 +31,9 @@
       "correctAnswer": false,
       "explanation": "La Regla 12 lo dice literalmente: no todos los contactos del balón con la mano o el brazo constituyen infracción. Hay que evaluar voluntariedad o posición antinatural.",
       "ruleReference": "Regla 12.1",
-      "tags": ["mano"]
+      "tags": [
+        "mano"
+      ]
     },
     {
       "id": "f6-q3",
@@ -46,7 +50,9 @@
       "correctAnswer": 1,
       "explanation": "El criterio es funcional, no geométrico: la posición debe ser consecuencia del movimiento del cuerpo en esa acción concreta o poder justificarse por él. Si no, el jugador asume el riesgo de que el balón le pegue ahí.",
       "ruleReference": "Regla 12.1",
-      "tags": ["mano"]
+      "tags": [
+        "mano"
+      ]
     },
     {
       "id": "f6-q4",
@@ -63,7 +69,10 @@
       "correctAnswer": 1,
       "explanation": "La Regla 12 sanciona marcar gol inmediatamente después de que el balón toque la mano o el brazo, incluso de manera accidental. Lo mismo si el gol se marca directamente con la mano, incluido el guardameta.",
       "ruleReference": "Regla 12.1",
-      "tags": ["mano", "gol"]
+      "tags": [
+        "mano",
+        "gol"
+      ]
     },
     {
       "id": "f6-q5",
@@ -80,7 +89,10 @@
       "correctAnswer": 1,
       "explanation": "La Regla 12 concede libre indirecto sin sanción disciplinaria alguna. La tarjeta solo aparece si además hubo una infracción distinta, como interrumpir un ataque prometedor jugando el balón por segunda vez.",
       "ruleReference": "Regla 12.1",
-      "tags": ["guardameta", "cesion"]
+      "tags": [
+        "guardameta",
+        "cesion"
+      ]
     },
     {
       "id": "f6-q6",
@@ -97,7 +109,10 @@
       "correctAnswer": 1,
       "explanation": "En la edición 2026/27 la sanción es saque de esquina. El árbitro decide cuándo empieza el control y, con la mano alzada, efectúa la cuenta atrás de los últimos cinco segundos.",
       "ruleReference": "Regla 12.3",
-      "tags": ["guardameta", "ocho-segundos"]
+      "tags": [
+        "guardameta",
+        "ocho-segundos"
+      ]
     },
     {
       "id": "f6-q7",
@@ -114,7 +129,11 @@
       "correctAnswer": 1,
       "explanation": "La Regla 12.3 pide la cuenta atrás visible de los últimos cinco segundos con la mano alzada. La señal es parte de la regla: avisa al guardameta y hace verificable la decisión.",
       "ruleReference": "Regla 12.3",
-      "tags": ["guardameta", "ocho-segundos", "senalizacion"]
+      "tags": [
+        "guardameta",
+        "ocho-segundos",
+        "senalizacion"
+      ]
     },
     {
       "id": "f6-q8",
@@ -131,7 +150,10 @@
       "correctAnswer": 3,
       "explanation": "La Regla 12.3 define el control por las manos o los brazos: retener el balón entre la mano o el brazo y una superficie, sostenerlo con las manos abiertas y extendidas, o hacerlo rebotar en el suelo o lanzarlo al aire.",
       "ruleReference": "Regla 12.3",
-      "tags": ["guardameta", "control"]
+      "tags": [
+        "guardameta",
+        "control"
+      ]
     },
     {
       "id": "f6-q9",
@@ -142,7 +164,9 @@
       "correctAnswer": false,
       "explanation": "La Regla 12.3 lo prohíbe expresamente: mientras el guardameta controle el balón con las manos o los brazos, ningún adversario podrá disputárselo.",
       "ruleReference": "Regla 12.3",
-      "tags": ["guardameta"]
+      "tags": [
+        "guardameta"
+      ]
     },
     {
       "id": "f6-q10",
@@ -159,7 +183,10 @@
       "correctAnswer": 1,
       "explanation": "Jugar de forma peligrosa es libre indirecto porque no implica contacto. Empujar, zancadillear y sujetar son infracciones de contacto sancionadas con tiro libre directo.",
       "ruleReference": "Regla 12.2",
-      "tags": ["indirecto", "juego-peligroso"]
+      "tags": [
+        "indirecto",
+        "juego-peligroso"
+      ]
     },
     {
       "id": "f6-q11",
@@ -176,7 +203,10 @@
       "correctAnswer": 1,
       "explanation": "La Regla 12.2 lista obstaculizar el avance de un adversario sin que exista contacto físico entre las infracciones de libre indirecto. Si hay contacto, pasa a ser directo.",
       "ruleReference": "Regla 12.2",
-      "tags": ["indirecto", "obstruccion"]
+      "tags": [
+        "indirecto",
+        "obstruccion"
+      ]
     },
     {
       "id": "f6-q12",
@@ -193,7 +223,10 @@
       "correctAnswer": 1,
       "explanation": "La Regla 12.2 sanciona iniciar una acción que trate de burlar la Regla deliberadamente para hacerle llegar el balón al guardameta con la cabeza, el pecho, la rodilla u otra parte, incluso desde un tiro libre o un saque de meta.",
       "ruleReference": "Regla 12.2",
-      "tags": ["cesion", "indirecto"]
+      "tags": [
+        "cesion",
+        "indirecto"
+      ]
     },
     {
       "id": "f6-q13",
@@ -210,7 +243,10 @@
       "correctAnswer": 1,
       "explanation": "La Regla 12.2 lista expresamente impedir que el guardameta saque el balón con la mano, lo juegue o lo intente jugar cuando está en proceso de soltarlo, entre las infracciones de libre indirecto.",
       "ruleReference": "Regla 12.2",
-      "tags": ["guardameta", "indirecto"]
+      "tags": [
+        "guardameta",
+        "indirecto"
+      ]
     },
     {
       "id": "f6-q14",
@@ -227,7 +263,9 @@
       "correctAnswer": 3,
       "explanation": "Una falta imprudente es tiro libre, no amonestación automática. La lista incluye retrasar la reanudación, desaprobación, entrar o salir sin permiso, no respetar la distancia, infringir reiteradamente, conducta antideportiva, entrar en el área de revisión y repetir el gesto de revisión.",
       "ruleReference": "Regla 12.4",
-      "tags": ["amonestacion"]
+      "tags": [
+        "amonestacion"
+      ]
     },
     {
       "id": "f6-q15",
@@ -238,7 +276,10 @@
       "correctAnswer": false,
       "explanation": "La Regla 12.4 aclara que no está definido el número de infracciones ni existe otra indicación específica sobre lo que implica infringir reiteradamente. Queda al criterio del árbitro.",
       "ruleReference": "Regla 12.4",
-      "tags": ["amonestacion", "criterio"]
+      "tags": [
+        "amonestacion",
+        "criterio"
+      ]
     },
     {
       "id": "f6-q16",
@@ -255,7 +296,9 @@
       "correctAnswer": 3,
       "explanation": "Mostrar desaprobación es amonestación. La expulsión cubre el juego brusco y grave, escupir o morder, la conducta violenta, el lenguaje ofensivo, la segunda amonestación, entrar en la sala de vídeo y evitar goles u ocasiones manifiestas en los supuestos tasados.",
       "ruleReference": "Regla 12.4",
-      "tags": ["expulsion"]
+      "tags": [
+        "expulsion"
+      ]
     },
     {
       "id": "f6-q17",
@@ -272,7 +315,11 @@
       "correctAnswer": 1,
       "explanation": "La Regla 12.4 obliga a expulsar a quien evita un gol o una ocasión manifiesta mediante mano voluntaria, con la excepción expresa del guardameta dentro de su propia área. La infracción por mano en el área es penal.",
       "ruleReference": "Regla 12.4",
-      "tags": ["expulsion", "mano", "penal"]
+      "tags": [
+        "expulsion",
+        "mano",
+        "penal"
+      ]
     },
     {
       "id": "f6-q18",
@@ -289,7 +336,10 @@
       "correctAnswer": 1,
       "explanation": "La Regla 12.4 incluye expresamente evitar un gol o una ocasión manifiesta mediante mano involuntaria fuera de la propia área penal entre las infracciones de expulsión.",
       "ruleReference": "Regla 12.4",
-      "tags": ["expulsion", "mano"]
+      "tags": [
+        "expulsion",
+        "mano"
+      ]
     },
     {
       "id": "f6-q19",
@@ -306,7 +356,10 @@
       "correctAnswer": 1,
       "explanation": "La Regla 12 lo resuelve expresamente: si la sujeción comienza fuera y continúa dentro del área, el árbitro señala tiro penal.",
       "ruleReference": "Regla 12.4",
-      "tags": ["penal", "sujetar"]
+      "tags": [
+        "penal",
+        "sujetar"
+      ]
     },
     {
       "id": "f6-q20",
@@ -323,7 +376,11 @@
       "correctAnswer": 2,
       "explanation": "La Regla 12 lo prevé: quien evita una ocasión manifiesta y luego, por la ventaja, ve que el adversario marca, no recibe sanción disciplinaria. Si no se marca, la sanción es amonestación por conducta antideportiva.",
       "ruleReference": "Regla 12.4",
-      "tags": ["ventaja", "ocasion-manifiesta", "disciplina"]
+      "tags": [
+        "ventaja",
+        "ocasion-manifiesta",
+        "disciplina"
+      ]
     },
     {
       "id": "f6-q21",
@@ -340,7 +397,10 @@
       "correctAnswer": 1,
       "explanation": "La Regla 12 lo restringe así. Si aun con ocasión manifiesta el jugador expulsable juega el balón, lo disputa o interfiere, el árbitro detiene, expulsa y reanuda con libre indirecto, salvo infracción más grave.",
       "ruleReference": "Regla 12.4",
-      "tags": ["ventaja", "expulsion"]
+      "tags": [
+        "ventaja",
+        "expulsion"
+      ]
     },
     {
       "id": "f6-q22",
@@ -357,7 +417,10 @@
       "correctAnswer": 1,
       "explanation": "La Regla 12 distingue el ataque prometedor de la ocasión manifiesta: con ventaja concedida, interferir un ataque prometedor no se amonesta; evitar una ocasión manifiesta sí, salvo que se marque gol por la ventaja.",
       "ruleReference": "Regla 12.4",
-      "tags": ["ventaja", "ataque-prometedor"]
+      "tags": [
+        "ventaja",
+        "ataque-prometedor"
+      ]
     },
     {
       "id": "f6-q23",
@@ -373,7 +436,11 @@
       },
       "explanation": "Zancadillear con imprudencia es tiro libre directo. Cortar un ataque prometedor deteniendo el juego se amonesta por conducta antideportiva. La reanudación es en el lugar de la infracción.",
       "ruleReference": "Regla 12.1, Regla 12.4",
-      "tags": ["decision", "falta", "amonestacion"]
+      "tags": [
+        "decision",
+        "falta",
+        "amonestacion"
+      ]
     },
     {
       "id": "f6-q24",
@@ -383,13 +450,17 @@
       "question": "El guardameta retiene el balón con las manos dentro de su área durante diez segundos, pese a tu cuenta atrás visible. ¿Cuál es tu decisión completa?",
       "correctAnswer": {
         "isOffence": true,
-        "technical": "direct_free_kick",
+        "technical": "corner_kick",
         "disciplinary": "none",
         "restart": "corner"
       },
       "explanation": "En la edición 2026/27 la sanción es saque de esquina para el adversario, no libre indirecto, y no lleva medida disciplinaria. Es la novedad que más cambia respecto de ediciones anteriores.",
       "ruleReference": "Regla 12.3",
-      "tags": ["decision", "guardameta", "ocho-segundos"]
+      "tags": [
+        "decision",
+        "guardameta",
+        "ocho-segundos"
+      ]
     },
     {
       "id": "f6-q25",
@@ -405,7 +476,11 @@
       },
       "explanation": "Evitar un gol o una ocasión manifiesta de un adversario que se dirige a la portería mediante una infracción sancionable con tiro libre es causa de expulsión. Al ser fuera del área, el libre directo se ejecuta en el lugar de la infracción.",
       "ruleReference": "Regla 12.4",
-      "tags": ["decision", "ocasion-manifiesta", "expulsion"]
+      "tags": [
+        "decision",
+        "ocasion-manifiesta",
+        "expulsion"
+      ]
     },
     {
       "id": "f6-q26",
@@ -421,7 +496,11 @@
       },
       "explanation": "El juego peligroso sin contacto es libre indirecto, aunque ocurra dentro del área: solo las infracciones de tiro libre directo cometidas por la defensa dentro de su área dan penal. Sin contacto no hay motivo automático de tarjeta.",
       "ruleReference": "Regla 12.2",
-      "tags": ["decision", "juego-peligroso", "indirecto"]
+      "tags": [
+        "decision",
+        "juego-peligroso",
+        "indirecto"
+      ]
     },
     {
       "id": "f6-q27",
@@ -438,7 +517,10 @@
       "correctAnswer": 1,
       "explanation": "El texto es explícito: con fuerza excesiva se expulsará al infractor por conducta violenta. La fuerza excesiva es la que excede lo necesario y pone en peligro la integridad del adversario.",
       "ruleReference": "Regla 12",
-      "tags": ["expulsion", "fuerza-excesiva"]
+      "tags": [
+        "expulsion",
+        "fuerza-excesiva"
+      ]
     },
     {
       "id": "f6-q28",
@@ -455,7 +537,10 @@
       "correctAnswer": 1,
       "explanation": "La Regla 12.4 delimita así el período disciplinario. Es la misma ventana que la Regla 5 fija para la autoridad general.",
       "ruleReference": "Regla 12.4",
-      "tags": ["disciplina", "autoridad"]
+      "tags": [
+        "disciplina",
+        "autoridad"
+      ]
     },
     {
       "id": "f6-q29",
@@ -472,7 +557,10 @@
       "correctAnswer": 1,
       "explanation": "Está en la lista de conductas amonestables de la Regla 12: ejecutar un tiro libre desde un lugar erróneo para forzar su repetición es conducta antideportiva.",
       "ruleReference": "Regla 12.4",
-      "tags": ["amonestacion", "tiro-libre"]
+      "tags": [
+        "amonestacion",
+        "tiro-libre"
+      ]
     },
     {
       "id": "f6-q30",
@@ -489,7 +577,10 @@
       "correctAnswer": 1,
       "explanation": "La Regla 12.4 amonesta al suplente o jugador sustituido que retrase la reanudación, muestre desaprobación, entre o vuelva a entrar sin permiso, o cometa conducta antideportiva.",
       "ruleReference": "Regla 12.4",
-      "tags": ["amonestacion", "suplentes"]
+      "tags": [
+        "amonestacion",
+        "suplentes"
+      ]
     },
     {
       "id": "f6-q31",
@@ -506,7 +597,10 @@
       "correctAnswer": 1,
       "explanation": "No respetar la distancia reglamentaria en un balón a tierra, saque de esquina, tiro libre o saque de banda figura entre las infracciones amonestables.",
       "ruleReference": "Regla 12.4",
-      "tags": ["amonestacion", "distancia"]
+      "tags": [
+        "amonestacion",
+        "distancia"
+      ]
     },
     {
       "id": "f6-q32",
@@ -517,7 +611,10 @@
       "correctAnswer": true,
       "explanation": "Así es. Por eso en el acta se registra como doble amarilla y no como roja directa: son cosas distintas a efectos de sanción posterior.",
       "ruleReference": "Regla 12.4",
-      "tags": ["expulsion", "documentacion"]
+      "tags": [
+        "expulsion",
+        "documentacion"
+      ]
     },
     {
       "id": "f6-q33",
@@ -534,7 +631,10 @@
       "correctAnswer": 1,
       "explanation": "Está entre las infracciones de expulsión de la Regla 12.4. No confundir con mostrar desaprobación, que es amonestación: la diferencia está en si el lenguaje es ofensivo, insultante o humillante.",
       "ruleReference": "Regla 12.4",
-      "tags": ["expulsion", "lenguaje"]
+      "tags": [
+        "expulsion",
+        "lenguaje"
+      ]
     },
     {
       "id": "f6-q34",
@@ -551,7 +651,11 @@
       "correctAnswer": 1,
       "explanation": "La Regla 12 lo aclara: si la infracción del guardameta consiste en jugar el balón una segunda vez tras la reanudación, se lo sanciona si con ello interrumpió un ataque prometedor, evitó un gol o una ocasión manifiesta.",
       "ruleReference": "Regla 12.1",
-      "tags": ["guardameta", "indirecto", "disciplina"]
+      "tags": [
+        "guardameta",
+        "indirecto",
+        "disciplina"
+      ]
     },
     {
       "id": "f6-q35",
@@ -568,7 +672,10 @@
       "correctAnswer": 1,
       "explanation": "La Regla 12 admite la carga dentro de los márgenes permitidos siempre que el balón se halle a distancia de juego y no se retenga al adversario con los brazos o el cuerpo.",
       "ruleReference": "Regla 12",
-      "tags": ["carga", "contacto"]
+      "tags": [
+        "carga",
+        "contacto"
+      ]
     },
     {
       "id": "f6-q36",
@@ -579,7 +686,10 @@
       "correctAnswer": true,
       "explanation": "La Regla 12 lo dice expresamente. Fuera de su área, el guardameta es un jugador más a efectos de la mano.",
       "ruleReference": "Regla 12.1",
-      "tags": ["guardameta", "mano"]
+      "tags": [
+        "guardameta",
+        "mano"
+      ]
     },
     {
       "id": "f6-q37",
@@ -596,7 +706,11 @@
       "correctAnswer": 1,
       "explanation": "La Regla 12 lo contempla: si el equipo no infractor quiere un tiro libre rápido, dispone de una clara ocasión de gol y el árbitro no inició el procedimiento disciplinario, la tarjeta se muestra en la siguiente interrupción.",
       "ruleReference": "Regla 12.4",
-      "tags": ["tiro-libre", "disciplina", "ejecucion-rapida"]
+      "tags": [
+        "tiro-libre",
+        "disciplina",
+        "ejecucion-rapida"
+      ]
     },
     {
       "id": "f6-q38",
@@ -604,11 +718,19 @@
       "type": "multiple_choice",
       "difficulty": 3,
       "question": "¿Qué corresponde a quien entra en el área de revisión?",
-      "options": ["Nada", "Amonestación", "Expulsión", "Advertencia"],
+      "options": [
+        "Nada",
+        "Amonestación",
+        "Expulsión",
+        "Advertencia"
+      ],
       "correctAnswer": 1,
       "explanation": "Entrar en el área de revisión es amonestación; entrar en la sala de vídeo es expulsión. Son dos lugares distintos con sanciones distintas.",
       "ruleReference": "Regla 12.4",
-      "tags": ["amonestacion", "var"]
+      "tags": [
+        "amonestacion",
+        "var"
+      ]
     },
     {
       "id": "f6-q39",
@@ -619,7 +741,9 @@
       "correctAnswer": true,
       "explanation": "La Regla 12.4 las agrupa en una sola línea entre las infracciones sancionables con expulsión: «escupir o morder a alguien».",
       "ruleReference": "Regla 12.4",
-      "tags": ["expulsion"]
+      "tags": [
+        "expulsion"
+      ]
     },
     {
       "id": "f6-q40",
@@ -635,7 +759,11 @@
       },
       "explanation": "Empujar es infracción de tiro libre directo; cometida por la defensa dentro de su área, da penal, que se ejecuta desde el punto penal. Sin ocasión manifiesta ni ataque prometedor cortado, la imprudencia sola no lleva tarjeta.",
       "ruleReference": "Regla 12.1, Regla 14",
-      "tags": ["decision", "penal", "empujar"]
+      "tags": [
+        "decision",
+        "penal",
+        "empujar"
+      ]
     }
   ]
 }

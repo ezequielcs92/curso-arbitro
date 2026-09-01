@@ -56,10 +56,14 @@ export type Scored = {
 export const TECHNICAL_LABELS: Record<string, string> = {
   direct_free_kick: 'Tiro libre directo',
   indirect_free_kick: 'Tiro libre indirecto',
+  free_kick: 'Tiro libre',
   penalty_kick: 'Tiro penal',
   dropped_ball: 'Balón a tierra',
   play_on: 'Se sigue jugando',
   advantage: 'Ventaja',
+  corner_kick: 'Saque de esquina',
+  goal_kick: 'Saque de meta',
+  throw_in: 'Saque de banda para el adversario',
   dfksaf: 'Tiro libre desde la sexta falta',
 }
 
@@ -70,6 +74,7 @@ export const DISCIPLINARY_LABELS: Record<string, string> = {
 }
 
 export const RESTART_LABELS: Record<string, string> = {
+  no_restart: 'No hay reanudación: sigue el juego',
   place_of_offence: 'En el lugar de la infracción',
   penalty_mark: 'Desde el punto penal',
   ten_metre_mark: 'Desde la marca de 10 m',
@@ -80,23 +85,33 @@ export const RESTART_LABELS: Record<string, string> = {
 }
 
 /**
- * Opciones ofrecidas en cada componente de una decisión.
+ * Opciones ofrecidas en cada componente de una decisión, filtradas por
+ * disciplina.
  *
- * Se filtran por disciplina: `dfksaf` es el tiro libre desde la sexta falta
- * acumulada y solo existe en futsal, así que ofrecerlo en los otros dos cursos
- * sería enseñar que existe algo que no existe.
+ * `dfksaf` es el tiro libre desde la sexta falta acumulada y solo existe en
+ * futsal. Y el fútbol playa no distingue entre tiro libre directo e indirecto:
+ * sus Leyes hablan de «tiro libre» a secas y lo diferencian por la mitad de
+ * cancha en que se cometió la infracción. Ofrecer opciones que la disciplina no
+ * tiene sería enseñar que existe algo que no existe.
  */
 export function technicalOptions(discipline: string): string[] {
-  const all = Object.keys(TECHNICAL_LABELS)
-  return discipline === 'futsal' ? all : all.filter((k) => k !== 'dfksaf')
+  const exclude =
+    discipline === 'futsal'
+      ? ['free_kick']
+      : discipline === 'beach_soccer'
+        ? ['direct_free_kick', 'indirect_free_kick', 'dfksaf']
+        : ['free_kick', 'dfksaf']
+
+  return Object.keys(TECHNICAL_LABELS).filter((k) => !exclude.includes(k))
 }
 
 export const DISCIPLINARY_OPTIONS = Object.keys(DISCIPLINARY_LABELS)
 
 export function restartOptions(discipline: string): string[] {
-  const all = Object.keys(RESTART_LABELS)
   // La marca de 10 m es la del tiro desde la sexta falta acumulada.
-  return discipline === 'futsal' ? all : all.filter((k) => k !== 'ten_metre_mark')
+  return Object.keys(RESTART_LABELS).filter(
+    (k) => k !== 'ten_metre_mark' || discipline === 'futsal',
+  )
 }
 
 const COMPONENT_LABELS: Record<keyof typeof DECISION_POINTS, string> = {

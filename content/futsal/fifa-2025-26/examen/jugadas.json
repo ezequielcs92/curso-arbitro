@@ -1,0 +1,481 @@
+{
+  "part": "B",
+  "discipline": "futsal",
+  "rulesVersion": "FIFA Futsal 2025-26",
+  "note": "Pozo propio del examen, distinto de los bancos por módulo.",
+  "questions": [
+    {
+      "id": "sx-b1",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 3,
+      "question": "Un defensor empuja con imprudencia a un rival en la mitad de la pista. Su equipo lleva una falta acumulada. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "direct_free_kick",
+        "disciplinary": "none",
+        "restart": "place_of_offence"
+      },
+      "explanation": "Empujar es infracción de tiro libre directo, así que acumula: pasa a ser la segunda del período. Lo imprudente no lleva sanción disciplinaria.",
+      "ruleReference": "Ley 12",
+      "tags": [
+        "faltas-acumuladas"
+      ]
+    },
+    {
+      "id": "sx-b2",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 4,
+      "question": "Un jugador entra de forma temeraria sobre un adversario. Es la tercera falta acumulada de su equipo. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "direct_free_kick",
+        "disciplinary": "caution",
+        "restart": "place_of_offence"
+      },
+      "explanation": "Temerario obliga a amonestar. La falta acumula igual, y al ser la tercera todavía no llega el tiro desde la segunda marca.",
+      "ruleReference": "Ley 12",
+      "tags": [
+        "faltas-acumuladas",
+        "amonestacion"
+      ]
+    },
+    {
+      "id": "sx-b3",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 5,
+      "question": "Un defensor sujeta a un atacante fuera del área. Su equipo ya tenía cinco faltas acumuladas en el período. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "dfksaf",
+        "disciplinary": "none",
+        "restart": "ten_metre_mark"
+      },
+      "explanation": "Sujetar acumula, y al ser la sexta corresponde el tiro libre desde la segunda marca de 10 m, sin barrera. Sujetar sin agravantes no lleva tarjeta.",
+      "ruleReference": "Ley 12, Ley 13",
+      "tags": [
+        "dfksaf",
+        "faltas-acumuladas"
+      ]
+    },
+    {
+      "id": "sx-b4",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 5,
+      "question": "La séptima falta acumulada de un equipo se comete dentro de su propia área penal, empujando a un rival. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "penalty_kick",
+        "disciplinary": "none",
+        "restart": "penalty_mark"
+      },
+      "explanation": "Cuando la sexta o una posterior se comete dentro del área del infractor, se concede penal en su lugar. Y al concederse penal, esa falta no se registra como acumulada.",
+      "ruleReference": "Ley 12, Ley 13",
+      "tags": [
+        "penal",
+        "faltas-acumuladas"
+      ]
+    },
+    {
+      "id": "sx-b5",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 4,
+      "question": "El guardameta controla el balón con los pies en su propia mitad durante cinco segundos, sin presión rival. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "indirect_free_kick",
+        "disciplinary": "none",
+        "restart": "place_of_offence"
+      },
+      "explanation": "Los cuatro segundos del guardameta cuentan con manos, brazos o pies, y en toda su propia mitad. La sanción es libre indirecto, y por ser indirecto no acumula.",
+      "ruleReference": "Ley 12",
+      "tags": [
+        "guardameta",
+        "cuatro-segundos"
+      ]
+    },
+    {
+      "id": "sx-b6",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 4,
+      "question": "Un compañero cede el balón con el pie al guardameta, que lo toma con las manos dentro de su área. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "indirect_free_kick",
+        "disciplinary": "none",
+        "restart": "place_of_offence"
+      },
+      "explanation": "La cesión deliberada con el pie impide al guardameta usar las manos. Es libre indirecto, sin sanción disciplinaria y sin acumular.",
+      "ruleReference": "Ley 12",
+      "tags": [
+        "cesion",
+        "guardameta"
+      ]
+    },
+    {
+      "id": "sx-b7",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 4,
+      "question": "Un jugador obstaculiza el avance de un adversario sin ningún contacto. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "indirect_free_kick",
+        "disciplinary": "none",
+        "restart": "place_of_offence"
+      },
+      "explanation": "Obstaculizar sin contacto es libre indirecto y no acumula. Con contacto sería directo y sí acumularía: la diferencia entre esas dos palabras cambia el recuento del período.",
+      "ruleReference": "Ley 12",
+      "tags": [
+        "obstruccion",
+        "faltas-acumuladas"
+      ]
+    },
+    {
+      "id": "sx-b8",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 4,
+      "question": "Un equipo no ejecuta un tiro libre dentro de los cuatro segundos. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "indirect_free_kick",
+        "disciplinary": "none",
+        "restart": "place_of_offence"
+      },
+      "explanation": "Superar los cuatro segundos en un tiro libre concede libre indirecto al adversario. No es amonestación automática ni repetición.",
+      "ruleReference": "Ley 13",
+      "tags": [
+        "cuatro-segundos",
+        "tiro-libre"
+      ]
+    },
+    {
+      "id": "sx-b9",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 4,
+      "question": "Un equipo no ejecuta un saque de banda dentro de los cuatro segundos. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "throw_in",
+        "disciplinary": "none",
+        "restart": "place_of_offence"
+      },
+      "explanation": "En el saque de banda la consecuencia no es un tiro libre: el saque pasa al equipo adversario, desde el mismo punto. Es distinta de la del tiro libre, que sí da indirecto.",
+      "ruleReference": "Ley 15",
+      "tags": [
+        "saque-de-banda",
+        "cuatro-segundos"
+      ]
+    },
+    {
+      "id": "sx-b10",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 5,
+      "question": "El guardameta juega el balón en posesión controlada y, tras un pase deliberado de un compañero, vuelve a tocarlo en su propia mitad sin que ningún rival lo haya jugado. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "indirect_free_kick",
+        "disciplinary": "none",
+        "restart": "place_of_offence"
+      },
+      "explanation": "Está listado entre las infracciones de libre indirecto del guardameta, y las Leyes aclaran expresamente que no hay sanción disciplinaria.",
+      "ruleReference": "Ley 12",
+      "tags": [
+        "guardameta",
+        "indirecto"
+      ]
+    },
+    {
+      "id": "sx-b11",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 3,
+      "question": "El balón golpea el cielorraso tras un despeje del equipo local. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": false,
+        "technical": "throw_in",
+        "disciplinary": "none",
+        "restart": "place_of_offence"
+      },
+      "explanation": "No hay infracción de nadie: el balón queda fuera de juego y se reanuda con saque de banda para el rival del último que lo tocó, desde el punto de la línea de banda más cercano al lugar del suelo sobre el que tocó el techo.",
+      "ruleReference": "Ley 9",
+      "tags": [
+        "cielorraso",
+        "saque-de-banda"
+      ]
+    },
+    {
+      "id": "sx-b12",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 4,
+      "question": "Un atacante que está claramente adelantado recibe un pase y define. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": false,
+        "technical": "play_on",
+        "disciplinary": "none",
+        "restart": "centre_of_pitch"
+      },
+      "explanation": "No existe el fuera de juego en futsal, así que no hay infracción: el gol es válido y se reanuda con saque inicial desde el centro.",
+      "ruleReference": "Ley 11",
+      "tags": [
+        "fuera-de-juego",
+        "gol"
+      ]
+    },
+    {
+      "id": "sx-b13",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 5,
+      "question": "Un equipo con cinco faltas acumuladas comete la sexta, y el rival queda con el balón en su propia mitad, sin peligro. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "dfksaf",
+        "disciplinary": "none",
+        "restart": "ten_metre_mark"
+      },
+      "explanation": "La ventaja no debe aplicarse en la sexta falta acumulada salvo que haya una clara oportunidad de gol. Sin ella, dejar seguir cambiaría un tiro sin barrera desde 10 m por una posesión intrascendente.",
+      "ruleReference": "Ley 5, Ley 12, Ley 13",
+      "tags": [
+        "ventaja",
+        "dfksaf"
+      ]
+    },
+    {
+      "id": "sx-b14",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 4,
+      "question": "Un jugador lanza un objeto contra el balón desde fuera de la pista, con el juego en marcha. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "direct_free_kick",
+        "disciplinary": "none",
+        "restart": "place_of_offence"
+      },
+      "explanation": "Lanzar o patear un objeto contra el balón, un adversario o un miembro del equipo arbitral está entre las infracciones de tiro libre directo, y por lo tanto acumula.",
+      "ruleReference": "Ley 12",
+      "tags": [
+        "objetos",
+        "faltas-acumuladas"
+      ]
+    },
+    {
+      "id": "sx-b15",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 5,
+      "question": "Un jugador entra a la pista sin permiso e interfiere en el juego dentro del área de su propio equipo. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "penalty_kick",
+        "disciplinary": "caution",
+        "restart": "penalty_mark"
+      },
+      "explanation": "Las Leyes conceden tiro libre directo desde el lugar de la interferencia, o penal si fue dentro del área, y amonestan por entrar sin permiso. Al concederse penal, la falta no se registra como acumulada.",
+      "ruleReference": "Ley 3, Ley 12",
+      "tags": [
+        "penal",
+        "amonestacion"
+      ]
+    },
+    {
+      "id": "sx-b16",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 4,
+      "question": "Un jugador usa fuerza excesiva en una disputa en el mediocampo. Es la segunda falta acumulada de su equipo. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "direct_free_kick",
+        "disciplinary": "send_off",
+        "restart": "place_of_offence"
+      },
+      "explanation": "La fuerza excesiva obliga a expulsar. La falta acumula igual, y el equipo queda dos minutos de tiempo de juego en inferioridad.",
+      "ruleReference": "Ley 12",
+      "tags": [
+        "expulsion",
+        "faltas-acumuladas"
+      ]
+    },
+    {
+      "id": "sx-b17",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 4,
+      "question": "El guardameta demora el saque de meta y se agotan los cuatro segundos. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "indirect_free_kick",
+        "disciplinary": "none",
+        "restart": "place_of_offence"
+      },
+      "explanation": "Si el saque de meta no se ejecuta dentro de los cuatro segundos, se concede libre indirecto al equipo adversario. No lleva sanción disciplinaria por sí solo.",
+      "ruleReference": "Ley 16",
+      "tags": [
+        "saque-de-meta",
+        "cuatro-segundos"
+      ]
+    },
+    {
+      "id": "sx-b18",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 4,
+      "question": "El guardameta ejecuta el saque de meta y el balón entra directamente en la portería contraria. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": false,
+        "technical": "goal_kick",
+        "disciplinary": "none",
+        "restart": "goal_line"
+      },
+      "explanation": "No hay infracción, pero no se puede marcar directamente de saque de meta: el equipo que no lo ejecutó obtiene un saque de meta.",
+      "ruleReference": "Ley 16",
+      "tags": [
+        "saque-de-meta",
+        "gol"
+      ]
+    },
+    {
+      "id": "sx-b19",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 5,
+      "question": "El ejecutor de un saque de banda vuelve a tocar el balón antes de que lo haga otro jugador. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "indirect_free_kick",
+        "disciplinary": "none",
+        "restart": "place_of_offence"
+      },
+      "explanation": "El segundo toque del ejecutor se sanciona con libre indirecto. Como es indirecto, tampoco suma al recuento de faltas acumuladas.",
+      "ruleReference": "Ley 15",
+      "tags": [
+        "saque-de-banda",
+        "segundo-toque"
+      ]
+    },
+    {
+      "id": "sx-b20",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 3,
+      "question": "Un defensor despeja limpiamente, tomando el balón primero, y el atacante cae por el impulso. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": false,
+        "technical": "play_on",
+        "disciplinary": "none",
+        "restart": "no_restart"
+      },
+      "explanation": "Las Leyes de futsal no prohíben la barrida: la juzgan por la graduación. Sin imprudencia, temeridad ni fuerza excesiva no hay infracción, y el juego continúa.",
+      "ruleReference": "Ley 12",
+      "tags": [
+        "barrida",
+        "criterio"
+      ]
+    },
+    {
+      "id": "sx-b21",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 5,
+      "question": "Un defensor comete una infracción de tiro libre directo cuando su equipo lleva cuatro faltas acumuladas, y el rival queda con una clara ocasión de gol. ¿Cuál es tu decisión completa si aplicás ventaja?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "advantage",
+        "disciplinary": "none",
+        "restart": "no_restart"
+      },
+      "explanation": "Con clara ocasión de gol la ventaja procede. Lo que no cambia es el recuento: la falta acumula igual, y hay que señalarla al cronometrador en cuanto el balón salga de juego.",
+      "ruleReference": "Ley 5, Ley 12",
+      "tags": [
+        "ventaja",
+        "faltas-acumuladas"
+      ]
+    },
+    {
+      "id": "sx-b22",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 4,
+      "question": "Un jugador emplea lenguaje ofensivo hacia un adversario con el balón en juego. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "indirect_free_kick",
+        "disciplinary": "send_off",
+        "restart": "place_of_offence"
+      },
+      "explanation": "Actuar mostrando desaprobación o cometiendo ofensas verbales se sanciona con libre indirecto, y el lenguaje ofensivo, insultante o humillante obliga a expulsar.",
+      "ruleReference": "Ley 12",
+      "tags": [
+        "expulsion",
+        "lenguaje"
+      ]
+    },
+    {
+      "id": "sx-b23",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 5,
+      "question": "El guardameta defensor se acerca a menos de 5 m del balón antes de que se ejecute un tiro libre desde la sexta falta. ¿Cuál es tu decisión completa sobre esa infracción?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "dfksaf",
+        "disciplinary": "none",
+        "restart": "ten_metre_mark"
+      },
+      "explanation": "El guardameta debe estar al menos a 5 m del balón hasta que sea golpeado. Incumplirlo obliga a repetir el tiro desde la segunda marca, sin barrera.",
+      "ruleReference": "Ley 13",
+      "tags": [
+        "dfksaf",
+        "guardameta"
+      ]
+    },
+    {
+      "id": "sx-b24",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 4,
+      "question": "El juego se detiene con el balón dentro del área penal y la posesión habría sido del equipo atacante. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": false,
+        "technical": "dropped_ball",
+        "disciplinary": "none",
+        "restart": "penalty_area_line"
+      },
+      "explanation": "El futsal lo resuelve distinto del fútbol: el balón se deja caer para un jugador del equipo atacante sobre la línea del área penal, en el punto más cercano a donde estaba.",
+      "ruleReference": "Ley 8",
+      "tags": [
+        "balon-a-tierra"
+      ]
+    },
+    {
+      "id": "sx-b25",
+      "moduleId": "examen",
+      "type": "decision",
+      "difficulty": 5,
+      "question": "Un defensor juega de forma peligrosa dentro de su propia área, sin contacto. Su equipo lleva seis faltas acumuladas. ¿Cuál es tu decisión completa?",
+      "correctAnswer": {
+        "isOffence": true,
+        "technical": "indirect_free_kick",
+        "disciplinary": "none",
+        "restart": "place_of_offence"
+      },
+      "explanation": "El juego peligroso sin contacto es libre indirecto, así que no acumula y no dispara el tiro desde la segunda marca, por más faltas que tenga el equipo. Solo las de tiro libre directo cuentan.",
+      "ruleReference": "Ley 12",
+      "tags": [
+        "juego-peligroso",
+        "faltas-acumuladas"
+      ]
+    }
+  ]
+}

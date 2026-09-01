@@ -1,0 +1,366 @@
+{
+  "part": "C",
+  "discipline": "football",
+  "rulesVersion": "IFAB 2026/27",
+  "note": "Reglamentos privados de ficción, escritos con el desorden y las omisiones que tienen los reales. El ejercicio no es memorizarlos: es leerlos rápido y saber qué es IFAB, qué es adaptación permitida y qué es regla privada.",
+  "rulebooks": [
+    {
+      "id": "nocturna-f7",
+      "name": "Liga Nocturna Amateur — Reglamento interno F7",
+      "format": "F7",
+      "intro": "Torneo privado de adultos, canchas de césped sintético alquiladas, sin aval federativo.",
+      "articles": [
+        { "n": "1", "text": "Se juega 7 contra 7. Mínimo para comenzar: 5 jugadores. Si a los 10 minutos del horario un equipo no reúne 5, pierde los puntos." },
+        { "n": "2", "text": "Dos tiempos de 25 minutos, reloj corrido. El árbitro no adiciona tiempo salvo interrupción mayor a 3 minutos." },
+        { "n": "3", "text": "No se aplica fuera de juego." },
+        { "n": "4", "text": "Prohibida la barrida. Su sanción queda a criterio del árbitro." },
+        { "n": "5", "text": "Cambios ilimitados, con el juego detenido y aviso al árbitro." },
+        { "n": "6", "text": "El arquero no puede sacar de arco directamente más allá de la mitad de cancha por el aire. Si lo hace, tiro libre indirecto desde la mitad." },
+        { "n": "7", "text": "La doble amarilla implica expulsión y una fecha de suspensión. La roja directa, dos fechas, salvo informe del árbitro que amplíe." },
+        { "n": "8", "text": "El árbitro entrega la planilla al encargado del complejo antes de retirarse. No se aceptan planillas enviadas después." }
+      ],
+      "questions": [
+        {
+          "id": "fx-c1-1",
+          "moduleId": "examen",
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "question": "Según este reglamento, ¿cuál es el mínimo de jugadores para comenzar?",
+          "options": ["7", "5", "6", "4"],
+          "correctAnswer": 1,
+          "explanation": "El artículo 1 fija cinco. La Regla 3 de IFAB fija siete, pero ese número está pensado para once jugadores: en un formato reducido el mínimo lo pone la organización.",
+          "ruleReference": "Reglamento privado, art. 1",
+          "tags": ["reglamento-privado", "jugadores"]
+        },
+        {
+          "id": "fx-c1-2",
+          "moduleId": "examen",
+          "type": "multiple_choice",
+          "difficulty": 4,
+          "question": "¿Cómo se clasifica el artículo 3, que suprime el fuera de juego?",
+          "options": [
+            "Regla oficial de IFAB para F7",
+            "Adaptación permitida por IFAB",
+            "Regla privada: la Regla 11 no está entre los aspectos adaptables",
+            "Regla de competición avalada por FIFA"
+          ],
+          "correctAnswer": 2,
+          "explanation": "El fuera de juego no figura en la lista de la sección «Adaptación de las Reglas». Aplicarlo es válido, pero es regla privada: lo incorrecto sería presentarlo como IFAB.",
+          "ruleReference": "Adaptación de las Reglas, Regla 11",
+          "tags": ["reglamento-privado", "fuera-de-juego"]
+        },
+        {
+          "id": "fx-c1-3",
+          "moduleId": "examen",
+          "type": "multiple_choice",
+          "difficulty": 4,
+          "question": "El artículo 4 prohíbe la barrida pero deja la sanción «a criterio del árbitro». ¿Qué corresponde hacer?",
+          "options": [
+            "Inventar una sanción propia y aplicarla igual todo el partido",
+            "Aplicar la Regla 12 según sea imprudente, temeraria o con fuerza excesiva",
+            "Ignorar la prohibición porque no está sancionada",
+            "Expulsar siempre al infractor"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Cuando el reglamento privado deja un hueco, la Regla es el default defendible. La graduación de la Regla 12 ya cubre la conducta sin necesidad de inventar tarjetas.",
+          "ruleReference": "Regla 12, Reglamento privado art. 4",
+          "tags": ["reglamento-privado", "criterio"]
+        },
+        {
+          "id": "fx-c1-4",
+          "moduleId": "examen",
+          "type": "true_false",
+          "difficulty": 4,
+          "question": "El artículo 2 establece reloj corrido, así que el árbitro no cronometra el tiempo.",
+          "correctAnswer": false,
+          "explanation": "Reloj corrido significa que el reloj no se detiene, no que nadie lo lleve. Cronometrar sigue siendo obligación del árbitro por la Regla 5.3; lo que el reglamento cambia es cuándo se adiciona.",
+          "ruleReference": "Regla 5.3, Reglamento privado art. 2",
+          "tags": ["reglamento-privado", "tiempo"]
+        },
+        {
+          "id": "fx-c1-5",
+          "moduleId": "examen",
+          "type": "multiple_choice",
+          "difficulty": 4,
+          "question": "El arquero saca de arco y el balón cruza la mitad por el aire, sin picar. ¿Qué corresponde?",
+          "options": [
+            "El juego continúa: no es infracción en IFAB",
+            "Tiro libre indirecto desde la mitad de cancha, según el artículo 6",
+            "Saque de meta a repetir",
+            "Amonestación al arquero"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Es una regla privada del torneo y hay que aplicarla como está escrita. En las Reglas de IFAB no existe esa restricción.",
+          "ruleReference": "Reglamento privado, art. 6",
+          "tags": ["reglamento-privado", "guardameta"]
+        },
+        {
+          "id": "fx-c1-6",
+          "moduleId": "examen",
+          "type": "multiple_choice",
+          "difficulty": 5,
+          "question": "Un jugador comete una infracción que evita una ocasión manifiesta de gol. El reglamento no dice nada al respecto. ¿Qué corresponde?",
+          "options": [
+            "Nada: si no está en el reglamento, no se sanciona",
+            "Aplicar la Regla 12: expulsión, con la reducción a amonestación solo dentro del área y cuando se pretendía jugar el balón",
+            "Amonestar siempre",
+            "Consultar al encargado del complejo"
+          ],
+          "correctAnswer": 1,
+          "explanation": "El reglamento privado modifica lo que dice; en todo lo demás rigen las Reglas. Un hueco no es una autorización.",
+          "ruleReference": "Regla 12.4",
+          "tags": ["reglamento-privado", "expulsion"]
+        },
+        {
+          "id": "fx-c1-7",
+          "moduleId": "examen",
+          "type": "multiple_choice",
+          "difficulty": 4,
+          "question": "¿Cómo se clasifican los cambios ilimitados del artículo 5?",
+          "options": [
+            "Regla privada del torneo, porque es una liga de adultos sin aval federativo",
+            "Adaptación permitida por IFAB",
+            "Regla oficial de IFAB",
+            "Está prohibido y no debe aplicarse"
+          ],
+          "correctAnswer": 0,
+          "explanation": "IFAB permite las sustituciones ilimitadas, pero solo en fútbol juvenil, de veteranos, de personas con discapacidad y fútbol base. Una liga privada de adultos queda fuera de ese marco.",
+          "ruleReference": "Adaptación de las Reglas, Regla 3",
+          "tags": ["reglamento-privado", "sustituciones"]
+        },
+        {
+          "id": "fx-c1-8",
+          "moduleId": "examen",
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "question": "El artículo 7 fija fechas de suspensión. ¿Qué implica para vos?",
+          "options": [
+            "Que debés aplicar la suspensión en la cancha",
+            "Que el acta debe distinguir doble amarilla de roja directa, porque la consecuencia difiere",
+            "Que no hace falta informar el motivo",
+            "Que las tarjetas no se registran"
+          ],
+          "correctAnswer": 1,
+          "explanation": "La suspensión la aplica la organización, no el árbitro; pero su única fuente es tu acta. Registrar doble amarilla como roja directa duplicaría la sanción.",
+          "ruleReference": "Regla 12.4, Reglamento privado art. 7",
+          "tags": ["reglamento-privado", "documentacion"]
+        },
+        {
+          "id": "fx-c1-9",
+          "moduleId": "examen",
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "question": "Según el artículo 8, ¿qué conviene resolver antes del partido?",
+          "options": [
+            "El resultado esperado",
+            "A quién se entrega la planilla y en qué momento, porque después no se acepta",
+            "Quién ejecuta los penales",
+            "Si hay asistentes"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Las Reglas obligan a remitir el informe pero no fijan plazo ni destinatario: eso lo define la organización, y este reglamento no admite entregas posteriores.",
+          "ruleReference": "Regla 5.3, Reglamento privado art. 8",
+          "tags": ["reglamento-privado", "documentacion"]
+        },
+        {
+          "id": "fx-c1-10",
+          "moduleId": "examen",
+          "type": "multiple_choice",
+          "difficulty": 5,
+          "question": "Un delegado te dice que en la Liga Nocturna «la barrera es a 6 metros porque la cancha es chica». No figura en el reglamento. ¿Qué corresponde?",
+          "options": [
+            "Aplicar 6 m, porque lo dice el delegado",
+            "Aplicar los 9.15 m de la Regla 13, que no son adaptables, y avisar a los dos equipos",
+            "Preguntar a los capitanes qué prefieren",
+            "Aplicar 6 m solo para el equipo local"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Los 9.15 m no están en la lista de aspectos adaptables, y una costumbre verbal no es reglamento. Si el torneo quisiera otra distancia, tendría que escribirla, y aun así sería regla privada.",
+          "ruleReference": "Regla 13, Adaptación de las Reglas",
+          "tags": ["reglamento-privado", "distancia"]
+        }
+      ]
+    },
+    {
+      "id": "infantil-f9",
+      "name": "Torneo Formativo Sub-13 — Reglamento de competición F9",
+      "format": "F9",
+      "intro": "Torneo de fútbol infantil organizado por una federación, con aval federativo.",
+      "articles": [
+        { "n": "1", "text": "Se juega 9 contra 9, con balón n.º 4. Dos tiempos de 30 minutos." },
+        { "n": "2", "text": "Se aplica el fuera de juego completo de la Regla 11." },
+        { "n": "3", "text": "Sustituciones ilimitadas, con reingreso, en cualquier detención y con autorización arbitral." },
+        { "n": "4", "text": "Se utilizan exclusiones temporales de 5 minutos para toda tarjeta amarilla." },
+        { "n": "5", "text": "Solo el capitán puede dirigirse al árbitro. El árbitro señalizará la zona exclusiva conforme a las pautas del IFAB." },
+        { "n": "6", "text": "En el saque de meta, los rivales deben replegarse hasta la línea de retroceso marcada, y no pueden presionar hasta que el balón esté en juego." },
+        { "n": "7", "text": "No se publican tablas de posiciones hasta la categoría Sub-14." }
+      ],
+      "questions": [
+        {
+          "id": "fx-c2-1",
+          "moduleId": "examen",
+          "type": "multiple_choice",
+          "difficulty": 4,
+          "question": "¿Cómo se clasifican las exclusiones temporales del artículo 4?",
+          "options": [
+            "Regla privada, porque IFAB no las contempla",
+            "Adaptación permitida: IFAB las autoriza en fútbol juvenil, de veteranos, de discapacidad y base",
+            "Regla oficial aplicable a todo el fútbol",
+            "Está prohibido aplicarlas"
+          ],
+          "correctAnswer": 1,
+          "explanation": "El uso de exclusiones temporales para algunas amonestaciones o todas figura entre las adaptaciones permitidas, y este torneo es fútbol juvenil con aval federativo: entra en el marco.",
+          "ruleReference": "Adaptación de las Reglas",
+          "tags": ["reglamento-privado", "disciplina"]
+        },
+        {
+          "id": "fx-c2-2",
+          "moduleId": "examen",
+          "type": "multiple_choice",
+          "difficulty": 4,
+          "question": "¿Cómo se clasifica la línea de retroceso del artículo 6?",
+          "options": [
+            "Adaptación permitida por IFAB",
+            "Regla privada o de competición: no está entre los aspectos que IFAB permite adaptar",
+            "Regla oficial de la Regla 16",
+            "Está prohibida"
+          ],
+          "correctAnswer": 1,
+          "explanation": "La lista de adaptaciones cubre dimensiones, balón, arcos, duración, número de jugadores, sustituciones, exclusiones temporales y brazalete. La línea de retroceso no está: es una norma del torneo.",
+          "ruleReference": "Adaptación de las Reglas, Regla 16",
+          "tags": ["reglamento-privado", "saque-de-meta"]
+        },
+        {
+          "id": "fx-c2-3",
+          "moduleId": "examen",
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "question": "El artículo 2 aplica el fuera de juego completo. ¿Qué implica para tu ubicación?",
+          "options": [
+            "Nada en particular",
+            "Que la línea del penúltimo defensor debe estar en tu campo visual en las jugadas de profundidad, más aún si dirigís sin asistentes",
+            "Que hay que cobrar por posición",
+            "Que conviene ubicarse siempre cerca del balón"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Es el ajuste práctico del F9: se juega con offside y casi siempre sin asistentes, así que la línea manda sobre el balón en las jugadas de profundidad.",
+          "ruleReference": "Regla 11, Regla 6",
+          "tags": ["reglamento-privado", "fuera-de-juego", "posicionamiento"]
+        },
+        {
+          "id": "fx-c2-4",
+          "moduleId": "examen",
+          "type": "multiple_choice",
+          "difficulty": 4,
+          "question": "El artículo 3 exige autorización arbitral para las sustituciones. ¿Es compatible con IFAB?",
+          "options": [
+            "No, contradice a IFAB",
+            "Sí: las sustituciones ilimitadas son adaptación permitida en juvenil, y la autorización arbitral es el procedimiento normal del fútbol",
+            "Solo si se hacen en el descanso",
+            "Solo con permiso del rival"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Lo adaptado es la cantidad; el procedimiento sigue siendo el del fútbol, con juego detenido y autorización, a diferencia de las sustituciones volantes del futsal.",
+          "ruleReference": "Regla 3, Adaptación de las Reglas",
+          "tags": ["reglamento-privado", "sustituciones"]
+        },
+        {
+          "id": "fx-c2-5",
+          "moduleId": "examen",
+          "type": "multiple_choice",
+          "difficulty": 4,
+          "question": "El artículo 5 aplica la disposición del capitán. ¿Cuál es la zona exclusiva y desde cuándo será obligatoria en general?",
+          "options": [
+            "2 m de radio, obligatoria desde 2026",
+            "4 m de radio, obligatoria para competiciones que comiencen a partir del 1 de julio de 2027",
+            "9.15 m de radio, ya obligatoria",
+            "No está definida"
+          ],
+          "correctAnswer": 1,
+          "explanation": "La zona exclusiva del capitán tiene 4 m de radio, y la implementación de esas pautas será obligatoria para todas las competiciones que comiencen a partir del 1 de julio de 2027.",
+          "ruleReference": "Adaptación de las Reglas",
+          "tags": ["capitan", "manejo"]
+        },
+        {
+          "id": "fx-c2-6",
+          "moduleId": "examen",
+          "type": "multiple_choice",
+          "difficulty": 5,
+          "question": "El guardameta es el capitán del equipo. ¿Qué debe resolverse antes del sorteo?",
+          "options": [
+            "Nada: se acerca el guardameta",
+            "Informar qué jugador se acercará en su lugar; solo uno de los dos puede hacerlo",
+            "Que se acerquen los dos",
+            "Que no se acerque nadie"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Antes del lanzamiento de la moneda se informa al árbitro del jugador designado. Solamente el guardameta o el designado, nunca ambos, puede aproximarse; si el designado sale, se designa otro.",
+          "ruleReference": "Regla 5, Adaptación de las Reglas",
+          "tags": ["capitan", "guardameta"]
+        },
+        {
+          "id": "fx-c2-7",
+          "moduleId": "examen",
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "question": "El artículo 1 fija balón n.º 4. ¿Cómo se clasifica?",
+          "options": [
+            "Regla privada que contradice a IFAB",
+            "Adaptación permitida: el tamaño, peso y material del balón es adaptable en fútbol juvenil",
+            "Regla oficial de la Regla 2",
+            "No está permitido"
+          ],
+          "correctAnswer": 1,
+          "explanation": "La Regla 2 fija 68–70 cm y 410–450 g para el fútbol en general, pero el balón está expresamente entre los aspectos adaptables en fútbol juvenil, de veteranos, de discapacidad y base.",
+          "ruleReference": "Regla 2, Adaptación de las Reglas",
+          "tags": ["balon", "reglamento-privado"]
+        },
+        {
+          "id": "fx-c2-8",
+          "moduleId": "examen",
+          "type": "true_false",
+          "difficulty": 4,
+          "question": "Al aplicar exclusiones temporales, el jugador excluido no puede ser reemplazado durante esos cinco minutos, salvo que el reglamento lo diga.",
+          "correctAnswer": true,
+          "explanation": "La exclusión temporal es una adaptación cuyo detalle define el reglamento de la competición. Si no lo aclara, corresponde preguntarlo antes de empezar en vez de resolverlo a mitad de partido.",
+          "ruleReference": "Adaptación de las Reglas",
+          "tags": ["reglamento-privado", "disciplina"]
+        },
+        {
+          "id": "fx-c2-9",
+          "moduleId": "examen",
+          "type": "multiple_choice",
+          "difficulty": 4,
+          "question": "El reglamento no dice nada sobre los 9.15 m de barrera. ¿Qué corresponde?",
+          "options": [
+            "Reducirlos porque la cancha es más chica",
+            "Aplicar los 9.15 m: no son adaptables y el reglamento no los modifica",
+            "Preguntar a los entrenadores",
+            "Usar la línea de retroceso como referencia"
+          ],
+          "correctAnswer": 1,
+          "explanation": "En todo lo que el reglamento no modifica rigen las Reglas, y la distancia de la barrera además no está entre los aspectos adaptables.",
+          "ruleReference": "Regla 13, Adaptación de las Reglas",
+          "tags": ["distancia", "reglamento-privado"]
+        },
+        {
+          "id": "fx-c2-10",
+          "moduleId": "examen",
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "question": "¿Qué diferencia de fondo hay entre este reglamento y el de una liga privada de adultos?",
+          "options": [
+            "Ninguna",
+            "Este tiene aval federativo y es fútbol juvenil, así que varias de sus normas son adaptaciones permitidas y no reglas privadas",
+            "Este puede modificar cualquier Regla",
+            "Este no necesita árbitro"
+          ],
+          "correctAnswer": 1,
+          "explanation": "La lista de adaptaciones de IFAB aplica a fútbol juvenil, de veteranos, de personas con discapacidad y base. Una liga privada de adultos queda fuera de ese marco y funciona con reglamento propio.",
+          "ruleReference": "Adaptación de las Reglas",
+          "tags": ["reglamento-privado", "clasificacion"]
+        }
+      ]
+    }
+  ]
+}
