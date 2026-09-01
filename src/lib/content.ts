@@ -12,7 +12,8 @@ import GithubSlugger from 'github-slugger'
 import { visit } from 'unist-util-visit'
 import type { Root, Element } from 'hast'
 import type { Discipline } from '@/domain/types'
-import type { QuestionBank } from './quiz'
+import type { Question, QuestionBank } from './quiz'
+import type { Rulebook } from './exam'
 
 const ROOT = process.cwd()
 
@@ -473,4 +474,33 @@ export function getQuestionCounts(slug: DisciplineSlug): Record<string, number> 
   }
 
   return counts
+}
+
+// ---------------------------------------------------------------------------
+// Examen final
+// ---------------------------------------------------------------------------
+
+/** Todas las preguntas de los bancos por módulo, para sortear la parte A. */
+export function getAllQuestions(slug: DisciplineSlug): Question[] {
+  return getCourse(slug).modules.flatMap(
+    (module) => getQuestionBank(slug, module.id)?.questions ?? [],
+  )
+}
+
+/** Pozo de decisiones de la parte B, propio del examen. */
+export function getExamDecisions(slug: DisciplineSlug): Question[] {
+  const file = path.join(ROOT, COURSES[slug].dir, 'examen', 'jugadas.json')
+  if (!fs.existsSync(file)) return []
+
+  const data = JSON.parse(fs.readFileSync(file, 'utf8')) as { questions: Question[] }
+  return data.questions
+}
+
+/** Reglamentos privados de la parte C, con sus situaciones. */
+export function getRulebooks(slug: DisciplineSlug): Rulebook[] {
+  const file = path.join(ROOT, COURSES[slug].dir, 'examen', 'reglamentos.json')
+  if (!fs.existsSync(file)) return []
+
+  const data = JSON.parse(fs.readFileSync(file, 'utf8')) as { rulebooks: Rulebook[] }
+  return data.rulebooks
 }

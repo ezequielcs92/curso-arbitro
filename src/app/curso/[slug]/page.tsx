@@ -97,6 +97,33 @@ export default async function CoursePage({ params }: { params: Promise<Params> }
         />
       </div>
 
+      <section className="mt-14 rounded-[var(--radius-card)] border border-[var(--color-line-strong)] bg-[var(--color-surface)] p-5 sm:p-6">
+        <p className="text-[12px] font-[620] uppercase tracking-[0.08em] text-[var(--color-ink-subtle)]">
+          Al terminar el curso
+        </p>
+        <h2 className="mt-2 text-[19px] font-[640] tracking-[-0.016em]">Examen final</h2>
+        <p className="mt-2 max-w-[62ch] text-[14px] leading-[1.65] text-[var(--color-ink-muted)]">
+          Cuatro partes: el reglamento, las jugadas, un reglamento privado que hay
+          que leer y aplicar, y dos partidos dirigidos. Al aprobarlas se emite un
+          certificado interno, que no es una habilitación oficial.
+        </p>
+        <Link
+          href={`/curso/${parsed}/examen`}
+          className="mt-4 inline-flex items-center gap-2 rounded-lg bg-[var(--color-brand)] px-4 py-2.5 text-[14px] font-[580] text-white transition-colors hover:bg-[var(--color-brand-strong)] dark:text-[#06231a]"
+        >
+          Ver el examen final
+          <svg viewBox="0 0 16 16" className="h-3.5 w-3.5" fill="none" aria-hidden="true">
+            <path
+              d="M6 3.5 10.5 8 6 12.5"
+              stroke="currentColor"
+              strokeWidth="1.9"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </Link>
+      </section>
+
       {parsed === 'football' && (
         <section className="mt-14 rounded-[var(--radius-card)] border border-[var(--color-line)] bg-[var(--color-surface-2)] p-5 sm:p-6">
           <h2 className="text-[16px] font-[640] tracking-[-0.014em]">

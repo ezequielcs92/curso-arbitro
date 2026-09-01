@@ -138,9 +138,44 @@ decisiones decidirían un módulo de cuarenta preguntas. Se aprueba con el
 `requiredScore` del módulo —80 %, o 85 % en los críticos— y se guarda el mejor
 intento, no el último.
 
+## Examen final y certificado
+
+Cada curso tiene su examen, en `/curso/<disciplina>/examen`, con las cuatro
+partes de la especificación (§ 70 a 75):
+
+| Parte | Fútbol | Futsal | Fútbol playa |
+| --- | --- | --- | --- |
+| A — Reglamento | 60, aprueba con 48 | 40, con 32 | 40, con 32 |
+| B — Jugadas | 30, con 24 | 25, con 20 | 25, con 20 |
+| C — Reglamento privado | 10, con 8 | 10, con 8 | 10, con 8 |
+| D — Práctica | 2 partidos | 2 partidos | 2 partidos |
+
+Tres diferencias con los cuestionarios de módulo, deliberadas:
+
+- **No se corrige hasta el final.** Explicar cada respuesta convertiría la
+  segunda mitad del examen en una lección.
+- **Las decisiones cuentan acierto completo**, no crédito parcial. La
+  especificación pide 24 de 30 situaciones, no un promedio.
+- **La parte A se sortea del banco entero** y la B tiene su propio pozo de 80
+  decisiones, distinto de los módulos: un examen mide transferencia, no memoria
+  de lo ya respondido.
+
+La parte C entrega un reglamento de torneo con diez minutos para leerlo y
+después pregunta qué aplica: qué es IFAB o FIFA, qué es adaptación permitida y
+qué es norma propia del torneo.
+
+La parte D se autoinforma —la app no puede verificar que dirigiste un partido— y
+se evalúa con la rúbrica de 100 puntos, que sustituye el ítem de ventaja por
+faltas acumuladas en futsal y por el conteo de cuatro segundos en fútbol playa.
+
+Al aprobar las cuatro se emite un **certificado interno**, que lleva fija y
+visible la aclaración de que no constituye licencia, matrícula, habilitación
+federativa ni certificación oficial de ninguna asociación.
+
 ## Lo que falta
 
-1. Los exámenes finales por curso y los certificados.
+Nada del plan original. Lo que sigue son extensiones: catálogo de videos,
+entrenadores específicos y tutor.
 
 ## Mapa del repositorio
 
