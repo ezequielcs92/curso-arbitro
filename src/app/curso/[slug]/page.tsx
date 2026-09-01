@@ -5,7 +5,12 @@ import { CourseHeader } from '@/components/CourseHeader'
 import { ModuleList } from '@/components/ModuleList'
 import { OfflineCourse } from '@/components/OfflineCourse'
 import { accentClass } from '@/lib/accent'
-import { DISCIPLINE_SLUGS, getCourse, type DisciplineSlug } from '@/lib/content'
+import {
+  DISCIPLINE_SLUGS,
+  getCourse,
+  getQuestionCounts,
+  type DisciplineSlug,
+} from '@/lib/content'
 
 type Params = { slug: string }
 
@@ -45,6 +50,12 @@ export default async function CoursePage({ params }: { params: Promise<Params> }
     lessons: m.lessons.map((l) => ({ id: l.id, order: l.order, title: l.title })),
   }))
 
+  const questionCounts = getQuestionCounts(parsed)
+  const requiredScores = Object.fromEntries(
+    course.modules.map((m) => [m.id, m.requiredScore]),
+  )
+  const totalQuestions = Object.values(questionCounts).reduce((a, b) => a + b, 0)
+
   return (
     <div className={`${accentClass(parsed)} mx-auto max-w-[1000px] px-4 pb-24 sm:px-6`}>
       <nav aria-label="Ubicación" className="pt-8 text-[12.5px]">
@@ -73,8 +84,17 @@ export default async function CoursePage({ params }: { params: Promise<Params> }
       <h2 className="mt-14 text-[13px] font-[620] uppercase tracking-[0.09em] text-[var(--color-ink-subtle)]">
         Módulos
       </h2>
+      <p className="mt-2 text-[13px] text-[var(--color-ink-subtle)]">
+        Cada módulo tiene su cuestionario. En total, {totalQuestions} preguntas con
+        su explicación y su referencia reglamentaria.
+      </p>
       <div className="mt-5">
-        <ModuleList slug={parsed} modules={modules} />
+        <ModuleList
+          slug={parsed}
+          modules={modules}
+          questionCounts={questionCounts}
+          requiredScores={requiredScores}
+        />
       </div>
 
       {parsed === 'football' && (

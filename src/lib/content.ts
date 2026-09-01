@@ -12,6 +12,7 @@ import GithubSlugger from 'github-slugger'
 import { visit } from 'unist-util-visit'
 import type { Root, Element } from 'hast'
 import type { Discipline } from '@/domain/types'
+import type { QuestionBank } from './quiz'
 
 const ROOT = process.cwd()
 
@@ -445,4 +446,31 @@ export function getSearchIndex(): SearchEntry[] {
   }
 
   return entries
+}
+
+// ---------------------------------------------------------------------------
+// Bancos de preguntas
+// ---------------------------------------------------------------------------
+
+/**
+ * Preguntas de un módulo. Devuelve null si el módulo todavía no tiene banco,
+ * para que la interfaz pueda ofrecer el cuestionario solo donde existe.
+ */
+export function getQuestionBank(slug: DisciplineSlug, moduleId: string): QuestionBank | null {
+  const file = path.join(ROOT, COURSES[slug].dir, 'preguntas', `${moduleId}.json`)
+  if (!fs.existsSync(file)) return null
+
+  return JSON.parse(fs.readFileSync(file, 'utf8')) as QuestionBank
+}
+
+/** Cuántas preguntas tiene cada módulo del curso, para mostrarlo sin cargarlas. */
+export function getQuestionCounts(slug: DisciplineSlug): Record<string, number> {
+  const counts: Record<string, number> = {}
+
+  for (const module of getCourse(slug).modules) {
+    const bank = getQuestionBank(slug, module.id)
+    if (bank) counts[module.id] = bank.questions.length
+  }
+
+  return counts
 }

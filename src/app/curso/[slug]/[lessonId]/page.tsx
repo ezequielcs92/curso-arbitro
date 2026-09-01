@@ -11,6 +11,7 @@ import {
   getCourse,
   getLesson,
   getLessonSequence,
+  getQuestionBank,
   type DisciplineSlug,
 } from '@/lib/content'
 
@@ -54,6 +55,13 @@ export default async function LessonPage({ params }: { params: Promise<Params> }
 
   const course = getCourse(parsed)
   const accent = accentClass(parsed)
+
+  // El cuestionario se ofrece al cerrar el módulo, que es cuando tiene sentido
+  // ponerlo a prueba: antes, la mitad de las preguntas serían sobre lecciones
+  // que todavía no se leyeron.
+  const isLastOfModule =
+    page.module.lessons[page.module.lessons.length - 1].id === lessonId
+  const bank = isLastOfModule ? getQuestionBank(parsed, page.module.id) : null
 
   return (
     <div className={accent}>
@@ -164,6 +172,37 @@ export default async function LessonPage({ params }: { params: Promise<Params> }
             className="prose mt-10 max-w-[70ch]"
             dangerouslySetInnerHTML={{ __html: page.doc.html }}
           />
+
+          {bank && (
+            <aside className="no-print mt-14 max-w-[70ch] rounded-[var(--radius-card)] border border-[var(--color-line)] bg-[var(--color-surface-2)] p-5 sm:p-6">
+              <p className="text-[12px] font-[620] uppercase tracking-[0.08em] text-[var(--color-ink-subtle)]">
+                Fin del módulo
+              </p>
+              <h2 className="mt-2 text-[17px] font-[640] tracking-[-0.014em]">
+                Poné a prueba {page.module.title.toLowerCase()}
+              </h2>
+              <p className="mt-2 text-[14px] leading-[1.65] text-[var(--color-ink-muted)]">
+                {bank.questions.length} preguntas con su explicación y su referencia
+                reglamentaria. Se aprueba con {page.module.requiredScore} %
+                {page.module.critical && ', porque es un módulo clave'}.
+              </p>
+              <Link
+                href={`/curso/${parsed}/test/${page.module.id}`}
+                className="mt-4 inline-flex items-center gap-2 rounded-lg bg-[var(--color-brand)] px-4 py-2.5 text-[14px] font-[580] text-white transition-colors hover:bg-[var(--color-brand-strong)] dark:text-[#06231a]"
+              >
+                Hacer el cuestionario
+                <svg viewBox="0 0 16 16" className="h-3.5 w-3.5" fill="none" aria-hidden="true">
+                  <path
+                    d="M6 3.5 10.5 8 6 12.5"
+                    stroke="currentColor"
+                    strokeWidth="1.9"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </Link>
+            </aside>
+          )}
 
           <div className="max-w-[70ch]">
             <LessonFooter

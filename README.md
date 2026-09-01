@@ -109,10 +109,38 @@ Valida identificadores únicos, que la respuesta apunte a una opción existente,
 que toda pregunta tenga explicación y referencia, y que las decisiones traigan
 sus cuatro componentes.
 
+### Cómo se responden
+
+Cada módulo tiene su cuestionario en `/curso/<disciplina>/test/<modulo>`. Se
+responde de a una pregunta: se contesta, se ve de inmediato si estuvo bien y
+**por qué**, con la Regla de la que sale, y recién ahí se pasa a la siguiente.
+
+Las **decisiones completas** piden los cuatro componentes por separado y
+devuelven el desglose de los 10 puntos, para que se vea exactamente dónde se
+falló:
+
+```
+5 de 10 puntos
+  ¿Hay infracción?          3/3   Sí, hay infracción
+  Decisión técnica          0/3   Respondiste Tiro penal
+                                  Correcto: Tiro libre desde la sexta falta
+  Decisión disciplinaria    2/2   Sin tarjeta
+  Reanudación               0/2   Respondiste Desde el punto penal
+                                  Correcto: Desde la marca de 10 m
+```
+
+Las opciones se filtran por disciplina: el tiro libre desde la sexta falta y la
+marca de 10 m solo aparecen en futsal, porque solo ahí existen.
+
+La nota del módulo es el promedio de las fracciones obtenidas, no la suma de
+puntos: si una decisión valiera diez veces más que una pregunta simple, cuatro
+decisiones decidirían un módulo de cuarenta preguntas. Se aprueba con el
+`requiredScore` del módulo —80 %, o 85 % en los críticos— y se guarda el mejor
+intento, no el último.
+
 ## Lo que falta
 
-1. Conectar los bancos a la aplicación: hoy son datos, y todavía no hay una
-   interfaz para responderlos.
+1. Los exámenes finales por curso y los certificados.
 
 ## Mapa del repositorio
 
